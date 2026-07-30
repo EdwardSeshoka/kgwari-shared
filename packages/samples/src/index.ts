@@ -1,4 +1,4 @@
-export { createPublicWines } from "./features/catalog/publicWines.js";
+export { createWines } from "./features/catalog/wines.js";
 export { provenanceSamples } from "./features/provenance/provenanceSamples.js";
 export { editorialSamples } from "./features/editorial/editorialSamples.js";
 export { eventsSamples } from "./features/events/eventsSamples.js";

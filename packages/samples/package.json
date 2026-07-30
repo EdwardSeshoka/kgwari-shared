@@ -35,6 +35,7 @@
     "prepack": "npm run build",
     "test": "npm run build && node --test",
     "pretypecheck": "npm run build --workspace @edwardseshoka/contracts",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "generate:seeds": "node generator/generate.mjs"
   }
 }

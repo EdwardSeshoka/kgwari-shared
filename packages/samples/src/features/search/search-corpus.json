@@ -1,6 +1,6 @@
 [
   {
-    "id": "search_wine_rubicon_2018",
+    "id": "search_wine_rubicon-2018",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "rubicon-2018",
@@ -20,10 +20,11 @@
     "listedPrice": {
       "amountMinorUnits": 89500,
       "currency": "ZAR"
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
   },
   {
-    "id": "search_wine_kanonkop_pinotage_2019",
+    "id": "search_wine_kanonkop-pinotage-2019",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "kanonkop-pinotage-2019",
@@ -39,14 +40,15 @@
       "kind": "vintage",
       "year": 2019
     },
-    "verdict": "Unforgettable",
+    "verdict": "Essential",
     "listedPrice": {
       "amountMinorUnits": 84500,
       "currency": "ZAR"
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80"
   },
   {
-    "id": "search_wine_palladius_2010",
+    "id": "search_wine_palladius-2010",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "palladius-2010",
@@ -66,10 +68,11 @@
     "listedPrice": {
       "amountMinorUnits": 68000,
       "currency": "ZAR"
-    }
+    },
+    "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png"
   },
   {
-    "id": "search_wine_boekenhoutskloof_syrah_2020",
+    "id": "search_wine_boekenhoutskloof-syrah-2020",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "boekenhoutskloof-syrah-2020",
@@ -85,14 +88,15 @@
       "kind": "vintage",
       "year": 2020
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Worth Revisiting",
     "listedPrice": {
       "amountMinorUnits": 69500,
       "currency": "ZAR"
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80"
   },
   {
-    "id": "search_wine_tokara_sauvignon_blanc_2022",
+    "id": "search_wine_tokara-sauvignon-blanc-2022",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "tokara-sauvignon-blanc-2022",
@@ -108,10 +112,15 @@
       "kind": "vintage",
       "year": 2022
     },
-    "verdict": "Worth Revisiting"
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 19500,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80"
   },
   {
-    "id": "search_wine_lamotte_chardonnay_2021",
+    "id": "search_wine_lamotte-chardonnay-2021",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "lamotte-chardonnay-2021",
@@ -127,14 +136,15 @@
       "kind": "vintage",
       "year": 2021
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 32000,
       "currency": "ZAR"
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&auto=format&fit=crop&q=80"
   },
   {
-    "id": "search_wine_de_toren_book_xvii_2016",
+    "id": "search_wine_de-toren-book-xvii-2016",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "de-toren-book-xvii-2016",
@@ -154,10 +164,11 @@
     "listedPrice": {
       "amountMinorUnits": 71000,
       "currency": "ZAR"
-    }
+    },
+    "imageUrl": "https://images.vivino.com/thumbs/43se9NpdSPKkbPdGMbRV6Q_pb_x300.png"
   },
   {
-    "id": "search_wine_mullineux_elandskloof_chardonnay_2016",
+    "id": "search_wine_mullineux-elandskloof-chardonnay-2016",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "mullineux-elandskloof-chardonnay-2016",
@@ -173,14 +184,63 @@
       "kind": "vintage",
       "year": 2016
     },
-    "verdict": "Essential",
+    "verdict": "Worth Revisiting",
     "listedPrice": {
       "amountMinorUnits": 70000,
       "currency": "ZAR"
-    }
+    },
+    "imageUrl": "https://images.vivino.com/thumbs/Cj9S8xx7SAuLtiCznUN3yg_pb_x300.png"
   },
   {
-    "id": "search_wine_pichon_baron_2016",
+    "id": "search_wine_groot-constantia-grand-constance-2014",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "groot-constantia-grand-constance-2014",
+    "title": {
+      "source": "canonical",
+      "text": "Grand Constance"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Groot Constantia"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2014
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 72000,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.vivino.com/thumbs/DODNA6a0RB6zZjm_6lAL6Q_pb_x300.png"
+  },
+  {
+    "id": "search_wine_steenberg-lady-r-mcc-2011",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "steenberg-lady-r-mcc-2011",
+    "title": {
+      "source": "canonical",
+      "text": "Lady R MCC"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Steenberg"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2011
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 65000,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.vivino.com/thumbs/cctpKJLORTmTgAtSCY8ycQ_pb_x300.png"
+  },
+  {
+    "id": "search_wine_pichon-baron-2016",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "pichon-baron-2016",
@@ -190,7 +250,7 @@
     },
     "eyebrow": {
       "source": "canonical",
-      "text": "Pauillac"
+      "text": "Château Pichon Baron"
     },
     "meta": {
       "kind": "vintage",
@@ -200,10 +260,11 @@
     "listedPrice": {
       "amountMinorUnits": 245000,
       "currency": "EUR"
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
   },
   {
-    "id": "search_wine_vietti_castiglione_barolo_2018",
+    "id": "search_wine_vietti-castiglione-barolo-2018",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "vietti-castiglione-barolo-2018",
@@ -223,10 +284,11 @@
     "listedPrice": {
       "amountMinorUnits": 129000,
       "currency": "EUR"
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
   },
   {
-    "id": "search_wine_ridge_monte_bello_2019",
+    "id": "search_wine_ridge-monte-bello-2019",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "ridge-monte-bello-2019",
@@ -246,10 +308,11 @@
     "listedPrice": {
       "amountMinorUnits": 420000,
       "currency": "USD"
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
   },
   {
-    "id": "search_wine_larmandier_bernier_latitude_nv",
+    "id": "search_wine_larmandier-bernier-latitude-nv",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "larmandier-bernier-latitude-nv",
@@ -268,13 +331,1904 @@
     "listedPrice": {
       "amountMinorUnits": 98000,
       "currency": "EUR"
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
   },
   {
-    "id": "search_estate_meerlust",
+    "id": "search_wine_rubicon-2010-meerlust-est",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "rubicon-2010-meerlust-est",
+    "title": {
+      "source": "canonical",
+      "text": "Rubicon"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2010
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 128000,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_paul-sauer-2011-kanonkop-est",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "paul-sauer-2011-kanonkop-est",
+    "title": {
+      "source": "canonical",
+      "text": "Paul Sauer"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Kanonkop Estate"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2011
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 189600,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_estate-reserve-2017-rust-en-vred",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "estate-reserve-2017-rust-en-vred",
+    "title": {
+      "source": "canonical",
+      "text": "Estate Reserve"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Rust en Vrede"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2017
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 150400,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_the-mint-2010-thelema-moun",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "the-mint-2010-thelema-moun",
+    "title": {
+      "source": "canonical",
+      "text": "The Mint"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Thelema Mountain Vineyards"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2010
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 95600,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_directors-reserve-2021-tokara",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "directors-reserve-2021-tokara",
+    "title": {
+      "source": "canonical",
+      "text": "Directors Reserve"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Tokara"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2021
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 16800,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_book-xvii-2019-de-toren",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "book-xvii-2019-de-toren",
+    "title": {
+      "source": "canonical",
+      "text": "Book XVII"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "De Toren"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2019
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 30400,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_palladius-2011-sadie-family",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "palladius-2011-sadie-family",
+    "title": {
+      "source": "canonical",
+      "text": "Palladius"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Sadie Family Wines"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2011
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 186800,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_columella-2017-mullineux",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "columella-2017-mullineux",
+    "title": {
+      "source": "canonical",
+      "text": "Columella"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mullineux"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2017
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 12800,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_old-vine-chenin-2014-a-a-badenhor",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "old-vine-chenin-2014-a-a-badenhor",
+    "title": {
+      "source": "canonical",
+      "text": "Old Vine Chenin"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "A.A. Badenhorst"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2014
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 41200,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_vin-de-constance-2018-la-motte",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "vin-de-constance-2018-la-motte",
+    "title": {
+      "source": "canonical",
+      "text": "Vin de Constance"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "La Motte"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2018
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 18400,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_grand-constance-2018-hamilton-rus",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "grand-constance-2018-hamilton-rus",
+    "title": {
+      "source": "canonical",
+      "text": "Grand Constance"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Hamilton Russell Vineyards"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2018
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 36800,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_pinotage-reserve-2018-bouchard-fin",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "pinotage-reserve-2018-bouchard-fin",
+    "title": {
+      "source": "canonical",
+      "text": "Pinotage Reserve"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Bouchard Finlayson"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2018
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 49200,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_klein-constantia-chenin-blanc-nv",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "klein-constantia-chenin-blanc-nv",
+    "title": {
+      "source": "canonical",
+      "text": "Chenin Blanc"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Klein Constantia"
+    },
+    "meta": {
+      "kind": "nonVintage"
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 146400,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_sauvignon-blanc-reserve-2010-groot-consta",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "sauvignon-blanc-reserve-2010-groot-consta",
+    "title": {
+      "source": "canonical",
+      "text": "Sauvignon Blanc Reserve"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Groot Constantia"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2010
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 96400,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_cabernet-sauvignon-2020-paul-cluver",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "cabernet-sauvignon-2020-paul-cluver",
+    "title": {
+      "source": "canonical",
+      "text": "Cabernet Sauvignon"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Paul Cluver"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2020
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 114400,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_syrah-2022-springfield-",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "syrah-2022-springfield-",
+    "title": {
+      "source": "canonical",
+      "text": "Syrah"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Springfield Estate"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2022
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 39200,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_shiraz-2017-cederberg-pr",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "shiraz-2017-cederberg-pr",
+    "title": {
+      "source": "canonical",
+      "text": "Shiraz"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Cederberg Private Cellar"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2017
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 156000,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_rubicon-2015-groote-post",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "rubicon-2015-groote-post",
+    "title": {
+      "source": "canonical",
+      "text": "Rubicon"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Groote Post"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2015
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 174800,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_paul-sauer-2020-steenberg",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "paul-sauer-2020-steenberg",
+    "title": {
+      "source": "canonical",
+      "text": "Paul Sauer"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Steenberg"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2020
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 18800,
+      "currency": "ZAR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_vieilles-vignes-2015-domaine-de-l",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "vieilles-vignes-2015-domaine-de-l",
+    "title": {
+      "source": "canonical",
+      "text": "Vieilles Vignes"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine de la Romanée-Conti"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2015
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 22300,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_brut-nature-2010-domaine-de-l",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "brut-nature-2010-domaine-de-l",
+    "title": {
+      "source": "canonical",
+      "text": "Brut Nature"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine de la Romanée-Conti"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2010
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 18100,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_brut-nature-2018-domaine-lefl",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "brut-nature-2018-domaine-lefl",
+    "title": {
+      "source": "canonical",
+      "text": "Brut Nature"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Leflaive"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2018
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 28100,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_grand-cru-2011-maison-louis",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "grand-cru-2011-maison-louis",
+    "title": {
+      "source": "canonical",
+      "text": "Grand Cru"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Maison Louis Jadot"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2011
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 37300,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_chateau-pichon-baron-premier-cru-nv",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "chateau-pichon-baron-premier-cru-nv",
+    "title": {
+      "source": "canonical",
+      "text": "Premier Cru"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Château Pichon Baron"
+    },
+    "meta": {
+      "kind": "nonVintage"
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 46800,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_clos-des-vignes-2010-chateau-marg",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "clos-des-vignes-2010-chateau-marg",
+    "title": {
+      "source": "canonical",
+      "text": "Clos des Vignes"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Château Margaux"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2010
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 10100,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_cote-rotie-la-mouline-2016-chateau-chev",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "cote-rotie-la-mouline-2016-chateau-chev",
+    "title": {
+      "source": "canonical",
+      "text": "Côte-Rôtie La Mouline"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Château Cheval Blanc"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2016
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 13300,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_larmandier-bernier-chateauneuf-hommage-nv",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "larmandier-bernier-chateauneuf-hommage-nv",
+    "title": {
+      "source": "canonical",
+      "text": "Châteauneuf Hommage"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Larmandier-Bernier"
+    },
+    "meta": {
+      "kind": "nonVintage"
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 25000,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_latitude-extra-brut-2022-champagne-bo",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "latitude-extra-brut-2022-champagne-bo",
+    "title": {
+      "source": "canonical",
+      "text": "Latitude Extra Brut"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Champagne Bollinger"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2022
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 39200,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_blanc-de-blancs-2017-champagne-bo",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "blanc-de-blancs-2017-champagne-bo",
+    "title": {
+      "source": "canonical",
+      "text": "Blanc de Blancs"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Champagne Bollinger"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2017
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 13100,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_e-guigal-blanc-de-blancs-nv",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "e-guigal-blanc-de-blancs-nv",
+    "title": {
+      "source": "canonical",
+      "text": "Blanc de Blancs"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "E. Guigal"
+    },
+    "meta": {
+      "kind": "nonVintage"
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 21100,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_e-guigal-sancerre-les-romains-nv",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "e-guigal-sancerre-les-romains-nv",
+    "title": {
+      "source": "canonical",
+      "text": "Sancerre Les Romains"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "E. Guigal"
+    },
+    "meta": {
+      "kind": "nonVintage"
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 7100,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_sancerre-les-romains-2019-chateau-de-b",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "sancerre-les-romains-2019-chateau-de-b",
+    "title": {
+      "source": "canonical",
+      "text": "Sancerre Les Romains"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Château de Beaucastel"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2019
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 42400,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_cuvee-reserve-2014-domaine-zind",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "cuvee-reserve-2014-domaine-zind",
+    "title": {
+      "source": "canonical",
+      "text": "Cuvée Réserve"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Zind-Humbrecht"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2014
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 18700,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_vieilles-vignes-2014-domaine-zind",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "vieilles-vignes-2014-domaine-zind",
+    "title": {
+      "source": "canonical",
+      "text": "Vieilles Vignes"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Zind-Humbrecht"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2014
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 34500,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_vieilles-vignes-2016-domaine-vach",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "vieilles-vignes-2016-domaine-vach",
+    "title": {
+      "source": "canonical",
+      "text": "Vieilles Vignes"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Vacheron"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2016
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 5100,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_brut-nature-2016-domaine-vach",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "brut-nature-2016-domaine-vach",
+    "title": {
+      "source": "canonical",
+      "text": "Brut Nature"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Vacheron"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2016
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 35500,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_barolo-castiglione-2018-vietti",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "barolo-castiglione-2018-vietti",
+    "title": {
+      "source": "canonical",
+      "text": "Barolo Castiglione"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vietti"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2018
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 13300,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_brunello-2020-giacomo-cont",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "brunello-2020-giacomo-cont",
+    "title": {
+      "source": "canonical",
+      "text": "Brunello"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Giacomo Conterno"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2020
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 10500,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_chianti-classico-riserva-2022-biondi-santi",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "chianti-classico-riserva-2022-biondi-santi",
+    "title": {
+      "source": "canonical",
+      "text": "Chianti Classico Riserva"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Biondi-Santi"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2022
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 33200,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_etna-rosso-2015-biondi-santi",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "etna-rosso-2015-biondi-santi",
+    "title": {
+      "source": "canonical",
+      "text": "Etna Rosso"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Biondi-Santi"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2015
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 11700,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_etna-rosso-2019-castello-di-",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "etna-rosso-2019-castello-di-",
+    "title": {
+      "source": "canonical",
+      "text": "Etna Rosso"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Castello di Ama"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2019
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 14000,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_amarone-della-valpolicella-2016-elena-walch",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "amarone-della-valpolicella-2016-elena-walch",
+    "title": {
+      "source": "canonical",
+      "text": "Amarone della Valpolicella"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Elena Walch"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2016
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 17400,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_barbaresco-2017-elena-walch",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "barbaresco-2017-elena-walch",
+    "title": {
+      "source": "canonical",
+      "text": "Barbaresco"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Elena Walch"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2017
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 30200,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_barbaresco-2022-gravner",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "barbaresco-2022-gravner",
+    "title": {
+      "source": "canonical",
+      "text": "Barbaresco"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Gravner"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2022
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 15300,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_ribolla-gialla-2012-gravner",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "ribolla-gialla-2012-gravner",
+    "title": {
+      "source": "canonical",
+      "text": "Ribolla Gialla"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Gravner"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2012
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 8300,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_ribolla-gialla-2014-passopisciar",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "ribolla-gialla-2014-passopisciar",
+    "title": {
+      "source": "canonical",
+      "text": "Ribolla Gialla"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Passopisciaro"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2014
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 33200,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_nebbiolo-langhe-2011-passopisciar",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "nebbiolo-langhe-2011-passopisciar",
+    "title": {
+      "source": "canonical",
+      "text": "Nebbiolo Langhe"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Passopisciaro"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2011
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 4600,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_nebbiolo-langhe-2017-allegrini",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "nebbiolo-langhe-2017-allegrini",
+    "title": {
+      "source": "canonical",
+      "text": "Nebbiolo Langhe"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Allegrini"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2017
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 1400,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_gran-reserva-2019-la-rioja-alt",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "gran-reserva-2019-la-rioja-alt",
+    "title": {
+      "source": "canonical",
+      "text": "Gran Reserva"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "La Rioja Alta"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2019
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 44200,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_unico-2014-bodegas-muga",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "unico-2014-bodegas-muga",
+    "title": {
+      "source": "canonical",
+      "text": "Único"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Bodegas Muga"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2014
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 38700,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_vega-sicilia-albarino-nv",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "vega-sicilia-albarino-nv",
+    "title": {
+      "source": "canonical",
+      "text": "Albariño"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vega Sicilia"
+    },
+    "meta": {
+      "kind": "nonVintage"
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 17800,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_fino-en-rama-2022-vega-sicilia",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "fino-en-rama-2022-vega-sicilia",
+    "title": {
+      "source": "canonical",
+      "text": "Fino en Rama"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vega Sicilia"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2022
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 21600,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_fino-en-rama-2020-clos-mogador",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "fino-en-rama-2020-clos-mogador",
+    "title": {
+      "source": "canonical",
+      "text": "Fino en Rama"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Clos Mogador"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2020
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 16800,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_clos-mogador-2021-pazo-de-seno",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "clos-mogador-2021-pazo-de-seno",
+    "title": {
+      "source": "canonical",
+      "text": "Clos Mogador"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Pazo de Señoráns"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2021
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 29400,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_reserva-especial-2014-pazo-de-seno",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "reserva-especial-2014-pazo-de-seno",
+    "title": {
+      "source": "canonical",
+      "text": "Reserva Especial"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Pazo de Señoráns"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2014
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 43300,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_reserva-especial-2011-gonzalez-bya",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "reserva-especial-2011-gonzalez-bya",
+    "title": {
+      "source": "canonical",
+      "text": "Reserva Especial"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "González Byass"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2011
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 3400,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_tinto-crianza-2011-descendiente",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "tinto-crianza-2011-descendiente",
+    "title": {
+      "source": "canonical",
+      "text": "Tinto Crianza"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Descendientes de J. Palacios"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2011
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 38900,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_weissburgunder-2013-weingut-egon",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "weissburgunder-2013-weingut-egon",
+    "title": {
+      "source": "canonical",
+      "text": "Weissburgunder"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Weingut Egon Müller"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2013
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 28500,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_riesling-kabinett-2021-weingut-egon",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "riesling-kabinett-2021-weingut-egon",
+    "title": {
+      "source": "canonical",
+      "text": "Riesling Kabinett"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Weingut Egon Müller"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2021
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 2000,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_riesling-kabinett-2021-weingut-dr-l",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "riesling-kabinett-2021-weingut-dr-l",
+    "title": {
+      "source": "canonical",
+      "text": "Riesling Kabinett"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Weingut Dr. Loosen"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2021
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 19500,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_grosses-gewachs-2018-weingut-dr-l",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "grosses-gewachs-2018-weingut-dr-l",
+    "title": {
+      "source": "canonical",
+      "text": "Grosses Gewächs"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Weingut Dr. Loosen"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2018
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 26500,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_grosses-gewachs-2014-schloss-joha",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "grosses-gewachs-2014-schloss-joha",
+    "title": {
+      "source": "canonical",
+      "text": "Grosses Gewächs"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Schloss Johannisberg"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2014
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 25500,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_spatlese-trocken-2022-weingut-mull",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "spatlese-trocken-2022-weingut-mull",
+    "title": {
+      "source": "canonical",
+      "text": "Spätlese Trocken"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Weingut Müller-Catoir"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2022
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 47300,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_trockenbeerenauslese-2020-weingut-donn",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "trockenbeerenauslese-2020-weingut-donn",
+    "title": {
+      "source": "canonical",
+      "text": "Trockenbeerenauslese"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Weingut Dönnhoff"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2020
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 10400,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_riesling-federspiel-2019-weingut-f-x-",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "riesling-federspiel-2019-weingut-f-x-",
+    "title": {
+      "source": "canonical",
+      "text": "Riesling Federspiel"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Weingut F.X. Pichler"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2019
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 34600,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_gruner-veltliner-ried-2020-weingut-f-x-",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "gruner-veltliner-ried-2020-weingut-f-x-",
+    "title": {
+      "source": "canonical",
+      "text": "Grüner Veltliner Ried"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Weingut F.X. Pichler"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2020
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 46200,
+      "currency": "EUR"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_chasselas-grand-cru-2013-domaine-jean",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "chasselas-grand-cru-2013-domaine-jean",
+    "title": {
+      "source": "canonical",
+      "text": "Chasselas Grand Cru"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Jean-René Germanier"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2013
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 11800,
+      "currency": "CHF"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_fendant-du-valais-2019-domaine-jean",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "fendant-du-valais-2019-domaine-jean",
+    "title": {
+      "source": "canonical",
+      "text": "Fendant du Valais"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Jean-René Germanier"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2019
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 8800,
+      "currency": "CHF"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_napa-cabernet-reserve-2015-ridge-vineya",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "napa-cabernet-reserve-2015-ridge-vineya",
+    "title": {
+      "source": "canonical",
+      "text": "Napa Cabernet Reserve"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Ridge Vineyards"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2015
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 41700,
+      "currency": "USD"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_russian-river-chardonnay-2017-ridge-vineya",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "russian-river-chardonnay-2017-ridge-vineya",
+    "title": {
+      "source": "canonical",
+      "text": "Russian River Chardonnay"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Ridge Vineyards"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2017
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 39800,
+      "currency": "USD"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_russian-river-chardonnay-2016-ridge-monte-",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "russian-river-chardonnay-2016-ridge-monte-",
+    "title": {
+      "source": "canonical",
+      "text": "Russian River Chardonnay"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Ridge Monte Bello Estate"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2016
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 43700,
+      "currency": "USD"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_monte-bello-2020-domaine-drou",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "monte-bello-2020-domaine-drou",
+    "title": {
+      "source": "canonical",
+      "text": "Monte Bello"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Drouhin Oregon"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2020
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 26500,
+      "currency": "USD"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_icewine-riesling-2012-mission-hill",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "icewine-riesling-2012-mission-hill",
+    "title": {
+      "source": "canonical",
+      "text": "Icewine Riesling"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mission Hill Family Estate"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2012
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 45100,
+      "currency": "CAD"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_estate-pinot-noir-2019-mission-hill",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "estate-pinot-noir-2019-mission-hill",
+    "title": {
+      "source": "canonical",
+      "text": "Estate Pinot Noir"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mission Hill Family Estate"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2019
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 28300,
+      "currency": "CAD"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_estate-pinot-noir-2016-tawse-winery",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "estate-pinot-noir-2016-tawse-winery",
+    "title": {
+      "source": "canonical",
+      "text": "Estate Pinot Noir"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Tawse Winery"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2016
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 8700,
+      "currency": "CAD"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_sparkling-reserve-2014-ridgeview-wi",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "sparkling-reserve-2014-ridgeview-wi",
+    "title": {
+      "source": "canonical",
+      "text": "Sparkling Reserve"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Ridgeview Wine Estate"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2014
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 47700,
+      "currency": "GBP"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_classic-cuvee-2011-nyetimber",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "classic-cuvee-2011-nyetimber",
+    "title": {
+      "source": "canonical",
+      "text": "Classic Cuvée"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Nyetimber"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2011
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 5800,
+      "currency": "GBP"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_blanc-de-blancs-brut-2012-chapel-down",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "blanc-de-blancs-brut-2012-chapel-down",
+    "title": {
+      "source": "canonical",
+      "text": "Blanc de Blancs Brut"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Chapel Down"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2012
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 47000,
+      "currency": "GBP"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_wine_rose-brut-2014-gusbourne-es",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "rose-brut-2014-gusbourne-es",
+    "title": {
+      "source": "canonical",
+      "text": "Rosé Brut"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Gusbourne Estate"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2014
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 24100,
+      "currency": "GBP"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "search_estate_estate_meerlust-estate",
     "kind": "ESTATE",
     "facet": "estates",
-    "entityId": "estate_meerlust",
+    "entityId": "estate_meerlust-estate",
     "title": {
       "source": "canonical",
       "text": "Meerlust Estate"
@@ -286,14 +2240,14 @@
     "meta": {
       "kind": "estate",
       "foundedYear": 1693,
-      "wineCount": 6
+      "wineCount": 18
     }
   },
   {
-    "id": "search_estate_kanonkop",
+    "id": "search_estate_estate_kanonkop-estate",
     "kind": "ESTATE",
     "facet": "estates",
-    "entityId": "estate_kanonkop",
+    "entityId": "estate_kanonkop-estate",
     "title": {
       "source": "canonical",
       "text": "Kanonkop Estate"
@@ -309,10 +2263,86 @@
     }
   },
   {
-    "id": "search_estate_sadie_family",
+    "id": "search_estate_estate_rust-en-vrede",
     "kind": "ESTATE",
     "facet": "estates",
-    "entityId": "estate_sadie_family",
+    "entityId": "estate_rust-en-vrede",
+    "title": {
+      "source": "canonical",
+      "text": "Rust en Vrede"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Stellenbosch"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1694,
+      "wineCount": 9
+    }
+  },
+  {
+    "id": "search_estate_estate_thelema-mountain-vineyards",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_thelema-mountain-vineyards",
+    "title": {
+      "source": "canonical",
+      "text": "Thelema Mountain Vineyards"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Stellenbosch"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1983,
+      "wineCount": 14
+    }
+  },
+  {
+    "id": "search_estate_estate_tokara",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_tokara",
+    "title": {
+      "source": "canonical",
+      "text": "Tokara"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Stellenbosch"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1994,
+      "wineCount": 16
+    }
+  },
+  {
+    "id": "search_estate_estate_de-toren",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_de-toren",
+    "title": {
+      "source": "canonical",
+      "text": "De Toren"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Stellenbosch"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1994,
+      "wineCount": 7
+    }
+  },
+  {
+    "id": "search_estate_estate_sadie-family-wines",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_sadie-family-wines",
     "title": {
       "source": "canonical",
       "text": "Sadie Family Wines"
@@ -328,7 +2358,45 @@
     }
   },
   {
-    "id": "search_estate_boekenhoutskloof",
+    "id": "search_estate_estate_mullineux",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_mullineux",
+    "title": {
+      "source": "canonical",
+      "text": "Mullineux"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Swartland"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 2007,
+      "wineCount": 12
+    }
+  },
+  {
+    "id": "search_estate_estate_a-a-badenhorst",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_a-a-badenhorst",
+    "title": {
+      "source": "canonical",
+      "text": "A.A. Badenhorst"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Swartland"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 2008,
+      "wineCount": 10
+    }
+  },
+  {
+    "id": "search_estate_estate_boekenhoutskloof",
     "kind": "ESTATE",
     "facet": "estates",
     "entityId": "estate_boekenhoutskloof",
@@ -347,7 +2415,1014 @@
     }
   },
   {
-    "id": "search_region_stellenbosch",
+    "id": "search_estate_estate_la-motte",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_la-motte",
+    "title": {
+      "source": "canonical",
+      "text": "La Motte"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Franschhoek"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1695,
+      "wineCount": 13
+    }
+  },
+  {
+    "id": "search_estate_estate_hamilton-russell-vineyards",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_hamilton-russell-vineyards",
+    "title": {
+      "source": "canonical",
+      "text": "Hamilton Russell Vineyards"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Hemel-en-Aarde"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1975,
+      "wineCount": 6
+    }
+  },
+  {
+    "id": "search_estate_estate_bouchard-finlayson",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_bouchard-finlayson",
+    "title": {
+      "source": "canonical",
+      "text": "Bouchard Finlayson"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Hemel-en-Aarde"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1989,
+      "wineCount": 8
+    }
+  },
+  {
+    "id": "search_estate_estate_klein-constantia",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_klein-constantia",
+    "title": {
+      "source": "canonical",
+      "text": "Klein Constantia"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Constantia"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1685,
+      "wineCount": 12
+    }
+  },
+  {
+    "id": "search_estate_estate_groot-constantia",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_groot-constantia",
+    "title": {
+      "source": "canonical",
+      "text": "Groot Constantia"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Constantia"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1685,
+      "wineCount": 15
+    }
+  },
+  {
+    "id": "search_estate_estate_paul-cluver",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_paul-cluver",
+    "title": {
+      "source": "canonical",
+      "text": "Paul Cluver"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Elgin"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1896,
+      "wineCount": 11
+    }
+  },
+  {
+    "id": "search_estate_estate_springfield-estate",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_springfield-estate",
+    "title": {
+      "source": "canonical",
+      "text": "Springfield Estate"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Robertson"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1995,
+      "wineCount": 9
+    }
+  },
+  {
+    "id": "search_estate_estate_cederberg-private-cellar",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_cederberg-private-cellar",
+    "title": {
+      "source": "canonical",
+      "text": "Cederberg Private Cellar"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Cederberg"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1973,
+      "wineCount": 10
+    }
+  },
+  {
+    "id": "search_estate_estate_groote-post",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_groote-post",
+    "title": {
+      "source": "canonical",
+      "text": "Groote Post"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Darling"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1999,
+      "wineCount": 8
+    }
+  },
+  {
+    "id": "search_estate_estate_steenberg",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_steenberg",
+    "title": {
+      "source": "canonical",
+      "text": "Steenberg"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Constantia"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1682,
+      "wineCount": 13
+    }
+  },
+  {
+    "id": "search_estate_estate_domaine-de-la-romanee-conti",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_domaine-de-la-romanee-conti",
+    "title": {
+      "source": "canonical",
+      "text": "Domaine de la Romanée-Conti"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Bourgogne"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1869,
+      "wineCount": 8
+    }
+  },
+  {
+    "id": "search_estate_estate_domaine-leflaive",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_domaine-leflaive",
+    "title": {
+      "source": "canonical",
+      "text": "Domaine Leflaive"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Bourgogne"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1717,
+      "wineCount": 14
+    }
+  },
+  {
+    "id": "search_estate_estate_maison-louis-jadot",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_maison-louis-jadot",
+    "title": {
+      "source": "canonical",
+      "text": "Maison Louis Jadot"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Bourgogne"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1859,
+      "wineCount": 30
+    }
+  },
+  {
+    "id": "search_estate_estate_chateau-pichon-baron",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_chateau-pichon-baron",
+    "title": {
+      "source": "canonical",
+      "text": "Château Pichon Baron"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Pauillac"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1694,
+      "wineCount": 5
+    }
+  },
+  {
+    "id": "search_estate_estate_chateau-margaux",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_chateau-margaux",
+    "title": {
+      "source": "canonical",
+      "text": "Château Margaux"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Margaux"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1572,
+      "wineCount": 4
+    }
+  },
+  {
+    "id": "search_estate_estate_chateau-cheval-blanc",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_chateau-cheval-blanc",
+    "title": {
+      "source": "canonical",
+      "text": "Château Cheval Blanc"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Saint-Émilion"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1832,
+      "wineCount": 3
+    }
+  },
+  {
+    "id": "search_estate_estate_larmandier-bernier",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_larmandier-bernier",
+    "title": {
+      "source": "canonical",
+      "text": "Larmandier-Bernier"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Champagne"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1971,
+      "wineCount": 9
+    }
+  },
+  {
+    "id": "search_estate_estate_champagne-bollinger",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_champagne-bollinger",
+    "title": {
+      "source": "canonical",
+      "text": "Champagne Bollinger"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Champagne"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1829,
+      "wineCount": 11
+    }
+  },
+  {
+    "id": "search_estate_estate_e-guigal",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_e-guigal",
+    "title": {
+      "source": "canonical",
+      "text": "E. Guigal"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Côte-Rôtie"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1946,
+      "wineCount": 22
+    }
+  },
+  {
+    "id": "search_estate_estate_chateau-de-beaucastel",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_chateau-de-beaucastel",
+    "title": {
+      "source": "canonical",
+      "text": "Château de Beaucastel"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Châteauneuf-du-Pape"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1909,
+      "wineCount": 8
+    }
+  },
+  {
+    "id": "search_estate_estate_domaine-zind-humbrecht",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_domaine-zind-humbrecht",
+    "title": {
+      "source": "canonical",
+      "text": "Domaine Zind-Humbrecht"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Alsace"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1959,
+      "wineCount": 17
+    }
+  },
+  {
+    "id": "search_estate_estate_domaine-vacheron",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_domaine-vacheron",
+    "title": {
+      "source": "canonical",
+      "text": "Domaine Vacheron"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Sancerre"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1950,
+      "wineCount": 7
+    }
+  },
+  {
+    "id": "search_estate_estate_vietti",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_vietti",
+    "title": {
+      "source": "canonical",
+      "text": "Vietti"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Barolo"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1919,
+      "wineCount": 15
+    }
+  },
+  {
+    "id": "search_estate_estate_giacomo-conterno",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_giacomo-conterno",
+    "title": {
+      "source": "canonical",
+      "text": "Giacomo Conterno"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Barolo"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1908,
+      "wineCount": 6
+    }
+  },
+  {
+    "id": "search_estate_estate_biondi-santi",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_biondi-santi",
+    "title": {
+      "source": "canonical",
+      "text": "Biondi-Santi"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Montalcino"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1888,
+      "wineCount": 5
+    }
+  },
+  {
+    "id": "search_estate_estate_castello-di-ama",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_castello-di-ama",
+    "title": {
+      "source": "canonical",
+      "text": "Castello di Ama"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Chianti Classico"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1972,
+      "wineCount": 10
+    }
+  },
+  {
+    "id": "search_estate_estate_elena-walch",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_elena-walch",
+    "title": {
+      "source": "canonical",
+      "text": "Elena Walch"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Alto Adige"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1869,
+      "wineCount": 18
+    }
+  },
+  {
+    "id": "search_estate_estate_gravner",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_gravner",
+    "title": {
+      "source": "canonical",
+      "text": "Gravner"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Friuli-Venezia Giulia"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1901,
+      "wineCount": 6
+    }
+  },
+  {
+    "id": "search_estate_estate_passopisciaro",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_passopisciaro",
+    "title": {
+      "source": "canonical",
+      "text": "Passopisciaro"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Etna"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 2000,
+      "wineCount": 9
+    }
+  },
+  {
+    "id": "search_estate_estate_allegrini",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_allegrini",
+    "title": {
+      "source": "canonical",
+      "text": "Allegrini"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Veneto"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1854,
+      "wineCount": 12
+    }
+  },
+  {
+    "id": "search_estate_estate_la-rioja-alta",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_la-rioja-alta",
+    "title": {
+      "source": "canonical",
+      "text": "La Rioja Alta"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Rioja"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1890,
+      "wineCount": 13
+    }
+  },
+  {
+    "id": "search_estate_estate_bodegas-muga",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_bodegas-muga",
+    "title": {
+      "source": "canonical",
+      "text": "Bodegas Muga"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Rioja"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1932,
+      "wineCount": 11
+    }
+  },
+  {
+    "id": "search_estate_estate_vega-sicilia",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_vega-sicilia",
+    "title": {
+      "source": "canonical",
+      "text": "Vega Sicilia"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Ribera del Duero"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1864,
+      "wineCount": 6
+    }
+  },
+  {
+    "id": "search_estate_estate_clos-mogador",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_clos-mogador",
+    "title": {
+      "source": "canonical",
+      "text": "Clos Mogador"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Priorat"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1979,
+      "wineCount": 5
+    }
+  },
+  {
+    "id": "search_estate_estate_pazo-de-senorans",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_pazo-de-senorans",
+    "title": {
+      "source": "canonical",
+      "text": "Pazo de Señoráns"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Rías Baixas"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1989,
+      "wineCount": 6
+    }
+  },
+  {
+    "id": "search_estate_estate_gonzalez-byass",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_gonzalez-byass",
+    "title": {
+      "source": "canonical",
+      "text": "González Byass"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Jerez"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1835,
+      "wineCount": 20
+    }
+  },
+  {
+    "id": "search_estate_estate_descendientes-de-j-palacios",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_descendientes-de-j-palacios",
+    "title": {
+      "source": "canonical",
+      "text": "Descendientes de J. Palacios"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Bierzo"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1999,
+      "wineCount": 7
+    }
+  },
+  {
+    "id": "search_estate_estate_weingut-egon-muller",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_weingut-egon-muller",
+    "title": {
+      "source": "canonical",
+      "text": "Weingut Egon Müller"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mosel"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1797,
+      "wineCount": 8
+    }
+  },
+  {
+    "id": "search_estate_estate_weingut-dr-loosen",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_weingut-dr-loosen",
+    "title": {
+      "source": "canonical",
+      "text": "Weingut Dr. Loosen"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mosel"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1988,
+      "wineCount": 14
+    }
+  },
+  {
+    "id": "search_estate_estate_schloss-johannisberg",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_schloss-johannisberg",
+    "title": {
+      "source": "canonical",
+      "text": "Schloss Johannisberg"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Rheingau"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1100,
+      "wineCount": 10
+    }
+  },
+  {
+    "id": "search_estate_estate_weingut-muller-catoir",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_weingut-muller-catoir",
+    "title": {
+      "source": "canonical",
+      "text": "Weingut Müller-Catoir"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Pfalz"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1744,
+      "wineCount": 12
+    }
+  },
+  {
+    "id": "search_estate_estate_weingut-donnhoff",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_weingut-donnhoff",
+    "title": {
+      "source": "canonical",
+      "text": "Weingut Dönnhoff"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Nahe"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1750,
+      "wineCount": 13
+    }
+  },
+  {
+    "id": "search_estate_estate_weingut-f-x-pichler",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_weingut-f-x-pichler",
+    "title": {
+      "source": "canonical",
+      "text": "Weingut F.X. Pichler"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Wachau"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1898,
+      "wineCount": 9
+    }
+  },
+  {
+    "id": "search_estate_estate_domaine-jean-rene-germanier",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_domaine-jean-rene-germanier",
+    "title": {
+      "source": "canonical",
+      "text": "Domaine Jean-René Germanier"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Valais"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1896,
+      "wineCount": 11
+    }
+  },
+  {
+    "id": "search_estate_estate_ridge-vineyards",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_ridge-vineyards",
+    "title": {
+      "source": "canonical",
+      "text": "Ridge Vineyards"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Napa Valley"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1962,
+      "wineCount": 16
+    }
+  },
+  {
+    "id": "search_estate_estate_ridge-monte-bello-estate",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_ridge-monte-bello-estate",
+    "title": {
+      "source": "canonical",
+      "text": "Ridge Monte Bello Estate"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Sonoma County"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1959,
+      "wineCount": 12
+    }
+  },
+  {
+    "id": "search_estate_estate_domaine-drouhin-oregon",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_domaine-drouhin-oregon",
+    "title": {
+      "source": "canonical",
+      "text": "Domaine Drouhin Oregon"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Willamette Valley"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1987,
+      "wineCount": 9
+    }
+  },
+  {
+    "id": "search_estate_estate_mission-hill-family-estate",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_mission-hill-family-estate",
+    "title": {
+      "source": "canonical",
+      "text": "Mission Hill Family Estate"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Okanagan Valley"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1981,
+      "wineCount": 14
+    }
+  },
+  {
+    "id": "search_estate_estate_tawse-winery",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_tawse-winery",
+    "title": {
+      "source": "canonical",
+      "text": "Tawse Winery"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Niagara Peninsula"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 2001,
+      "wineCount": 11
+    }
+  },
+  {
+    "id": "search_estate_estate_ridgeview-wine-estate",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_ridgeview-wine-estate",
+    "title": {
+      "source": "canonical",
+      "text": "Ridgeview Wine Estate"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Sussex"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1995,
+      "wineCount": 9
+    }
+  },
+  {
+    "id": "search_estate_estate_nyetimber",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_nyetimber",
+    "title": {
+      "source": "canonical",
+      "text": "Nyetimber"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Sussex"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1988,
+      "wineCount": 8
+    }
+  },
+  {
+    "id": "search_estate_estate_chapel-down",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_chapel-down",
+    "title": {
+      "source": "canonical",
+      "text": "Chapel Down"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Kent"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1977,
+      "wineCount": 15
+    }
+  },
+  {
+    "id": "search_estate_estate_gusbourne-estate",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_gusbourne-estate",
+    "title": {
+      "source": "canonical",
+      "text": "Gusbourne Estate"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Kent"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 2004,
+      "wineCount": 10
+    }
+  },
+  {
+    "id": "search_region_region_stellenbosch",
     "kind": "REGION",
     "facet": "regions",
     "entityId": "region_stellenbosch",
@@ -361,11 +3436,11 @@
     },
     "meta": {
       "kind": "region",
-      "wineCount": 312
+      "wineCount": 1299
     }
   },
   {
-    "id": "search_region_swartland",
+    "id": "search_region_region_swartland",
     "kind": "REGION",
     "facet": "regions",
     "entityId": "region_swartland",
@@ -379,29 +3454,11 @@
     },
     "meta": {
       "kind": "region",
-      "wineCount": 188
+      "wineCount": 232
     }
   },
   {
-    "id": "search_region_hemel_en_aarde",
-    "kind": "REGION",
-    "facet": "regions",
-    "entityId": "region_hemel_en_aarde",
-    "title": {
-      "source": "canonical",
-      "text": "Hemel-en-Aarde"
-    },
-    "eyebrow": {
-      "source": "canonical",
-      "text": "Walker Bay"
-    },
-    "meta": {
-      "kind": "region",
-      "wineCount": 96
-    }
-  },
-  {
-    "id": "search_region_franschhoek",
+    "id": "search_region_region_franschhoek",
     "kind": "REGION",
     "facet": "regions",
     "entityId": "region_franschhoek",
@@ -415,11 +3472,1064 @@
     },
     "meta": {
       "kind": "region",
-      "wineCount": 124
+      "wineCount": 413
     }
   },
   {
-    "id": "search_tasting_meerlust_cellar",
+    "id": "search_region_region_hemel-en-aarde",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_hemel-en-aarde",
+    "title": {
+      "source": "canonical",
+      "text": "Hemel-en-Aarde"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Walker Bay"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 826
+    }
+  },
+  {
+    "id": "search_region_region_constantia",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_constantia",
+    "title": {
+      "source": "canonical",
+      "text": "Constantia"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Cape Town"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 488
+    }
+  },
+  {
+    "id": "search_region_region_elgin",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_elgin",
+    "title": {
+      "source": "canonical",
+      "text": "Elgin"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Cape South Coast"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 660
+    }
+  },
+  {
+    "id": "search_region_region_robertson",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_robertson",
+    "title": {
+      "source": "canonical",
+      "text": "Robertson"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Breede River Valley"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1194
+    }
+  },
+  {
+    "id": "search_region_region_paarl",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_paarl",
+    "title": {
+      "source": "canonical",
+      "text": "Paarl"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Coastal Region"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 624
+    }
+  },
+  {
+    "id": "search_region_region_darling",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_darling",
+    "title": {
+      "source": "canonical",
+      "text": "Darling"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Coastal Region"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1093
+    }
+  },
+  {
+    "id": "search_region_region_tulbagh",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_tulbagh",
+    "title": {
+      "source": "canonical",
+      "text": "Tulbagh"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Coastal Region"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 713
+    }
+  },
+  {
+    "id": "search_region_region_cederberg",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_cederberg",
+    "title": {
+      "source": "canonical",
+      "text": "Cederberg"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Olifants River"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 503
+    }
+  },
+  {
+    "id": "search_region_region_wellington",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_wellington",
+    "title": {
+      "source": "canonical",
+      "text": "Wellington"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Coastal Region"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1331
+    }
+  },
+  {
+    "id": "search_region_region_durbanville",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_durbanville",
+    "title": {
+      "source": "canonical",
+      "text": "Durbanville"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Cape Town"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1271
+    }
+  },
+  {
+    "id": "search_region_region_walker-bay",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_walker-bay",
+    "title": {
+      "source": "canonical",
+      "text": "Walker Bay"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Cape South Coast"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 235
+    }
+  },
+  {
+    "id": "search_region_region_breedekloof",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_breedekloof",
+    "title": {
+      "source": "canonical",
+      "text": "Breedekloof"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Breede River Valley"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 364
+    }
+  },
+  {
+    "id": "search_region_region_bourgogne",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_bourgogne",
+    "title": {
+      "source": "negotiated",
+      "text": "Bourgogne",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Est"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 948
+    }
+  },
+  {
+    "id": "search_region_region_bordeaux",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_bordeaux",
+    "title": {
+      "source": "canonical",
+      "text": "Bordeaux"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Nouvelle-Aquitaine"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 168
+    }
+  },
+  {
+    "id": "search_region_region_champagne",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_champagne",
+    "title": {
+      "source": "canonical",
+      "text": "Champagne"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Grand Est"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 737
+    }
+  },
+  {
+    "id": "search_region_region_vallee-du-rhone",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_vallee-du-rhone",
+    "title": {
+      "source": "negotiated",
+      "text": "Vallée du Rhône",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Sud-Est"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1281
+    }
+  },
+  {
+    "id": "search_region_region_alsace",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_alsace",
+    "title": {
+      "source": "canonical",
+      "text": "Alsace"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Grand Est"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1092
+    }
+  },
+  {
+    "id": "search_region_region_val-de-loire",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_val-de-loire",
+    "title": {
+      "source": "negotiated",
+      "text": "Val de Loire",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Centre"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 445
+    }
+  },
+  {
+    "id": "search_region_region_beaujolais",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_beaujolais",
+    "title": {
+      "source": "canonical",
+      "text": "Beaujolais"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Est"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1390
+    }
+  },
+  {
+    "id": "search_region_region_chablis",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_chablis",
+    "title": {
+      "source": "canonical",
+      "text": "Chablis"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Bourgogne"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1212
+    }
+  },
+  {
+    "id": "search_region_region_sancerre",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_sancerre",
+    "title": {
+      "source": "canonical",
+      "text": "Sancerre"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Val de Loire"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1234
+    }
+  },
+  {
+    "id": "search_region_region_pauillac",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_pauillac",
+    "title": {
+      "source": "canonical",
+      "text": "Pauillac"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Bordeaux"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 652
+    }
+  },
+  {
+    "id": "search_region_region_margaux",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_margaux",
+    "title": {
+      "source": "canonical",
+      "text": "Margaux"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Bordeaux"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 781
+    }
+  },
+  {
+    "id": "search_region_region_saint-emilion",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_saint-emilion",
+    "title": {
+      "source": "canonical",
+      "text": "Saint-Émilion"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Bordeaux"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 554
+    }
+  },
+  {
+    "id": "search_region_region_chateauneuf-du-pape",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_chateauneuf-du-pape",
+    "title": {
+      "source": "canonical",
+      "text": "Châteauneuf-du-Pape"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vallée du Rhône"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1239
+    }
+  },
+  {
+    "id": "search_region_region_cote-rotie",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_cote-rotie",
+    "title": {
+      "source": "canonical",
+      "text": "Côte-Rôtie"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vallée du Rhône"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 117
+    }
+  },
+  {
+    "id": "search_region_region_piemonte",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_piemonte",
+    "title": {
+      "source": "negotiated",
+      "text": "Piemonte",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Nord-Ovest"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 978
+    }
+  },
+  {
+    "id": "search_region_region_toscana",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_toscana",
+    "title": {
+      "source": "negotiated",
+      "text": "Toscana",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Centro"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1167
+    }
+  },
+  {
+    "id": "search_region_region_veneto",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_veneto",
+    "title": {
+      "source": "canonical",
+      "text": "Veneto"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Nord-Est"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1023
+    }
+  },
+  {
+    "id": "search_region_region_barolo",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_barolo",
+    "title": {
+      "source": "canonical",
+      "text": "Barolo"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Piemonte"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 499
+    }
+  },
+  {
+    "id": "search_region_region_chianti-classico",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_chianti-classico",
+    "title": {
+      "source": "canonical",
+      "text": "Chianti Classico"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Toscana"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 991
+    }
+  },
+  {
+    "id": "search_region_region_montalcino",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_montalcino",
+    "title": {
+      "source": "canonical",
+      "text": "Montalcino"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Toscana"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 838
+    }
+  },
+  {
+    "id": "search_region_region_alto-adige",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_alto-adige",
+    "title": {
+      "source": "negotiated",
+      "text": "Alto Adige",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Nord-Est"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 507
+    }
+  },
+  {
+    "id": "search_region_region_friuli-venezia-giulia",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_friuli-venezia-giulia",
+    "title": {
+      "source": "canonical",
+      "text": "Friuli-Venezia Giulia"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Nord-Est"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 781
+    }
+  },
+  {
+    "id": "search_region_region_sicilia",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_sicilia",
+    "title": {
+      "source": "negotiated",
+      "text": "Sicilia",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Sud"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 533
+    }
+  },
+  {
+    "id": "search_region_region_etna",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_etna",
+    "title": {
+      "source": "canonical",
+      "text": "Etna"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Sicilia"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1307
+    }
+  },
+  {
+    "id": "search_region_region_rioja",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_rioja",
+    "title": {
+      "source": "canonical",
+      "text": "Rioja"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Norte"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1035
+    }
+  },
+  {
+    "id": "search_region_region_ribera-del-duero",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_ribera-del-duero",
+    "title": {
+      "source": "canonical",
+      "text": "Ribera del Duero"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Castilla y León"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 373
+    }
+  },
+  {
+    "id": "search_region_region_priorat",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_priorat",
+    "title": {
+      "source": "canonical",
+      "text": "Priorat"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Cataluña"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1174
+    }
+  },
+  {
+    "id": "search_region_region_rias-baixas",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_rias-baixas",
+    "title": {
+      "source": "canonical",
+      "text": "Rías Baixas"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Galicia"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 829
+    }
+  },
+  {
+    "id": "search_region_region_jerez",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_jerez",
+    "title": {
+      "source": "negotiated",
+      "text": "Jerez",
+      "languageTag": "es"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Andalucía"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 543
+    }
+  },
+  {
+    "id": "search_region_region_penedes",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_penedes",
+    "title": {
+      "source": "canonical",
+      "text": "Penedès"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Cataluña"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 944
+    }
+  },
+  {
+    "id": "search_region_region_bierzo",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_bierzo",
+    "title": {
+      "source": "canonical",
+      "text": "Bierzo"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Castilla y León"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 203
+    }
+  },
+  {
+    "id": "search_region_region_mosel",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_mosel",
+    "title": {
+      "source": "canonical",
+      "text": "Mosel"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "West"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 841
+    }
+  },
+  {
+    "id": "search_region_region_rheingau",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_rheingau",
+    "title": {
+      "source": "canonical",
+      "text": "Rheingau"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "West"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 79
+    }
+  },
+  {
+    "id": "search_region_region_pfalz",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_pfalz",
+    "title": {
+      "source": "negotiated",
+      "text": "Pfalz",
+      "languageTag": "de"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "West"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1393
+    }
+  },
+  {
+    "id": "search_region_region_baden",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_baden",
+    "title": {
+      "source": "canonical",
+      "text": "Baden"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Süd"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 174
+    }
+  },
+  {
+    "id": "search_region_region_nahe",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_nahe",
+    "title": {
+      "source": "canonical",
+      "text": "Nahe"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "West"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 771
+    }
+  },
+  {
+    "id": "search_region_region_wachau",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_wachau",
+    "title": {
+      "source": "canonical",
+      "text": "Wachau"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Niederösterreich"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 628
+    }
+  },
+  {
+    "id": "search_region_region_valais",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_valais",
+    "title": {
+      "source": "canonical",
+      "text": "Valais"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Romandie"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 525
+    }
+  },
+  {
+    "id": "search_region_region_vaud",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_vaud",
+    "title": {
+      "source": "canonical",
+      "text": "Vaud"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Romandie"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 933
+    }
+  },
+  {
+    "id": "search_region_region_napa-valley",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_napa-valley",
+    "title": {
+      "source": "canonical",
+      "text": "Napa Valley"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "California"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 752
+    }
+  },
+  {
+    "id": "search_region_region_sonoma-county",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_sonoma-county",
+    "title": {
+      "source": "canonical",
+      "text": "Sonoma County"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "California"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 851
+    }
+  },
+  {
+    "id": "search_region_region_willamette-valley",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_willamette-valley",
+    "title": {
+      "source": "canonical",
+      "text": "Willamette Valley"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Oregon"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 285
+    }
+  },
+  {
+    "id": "search_region_region_okanagan-valley",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_okanagan-valley",
+    "title": {
+      "source": "canonical",
+      "text": "Okanagan Valley"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "British Columbia"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 937
+    }
+  },
+  {
+    "id": "search_region_region_niagara-peninsula",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_niagara-peninsula",
+    "title": {
+      "source": "canonical",
+      "text": "Niagara Peninsula"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Ontario"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 1038
+    }
+  },
+  {
+    "id": "search_region_region_sussex",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_sussex",
+    "title": {
+      "source": "canonical",
+      "text": "Sussex"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "South East England"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 834
+    }
+  },
+  {
+    "id": "search_region_region_kent",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_kent",
+    "title": {
+      "source": "canonical",
+      "text": "Kent"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "South East England"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 575
+    }
+  },
+  {
+    "id": "search_tasting_event_meerlust_cellar_tasting",
     "kind": "TASTING",
     "facet": "tastings",
     "entityId": "event_meerlust_cellar_tasting",
@@ -439,7 +4549,7 @@
     }
   },
   {
-    "id": "search_tasting_swartland_six_ways",
+    "id": "search_tasting_event_swartland_six_ways",
     "kind": "TASTING",
     "facet": "tastings",
     "entityId": "event_swartland_six_ways",
@@ -459,7 +4569,7 @@
     }
   },
   {
-    "id": "search_tasting_chenin_masterclass",
+    "id": "search_tasting_event_chenin_masterclass",
     "kind": "TASTING",
     "facet": "tastings",
     "entityId": "event_chenin_masterclass",
@@ -478,10 +4588,1113 @@
     }
   },
   {
-    "id": "search_person_alexandra_meyer",
+    "id": "search_tasting_event_cap_classique_brunch",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_cap_classique_brunch",
+    "title": {
+      "source": "negotiated",
+      "text": "Cap Classique brunch",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Leeu Estates"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-03T09:00:00.000Z",
+      "seatsRemaining": 0
+    }
+  },
+  {
+    "id": "search_tasting_event_meerlust-cellar-tasting",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_meerlust-cellar-tasting",
+    "title": {
+      "source": "negotiated",
+      "text": "Meerlust cellar tasting",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-21T17:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_swartland-six-ways",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_swartland-six-ways",
+    "title": {
+      "source": "negotiated",
+      "text": "Swartland, Six Ways",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mullineux"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-22T16:00:00.000Z",
+      "seatsRemaining": 7
+    }
+  },
+  {
+    "id": "search_tasting_event_chenin-blanc-masterclass",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_chenin-blanc-masterclass",
+    "title": {
+      "source": "negotiated",
+      "text": "Chenin blanc masterclass",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Groot Constantia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-23T16:00:00.000Z",
+      "seatsRemaining": 29
+    }
+  },
+  {
+    "id": "search_tasting_event_cape-bordeaux-blends-blind",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_cape-bordeaux-blends-blind",
+    "title": {
+      "source": "negotiated",
+      "text": "Cape Bordeaux blends, blind",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Leflaive"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-24T19:00:00.000Z",
+      "seatsRemaining": 37
+    }
+  },
+  {
+    "id": "search_tasting_event_old-vine-cinsaut-a-vertical",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_old-vine-cinsaut-a-vertical",
+    "title": {
+      "source": "negotiated",
+      "text": "Old-vine Cinsaut, a vertical",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "E. Guigal"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-25T19:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_hemel-en-aarde-pinot-four-estates",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_hemel-en-aarde-pinot-four-estates",
+    "title": {
+      "source": "negotiated",
+      "text": "Hemel-en-Aarde Pinot: four estates",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Castello di Ama"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-26T16:00:00.000Z",
+      "seatsRemaining": 6
+    }
+  },
+  {
+    "id": "search_tasting_event_wynproe-kaapse-chenin",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_wynproe-kaapse-chenin",
+    "title": {
+      "source": "negotiated",
+      "text": "Wynproe: Kaapse Chenin",
+      "languageTag": "af"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vega Sicilia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-27T19:00:00.000Z",
+      "seatsRemaining": 8
+    }
+  },
+  {
+    "id": "search_tasting_event_ontmoet-die-wynmaker",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_ontmoet-die-wynmaker",
+    "title": {
+      "source": "negotiated",
+      "text": "Ontmoet die wynmaker",
+      "languageTag": "af"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Schloss Johannisberg"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-28T16:00:00.000Z",
+      "seatsRemaining": 38
+    }
+  },
+  {
+    "id": "search_tasting_event_ou-wingerde-van-die-swartland",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_ou-wingerde-van-die-swartland",
+    "title": {
+      "source": "negotiated",
+      "text": "Ou wingerde van die Swartland",
+      "languageTag": "af"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Drouhin Oregon"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-01T18:00:00.000Z",
+      "seatsRemaining": 35
+    }
+  },
+  {
+    "id": "search_tasting_event_stellenbosch-se-rooiwyne",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_stellenbosch-se-rooiwyne",
+    "title": {
+      "source": "negotiated",
+      "text": "Stellenbosch se rooiwyne",
+      "languageTag": "af"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-21T15:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_degustation-verticale-de-pauillac",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_degustation-verticale-de-pauillac",
+    "title": {
+      "source": "negotiated",
+      "text": "Dégustation verticale de Pauillac",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mullineux"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-22T15:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_les-grands-crus-de-bourgogne",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_les-grands-crus-de-bourgogne",
+    "title": {
+      "source": "negotiated",
+      "text": "Les grands crus de Bourgogne",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Groot Constantia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-23T17:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_champagne-dosage-et-terroir",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_champagne-dosage-et-terroir",
+    "title": {
+      "source": "negotiated",
+      "text": "Champagne: dosage et terroir",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Leflaive"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-24T19:00:00.000Z",
+      "seatsRemaining": 4
+    }
+  },
+  {
+    "id": "search_tasting_event_decouverte-des-vins-du-rhone",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_decouverte-des-vins-du-rhone",
+    "title": {
+      "source": "negotiated",
+      "text": "Découverte des vins du Rhône",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "E. Guigal"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-25T16:00:00.000Z",
+      "seatsRemaining": 29
+    }
+  },
+  {
+    "id": "search_tasting_event_atelier-assemblage-a-bordeaux",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_atelier-assemblage-a-bordeaux",
+    "title": {
+      "source": "negotiated",
+      "text": "Atelier assemblage à Bordeaux",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Castello di Ama"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-26T16:00:00.000Z",
+      "seatsRemaining": 5
+    }
+  },
+  {
+    "id": "search_tasting_event_rieslingprobe-an-der-mosel",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_rieslingprobe-an-der-mosel",
+    "title": {
+      "source": "negotiated",
+      "text": "Rieslingprobe an der Mosel",
+      "languageTag": "de"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vega Sicilia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-27T15:00:00.000Z",
+      "seatsRemaining": 12
+    }
+  },
+  {
+    "id": "search_tasting_event_gro-e-gewachse-aus-dem-rheingau",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_gro-e-gewachse-aus-dem-rheingau",
+    "title": {
+      "source": "negotiated",
+      "text": "Große Gewächse aus dem Rheingau",
+      "languageTag": "de"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Schloss Johannisberg"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-28T15:00:00.000Z",
+      "seatsRemaining": 30
+    }
+  },
+  {
+    "id": "search_tasting_event_gruner-veltliner-im-vergleich",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_gruner-veltliner-im-vergleich",
+    "title": {
+      "source": "negotiated",
+      "text": "Grüner Veltliner im Vergleich",
+      "languageTag": "de"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Drouhin Oregon"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-01T16:00:00.000Z",
+      "seatsRemaining": 20
+    }
+  },
+  {
+    "id": "search_tasting_event_weinreise-durch-die-pfalz",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_weinreise-durch-die-pfalz",
+    "title": {
+      "source": "negotiated",
+      "text": "Weinreise durch die Pfalz",
+      "languageTag": "de"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-21T16:00:00.000Z",
+      "seatsRemaining": 10
+    }
+  },
+  {
+    "id": "search_tasting_event_degustazione-verticale-di-barolo",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_degustazione-verticale-di-barolo",
+    "title": {
+      "source": "negotiated",
+      "text": "Degustazione verticale di Barolo",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mullineux"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-22T18:00:00.000Z",
+      "seatsRemaining": 36
+    }
+  },
+  {
+    "id": "search_tasting_event_i-grandi-rossi-della-toscana",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_i-grandi-rossi-della-toscana",
+    "title": {
+      "source": "negotiated",
+      "text": "I grandi rossi della Toscana",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Groot Constantia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-23T17:00:00.000Z",
+      "seatsRemaining": 16
+    }
+  },
+  {
+    "id": "search_tasting_event_etna-altitudine-e-minerale",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_etna-altitudine-e-minerale",
+    "title": {
+      "source": "negotiated",
+      "text": "Etna: altitudine e minerale",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Leflaive"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-24T19:00:00.000Z",
+      "seatsRemaining": 33
+    }
+  },
+  {
+    "id": "search_tasting_event_vini-bianchi-del-friuli",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_vini-bianchi-del-friuli",
+    "title": {
+      "source": "negotiated",
+      "text": "Vini bianchi del Friuli",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "E. Guigal"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-25T17:00:00.000Z",
+      "seatsRemaining": 32
+    }
+  },
+  {
+    "id": "search_tasting_event_cata-vertical-de-rioja",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_cata-vertical-de-rioja",
+    "title": {
+      "source": "negotiated",
+      "text": "Cata vertical de Rioja",
+      "languageTag": "es"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Castello di Ama"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-26T19:00:00.000Z",
+      "seatsRemaining": 20
+    }
+  },
+  {
+    "id": "search_tasting_event_los-tintos-de-ribera-del-duero",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_los-tintos-de-ribera-del-duero",
+    "title": {
+      "source": "negotiated",
+      "text": "Los tintos de Ribera del Duero",
+      "languageTag": "es"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vega Sicilia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-27T18:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_albarino-y-el-atlantico",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_albarino-y-el-atlantico",
+    "title": {
+      "source": "negotiated",
+      "text": "Albariño y el Atlántico",
+      "languageTag": "es"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Schloss Johannisberg"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-28T19:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_jerez-de-fino-a-oloroso",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_jerez-de-fino-a-oloroso",
+    "title": {
+      "source": "negotiated",
+      "text": "Jerez: de fino a oloroso",
+      "languageTag": "es"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Drouhin Oregon"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-01T18:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_priorat-pizarra-y-garnacha",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_priorat-pizarra-y-garnacha",
+    "title": {
+      "source": "negotiated",
+      "text": "Priorat, pizarra y garnacha",
+      "languageTag": "es"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-21T16:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_sparkling-from-the-south-downs",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_sparkling-from-the-south-downs",
+    "title": {
+      "source": "negotiated",
+      "text": "Sparkling from the South Downs",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mullineux"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-22T15:00:00.000Z",
+      "seatsRemaining": 33
+    }
+  },
+  {
+    "id": "search_tasting_event_english-fizz-vs-champagne-blind",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_english-fizz-vs-champagne-blind",
+    "title": {
+      "source": "negotiated",
+      "text": "English fizz vs Champagne, blind",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Groot Constantia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-23T19:00:00.000Z",
+      "seatsRemaining": 24
+    }
+  },
+  {
+    "id": "search_tasting_event_kent-harvest-walk-and-tasting",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_kent-harvest-walk-and-tasting",
+    "title": {
+      "source": "negotiated",
+      "text": "Kent harvest walk and tasting",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Leflaive"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-24T16:00:00.000Z",
+      "seatsRemaining": 4
+    }
+  },
+  {
+    "id": "search_tasting_event_napa-cabernet-five-vintages",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_napa-cabernet-five-vintages",
+    "title": {
+      "source": "negotiated",
+      "text": "Napa Cabernet: five vintages",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "E. Guigal"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-25T16:00:00.000Z",
+      "seatsRemaining": 30
+    }
+  },
+  {
+    "id": "search_tasting_event_oregon-pinot-north-to-south",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_oregon-pinot-north-to-south",
+    "title": {
+      "source": "negotiated",
+      "text": "Oregon Pinot, north to south",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Castello di Ama"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-26T16:00:00.000Z",
+      "seatsRemaining": 38
+    }
+  },
+  {
+    "id": "search_tasting_event_okanagan-icewine-and-dessert-pairing",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_okanagan-icewine-and-dessert-pairing",
+    "title": {
+      "source": "negotiated",
+      "text": "Okanagan icewine and dessert pairing",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vega Sicilia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-27T19:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_constantia-se-soet-wyne",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_constantia-se-soet-wyne",
+    "title": {
+      "source": "negotiated",
+      "text": "Constantia se soet wyne",
+      "languageTag": "af"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Schloss Johannisberg"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-28T16:00:00.000Z",
+      "seatsRemaining": 22
+    }
+  },
+  {
+    "id": "search_tasting_event_pinotage-ou-en-nuwe-styl",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_pinotage-ou-en-nuwe-styl",
+    "title": {
+      "source": "negotiated",
+      "text": "Pinotage: ou en nuwe styl",
+      "languageTag": "af"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Drouhin Oregon"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-01T16:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_elgin-se-koel-klimaat-wyne",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_elgin-se-koel-klimaat-wyne",
+    "title": {
+      "source": "negotiated",
+      "text": "Elgin se koel klimaat wyne",
+      "languageTag": "af"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-21T19:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_wynmakers-van-die-boland",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_wynmakers-van-die-boland",
+    "title": {
+      "source": "negotiated",
+      "text": "Wynmakers van die Boland",
+      "languageTag": "af"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mullineux"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-22T18:00:00.000Z",
+      "seatsRemaining": 14
+    }
+  },
+  {
+    "id": "search_tasting_event_kaapse-mousserende-wyn",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_kaapse-mousserende-wyn",
+    "title": {
+      "source": "negotiated",
+      "text": "Kaapse mousserende wyn",
+      "languageTag": "af"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Groot Constantia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-23T17:00:00.000Z",
+      "seatsRemaining": 17
+    }
+  },
+  {
+    "id": "search_tasting_event_les-vins-de-loire-au-naturel",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_les-vins-de-loire-au-naturel",
+    "title": {
+      "source": "negotiated",
+      "text": "Les vins de Loire au naturel",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Leflaive"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-24T15:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_alsace-sept-cepages",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_alsace-sept-cepages",
+    "title": {
+      "source": "negotiated",
+      "text": "Alsace: sept cépages",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "E. Guigal"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-25T19:00:00.000Z",
+      "seatsRemaining": 31
+    }
+  },
+  {
+    "id": "search_tasting_event_beaujolais-cru-par-cru",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_beaujolais-cru-par-cru",
+    "title": {
+      "source": "negotiated",
+      "text": "Beaujolais, cru par cru",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Castello di Ama"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-26T16:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_vins-du-valais-et-fondue",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_vins-du-valais-et-fondue",
+    "title": {
+      "source": "negotiated",
+      "text": "Vins du Valais et fondue",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vega Sicilia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-27T17:00:00.000Z",
+      "seatsRemaining": 4
+    }
+  },
+  {
+    "id": "search_tasting_event_sancerre-et-fromage-de-chevre",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_sancerre-et-fromage-de-chevre",
+    "title": {
+      "source": "negotiated",
+      "text": "Sancerre et fromage de chèvre",
+      "languageTag": "fr"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Schloss Johannisberg"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-28T17:00:00.000Z",
+      "seatsRemaining": 35
+    }
+  },
+  {
+    "id": "search_tasting_event_spatburgunder-aus-baden",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_spatburgunder-aus-baden",
+    "title": {
+      "source": "negotiated",
+      "text": "Spätburgunder aus Baden",
+      "languageTag": "de"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Drouhin Oregon"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-01T19:00:00.000Z",
+      "seatsRemaining": 6
+    }
+  },
+  {
+    "id": "search_tasting_event_trockenbeerenauslese-verkosten",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_trockenbeerenauslese-verkosten",
+    "title": {
+      "source": "negotiated",
+      "text": "Trockenbeerenauslese verkosten",
+      "languageTag": "de"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-21T15:00:00.000Z",
+      "seatsRemaining": 10
+    }
+  },
+  {
+    "id": "search_tasting_event_weinbergwanderung-an-der-nahe",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_weinbergwanderung-an-der-nahe",
+    "title": {
+      "source": "negotiated",
+      "text": "Weinbergwanderung an der Nahe",
+      "languageTag": "de"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mullineux"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-22T15:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_wachauer-smaragd-im-glas",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_wachauer-smaragd-im-glas",
+    "title": {
+      "source": "negotiated",
+      "text": "Wachauer Smaragd im Glas",
+      "languageTag": "de"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Groot Constantia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-23T18:00:00.000Z",
+      "seatsRemaining": 12
+    }
+  },
+  {
+    "id": "search_tasting_event_amarone-e-valpolicella-a-confronto",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_amarone-e-valpolicella-a-confronto",
+    "title": {
+      "source": "negotiated",
+      "text": "Amarone e Valpolicella a confronto",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Leflaive"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-24T17:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_nebbiolo-oltre-il-barolo",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_nebbiolo-oltre-il-barolo",
+    "title": {
+      "source": "negotiated",
+      "text": "Nebbiolo oltre il Barolo",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "E. Guigal"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-25T16:00:00.000Z"
+    }
+  },
+  {
+    "id": "search_tasting_event_prosecco-metodo-e-territorio",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_prosecco-metodo-e-territorio",
+    "title": {
+      "source": "negotiated",
+      "text": "Prosecco: metodo e territorio",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Castello di Ama"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-26T15:00:00.000Z",
+      "seatsRemaining": 36
+    }
+  },
+  {
+    "id": "search_tasting_event_vini-vulcanici-della-sicilia",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_vini-vulcanici-della-sicilia",
+    "title": {
+      "source": "negotiated",
+      "text": "Vini vulcanici della Sicilia",
+      "languageTag": "it"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vega Sicilia"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-27T19:00:00.000Z",
+      "seatsRemaining": 14
+    }
+  },
+  {
+    "id": "search_tasting_event_vinos-de-jerez-y-tapas",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_vinos-de-jerez-y-tapas",
+    "title": {
+      "source": "negotiated",
+      "text": "Vinos de Jerez y tapas",
+      "languageTag": "es"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Schloss Johannisberg"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-28T19:00:00.000Z",
+      "seatsRemaining": 13
+    }
+  },
+  {
+    "id": "search_tasting_event_garnacha-en-tres-regiones",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_garnacha-en-tres-regiones",
+    "title": {
+      "source": "negotiated",
+      "text": "Garnacha en tres regiones",
+      "languageTag": "es"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Domaine Drouhin Oregon"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-01T18:00:00.000Z",
+      "seatsRemaining": 35
+    }
+  },
+  {
+    "id": "search_tasting_event_espumosos-cava-y-metodo-tradicional",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_espumosos-cava-y-metodo-tradicional",
+    "title": {
+      "source": "negotiated",
+      "text": "Espumosos: cava y método tradicional",
+      "languageTag": "es"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-08-21T19:00:00.000Z",
+      "seatsRemaining": 40
+    }
+  },
+  {
+    "id": "search_person_user_alexandra-meyer",
     "kind": "PERSON",
     "facet": "people",
-    "entityId": "user_alexandra_meyer",
+    "entityId": "user_alexandra-meyer",
     "title": {
       "source": "canonical",
       "text": "Alexandra Meyer"
@@ -492,14 +5705,14 @@
     },
     "meta": {
       "kind": "noteCount",
-      "count": 42
+      "count": 241
     }
   },
   {
-    "id": "search_person_thandi_nkosi",
+    "id": "search_person_user_thandi-nkosi",
     "kind": "PERSON",
     "facet": "people",
-    "entityId": "user_thandi_nkosi",
+    "entityId": "user_thandi-nkosi",
     "title": {
       "source": "canonical",
       "text": "Thandi Nkosi"
@@ -510,14 +5723,14 @@
     },
     "meta": {
       "kind": "noteCount",
-      "count": 214
+      "count": 274
     }
   },
   {
-    "id": "search_person_nomsa_dlamini",
+    "id": "search_person_user_nomsa-dlamini",
     "kind": "PERSON",
     "facet": "people",
-    "entityId": "user_nomsa_dlamini",
+    "entityId": "user_nomsa-dlamini",
     "title": {
       "source": "canonical",
       "text": "Nomsa Dlamini"
@@ -528,7 +5741,889 @@
     },
     "meta": {
       "kind": "noteCount",
-      "count": 88
+      "count": 116
+    }
+  },
+  {
+    "id": "search_person_user_johan-terblanche",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_johan-terblanche",
+    "title": {
+      "source": "canonical",
+      "text": "Johan Terblanche"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 148
+    }
+  },
+  {
+    "id": "search_person_user_pieter-van-zyl",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_pieter-van-zyl",
+    "title": {
+      "source": "canonical",
+      "text": "Pieter van Zyl"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 192
+    }
+  },
+  {
+    "id": "search_person_user_zanele-mokoena",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_zanele-mokoena",
+    "title": {
+      "source": "canonical",
+      "text": "Zanele Mokoena"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 118
+    }
+  },
+  {
+    "id": "search_person_user_riaan-botha",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_riaan-botha",
+    "title": {
+      "source": "canonical",
+      "text": "Riaan Botha"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "winemaker"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 112
+    }
+  },
+  {
+    "id": "search_person_user_lerato-mabaso",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_lerato-mabaso",
+    "title": {
+      "source": "canonical",
+      "text": "Lerato Mabaso"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 295
+    }
+  },
+  {
+    "id": "search_person_user_sipho-khumalo",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_sipho-khumalo",
+    "title": {
+      "source": "canonical",
+      "text": "Sipho Khumalo"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "venue"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 52
+    }
+  },
+  {
+    "id": "search_person_user_anneke-du-plessis",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_anneke-du-plessis",
+    "title": {
+      "source": "canonical",
+      "text": "Anneke du Plessis"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "winemaker"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 17
+    }
+  },
+  {
+    "id": "search_person_user_camille-dubois",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_camille-dubois",
+    "title": {
+      "source": "canonical",
+      "text": "Camille Dubois"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "sommelier"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 131
+    }
+  },
+  {
+    "id": "search_person_user_etienne-laurent",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_etienne-laurent",
+    "title": {
+      "source": "canonical",
+      "text": "Étienne Laurent"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "winemaker"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 147
+    }
+  },
+  {
+    "id": "search_person_user_marie-claire-fontaine",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_marie-claire-fontaine",
+    "title": {
+      "source": "canonical",
+      "text": "Marie-Claire Fontaine"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 95
+    }
+  },
+  {
+    "id": "search_person_user_olivier-rousseau",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_olivier-rousseau",
+    "title": {
+      "source": "canonical",
+      "text": "Olivier Rousseau"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "distributor"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 285
+    }
+  },
+  {
+    "id": "search_person_user_amelie-girard",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_amelie-girard",
+    "title": {
+      "source": "canonical",
+      "text": "Amélie Girard"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 85
+    }
+  },
+  {
+    "id": "search_person_user_klaus-bergmann",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_klaus-bergmann",
+    "title": {
+      "source": "canonical",
+      "text": "Klaus Bergmann"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "winemaker"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 208
+    }
+  },
+  {
+    "id": "search_person_user_ingrid-hoffmann",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_ingrid-hoffmann",
+    "title": {
+      "source": "canonical",
+      "text": "Ingrid Hoffmann"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 297
+    }
+  },
+  {
+    "id": "search_person_user_sebastian-vogel",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_sebastian-vogel",
+    "title": {
+      "source": "canonical",
+      "text": "Sebastian Vogel"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "sommelier"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 282
+    }
+  },
+  {
+    "id": "search_person_user_lena-schafer",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_lena-schafer",
+    "title": {
+      "source": "canonical",
+      "text": "Lena Schäfer"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 1
+    }
+  },
+  {
+    "id": "search_person_user_giulia-rossi",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_giulia-rossi",
+    "title": {
+      "source": "canonical",
+      "text": "Giulia Rossi"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "sommelier"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 219
+    }
+  },
+  {
+    "id": "search_person_user_marco-bianchi",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_marco-bianchi",
+    "title": {
+      "source": "canonical",
+      "text": "Marco Bianchi"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "winemaker"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 149
+    }
+  },
+  {
+    "id": "search_person_user_francesca-conti",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_francesca-conti",
+    "title": {
+      "source": "canonical",
+      "text": "Francesca Conti"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 304
+    }
+  },
+  {
+    "id": "search_person_user_alessandro-ferrari",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_alessandro-ferrari",
+    "title": {
+      "source": "canonical",
+      "text": "Alessandro Ferrari"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 65
+    }
+  },
+  {
+    "id": "search_person_user_lucia-fernandez",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_lucia-fernandez",
+    "title": {
+      "source": "canonical",
+      "text": "Lucía Fernández"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "sommelier"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 6
+    }
+  },
+  {
+    "id": "search_person_user_javier-moreno",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_javier-moreno",
+    "title": {
+      "source": "canonical",
+      "text": "Javier Moreno"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "importer"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 193
+    }
+  },
+  {
+    "id": "search_person_user_carmen-ortiz",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_carmen-ortiz",
+    "title": {
+      "source": "canonical",
+      "text": "Carmen Ortiz"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 45
+    }
+  },
+  {
+    "id": "search_person_user_diego-ramirez",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_diego-ramirez",
+    "title": {
+      "source": "canonical",
+      "text": "Diego Ramírez"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 314
+    }
+  },
+  {
+    "id": "search_person_user_emily-carter",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_emily-carter",
+    "title": {
+      "source": "canonical",
+      "text": "Emily Carter"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "wine_club"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 261
+    }
+  },
+  {
+    "id": "search_person_user_james-whitfield",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_james-whitfield",
+    "title": {
+      "source": "canonical",
+      "text": "James Whitfield"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 90
+    }
+  },
+  {
+    "id": "search_person_user_sarah-bennett",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_sarah-bennett",
+    "title": {
+      "source": "canonical",
+      "text": "Sarah Bennett"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "sommelier"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 212
+    }
+  },
+  {
+    "id": "search_person_user_michael-o-donnell",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_michael-o-donnell",
+    "title": {
+      "source": "canonical",
+      "text": "Michael O'Donnell"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 102
+    }
+  },
+  {
+    "id": "search_person_user_claire-beaumont",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_claire-beaumont",
+    "title": {
+      "source": "canonical",
+      "text": "Claire Beaumont"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "venue"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 320
+    }
+  },
+  {
+    "id": "search_person_user_hannah-fischer",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_hannah-fischer",
+    "title": {
+      "source": "canonical",
+      "text": "Hannah Fischer"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 8
+    }
+  },
+  {
+    "id": "search_person_user_tobias-wagner",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_tobias-wagner",
+    "title": {
+      "source": "canonical",
+      "text": "Tobias Wagner"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "distributor"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 41
+    }
+  },
+  {
+    "id": "search_person_user_isabella-marino",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_isabella-marino",
+    "title": {
+      "source": "canonical",
+      "text": "Isabella Marino"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 267
+    }
+  },
+  {
+    "id": "search_person_user_rafael-costa",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_rafael-costa",
+    "title": {
+      "source": "canonical",
+      "text": "Rafael Costa"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 312
+    }
+  },
+  {
+    "id": "search_person_user_sophie-laurent",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_sophie-laurent",
+    "title": {
+      "source": "canonical",
+      "text": "Sophie Laurent"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "sommelier"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 258
+    }
+  },
+  {
+    "id": "search_person_user_daniel-brandt",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_daniel-brandt",
+    "title": {
+      "source": "canonical",
+      "text": "Daniel Brandt"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 297
+    }
+  },
+  {
+    "id": "search_person_user_nadia-haddad",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_nadia-haddad",
+    "title": {
+      "source": "canonical",
+      "text": "Nadia Haddad"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 60
+    }
+  },
+  {
+    "id": "search_person_user_kobus-steyn",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_kobus-steyn",
+    "title": {
+      "source": "canonical",
+      "text": "Kobus Steyn"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "producer"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 317
+    }
+  },
+  {
+    "id": "search_person_user_yolanda-petersen",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_yolanda-petersen",
+    "title": {
+      "source": "canonical",
+      "text": "Yolanda Petersen"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 264
+    }
+  },
+  {
+    "id": "search_person_user_bianca-adams",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_bianca-adams",
+    "title": {
+      "source": "canonical",
+      "text": "Bianca Adams"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 236
+    }
+  },
+  {
+    "id": "search_person_user_werner-kruger",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_werner-kruger",
+    "title": {
+      "source": "canonical",
+      "text": "Werner Kruger"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "winemaker"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 91
+    }
+  },
+  {
+    "id": "search_person_user_chiara-lombardi",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_chiara-lombardi",
+    "title": {
+      "source": "canonical",
+      "text": "Chiara Lombardi"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 282
+    }
+  },
+  {
+    "id": "search_person_user_paulo-silva",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_paulo-silva",
+    "title": {
+      "source": "canonical",
+      "text": "Paulo Silva"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "importer"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 163
+    }
+  },
+  {
+    "id": "search_person_user_antoine-mercier",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_antoine-mercier",
+    "title": {
+      "source": "canonical",
+      "text": "Antoine Mercier"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 54
+    }
+  },
+  {
+    "id": "search_person_user_greta-bauer",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_greta-bauer",
+    "title": {
+      "source": "canonical",
+      "text": "Greta Bauer"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 279
+    }
+  },
+  {
+    "id": "search_person_user_nomvula-sithole",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_nomvula-sithole",
+    "title": {
+      "source": "canonical",
+      "text": "Nomvula Sithole"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "sommelier"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 227
+    }
+  },
+  {
+    "id": "search_person_user_hendrik-de-villiers",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_hendrik-de-villiers",
+    "title": {
+      "source": "canonical",
+      "text": "Hendrik de Villiers"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "collector"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 16
+    }
+  },
+  {
+    "id": "search_person_user_valentina-russo",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_valentina-russo",
+    "title": {
+      "source": "canonical",
+      "text": "Valentina Russo"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 206
+    }
+  },
+  {
+    "id": "search_person_user_tomas-novak",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_tomas-novak",
+    "title": {
+      "source": "canonical",
+      "text": "Tomas Novak"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "distributor"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 247
+    }
+  },
+  {
+    "id": "search_person_user_ayanda-mthembu",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_ayanda-mthembu",
+    "title": {
+      "source": "canonical",
+      "text": "Ayanda Mthembu"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 143
     }
   }
 ]

@@ -1,0 +1,3597 @@
+[
+  {
+    "id": "rubicon-2018",
+    "wineLabelId": "rubicon",
+    "name": "Rubicon",
+    "estate": "Meerlust Estate",
+    "producerId": "estate_meerlust",
+    "vintage": 2018,
+    "year": 2018,
+    "countryCode": "ZA",
+    "region": "Stellenbosch",
+    "regionId": "region_stellenbosch",
+    "appellation": {
+      "id": "app_wo_stellenbosch",
+      "name": "Stellenbosch",
+      "system": "WO"
+    },
+    "styleName": "Bordeaux Blend",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet_sauvignon",
+        "grapeName": "Cabernet Sauvignon",
+        "percentage": 63
+      },
+      {
+        "grapeVarietyId": "grape_merlot",
+        "grapeName": "Merlot",
+        "percentage": 23
+      },
+      {
+        "grapeVarietyId": "grape_cabernet_franc",
+        "grapeName": "Cabernet Franc",
+        "percentage": 10
+      },
+      {
+        "grapeVarietyId": "grape_petit_verdot",
+        "grapeName": "Petit Verdot",
+        "percentage": 4
+      }
+    ],
+    "location": {
+      "area": "Stellenbosch"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+    "price": {
+      "amountMinorUnits": 89500,
+      "currency": "ZAR"
+    },
+    "badge": {
+      "label": "This Week’s Pick"
+    },
+    "isFeatured": true,
+    "verdict": "Essential",
+    "provenance": "verified",
+    "source": {
+      "name": "Meerlust Estate",
+      "tier": "producer",
+      "role": "verified producer"
+    },
+    "noteCount": 1480
+  },
+  {
+    "id": "kanonkop-pinotage-2019",
+    "wineLabelId": "kanonkop-pinotage",
+    "name": "Kanonkop Pinotage",
+    "estate": "Kanonkop Estate",
+    "producerId": "estate_kanonkop",
+    "vintage": 2019,
+    "year": 2019,
+    "countryCode": "ZA",
+    "region": "Stellenbosch",
+    "regionId": "region_stellenbosch",
+    "appellation": {
+      "id": "app_wo_stellenbosch",
+      "name": "Stellenbosch",
+      "system": "WO"
+    },
+    "styleName": "Pinotage",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinotage",
+        "grapeName": "Pinotage",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Stellenbosch"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+    "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+    "price": {
+      "amountMinorUnits": 84500,
+      "currency": "ZAR"
+    },
+    "badge": {
+      "label": "Editor’s Pick"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "verified",
+    "source": {
+      "name": "Kanonkop Estate",
+      "tier": "producer",
+      "role": "verified producer"
+    },
+    "noteCount": 1280
+  },
+  {
+    "id": "palladius-2010",
+    "wineLabelId": "palladius",
+    "name": "Palladius",
+    "estate": "Sadie Family Wines",
+    "producerId": "estate_sadie_family",
+    "vintage": 2010,
+    "year": 2010,
+    "countryCode": "ZA",
+    "region": "Swartland",
+    "regionId": "region_swartland",
+    "appellation": {
+      "id": "app_wo_swartland",
+      "name": "Swartland",
+      "system": "WO"
+    },
+    "styleName": "White Blend",
+    "color": "white",
+    "location": {
+      "area": "Swartland"
+    },
+    "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png",
+    "description": "Iconic Swartland white blend delivering depth, salinity, and layered stone-fruit complexity.",
+    "price": {
+      "amountMinorUnits": 68000,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "verified",
+    "source": {
+      "name": "Sadie Family Wines",
+      "tier": "producer",
+      "role": "verified producer"
+    },
+    "noteCount": 172
+  },
+  {
+    "id": "boekenhoutskloof-syrah-2020",
+    "wineLabelId": "boekenhoutskloof-syrah",
+    "name": "Syrah",
+    "estate": "Boekenhoutskloof",
+    "producerId": "estate_boekenhoutskloof",
+    "vintage": 2020,
+    "year": 2020,
+    "countryCode": "ZA",
+    "region": "Franschhoek",
+    "regionId": "region_franschhoek",
+    "styleName": "Syrah",
+    "color": "red",
+    "location": {
+      "area": "Franschhoek"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+    "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+    "price": {
+      "amountMinorUnits": 69500,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "verified",
+    "source": {
+      "name": "Boekenhoutskloof",
+      "tier": "producer",
+      "role": "verified producer"
+    },
+    "noteCount": 980
+  },
+  {
+    "id": "tokara-sauvignon-blanc-2022",
+    "wineLabelId": "tokara-sauvignon-blanc",
+    "name": "Sauvignon Blanc Reserve",
+    "estate": "Tokara",
+    "vintage": 2022,
+    "year": 2022,
+    "countryCode": "ZA",
+    "region": "Stellenbosch",
+    "styleName": "Sauvignon Blanc",
+    "color": "white",
+    "location": {
+      "area": "Stellenbosch"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+    "description": "Bright and mineral, with citrus and fresh-cut herbs. Clean finish, great with seafood.",
+    "price": {
+      "amountMinorUnits": 19500,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "community",
+    "source": {
+      "name": "Community knowledge",
+      "role": "640 member notes"
+    },
+    "noteCount": 640
+  },
+  {
+    "id": "lamotte-chardonnay-2021",
+    "wineLabelId": "lamotte-chardonnay",
+    "name": "Chardonnay",
+    "estate": "La Motte",
+    "vintage": 2021,
+    "year": 2021,
+    "countryCode": "ZA",
+    "region": "Franschhoek",
+    "styleName": "Chardonnay",
+    "color": "white",
+    "location": {
+      "area": "Franschhoek"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&auto=format&fit=crop&q=80",
+    "description": "Creamy texture with citrus lift. Subtle oak, balanced and modern in style.",
+    "price": {
+      "amountMinorUnits": 32000,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "community",
+    "source": {
+      "name": "Community knowledge",
+      "role": "520 member notes"
+    },
+    "noteCount": 520
+  },
+  {
+    "id": "de-toren-book-xvii-2016",
+    "wineLabelId": "de-toren-book-xvii",
+    "name": "Book 17 XVII",
+    "estate": "De Toren",
+    "vintage": 2016,
+    "year": 2016,
+    "countryCode": "ZA",
+    "region": "Stellenbosch",
+    "styleName": "Bordeaux Blend",
+    "color": "red",
+    "location": {
+      "area": "Stellenbosch"
+    },
+    "imageUrl": "https://images.vivino.com/thumbs/43se9NpdSPKkbPdGMbRV6Q_pb_x300.png",
+    "description": "Powerful Bordeaux-style blend from Stellenbosch with cassis, cedar, and polished tannins.",
+    "price": {
+      "amountMinorUnits": 71000,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "listed",
+    "source": {
+      "name": "Great Domaines",
+      "tier": "distributor",
+      "role": "distributor"
+    },
+    "noteCount": 43
+  },
+  {
+    "id": "mullineux-elandskloof-chardonnay-2016",
+    "wineLabelId": "mullineux-elandskloof-chardonnay",
+    "name": "Elandskloof Chardonnay",
+    "estate": "Mullineux",
+    "vintage": 2016,
+    "year": 2016,
+    "countryCode": "ZA",
+    "region": "Overberg",
+    "styleName": "Chardonnay",
+    "color": "white",
+    "location": {
+      "area": "Overberg"
+    },
+    "imageUrl": "https://images.vivino.com/thumbs/Cj9S8xx7SAuLtiCznUN3yg_pb_x300.png",
+    "description": "Cool-climate Overberg Chardonnay with citrus precision, flinty reduction, and elegant structure.",
+    "price": {
+      "amountMinorUnits": 70000,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "community",
+    "source": {
+      "name": "Community knowledge",
+      "role": "120 member notes"
+    },
+    "noteCount": 120
+  },
+  {
+    "id": "groot-constantia-grand-constance-2014",
+    "wineLabelId": "groot-constantia-grand-constance",
+    "name": "Grand Constance",
+    "estate": "Groot Constantia",
+    "vintage": 2014,
+    "year": 2014,
+    "countryCode": "ZA",
+    "region": "Constantia",
+    "styleName": "Dessert",
+    "color": "fortified",
+    "location": {
+      "area": "Constantia"
+    },
+    "imageUrl": "https://images.vivino.com/thumbs/DODNA6a0RB6zZjm_6lAL6Q_pb_x300.png",
+    "description": "Classic Constantia dessert wine with apricot, honeyed citrus, and vibrant balancing acidity.",
+    "price": {
+      "amountMinorUnits": 72000,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "verified",
+    "source": {
+      "name": "Groot Constantia",
+      "tier": "producer",
+      "role": "verified producer"
+    },
+    "noteCount": 219
+  },
+  {
+    "id": "steenberg-lady-r-mcc-2011",
+    "wineLabelId": "steenberg-lady-r-mcc",
+    "name": "Lady R MCC",
+    "estate": "Steenberg",
+    "vintage": 2011,
+    "year": 2011,
+    "countryCode": "ZA",
+    "region": "Constantia",
+    "styleName": "Cap Classique",
+    "color": "sparkling",
+    "location": {
+      "area": "Constantia"
+    },
+    "imageUrl": "https://images.vivino.com/thumbs/cctpKJLORTmTgAtSCY8ycQ_pb_x300.png",
+    "description": "Method cap classique sparkling with brioche, lemon zest, and persistent fine bubbles.",
+    "price": {
+      "amountMinorUnits": 65000,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "community",
+    "source": {
+      "name": "Community knowledge",
+      "role": "38 member notes"
+    },
+    "noteCount": 38
+  },
+  {
+    "id": "pichon-baron-2016",
+    "wineLabelId": "pichon-baron",
+    "name": "Château Pichon Baron",
+    "estate": "Château Pichon Baron",
+    "producerId": "producer_pichon_baron",
+    "vintage": 2016,
+    "year": 2016,
+    "countryCode": "FR",
+    "region": "Pauillac",
+    "regionId": "region_pauillac",
+    "appellation": {
+      "id": "app_pauillac",
+      "name": "Pauillac",
+      "system": "AOC"
+    },
+    "styleName": "Bordeaux Blend",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet_sauvignon",
+        "grapeName": "Cabernet Sauvignon",
+        "percentage": 78
+      },
+      {
+        "grapeVarietyId": "grape_merlot",
+        "grapeName": "Merlot",
+        "percentage": 22
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "A Pauillac second-growth: cassis, graphite and cedar over a long, structured spine.",
+    "price": {
+      "amountMinorUnits": 245000,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "listed",
+    "source": {
+      "name": "Great Domaines",
+      "tier": "distributor",
+      "role": "distributor"
+    },
+    "noteCount": 64
+  },
+  {
+    "id": "vietti-castiglione-barolo-2018",
+    "wineLabelId": "vietti-castiglione-barolo",
+    "name": "Castiglione Barolo",
+    "estate": "Vietti",
+    "producerId": "producer_vietti",
+    "vintage": 2018,
+    "year": 2018,
+    "countryCode": "IT",
+    "region": "Barolo",
+    "regionId": "region_barolo",
+    "appellation": {
+      "id": "app_barolo",
+      "name": "Barolo",
+      "system": "DOCG"
+    },
+    "styleName": "Nebbiolo",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_nebbiolo",
+        "grapeName": "Nebbiolo",
+        "percentage": 100
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Rose petal, tar and red cherry over Nebbiolo’s fine, insistent tannin. Built for the long haul.",
+    "price": {
+      "amountMinorUnits": 129000,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "listed",
+    "source": {
+      "name": "Great Domaines",
+      "tier": "distributor",
+      "role": "distributor"
+    },
+    "noteCount": 51
+  },
+  {
+    "id": "ridge-monte-bello-2019",
+    "wineLabelId": "ridge-monte-bello",
+    "name": "Monte Bello",
+    "estate": "Ridge Vineyards",
+    "producerId": "producer_ridge",
+    "vintage": 2019,
+    "year": 2019,
+    "countryCode": "US",
+    "region": "Napa Valley",
+    "regionId": "region_napa_valley",
+    "appellation": {
+      "id": "app_napa_valley",
+      "name": "Napa Valley",
+      "system": "AVA"
+    },
+    "styleName": "Cabernet Sauvignon",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet_sauvignon",
+        "grapeName": "Cabernet Sauvignon",
+        "percentage": 96
+      },
+      {
+        "grapeVarietyId": "grape_petit_verdot",
+        "grapeName": "Petit Verdot",
+        "percentage": 4
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "A California benchmark: blackcurrant, bay leaf and a savoury, age-worthy frame.",
+    "price": {
+      "amountMinorUnits": 420000,
+      "currency": "USD"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "community",
+    "source": {
+      "name": "Community knowledge",
+      "role": "88 member notes"
+    },
+    "noteCount": 88
+  },
+  {
+    "id": "larmandier-bernier-latitude-nv",
+    "wineLabelId": "larmandier-bernier-latitude",
+    "name": "Latitude Extra Brut",
+    "estate": "Larmandier-Bernier",
+    "producerId": "producer_larmandier_bernier",
+    "vintageDisplay": "NV",
+    "countryCode": "FR",
+    "region": "Champagne",
+    "regionId": "region_champagne",
+    "appellation": {
+      "id": "app_champagne",
+      "name": "Champagne",
+      "system": "AOC"
+    },
+    "styleName": "Champagne",
+    "color": "sparkling",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_chardonnay",
+        "grapeName": "Chardonnay",
+        "percentage": 100
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Grower Champagne from Vertus — chalky, precise Blanc de Blancs with a fine, saline finish.",
+    "price": {
+      "amountMinorUnits": 98000,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "listed",
+    "source": {
+      "name": "Great Domaines",
+      "tier": "distributor",
+      "role": "distributor"
+    },
+    "noteCount": 37
+  },
+  {
+    "id": "rubicon-2010-meerlust-est",
+    "wineLabelId": "rubicon",
+    "name": "Rubicon",
+    "estate": "Meerlust Estate",
+    "producerId": "estate_meerlust-estate",
+    "vintage": 2010,
+    "year": 2010,
+    "countryCode": "ZA",
+    "region": "Stellenbosch",
+    "regionId": "region_stellenbosch",
+    "appellation": {
+      "id": "app_stellenbosch",
+      "name": "Stellenbosch",
+      "system": "WO"
+    },
+    "styleName": "Merlot",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_merlot",
+        "grapeName": "Merlot",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Stellenbosch"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Rubicon from Meerlust Estate, Stellenbosch.",
+    "price": {
+      "amountMinorUnits": 128000,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "verified",
+    "noteCount": 420
+  },
+  {
+    "id": "paul-sauer-2011-kanonkop-est",
+    "wineLabelId": "paul-sauer",
+    "name": "Paul Sauer",
+    "estate": "Kanonkop Estate",
+    "producerId": "estate_kanonkop-estate",
+    "vintage": 2011,
+    "year": 2011,
+    "countryCode": "ZA",
+    "region": "Stellenbosch",
+    "regionId": "region_stellenbosch",
+    "appellation": {
+      "id": "app_stellenbosch",
+      "name": "Stellenbosch",
+      "system": "WO"
+    },
+    "styleName": "Barbera",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_barbera",
+        "grapeName": "Barbera",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Stellenbosch"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Paul Sauer from Kanonkop Estate, Stellenbosch.",
+    "price": {
+      "amountMinorUnits": 189600,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "verified",
+    "noteCount": 872
+  },
+  {
+    "id": "estate-reserve-2017-rust-en-vred",
+    "wineLabelId": "estate-reserve",
+    "name": "Estate Reserve",
+    "estate": "Rust en Vrede",
+    "producerId": "estate_rust-en-vrede",
+    "vintage": 2017,
+    "year": 2017,
+    "countryCode": "ZA",
+    "region": "Stellenbosch",
+    "regionId": "region_stellenbosch",
+    "appellation": {
+      "id": "app_stellenbosch",
+      "name": "Stellenbosch",
+      "system": "WO"
+    },
+    "styleName": "Pinot Noir",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinot-noir",
+        "grapeName": "Pinot Noir",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Stellenbosch"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Estate Reserve from Rust en Vrede, Stellenbosch.",
+    "price": {
+      "amountMinorUnits": 150400,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "listed",
+    "noteCount": 118
+  },
+  {
+    "id": "the-mint-2010-thelema-moun",
+    "wineLabelId": "the-mint",
+    "name": "The Mint",
+    "estate": "Thelema Mountain Vineyards",
+    "producerId": "estate_thelema-mountain-vineyards",
+    "vintage": 2010,
+    "year": 2010,
+    "countryCode": "ZA",
+    "region": "Stellenbosch",
+    "regionId": "region_stellenbosch",
+    "appellation": {
+      "id": "app_stellenbosch",
+      "name": "Stellenbosch",
+      "system": "WO"
+    },
+    "styleName": "Nerello Mascalese",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_nerello-mascalese",
+        "grapeName": "Nerello Mascalese",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Stellenbosch"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "The Mint from Thelema Mountain Vineyards, Stellenbosch.",
+    "price": {
+      "amountMinorUnits": 95600,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "listed",
+    "noteCount": 862
+  },
+  {
+    "id": "directors-reserve-2021-tokara",
+    "wineLabelId": "directors-reserve",
+    "name": "Directors Reserve",
+    "estate": "Tokara",
+    "producerId": "estate_tokara",
+    "vintage": 2021,
+    "year": 2021,
+    "countryCode": "ZA",
+    "region": "Stellenbosch",
+    "regionId": "region_stellenbosch",
+    "appellation": {
+      "id": "app_stellenbosch",
+      "name": "Stellenbosch",
+      "system": "WO"
+    },
+    "styleName": "Pinot Gris",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinot-gris",
+        "grapeName": "Pinot Gris",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Stellenbosch"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Directors Reserve from Tokara, Stellenbosch.",
+    "price": {
+      "amountMinorUnits": 16800,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "verified",
+    "noteCount": 201
+  },
+  {
+    "id": "book-xvii-2019-de-toren",
+    "wineLabelId": "book-xvii",
+    "name": "Book XVII",
+    "estate": "De Toren",
+    "producerId": "estate_de-toren",
+    "vintage": 2019,
+    "year": 2019,
+    "countryCode": "ZA",
+    "region": "Stellenbosch",
+    "regionId": "region_stellenbosch",
+    "appellation": {
+      "id": "app_stellenbosch",
+      "name": "Stellenbosch",
+      "system": "WO"
+    },
+    "styleName": "Chenin Blanc",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_chenin-blanc",
+        "grapeName": "Chenin Blanc",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Stellenbosch"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Book XVII from De Toren, Stellenbosch.",
+    "price": {
+      "amountMinorUnits": 30400,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "community",
+    "noteCount": 637
+  },
+  {
+    "id": "palladius-2011-sadie-family",
+    "wineLabelId": "palladius",
+    "name": "Palladius",
+    "estate": "Sadie Family Wines",
+    "producerId": "estate_sadie-family-wines",
+    "vintage": 2011,
+    "year": 2011,
+    "countryCode": "ZA",
+    "region": "Swartland",
+    "regionId": "region_swartland",
+    "appellation": {
+      "id": "app_swartland",
+      "name": "Swartland",
+      "system": "WO"
+    },
+    "styleName": "Chardonnay",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_chardonnay",
+        "grapeName": "Chardonnay",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Swartland"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Palladius from Sadie Family Wines, Swartland.",
+    "price": {
+      "amountMinorUnits": 186800,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "verified",
+    "noteCount": 309
+  },
+  {
+    "id": "columella-2017-mullineux",
+    "wineLabelId": "columella",
+    "name": "Columella",
+    "estate": "Mullineux",
+    "producerId": "estate_mullineux",
+    "vintage": 2017,
+    "year": 2017,
+    "countryCode": "ZA",
+    "region": "Swartland",
+    "regionId": "region_swartland",
+    "appellation": {
+      "id": "app_swartland",
+      "name": "Swartland",
+      "system": "WO"
+    },
+    "styleName": "Palomino",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_palomino",
+        "grapeName": "Palomino",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Swartland"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Columella from Mullineux, Swartland.",
+    "price": {
+      "amountMinorUnits": 12800,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "listed",
+    "noteCount": 588
+  },
+  {
+    "id": "old-vine-chenin-2014-a-a-badenhor",
+    "wineLabelId": "old-vine-chenin",
+    "name": "Old Vine Chenin",
+    "estate": "A.A. Badenhorst",
+    "producerId": "estate_a-a-badenhorst",
+    "vintage": 2014,
+    "year": 2014,
+    "countryCode": "ZA",
+    "region": "Swartland",
+    "regionId": "region_swartland",
+    "appellation": {
+      "id": "app_swartland",
+      "name": "Swartland",
+      "system": "WO"
+    },
+    "styleName": "Gewürztraminer",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_gewurztraminer",
+        "grapeName": "Gewürztraminer",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Swartland"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Old Vine Chenin from A.A. Badenhorst, Swartland.",
+    "price": {
+      "amountMinorUnits": 41200,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "community",
+    "noteCount": 317
+  },
+  {
+    "id": "vin-de-constance-2018-la-motte",
+    "wineLabelId": "vin-de-constance",
+    "name": "Vin de Constance",
+    "estate": "La Motte",
+    "producerId": "estate_la-motte",
+    "vintage": 2018,
+    "year": 2018,
+    "countryCode": "ZA",
+    "region": "Franschhoek",
+    "regionId": "region_franschhoek",
+    "appellation": {
+      "id": "app_franschhoek",
+      "name": "Franschhoek",
+      "system": "WO"
+    },
+    "styleName": "Mourvèdre",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_mourvedre",
+        "grapeName": "Mourvèdre",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Franschhoek"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Vin de Constance from La Motte, Franschhoek.",
+    "price": {
+      "amountMinorUnits": 18400,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "listed",
+    "noteCount": 882
+  },
+  {
+    "id": "grand-constance-2018-hamilton-rus",
+    "wineLabelId": "grand-constance",
+    "name": "Grand Constance",
+    "estate": "Hamilton Russell Vineyards",
+    "producerId": "estate_hamilton-russell-vineyards",
+    "vintage": 2018,
+    "year": 2018,
+    "countryCode": "ZA",
+    "region": "Hemel-en-Aarde",
+    "regionId": "region_hemel-en-aarde",
+    "appellation": {
+      "id": "app_hemel-en-aarde",
+      "name": "Hemel-en-Aarde",
+      "system": "WO"
+    },
+    "styleName": "Mourvèdre",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_mourvedre",
+        "grapeName": "Mourvèdre",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Hemel-en-Aarde"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Grand Constance from Hamilton Russell Vineyards, Hemel-en-Aarde.",
+    "price": {
+      "amountMinorUnits": 36800,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "community",
+    "noteCount": 528
+  },
+  {
+    "id": "pinotage-reserve-2018-bouchard-fin",
+    "wineLabelId": "pinotage-reserve",
+    "name": "Pinotage Reserve",
+    "estate": "Bouchard Finlayson",
+    "producerId": "estate_bouchard-finlayson",
+    "vintage": 2018,
+    "year": 2018,
+    "countryCode": "ZA",
+    "region": "Hemel-en-Aarde",
+    "regionId": "region_hemel-en-aarde",
+    "appellation": {
+      "id": "app_hemel-en-aarde",
+      "name": "Hemel-en-Aarde",
+      "system": "WO"
+    },
+    "styleName": "Albariño",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_albarino",
+        "grapeName": "Albariño",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Hemel-en-Aarde"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Pinotage Reserve from Bouchard Finlayson, Hemel-en-Aarde.",
+    "price": {
+      "amountMinorUnits": 49200,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "verified",
+    "noteCount": 223
+  },
+  {
+    "id": "klein-constantia-chenin-blanc-nv",
+    "wineLabelId": "chenin-blanc",
+    "name": "Chenin Blanc",
+    "estate": "Klein Constantia",
+    "producerId": "estate_klein-constantia",
+    "countryCode": "ZA",
+    "region": "Constantia",
+    "regionId": "region_constantia",
+    "appellation": {
+      "id": "app_constantia",
+      "name": "Constantia",
+      "system": "WO"
+    },
+    "styleName": "Tempranillo",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_tempranillo",
+        "grapeName": "Tempranillo",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Constantia"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Chenin Blanc from Klein Constantia, Constantia.",
+    "price": {
+      "amountMinorUnits": 146400,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "listed",
+    "noteCount": 432
+  },
+  {
+    "id": "sauvignon-blanc-reserve-2010-groot-consta",
+    "wineLabelId": "sauvignon-blanc-reserve",
+    "name": "Sauvignon Blanc Reserve",
+    "estate": "Groot Constantia",
+    "producerId": "estate_groot-constantia",
+    "vintage": 2010,
+    "year": 2010,
+    "countryCode": "ZA",
+    "region": "Constantia",
+    "regionId": "region_constantia",
+    "appellation": {
+      "id": "app_constantia",
+      "name": "Constantia",
+      "system": "WO"
+    },
+    "styleName": "Cabernet Sauvignon",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet-sauvignon",
+        "grapeName": "Cabernet Sauvignon",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Constantia"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Sauvignon Blanc Reserve from Groot Constantia, Constantia.",
+    "price": {
+      "amountMinorUnits": 96400,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "verified",
+    "noteCount": 726
+  },
+  {
+    "id": "cabernet-sauvignon-2020-paul-cluver",
+    "wineLabelId": "cabernet-sauvignon",
+    "name": "Cabernet Sauvignon",
+    "estate": "Paul Cluver",
+    "producerId": "estate_paul-cluver",
+    "vintage": 2020,
+    "year": 2020,
+    "countryCode": "ZA",
+    "region": "Elgin",
+    "regionId": "region_elgin",
+    "appellation": {
+      "id": "app_elgin",
+      "name": "Elgin",
+      "system": "WO"
+    },
+    "styleName": "Pinotage",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinotage",
+        "grapeName": "Pinotage",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Elgin"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Cabernet Sauvignon from Paul Cluver, Elgin.",
+    "price": {
+      "amountMinorUnits": 114400,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "listed",
+    "noteCount": 810
+  },
+  {
+    "id": "syrah-2022-springfield-",
+    "wineLabelId": "syrah",
+    "name": "Syrah",
+    "estate": "Springfield Estate",
+    "producerId": "estate_springfield-estate",
+    "vintage": 2022,
+    "year": 2022,
+    "countryCode": "ZA",
+    "region": "Robertson",
+    "regionId": "region_robertson",
+    "appellation": {
+      "id": "app_robertson",
+      "name": "Robertson",
+      "system": "WO"
+    },
+    "styleName": "Cabernet Franc",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet-franc",
+        "grapeName": "Cabernet Franc",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Robertson"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Syrah from Springfield Estate, Robertson.",
+    "price": {
+      "amountMinorUnits": 39200,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "verified",
+    "noteCount": 65
+  },
+  {
+    "id": "shiraz-2017-cederberg-pr",
+    "wineLabelId": "shiraz",
+    "name": "Shiraz",
+    "estate": "Cederberg Private Cellar",
+    "producerId": "estate_cederberg-private-cellar",
+    "vintage": 2017,
+    "year": 2017,
+    "countryCode": "ZA",
+    "region": "Cederberg",
+    "regionId": "region_cederberg",
+    "appellation": {
+      "id": "app_cederberg",
+      "name": "Cederberg",
+      "system": "WO"
+    },
+    "styleName": "Gewürztraminer",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_gewurztraminer",
+        "grapeName": "Gewürztraminer",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Cederberg"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Shiraz from Cederberg Private Cellar, Cederberg.",
+    "price": {
+      "amountMinorUnits": 156000,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "verified",
+    "noteCount": 170
+  },
+  {
+    "id": "rubicon-2015-groote-post",
+    "wineLabelId": "rubicon",
+    "name": "Rubicon",
+    "estate": "Groote Post",
+    "producerId": "estate_groote-post",
+    "vintage": 2015,
+    "year": 2015,
+    "countryCode": "ZA",
+    "region": "Darling",
+    "regionId": "region_darling",
+    "appellation": {
+      "id": "app_darling",
+      "name": "Darling",
+      "system": "WO"
+    },
+    "styleName": "Pinot Noir",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinot-noir",
+        "grapeName": "Pinot Noir",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Darling"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Rubicon from Groote Post, Darling.",
+    "price": {
+      "amountMinorUnits": 174800,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "community",
+    "noteCount": 790
+  },
+  {
+    "id": "paul-sauer-2020-steenberg",
+    "wineLabelId": "paul-sauer",
+    "name": "Paul Sauer",
+    "estate": "Steenberg",
+    "producerId": "estate_steenberg",
+    "vintage": 2020,
+    "year": 2020,
+    "countryCode": "ZA",
+    "region": "Constantia",
+    "regionId": "region_constantia",
+    "appellation": {
+      "id": "app_constantia",
+      "name": "Constantia",
+      "system": "WO"
+    },
+    "styleName": "Nebbiolo",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_nebbiolo",
+        "grapeName": "Nebbiolo",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Constantia"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Paul Sauer from Steenberg, Constantia.",
+    "price": {
+      "amountMinorUnits": 18800,
+      "currency": "ZAR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "verified",
+    "noteCount": 453
+  },
+  {
+    "id": "vieilles-vignes-2015-domaine-de-l",
+    "wineLabelId": "vieilles-vignes",
+    "name": "Vieilles Vignes",
+    "estate": "Domaine de la Romanée-Conti",
+    "producerId": "estate_domaine-de-la-romanee-conti",
+    "vintage": 2015,
+    "year": 2015,
+    "countryCode": "FR",
+    "region": "Bourgogne",
+    "regionId": "region_bourgogne",
+    "appellation": {
+      "id": "app_bourgogne",
+      "name": "Bourgogne",
+      "system": "AOC"
+    },
+    "styleName": "Palomino",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_palomino",
+        "grapeName": "Palomino",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Bourgogne"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Vieilles Vignes from Domaine de la Romanée-Conti, Bourgogne.",
+    "price": {
+      "amountMinorUnits": 22300,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "listed",
+    "noteCount": 107
+  },
+  {
+    "id": "brut-nature-2010-domaine-de-l",
+    "wineLabelId": "brut-nature",
+    "name": "Brut Nature",
+    "estate": "Domaine de la Romanée-Conti",
+    "producerId": "estate_domaine-de-la-romanee-conti",
+    "vintage": 2010,
+    "year": 2010,
+    "countryCode": "FR",
+    "region": "Bourgogne",
+    "regionId": "region_bourgogne",
+    "appellation": {
+      "id": "app_bourgogne",
+      "name": "Bourgogne",
+      "system": "AOC"
+    },
+    "styleName": "Pinotage",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinotage",
+        "grapeName": "Pinotage",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Bourgogne"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Brut Nature from Domaine de la Romanée-Conti, Bourgogne.",
+    "price": {
+      "amountMinorUnits": 18100,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "community",
+    "noteCount": 861
+  },
+  {
+    "id": "brut-nature-2018-domaine-lefl",
+    "wineLabelId": "brut-nature",
+    "name": "Brut Nature",
+    "estate": "Domaine Leflaive",
+    "producerId": "estate_domaine-leflaive",
+    "vintage": 2018,
+    "year": 2018,
+    "countryCode": "FR",
+    "region": "Bourgogne",
+    "regionId": "region_bourgogne",
+    "appellation": {
+      "id": "app_bourgogne",
+      "name": "Bourgogne",
+      "system": "AOC"
+    },
+    "styleName": "Chardonnay",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_chardonnay",
+        "grapeName": "Chardonnay",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Bourgogne"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Brut Nature from Domaine Leflaive, Bourgogne.",
+    "price": {
+      "amountMinorUnits": 28100,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "verified",
+    "noteCount": 885
+  },
+  {
+    "id": "grand-cru-2011-maison-louis",
+    "wineLabelId": "grand-cru",
+    "name": "Grand Cru",
+    "estate": "Maison Louis Jadot",
+    "producerId": "estate_maison-louis-jadot",
+    "vintage": 2011,
+    "year": 2011,
+    "countryCode": "FR",
+    "region": "Bourgogne",
+    "regionId": "region_bourgogne",
+    "appellation": {
+      "id": "app_bourgogne",
+      "name": "Bourgogne",
+      "system": "AOC"
+    },
+    "styleName": "Shiraz",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_shiraz",
+        "grapeName": "Shiraz",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Bourgogne"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Grand Cru from Maison Louis Jadot, Bourgogne.",
+    "price": {
+      "amountMinorUnits": 37300,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "listed",
+    "noteCount": 461
+  },
+  {
+    "id": "chateau-pichon-baron-premier-cru-nv",
+    "wineLabelId": "premier-cru",
+    "name": "Premier Cru",
+    "estate": "Château Pichon Baron",
+    "producerId": "estate_chateau-pichon-baron",
+    "countryCode": "FR",
+    "region": "Pauillac",
+    "regionId": "region_pauillac",
+    "appellation": {
+      "id": "app_pauillac",
+      "name": "Pauillac",
+      "system": "AOC"
+    },
+    "styleName": "Albariño",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_albarino",
+        "grapeName": "Albariño",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Pauillac"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Premier Cru from Château Pichon Baron, Pauillac.",
+    "price": {
+      "amountMinorUnits": 46800,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "community",
+    "noteCount": 502
+  },
+  {
+    "id": "clos-des-vignes-2010-chateau-marg",
+    "wineLabelId": "clos-des-vignes",
+    "name": "Clos des Vignes",
+    "estate": "Château Margaux",
+    "producerId": "estate_chateau-margaux",
+    "vintage": 2010,
+    "year": 2010,
+    "countryCode": "FR",
+    "region": "Margaux",
+    "regionId": "region_margaux",
+    "appellation": {
+      "id": "app_margaux",
+      "name": "Margaux",
+      "system": "AOC"
+    },
+    "styleName": "Tempranillo",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_tempranillo",
+        "grapeName": "Tempranillo",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Margaux"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Clos des Vignes from Château Margaux, Margaux.",
+    "price": {
+      "amountMinorUnits": 10100,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "community",
+    "noteCount": 733
+  },
+  {
+    "id": "cote-rotie-la-mouline-2016-chateau-chev",
+    "wineLabelId": "cote-rotie-la-mouline",
+    "name": "Côte-Rôtie La Mouline",
+    "estate": "Château Cheval Blanc",
+    "producerId": "estate_chateau-cheval-blanc",
+    "vintage": 2016,
+    "year": 2016,
+    "countryCode": "FR",
+    "region": "Saint-Émilion",
+    "regionId": "region_saint-emilion",
+    "appellation": {
+      "id": "app_saint-emilion",
+      "name": "Saint-Émilion",
+      "system": "AOC"
+    },
+    "styleName": "Grenache",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_grenache",
+        "grapeName": "Grenache",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Saint-Émilion"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Côte-Rôtie La Mouline from Château Cheval Blanc, Saint-Émilion.",
+    "price": {
+      "amountMinorUnits": 13300,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "verified",
+    "noteCount": 645
+  },
+  {
+    "id": "larmandier-bernier-chateauneuf-hommage-nv",
+    "wineLabelId": "chateauneuf-hommage",
+    "name": "Châteauneuf Hommage",
+    "estate": "Larmandier-Bernier",
+    "producerId": "estate_larmandier-bernier",
+    "countryCode": "FR",
+    "region": "Champagne",
+    "regionId": "region_champagne",
+    "appellation": {
+      "id": "app_champagne",
+      "name": "Champagne",
+      "system": "AOC"
+    },
+    "styleName": "Mourvèdre",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_mourvedre",
+        "grapeName": "Mourvèdre",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Champagne"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Châteauneuf Hommage from Larmandier-Bernier, Champagne.",
+    "price": {
+      "amountMinorUnits": 25000,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "listed",
+    "noteCount": 412
+  },
+  {
+    "id": "latitude-extra-brut-2022-champagne-bo",
+    "wineLabelId": "latitude-extra-brut",
+    "name": "Latitude Extra Brut",
+    "estate": "Champagne Bollinger",
+    "producerId": "estate_champagne-bollinger",
+    "vintage": 2022,
+    "year": 2022,
+    "countryCode": "FR",
+    "region": "Champagne",
+    "regionId": "region_champagne",
+    "appellation": {
+      "id": "app_champagne",
+      "name": "Champagne",
+      "system": "AOC"
+    },
+    "styleName": "Palomino",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_palomino",
+        "grapeName": "Palomino",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Champagne"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Latitude Extra Brut from Champagne Bollinger, Champagne.",
+    "price": {
+      "amountMinorUnits": 39200,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "listed",
+    "noteCount": 898
+  },
+  {
+    "id": "blanc-de-blancs-2017-champagne-bo",
+    "wineLabelId": "blanc-de-blancs",
+    "name": "Blanc de Blancs",
+    "estate": "Champagne Bollinger",
+    "producerId": "estate_champagne-bollinger",
+    "vintage": 2017,
+    "year": 2017,
+    "countryCode": "FR",
+    "region": "Champagne",
+    "regionId": "region_champagne",
+    "appellation": {
+      "id": "app_champagne",
+      "name": "Champagne",
+      "system": "AOC"
+    },
+    "styleName": "Chardonnay",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_chardonnay",
+        "grapeName": "Chardonnay",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Champagne"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Blanc de Blancs from Champagne Bollinger, Champagne.",
+    "price": {
+      "amountMinorUnits": 13100,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "community",
+    "noteCount": 736
+  },
+  {
+    "id": "e-guigal-blanc-de-blancs-nv",
+    "wineLabelId": "blanc-de-blancs",
+    "name": "Blanc de Blancs",
+    "estate": "E. Guigal",
+    "producerId": "estate_e-guigal",
+    "countryCode": "FR",
+    "region": "Côte-Rôtie",
+    "regionId": "region_cote-rotie",
+    "appellation": {
+      "id": "app_cote-rotie",
+      "name": "Côte-Rôtie",
+      "system": "AOC"
+    },
+    "styleName": "Palomino",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_palomino",
+        "grapeName": "Palomino",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Côte-Rôtie"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Blanc de Blancs from E. Guigal, Côte-Rôtie.",
+    "price": {
+      "amountMinorUnits": 21100,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "community",
+    "noteCount": 142
+  },
+  {
+    "id": "e-guigal-sancerre-les-romains-nv",
+    "wineLabelId": "sancerre-les-romains",
+    "name": "Sancerre Les Romains",
+    "estate": "E. Guigal",
+    "producerId": "estate_e-guigal",
+    "countryCode": "FR",
+    "region": "Côte-Rôtie",
+    "regionId": "region_cote-rotie",
+    "appellation": {
+      "id": "app_cote-rotie",
+      "name": "Côte-Rôtie",
+      "system": "AOC"
+    },
+    "styleName": "Grenache",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_grenache",
+        "grapeName": "Grenache",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Côte-Rôtie"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Sancerre Les Romains from E. Guigal, Côte-Rôtie.",
+    "price": {
+      "amountMinorUnits": 7100,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "community",
+    "noteCount": 257
+  },
+  {
+    "id": "sancerre-les-romains-2019-chateau-de-b",
+    "wineLabelId": "sancerre-les-romains",
+    "name": "Sancerre Les Romains",
+    "estate": "Château de Beaucastel",
+    "producerId": "estate_chateau-de-beaucastel",
+    "vintage": 2019,
+    "year": 2019,
+    "countryCode": "FR",
+    "region": "Châteauneuf-du-Pape",
+    "regionId": "region_chateauneuf-du-pape",
+    "appellation": {
+      "id": "app_chateauneuf-du-pape",
+      "name": "Châteauneuf-du-Pape",
+      "system": "AOC"
+    },
+    "styleName": "Cabernet Sauvignon",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet-sauvignon",
+        "grapeName": "Cabernet Sauvignon",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Châteauneuf-du-Pape"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Sancerre Les Romains from Château de Beaucastel, Châteauneuf-du-Pape.",
+    "price": {
+      "amountMinorUnits": 42400,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "community",
+    "noteCount": 601
+  },
+  {
+    "id": "cuvee-reserve-2014-domaine-zind",
+    "wineLabelId": "cuvee-reserve",
+    "name": "Cuvée Réserve",
+    "estate": "Domaine Zind-Humbrecht",
+    "producerId": "estate_domaine-zind-humbrecht",
+    "vintage": 2014,
+    "year": 2014,
+    "countryCode": "FR",
+    "region": "Alsace",
+    "regionId": "region_alsace",
+    "appellation": {
+      "id": "app_alsace",
+      "name": "Alsace",
+      "system": "AOC"
+    },
+    "styleName": "Cinsaut",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cinsaut",
+        "grapeName": "Cinsaut",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Alsace"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Cuvée Réserve from Domaine Zind-Humbrecht, Alsace.",
+    "price": {
+      "amountMinorUnits": 18700,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "community",
+    "noteCount": 26
+  },
+  {
+    "id": "vieilles-vignes-2014-domaine-zind",
+    "wineLabelId": "vieilles-vignes",
+    "name": "Vieilles Vignes",
+    "estate": "Domaine Zind-Humbrecht",
+    "producerId": "estate_domaine-zind-humbrecht",
+    "vintage": 2014,
+    "year": 2014,
+    "countryCode": "FR",
+    "region": "Alsace",
+    "regionId": "region_alsace",
+    "appellation": {
+      "id": "app_alsace",
+      "name": "Alsace",
+      "system": "AOC"
+    },
+    "styleName": "Sangiovese",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_sangiovese",
+        "grapeName": "Sangiovese",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Alsace"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Vieilles Vignes from Domaine Zind-Humbrecht, Alsace.",
+    "price": {
+      "amountMinorUnits": 34500,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "community",
+    "noteCount": 75
+  },
+  {
+    "id": "vieilles-vignes-2016-domaine-vach",
+    "wineLabelId": "vieilles-vignes",
+    "name": "Vieilles Vignes",
+    "estate": "Domaine Vacheron",
+    "producerId": "estate_domaine-vacheron",
+    "vintage": 2016,
+    "year": 2016,
+    "countryCode": "FR",
+    "region": "Sancerre",
+    "regionId": "region_sancerre",
+    "appellation": {
+      "id": "app_sancerre",
+      "name": "Sancerre",
+      "system": "AOC"
+    },
+    "styleName": "Palomino",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_palomino",
+        "grapeName": "Palomino",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Sancerre"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Vieilles Vignes from Domaine Vacheron, Sancerre.",
+    "price": {
+      "amountMinorUnits": 5100,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "community",
+    "noteCount": 746
+  },
+  {
+    "id": "brut-nature-2016-domaine-vach",
+    "wineLabelId": "brut-nature",
+    "name": "Brut Nature",
+    "estate": "Domaine Vacheron",
+    "producerId": "estate_domaine-vacheron",
+    "vintage": 2016,
+    "year": 2016,
+    "countryCode": "FR",
+    "region": "Sancerre",
+    "regionId": "region_sancerre",
+    "appellation": {
+      "id": "app_sancerre",
+      "name": "Sancerre",
+      "system": "AOC"
+    },
+    "styleName": "Sémillon",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_semillon",
+        "grapeName": "Sémillon",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Sancerre"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Brut Nature from Domaine Vacheron, Sancerre.",
+    "price": {
+      "amountMinorUnits": 35500,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "listed",
+    "noteCount": 782
+  },
+  {
+    "id": "barolo-castiglione-2018-vietti",
+    "wineLabelId": "barolo-castiglione",
+    "name": "Barolo Castiglione",
+    "estate": "Vietti",
+    "producerId": "estate_vietti",
+    "vintage": 2018,
+    "year": 2018,
+    "countryCode": "IT",
+    "region": "Barolo",
+    "regionId": "region_barolo",
+    "appellation": {
+      "id": "app_barolo",
+      "name": "Barolo",
+      "system": "DOCG"
+    },
+    "styleName": "Barbera",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_barbera",
+        "grapeName": "Barbera",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Barolo"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Barolo Castiglione from Vietti, Barolo.",
+    "price": {
+      "amountMinorUnits": 13300,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "community",
+    "noteCount": 416
+  },
+  {
+    "id": "brunello-2020-giacomo-cont",
+    "wineLabelId": "brunello",
+    "name": "Brunello",
+    "estate": "Giacomo Conterno",
+    "producerId": "estate_giacomo-conterno",
+    "vintage": 2020,
+    "year": 2020,
+    "countryCode": "IT",
+    "region": "Barolo",
+    "regionId": "region_barolo",
+    "appellation": {
+      "id": "app_barolo",
+      "name": "Barolo",
+      "system": "DOCG"
+    },
+    "styleName": "Grenache",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_grenache",
+        "grapeName": "Grenache",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Barolo"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Brunello from Giacomo Conterno, Barolo.",
+    "price": {
+      "amountMinorUnits": 10500,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "listed",
+    "noteCount": 414
+  },
+  {
+    "id": "chianti-classico-riserva-2022-biondi-santi",
+    "wineLabelId": "chianti-classico-riserva",
+    "name": "Chianti Classico Riserva",
+    "estate": "Biondi-Santi",
+    "producerId": "estate_biondi-santi",
+    "vintage": 2022,
+    "year": 2022,
+    "countryCode": "IT",
+    "region": "Montalcino",
+    "regionId": "region_montalcino",
+    "appellation": {
+      "id": "app_montalcino",
+      "name": "Montalcino",
+      "system": "DOCG"
+    },
+    "styleName": "Garnacha",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_garnacha",
+        "grapeName": "Garnacha",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Montalcino"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Chianti Classico Riserva from Biondi-Santi, Montalcino.",
+    "price": {
+      "amountMinorUnits": 33200,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "verified",
+    "noteCount": 426
+  },
+  {
+    "id": "etna-rosso-2015-biondi-santi",
+    "wineLabelId": "etna-rosso",
+    "name": "Etna Rosso",
+    "estate": "Biondi-Santi",
+    "producerId": "estate_biondi-santi",
+    "vintage": 2015,
+    "year": 2015,
+    "countryCode": "IT",
+    "region": "Montalcino",
+    "regionId": "region_montalcino",
+    "appellation": {
+      "id": "app_montalcino",
+      "name": "Montalcino",
+      "system": "DOCG"
+    },
+    "styleName": "Cabernet Sauvignon",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet-sauvignon",
+        "grapeName": "Cabernet Sauvignon",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Montalcino"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Etna Rosso from Biondi-Santi, Montalcino.",
+    "price": {
+      "amountMinorUnits": 11700,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "community",
+    "noteCount": 660
+  },
+  {
+    "id": "etna-rosso-2019-castello-di-",
+    "wineLabelId": "etna-rosso",
+    "name": "Etna Rosso",
+    "estate": "Castello di Ama",
+    "producerId": "estate_castello-di-ama",
+    "vintage": 2019,
+    "year": 2019,
+    "countryCode": "IT",
+    "region": "Chianti Classico",
+    "regionId": "region_chianti-classico",
+    "appellation": {
+      "id": "app_chianti-classico",
+      "name": "Chianti Classico",
+      "system": "DOCG"
+    },
+    "styleName": "Barbera",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_barbera",
+        "grapeName": "Barbera",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Chianti Classico"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Etna Rosso from Castello di Ama, Chianti Classico.",
+    "price": {
+      "amountMinorUnits": 14000,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "listed",
+    "noteCount": 88
+  },
+  {
+    "id": "amarone-della-valpolicella-2016-elena-walch",
+    "wineLabelId": "amarone-della-valpolicella",
+    "name": "Amarone della Valpolicella",
+    "estate": "Elena Walch",
+    "producerId": "estate_elena-walch",
+    "vintage": 2016,
+    "year": 2016,
+    "countryCode": "IT",
+    "region": "Alto Adige",
+    "regionId": "region_alto-adige",
+    "appellation": {
+      "id": "app_alto-adige",
+      "name": "Alto Adige",
+      "system": "DOCG"
+    },
+    "styleName": "Pinot Gris",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinot-gris",
+        "grapeName": "Pinot Gris",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Alto Adige"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Amarone della Valpolicella from Elena Walch, Alto Adige.",
+    "price": {
+      "amountMinorUnits": 17400,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "verified",
+    "noteCount": 596
+  },
+  {
+    "id": "barbaresco-2017-elena-walch",
+    "wineLabelId": "barbaresco",
+    "name": "Barbaresco",
+    "estate": "Elena Walch",
+    "producerId": "estate_elena-walch",
+    "vintage": 2017,
+    "year": 2017,
+    "countryCode": "IT",
+    "region": "Alto Adige",
+    "regionId": "region_alto-adige",
+    "appellation": {
+      "id": "app_alto-adige",
+      "name": "Alto Adige",
+      "system": "DOCG"
+    },
+    "styleName": "Chenin Blanc",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_chenin-blanc",
+        "grapeName": "Chenin Blanc",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Alto Adige"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Barbaresco from Elena Walch, Alto Adige.",
+    "price": {
+      "amountMinorUnits": 30200,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "community",
+    "noteCount": 543
+  },
+  {
+    "id": "barbaresco-2022-gravner",
+    "wineLabelId": "barbaresco",
+    "name": "Barbaresco",
+    "estate": "Gravner",
+    "producerId": "estate_gravner",
+    "vintage": 2022,
+    "year": 2022,
+    "countryCode": "IT",
+    "region": "Friuli-Venezia Giulia",
+    "regionId": "region_friuli-venezia-giulia",
+    "appellation": {
+      "id": "app_friuli-venezia-giulia",
+      "name": "Friuli-Venezia Giulia",
+      "system": "DOCG"
+    },
+    "styleName": "Cabernet Franc",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet-franc",
+        "grapeName": "Cabernet Franc",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Friuli-Venezia Giulia"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Barbaresco from Gravner, Friuli-Venezia Giulia.",
+    "price": {
+      "amountMinorUnits": 15300,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "community",
+    "noteCount": 730
+  },
+  {
+    "id": "ribolla-gialla-2012-gravner",
+    "wineLabelId": "ribolla-gialla",
+    "name": "Ribolla Gialla",
+    "estate": "Gravner",
+    "producerId": "estate_gravner",
+    "vintage": 2012,
+    "year": 2012,
+    "countryCode": "IT",
+    "region": "Friuli-Venezia Giulia",
+    "regionId": "region_friuli-venezia-giulia",
+    "appellation": {
+      "id": "app_friuli-venezia-giulia",
+      "name": "Friuli-Venezia Giulia",
+      "system": "DOCG"
+    },
+    "styleName": "Pinot Gris",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinot-gris",
+        "grapeName": "Pinot Gris",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Friuli-Venezia Giulia"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Ribolla Gialla from Gravner, Friuli-Venezia Giulia.",
+    "price": {
+      "amountMinorUnits": 8300,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "verified",
+    "noteCount": 186
+  },
+  {
+    "id": "ribolla-gialla-2014-passopisciar",
+    "wineLabelId": "ribolla-gialla",
+    "name": "Ribolla Gialla",
+    "estate": "Passopisciaro",
+    "producerId": "estate_passopisciaro",
+    "vintage": 2014,
+    "year": 2014,
+    "countryCode": "IT",
+    "region": "Etna",
+    "regionId": "region_etna",
+    "appellation": {
+      "id": "app_etna",
+      "name": "Etna",
+      "system": "DOCG"
+    },
+    "styleName": "Cabernet Sauvignon",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet-sauvignon",
+        "grapeName": "Cabernet Sauvignon",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Etna"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Ribolla Gialla from Passopisciaro, Etna.",
+    "price": {
+      "amountMinorUnits": 33200,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "community",
+    "noteCount": 139
+  },
+  {
+    "id": "nebbiolo-langhe-2011-passopisciar",
+    "wineLabelId": "nebbiolo-langhe",
+    "name": "Nebbiolo Langhe",
+    "estate": "Passopisciaro",
+    "producerId": "estate_passopisciaro",
+    "vintage": 2011,
+    "year": 2011,
+    "countryCode": "IT",
+    "region": "Etna",
+    "regionId": "region_etna",
+    "appellation": {
+      "id": "app_etna",
+      "name": "Etna",
+      "system": "DOCG"
+    },
+    "styleName": "Merlot",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_merlot",
+        "grapeName": "Merlot",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Etna"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Nebbiolo Langhe from Passopisciaro, Etna.",
+    "price": {
+      "amountMinorUnits": 4600,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "verified",
+    "noteCount": 847
+  },
+  {
+    "id": "nebbiolo-langhe-2017-allegrini",
+    "wineLabelId": "nebbiolo-langhe",
+    "name": "Nebbiolo Langhe",
+    "estate": "Allegrini",
+    "producerId": "estate_allegrini",
+    "vintage": 2017,
+    "year": 2017,
+    "countryCode": "IT",
+    "region": "Veneto",
+    "regionId": "region_veneto",
+    "appellation": {
+      "id": "app_veneto",
+      "name": "Veneto",
+      "system": "DOCG"
+    },
+    "styleName": "Mencía",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_mencia",
+        "grapeName": "Mencía",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Veneto"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Nebbiolo Langhe from Allegrini, Veneto.",
+    "price": {
+      "amountMinorUnits": 1400,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "community",
+    "noteCount": 104
+  },
+  {
+    "id": "gran-reserva-2019-la-rioja-alt",
+    "wineLabelId": "gran-reserva",
+    "name": "Gran Reserva",
+    "estate": "La Rioja Alta",
+    "producerId": "estate_la-rioja-alta",
+    "vintage": 2019,
+    "year": 2019,
+    "countryCode": "ES",
+    "region": "Rioja",
+    "regionId": "region_rioja",
+    "appellation": {
+      "id": "app_rioja",
+      "name": "Rioja",
+      "system": "DO"
+    },
+    "styleName": "Albariño",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_albarino",
+        "grapeName": "Albariño",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Rioja"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Gran Reserva from La Rioja Alta, Rioja.",
+    "price": {
+      "amountMinorUnits": 44200,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "verified",
+    "noteCount": 852
+  },
+  {
+    "id": "unico-2014-bodegas-muga",
+    "wineLabelId": "unico",
+    "name": "Único",
+    "estate": "Bodegas Muga",
+    "producerId": "estate_bodegas-muga",
+    "vintage": 2014,
+    "year": 2014,
+    "countryCode": "ES",
+    "region": "Rioja",
+    "regionId": "region_rioja",
+    "appellation": {
+      "id": "app_rioja",
+      "name": "Rioja",
+      "system": "DO"
+    },
+    "styleName": "Cinsaut",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cinsaut",
+        "grapeName": "Cinsaut",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Rioja"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Único from Bodegas Muga, Rioja.",
+    "price": {
+      "amountMinorUnits": 38700,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "listed",
+    "noteCount": 80
+  },
+  {
+    "id": "vega-sicilia-albarino-nv",
+    "wineLabelId": "albarino",
+    "name": "Albariño",
+    "estate": "Vega Sicilia",
+    "producerId": "estate_vega-sicilia",
+    "countryCode": "ES",
+    "region": "Ribera del Duero",
+    "regionId": "region_ribera-del-duero",
+    "appellation": {
+      "id": "app_ribera-del-duero",
+      "name": "Ribera del Duero",
+      "system": "DO"
+    },
+    "styleName": "Mencía",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_mencia",
+        "grapeName": "Mencía",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Ribera del Duero"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Albariño from Vega Sicilia, Ribera del Duero.",
+    "price": {
+      "amountMinorUnits": 17800,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "verified",
+    "noteCount": 692
+  },
+  {
+    "id": "fino-en-rama-2022-vega-sicilia",
+    "wineLabelId": "fino-en-rama",
+    "name": "Fino en Rama",
+    "estate": "Vega Sicilia",
+    "producerId": "estate_vega-sicilia",
+    "vintage": 2022,
+    "year": 2022,
+    "countryCode": "ES",
+    "region": "Ribera del Duero",
+    "regionId": "region_ribera-del-duero",
+    "appellation": {
+      "id": "app_ribera-del-duero",
+      "name": "Ribera del Duero",
+      "system": "DO"
+    },
+    "styleName": "Shiraz",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_shiraz",
+        "grapeName": "Shiraz",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Ribera del Duero"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Fino en Rama from Vega Sicilia, Ribera del Duero.",
+    "price": {
+      "amountMinorUnits": 21600,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "listed",
+    "noteCount": 78
+  },
+  {
+    "id": "fino-en-rama-2020-clos-mogador",
+    "wineLabelId": "fino-en-rama",
+    "name": "Fino en Rama",
+    "estate": "Clos Mogador",
+    "producerId": "estate_clos-mogador",
+    "vintage": 2020,
+    "year": 2020,
+    "countryCode": "ES",
+    "region": "Priorat",
+    "regionId": "region_priorat",
+    "appellation": {
+      "id": "app_priorat",
+      "name": "Priorat",
+      "system": "DO"
+    },
+    "styleName": "Nebbiolo",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_nebbiolo",
+        "grapeName": "Nebbiolo",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Priorat"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Fino en Rama from Clos Mogador, Priorat.",
+    "price": {
+      "amountMinorUnits": 16800,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "listed",
+    "noteCount": 452
+  },
+  {
+    "id": "clos-mogador-2021-pazo-de-seno",
+    "wineLabelId": "clos-mogador",
+    "name": "Clos Mogador",
+    "estate": "Pazo de Señoráns",
+    "producerId": "estate_pazo-de-senorans",
+    "vintage": 2021,
+    "year": 2021,
+    "countryCode": "ES",
+    "region": "Rías Baixas",
+    "regionId": "region_rias-baixas",
+    "appellation": {
+      "id": "app_rias-baixas",
+      "name": "Rías Baixas",
+      "system": "DO"
+    },
+    "styleName": "Cabernet Franc",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet-franc",
+        "grapeName": "Cabernet Franc",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Rías Baixas"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Clos Mogador from Pazo de Señoráns, Rías Baixas.",
+    "price": {
+      "amountMinorUnits": 29400,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "verified",
+    "noteCount": 628
+  },
+  {
+    "id": "reserva-especial-2014-pazo-de-seno",
+    "wineLabelId": "reserva-especial",
+    "name": "Reserva Especial",
+    "estate": "Pazo de Señoráns",
+    "producerId": "estate_pazo-de-senorans",
+    "vintage": 2014,
+    "year": 2014,
+    "countryCode": "ES",
+    "region": "Rías Baixas",
+    "regionId": "region_rias-baixas",
+    "appellation": {
+      "id": "app_rias-baixas",
+      "name": "Rías Baixas",
+      "system": "DO"
+    },
+    "styleName": "Albariño",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_albarino",
+        "grapeName": "Albariño",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Rías Baixas"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Reserva Especial from Pazo de Señoráns, Rías Baixas.",
+    "price": {
+      "amountMinorUnits": 43300,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "verified",
+    "noteCount": 288
+  },
+  {
+    "id": "reserva-especial-2011-gonzalez-bya",
+    "wineLabelId": "reserva-especial",
+    "name": "Reserva Especial",
+    "estate": "González Byass",
+    "producerId": "estate_gonzalez-byass",
+    "vintage": 2011,
+    "year": 2011,
+    "countryCode": "ES",
+    "region": "Jerez",
+    "regionId": "region_jerez",
+    "appellation": {
+      "id": "app_jerez",
+      "name": "Jerez",
+      "system": "DO"
+    },
+    "styleName": "Cinsaut",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cinsaut",
+        "grapeName": "Cinsaut",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Jerez"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Reserva Especial from González Byass, Jerez.",
+    "price": {
+      "amountMinorUnits": 3400,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "verified",
+    "noteCount": 178
+  },
+  {
+    "id": "tinto-crianza-2011-descendiente",
+    "wineLabelId": "tinto-crianza",
+    "name": "Tinto Crianza",
+    "estate": "Descendientes de J. Palacios",
+    "producerId": "estate_descendientes-de-j-palacios",
+    "vintage": 2011,
+    "year": 2011,
+    "countryCode": "ES",
+    "region": "Bierzo",
+    "regionId": "region_bierzo",
+    "appellation": {
+      "id": "app_bierzo",
+      "name": "Bierzo",
+      "system": "DO"
+    },
+    "styleName": "Nerello Mascalese",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_nerello-mascalese",
+        "grapeName": "Nerello Mascalese",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Bierzo"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Tinto Crianza from Descendientes de J. Palacios, Bierzo.",
+    "price": {
+      "amountMinorUnits": 38900,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "listed",
+    "noteCount": 546
+  },
+  {
+    "id": "weissburgunder-2013-weingut-egon",
+    "wineLabelId": "weissburgunder",
+    "name": "Weissburgunder",
+    "estate": "Weingut Egon Müller",
+    "producerId": "estate_weingut-egon-muller",
+    "vintage": 2013,
+    "year": 2013,
+    "countryCode": "DE",
+    "region": "Mosel",
+    "regionId": "region_mosel",
+    "appellation": {
+      "id": "app_mosel",
+      "name": "Mosel",
+      "system": "AOP"
+    },
+    "styleName": "Chardonnay",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_chardonnay",
+        "grapeName": "Chardonnay",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Mosel"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Weissburgunder from Weingut Egon Müller, Mosel.",
+    "price": {
+      "amountMinorUnits": 28500,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "listed",
+    "noteCount": 815
+  },
+  {
+    "id": "riesling-kabinett-2021-weingut-egon",
+    "wineLabelId": "riesling-kabinett",
+    "name": "Riesling Kabinett",
+    "estate": "Weingut Egon Müller",
+    "producerId": "estate_weingut-egon-muller",
+    "vintage": 2021,
+    "year": 2021,
+    "countryCode": "DE",
+    "region": "Mosel",
+    "regionId": "region_mosel",
+    "appellation": {
+      "id": "app_mosel",
+      "name": "Mosel",
+      "system": "AOP"
+    },
+    "styleName": "Tempranillo",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_tempranillo",
+        "grapeName": "Tempranillo",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Mosel"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Riesling Kabinett from Weingut Egon Müller, Mosel.",
+    "price": {
+      "amountMinorUnits": 2000,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "community",
+    "noteCount": 416
+  },
+  {
+    "id": "riesling-kabinett-2021-weingut-dr-l",
+    "wineLabelId": "riesling-kabinett",
+    "name": "Riesling Kabinett",
+    "estate": "Weingut Dr. Loosen",
+    "producerId": "estate_weingut-dr-loosen",
+    "vintage": 2021,
+    "year": 2021,
+    "countryCode": "DE",
+    "region": "Mosel",
+    "regionId": "region_mosel",
+    "appellation": {
+      "id": "app_mosel",
+      "name": "Mosel",
+      "system": "AOP"
+    },
+    "styleName": "Riesling",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_riesling",
+        "grapeName": "Riesling",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Mosel"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Riesling Kabinett from Weingut Dr. Loosen, Mosel.",
+    "price": {
+      "amountMinorUnits": 19500,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "listed",
+    "noteCount": 35
+  },
+  {
+    "id": "grosses-gewachs-2018-weingut-dr-l",
+    "wineLabelId": "grosses-gewachs",
+    "name": "Grosses Gewächs",
+    "estate": "Weingut Dr. Loosen",
+    "producerId": "estate_weingut-dr-loosen",
+    "vintage": 2018,
+    "year": 2018,
+    "countryCode": "DE",
+    "region": "Mosel",
+    "regionId": "region_mosel",
+    "appellation": {
+      "id": "app_mosel",
+      "name": "Mosel",
+      "system": "AOP"
+    },
+    "styleName": "Mourvèdre",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_mourvedre",
+        "grapeName": "Mourvèdre",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Mosel"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Grosses Gewächs from Weingut Dr. Loosen, Mosel.",
+    "price": {
+      "amountMinorUnits": 26500,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "listed",
+    "noteCount": 528
+  },
+  {
+    "id": "grosses-gewachs-2014-schloss-joha",
+    "wineLabelId": "grosses-gewachs",
+    "name": "Grosses Gewächs",
+    "estate": "Schloss Johannisberg",
+    "producerId": "estate_schloss-johannisberg",
+    "vintage": 2014,
+    "year": 2014,
+    "countryCode": "DE",
+    "region": "Rheingau",
+    "regionId": "region_rheingau",
+    "appellation": {
+      "id": "app_rheingau",
+      "name": "Rheingau",
+      "system": "AOP"
+    },
+    "styleName": "Shiraz",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_shiraz",
+        "grapeName": "Shiraz",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Rheingau"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Grosses Gewächs from Schloss Johannisberg, Rheingau.",
+    "price": {
+      "amountMinorUnits": 25500,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "listed",
+    "noteCount": 529
+  },
+  {
+    "id": "spatlese-trocken-2022-weingut-mull",
+    "wineLabelId": "spatlese-trocken",
+    "name": "Spätlese Trocken",
+    "estate": "Weingut Müller-Catoir",
+    "producerId": "estate_weingut-muller-catoir",
+    "vintage": 2022,
+    "year": 2022,
+    "countryCode": "DE",
+    "region": "Pfalz",
+    "regionId": "region_pfalz",
+    "appellation": {
+      "id": "app_pfalz",
+      "name": "Pfalz",
+      "system": "AOP"
+    },
+    "styleName": "Cabernet Franc",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_cabernet-franc",
+        "grapeName": "Cabernet Franc",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Pfalz"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Spätlese Trocken from Weingut Müller-Catoir, Pfalz.",
+    "price": {
+      "amountMinorUnits": 47300,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "verified",
+    "noteCount": 282
+  },
+  {
+    "id": "trockenbeerenauslese-2020-weingut-donn",
+    "wineLabelId": "trockenbeerenauslese",
+    "name": "Trockenbeerenauslese",
+    "estate": "Weingut Dönnhoff",
+    "producerId": "estate_weingut-donnhoff",
+    "vintage": 2020,
+    "year": 2020,
+    "countryCode": "DE",
+    "region": "Nahe",
+    "regionId": "region_nahe",
+    "appellation": {
+      "id": "app_nahe",
+      "name": "Nahe",
+      "system": "AOP"
+    },
+    "styleName": "Garnacha",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_garnacha",
+        "grapeName": "Garnacha",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Nahe"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Trockenbeerenauslese from Weingut Dönnhoff, Nahe.",
+    "price": {
+      "amountMinorUnits": 10400,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "listed",
+    "noteCount": 897
+  },
+  {
+    "id": "riesling-federspiel-2019-weingut-f-x-",
+    "wineLabelId": "riesling-federspiel",
+    "name": "Riesling Federspiel",
+    "estate": "Weingut F.X. Pichler",
+    "producerId": "estate_weingut-f-x-pichler",
+    "vintage": 2019,
+    "year": 2019,
+    "countryCode": "AT",
+    "region": "Wachau",
+    "regionId": "region_wachau",
+    "appellation": {
+      "id": "app_wachau",
+      "name": "Wachau",
+      "system": "AOP"
+    },
+    "styleName": "Nerello Mascalese",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_nerello-mascalese",
+        "grapeName": "Nerello Mascalese",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Wachau"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Riesling Federspiel from Weingut F.X. Pichler, Wachau.",
+    "price": {
+      "amountMinorUnits": 34600,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "community",
+    "noteCount": 880
+  },
+  {
+    "id": "gruner-veltliner-ried-2020-weingut-f-x-",
+    "wineLabelId": "gruner-veltliner-ried",
+    "name": "Grüner Veltliner Ried",
+    "estate": "Weingut F.X. Pichler",
+    "producerId": "estate_weingut-f-x-pichler",
+    "vintage": 2020,
+    "year": 2020,
+    "countryCode": "AT",
+    "region": "Wachau",
+    "regionId": "region_wachau",
+    "appellation": {
+      "id": "app_wachau",
+      "name": "Wachau",
+      "system": "AOP"
+    },
+    "styleName": "Tempranillo",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_tempranillo",
+        "grapeName": "Tempranillo",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Wachau"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Grüner Veltliner Ried from Weingut F.X. Pichler, Wachau.",
+    "price": {
+      "amountMinorUnits": 46200,
+      "currency": "EUR"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "community",
+    "noteCount": 894
+  },
+  {
+    "id": "chasselas-grand-cru-2013-domaine-jean",
+    "wineLabelId": "chasselas-grand-cru",
+    "name": "Chasselas Grand Cru",
+    "estate": "Domaine Jean-René Germanier",
+    "producerId": "estate_domaine-jean-rene-germanier",
+    "vintage": 2013,
+    "year": 2013,
+    "countryCode": "CH",
+    "region": "Valais",
+    "regionId": "region_valais",
+    "appellation": {
+      "id": "app_valais",
+      "name": "Valais",
+      "system": "Other"
+    },
+    "styleName": "Sangiovese",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_sangiovese",
+        "grapeName": "Sangiovese",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Valais"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Chasselas Grand Cru from Domaine Jean-René Germanier, Valais.",
+    "price": {
+      "amountMinorUnits": 11800,
+      "currency": "CHF"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "community",
+    "noteCount": 157
+  },
+  {
+    "id": "fendant-du-valais-2019-domaine-jean",
+    "wineLabelId": "fendant-du-valais",
+    "name": "Fendant du Valais",
+    "estate": "Domaine Jean-René Germanier",
+    "producerId": "estate_domaine-jean-rene-germanier",
+    "vintage": 2019,
+    "year": 2019,
+    "countryCode": "CH",
+    "region": "Valais",
+    "regionId": "region_valais",
+    "appellation": {
+      "id": "app_valais",
+      "name": "Valais",
+      "system": "Other"
+    },
+    "styleName": "Pinot Noir",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinot-noir",
+        "grapeName": "Pinot Noir",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Valais"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Fendant du Valais from Domaine Jean-René Germanier, Valais.",
+    "price": {
+      "amountMinorUnits": 8800,
+      "currency": "CHF"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "community",
+    "noteCount": 677
+  },
+  {
+    "id": "napa-cabernet-reserve-2015-ridge-vineya",
+    "wineLabelId": "napa-cabernet-reserve",
+    "name": "Napa Cabernet Reserve",
+    "estate": "Ridge Vineyards",
+    "producerId": "estate_ridge-vineyards",
+    "vintage": 2015,
+    "year": 2015,
+    "countryCode": "US",
+    "region": "Napa Valley",
+    "regionId": "region_napa-valley",
+    "appellation": {
+      "id": "app_napa-valley",
+      "name": "Napa Valley",
+      "system": "AVA"
+    },
+    "styleName": "Sémillon",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_semillon",
+        "grapeName": "Sémillon",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Napa Valley"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Napa Cabernet Reserve from Ridge Vineyards, Napa Valley.",
+    "price": {
+      "amountMinorUnits": 41700,
+      "currency": "USD"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "community",
+    "noteCount": 486
+  },
+  {
+    "id": "russian-river-chardonnay-2017-ridge-vineya",
+    "wineLabelId": "russian-river-chardonnay",
+    "name": "Russian River Chardonnay",
+    "estate": "Ridge Vineyards",
+    "producerId": "estate_ridge-vineyards",
+    "vintage": 2017,
+    "year": 2017,
+    "countryCode": "US",
+    "region": "Napa Valley",
+    "regionId": "region_napa-valley",
+    "appellation": {
+      "id": "app_napa-valley",
+      "name": "Napa Valley",
+      "system": "AVA"
+    },
+    "styleName": "Riesling",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_riesling",
+        "grapeName": "Riesling",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Napa Valley"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Russian River Chardonnay from Ridge Vineyards, Napa Valley.",
+    "price": {
+      "amountMinorUnits": 39800,
+      "currency": "USD"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "community",
+    "noteCount": 80
+  },
+  {
+    "id": "russian-river-chardonnay-2016-ridge-monte-",
+    "wineLabelId": "russian-river-chardonnay",
+    "name": "Russian River Chardonnay",
+    "estate": "Ridge Monte Bello Estate",
+    "producerId": "estate_ridge-monte-bello-estate",
+    "vintage": 2016,
+    "year": 2016,
+    "countryCode": "US",
+    "region": "Sonoma County",
+    "regionId": "region_sonoma-county",
+    "appellation": {
+      "id": "app_sonoma-county",
+      "name": "Sonoma County",
+      "system": "AVA"
+    },
+    "styleName": "Pinot Grigio",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinot-grigio",
+        "grapeName": "Pinot Grigio",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Sonoma County"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Russian River Chardonnay from Ridge Monte Bello Estate, Sonoma County.",
+    "price": {
+      "amountMinorUnits": 43700,
+      "currency": "USD"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "verified",
+    "noteCount": 352
+  },
+  {
+    "id": "monte-bello-2020-domaine-drou",
+    "wineLabelId": "monte-bello",
+    "name": "Monte Bello",
+    "estate": "Domaine Drouhin Oregon",
+    "producerId": "estate_domaine-drouhin-oregon",
+    "vintage": 2020,
+    "year": 2020,
+    "countryCode": "US",
+    "region": "Willamette Valley",
+    "regionId": "region_willamette-valley",
+    "appellation": {
+      "id": "app_willamette-valley",
+      "name": "Willamette Valley",
+      "system": "AVA"
+    },
+    "styleName": "Barbera",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_barbera",
+        "grapeName": "Barbera",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Willamette Valley"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Monte Bello from Domaine Drouhin Oregon, Willamette Valley.",
+    "price": {
+      "amountMinorUnits": 26500,
+      "currency": "USD"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "community",
+    "noteCount": 87
+  },
+  {
+    "id": "icewine-riesling-2012-mission-hill",
+    "wineLabelId": "icewine-riesling",
+    "name": "Icewine Riesling",
+    "estate": "Mission Hill Family Estate",
+    "producerId": "estate_mission-hill-family-estate",
+    "vintage": 2012,
+    "year": 2012,
+    "countryCode": "CA",
+    "region": "Okanagan Valley",
+    "regionId": "region_okanagan-valley",
+    "appellation": {
+      "id": "app_okanagan-valley",
+      "name": "Okanagan Valley",
+      "system": "Other"
+    },
+    "styleName": "Pinot Grigio",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinot-grigio",
+        "grapeName": "Pinot Grigio",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Okanagan Valley"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Icewine Riesling from Mission Hill Family Estate, Okanagan Valley.",
+    "price": {
+      "amountMinorUnits": 45100,
+      "currency": "CAD"
+    },
+    "isFeatured": false,
+    "verdict": "An Interesting Discovery",
+    "provenance": "community",
+    "noteCount": 666
+  },
+  {
+    "id": "estate-pinot-noir-2019-mission-hill",
+    "wineLabelId": "estate-pinot-noir",
+    "name": "Estate Pinot Noir",
+    "estate": "Mission Hill Family Estate",
+    "producerId": "estate_mission-hill-family-estate",
+    "vintage": 2019,
+    "year": 2019,
+    "countryCode": "CA",
+    "region": "Okanagan Valley",
+    "regionId": "region_okanagan-valley",
+    "appellation": {
+      "id": "app_okanagan-valley",
+      "name": "Okanagan Valley",
+      "system": "Other"
+    },
+    "styleName": "Garnacha",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_garnacha",
+        "grapeName": "Garnacha",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Okanagan Valley"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Estate Pinot Noir from Mission Hill Family Estate, Okanagan Valley.",
+    "price": {
+      "amountMinorUnits": 28300,
+      "currency": "CAD"
+    },
+    "isFeatured": false,
+    "verdict": "Essential",
+    "provenance": "listed",
+    "noteCount": 321
+  },
+  {
+    "id": "estate-pinot-noir-2016-tawse-winery",
+    "wineLabelId": "estate-pinot-noir",
+    "name": "Estate Pinot Noir",
+    "estate": "Tawse Winery",
+    "producerId": "estate_tawse-winery",
+    "vintage": 2016,
+    "year": 2016,
+    "countryCode": "CA",
+    "region": "Niagara Peninsula",
+    "regionId": "region_niagara-peninsula",
+    "appellation": {
+      "id": "app_niagara-peninsula",
+      "name": "Niagara Peninsula",
+      "system": "Other"
+    },
+    "styleName": "Gewürztraminer",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_gewurztraminer",
+        "grapeName": "Gewürztraminer",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Niagara Peninsula"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+    "description": "Estate Pinot Noir from Tawse Winery, Niagara Peninsula.",
+    "price": {
+      "amountMinorUnits": 8700,
+      "currency": "CAD"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "community",
+    "noteCount": 295
+  },
+  {
+    "id": "sparkling-reserve-2014-ridgeview-wi",
+    "wineLabelId": "sparkling-reserve",
+    "name": "Sparkling Reserve",
+    "estate": "Ridgeview Wine Estate",
+    "producerId": "estate_ridgeview-wine-estate",
+    "vintage": 2014,
+    "year": 2014,
+    "countryCode": "GB",
+    "region": "Sussex",
+    "regionId": "region_sussex",
+    "appellation": {
+      "id": "app_sussex",
+      "name": "Sussex",
+      "system": "Other"
+    },
+    "styleName": "Petit Verdot",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_petit-verdot",
+        "grapeName": "Petit Verdot",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Sussex"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+    "description": "Sparkling Reserve from Ridgeview Wine Estate, Sussex.",
+    "price": {
+      "amountMinorUnits": 47700,
+      "currency": "GBP"
+    },
+    "isFeatured": false,
+    "verdict": "Worth Revisiting",
+    "provenance": "verified",
+    "noteCount": 409
+  },
+  {
+    "id": "classic-cuvee-2011-nyetimber",
+    "wineLabelId": "classic-cuvee",
+    "name": "Classic Cuvée",
+    "estate": "Nyetimber",
+    "producerId": "estate_nyetimber",
+    "vintage": 2011,
+    "year": 2011,
+    "countryCode": "GB",
+    "region": "Sussex",
+    "regionId": "region_sussex",
+    "appellation": {
+      "id": "app_sussex",
+      "name": "Sussex",
+      "system": "Other"
+    },
+    "styleName": "Riesling",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_riesling",
+        "grapeName": "Riesling",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Sussex"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+    "description": "Classic Cuvée from Nyetimber, Sussex.",
+    "price": {
+      "amountMinorUnits": 5800,
+      "currency": "GBP"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "verified",
+    "noteCount": 785
+  },
+  {
+    "id": "blanc-de-blancs-brut-2012-chapel-down",
+    "wineLabelId": "blanc-de-blancs-brut",
+    "name": "Blanc de Blancs Brut",
+    "estate": "Chapel Down",
+    "producerId": "estate_chapel-down",
+    "vintage": 2012,
+    "year": 2012,
+    "countryCode": "GB",
+    "region": "Kent",
+    "regionId": "region_kent",
+    "appellation": {
+      "id": "app_kent",
+      "name": "Kent",
+      "system": "Other"
+    },
+    "styleName": "Merlot",
+    "color": "red",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_merlot",
+        "grapeName": "Merlot",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Kent"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+    "description": "Blanc de Blancs Brut from Chapel Down, Kent.",
+    "price": {
+      "amountMinorUnits": 47000,
+      "currency": "GBP"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "verified",
+    "noteCount": 189
+  },
+  {
+    "id": "rose-brut-2014-gusbourne-es",
+    "wineLabelId": "rose-brut",
+    "name": "Rosé Brut",
+    "estate": "Gusbourne Estate",
+    "producerId": "estate_gusbourne-estate",
+    "vintage": 2014,
+    "year": 2014,
+    "countryCode": "GB",
+    "region": "Kent",
+    "regionId": "region_kent",
+    "appellation": {
+      "id": "app_kent",
+      "name": "Kent",
+      "system": "Other"
+    },
+    "styleName": "Pinot Grigio",
+    "color": "white",
+    "grapeBlend": [
+      {
+        "grapeVarietyId": "grape_pinot-grigio",
+        "grapeName": "Pinot Grigio",
+        "percentage": 100
+      }
+    ],
+    "location": {
+      "area": "Kent"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+    "description": "Rosé Brut from Gusbourne Estate, Kent.",
+    "price": {
+      "amountMinorUnits": 24100,
+      "currency": "GBP"
+    },
+    "isFeatured": false,
+    "verdict": "Unforgettable",
+    "provenance": "verified",
+    "noteCount": 510
+  }
+]
