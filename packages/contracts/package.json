@@ -48,6 +48,10 @@
       "types": "./dist/member/index.d.ts",
       "default": "./dist/member/index.js"
     },
+    "./money": {
+      "types": "./dist/money/index.d.ts",
+      "default": "./dist/money/index.js"
+    },
     "./search": {
       "types": "./dist/search/index.d.ts",
       "default": "./dist/search/index.js"

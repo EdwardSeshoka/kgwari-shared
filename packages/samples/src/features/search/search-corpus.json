@@ -4,49 +4,110 @@
     "kind": "WINE",
     "facet": "wines",
     "entityId": "rubicon-2018",
-    "producer": "Meerlust Estate",
-    "title": "Rubicon",
-    "meta": "2018",
-    "verdict": "Essential"
+    "title": {
+      "source": "canonical",
+      "text": "Rubicon"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2018
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 89500,
+      "currency": "ZAR"
+    }
   },
   {
     "id": "search_wine_kanonkop_pinotage_2019",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "kanonkop-pinotage-2019",
-    "producer": "Kanonkop Estate",
-    "title": "Kanonkop Pinotage",
-    "meta": "2019",
-    "verdict": "Unforgettable"
+    "title": {
+      "source": "canonical",
+      "text": "Kanonkop Pinotage"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Kanonkop Estate"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2019
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 84500,
+      "currency": "ZAR"
+    }
   },
   {
     "id": "search_wine_palladius_2010",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "palladius-2010",
-    "producer": "Sadie Family Wines",
-    "title": "Palladius",
-    "meta": "2010",
-    "verdict": "Unforgettable"
+    "title": {
+      "source": "canonical",
+      "text": "Palladius"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Sadie Family Wines"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2010
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 68000,
+      "currency": "ZAR"
+    }
   },
   {
     "id": "search_wine_boekenhoutskloof_syrah_2020",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "boekenhoutskloof-syrah-2020",
-    "producer": "Boekenhoutskloof",
-    "title": "Syrah",
-    "meta": "2020",
-    "verdict": "An Interesting Discovery"
+    "title": {
+      "source": "canonical",
+      "text": "Syrah"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Boekenhoutskloof"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2020
+    },
+    "verdict": "An Interesting Discovery",
+    "listedPrice": {
+      "amountMinorUnits": 69500,
+      "currency": "ZAR"
+    }
   },
   {
     "id": "search_wine_tokara_sauvignon_blanc_2022",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "tokara-sauvignon-blanc-2022",
-    "producer": "Tokara",
-    "title": "Sauvignon Blanc Reserve",
-    "meta": "2022",
+    "title": {
+      "source": "canonical",
+      "text": "Sauvignon Blanc Reserve"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Tokara"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2022
+    },
     "verdict": "Worth Revisiting"
   },
   {
@@ -54,155 +115,420 @@
     "kind": "WINE",
     "facet": "wines",
     "entityId": "lamotte-chardonnay-2021",
-    "producer": "La Motte",
-    "title": "Chardonnay",
-    "meta": "2021",
-    "verdict": "Worth Revisiting"
+    "title": {
+      "source": "canonical",
+      "text": "Chardonnay"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "La Motte"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2021
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 32000,
+      "currency": "ZAR"
+    }
   },
   {
     "id": "search_wine_de_toren_book_xvii_2016",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "de-toren-book-xvii-2016",
-    "producer": "De Toren",
-    "title": "Book 17 XVII",
-    "meta": "2016",
-    "verdict": "Essential"
+    "title": {
+      "source": "canonical",
+      "text": "Book 17 XVII"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "De Toren"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2016
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 71000,
+      "currency": "ZAR"
+    }
   },
   {
     "id": "search_wine_mullineux_elandskloof_chardonnay_2016",
     "kind": "WINE",
     "facet": "wines",
     "entityId": "mullineux-elandskloof-chardonnay-2016",
-    "producer": "Mullineux",
-    "title": "Elandskloof Chardonnay",
-    "meta": "2016",
-    "verdict": "Essential"
+    "title": {
+      "source": "canonical",
+      "text": "Elandskloof Chardonnay"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Mullineux"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2016
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 70000,
+      "currency": "ZAR"
+    }
+  },
+  {
+    "id": "search_wine_pichon_baron_2016",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "pichon-baron-2016",
+    "title": {
+      "source": "canonical",
+      "text": "Château Pichon Baron"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Pauillac"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2016
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 245000,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "search_wine_vietti_castiglione_barolo_2018",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "vietti-castiglione-barolo-2018",
+    "title": {
+      "source": "canonical",
+      "text": "Castiglione Barolo"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Vietti"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2018
+    },
+    "verdict": "Unforgettable",
+    "listedPrice": {
+      "amountMinorUnits": 129000,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "search_wine_ridge_monte_bello_2019",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "ridge-monte-bello-2019",
+    "title": {
+      "source": "canonical",
+      "text": "Monte Bello"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Ridge Vineyards"
+    },
+    "meta": {
+      "kind": "vintage",
+      "year": 2019
+    },
+    "verdict": "Essential",
+    "listedPrice": {
+      "amountMinorUnits": 420000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "search_wine_larmandier_bernier_latitude_nv",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "larmandier-bernier-latitude-nv",
+    "title": {
+      "source": "canonical",
+      "text": "Latitude Extra Brut"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Larmandier-Bernier"
+    },
+    "meta": {
+      "kind": "nonVintage"
+    },
+    "verdict": "Worth Revisiting",
+    "listedPrice": {
+      "amountMinorUnits": 98000,
+      "currency": "EUR"
+    }
   },
   {
     "id": "search_estate_meerlust",
     "kind": "ESTATE",
     "facet": "estates",
     "entityId": "estate_meerlust",
-    "producer": "Stellenbosch",
-    "title": "Meerlust Estate",
-    "meta": "Est. 1693 · 6 wines"
+    "title": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Stellenbosch"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1693,
+      "wineCount": 6
+    }
   },
   {
     "id": "search_estate_kanonkop",
     "kind": "ESTATE",
     "facet": "estates",
     "entityId": "estate_kanonkop",
-    "producer": "Stellenbosch",
-    "title": "Kanonkop Estate",
-    "meta": "Est. 1910 · 11 wines"
+    "title": {
+      "source": "canonical",
+      "text": "Kanonkop Estate"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Stellenbosch"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1910,
+      "wineCount": 11
+    }
   },
   {
     "id": "search_estate_sadie_family",
     "kind": "ESTATE",
     "facet": "estates",
     "entityId": "estate_sadie_family",
-    "producer": "Swartland",
-    "title": "Sadie Family Wines",
-    "meta": "Est. 1999 · 9 wines"
+    "title": {
+      "source": "canonical",
+      "text": "Sadie Family Wines"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Swartland"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1999,
+      "wineCount": 9
+    }
   },
   {
     "id": "search_estate_boekenhoutskloof",
     "kind": "ESTATE",
     "facet": "estates",
     "entityId": "estate_boekenhoutskloof",
-    "producer": "Franschhoek",
-    "title": "Boekenhoutskloof",
-    "meta": "Est. 1776 · 14 wines"
+    "title": {
+      "source": "canonical",
+      "text": "Boekenhoutskloof"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Franschhoek"
+    },
+    "meta": {
+      "kind": "estate",
+      "foundedYear": 1776,
+      "wineCount": 14
+    }
   },
   {
     "id": "search_region_stellenbosch",
     "kind": "REGION",
     "facet": "regions",
     "entityId": "region_stellenbosch",
-    "producer": "Coastal Region",
-    "title": "Stellenbosch",
-    "meta": "312 wines"
+    "title": {
+      "source": "canonical",
+      "text": "Stellenbosch"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Coastal Region"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 312
+    }
   },
   {
     "id": "search_region_swartland",
     "kind": "REGION",
     "facet": "regions",
     "entityId": "region_swartland",
-    "producer": "Coastal Region",
-    "title": "Swartland",
-    "meta": "188 wines"
+    "title": {
+      "source": "canonical",
+      "text": "Swartland"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Coastal Region"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 188
+    }
   },
   {
     "id": "search_region_hemel_en_aarde",
     "kind": "REGION",
     "facet": "regions",
     "entityId": "region_hemel_en_aarde",
-    "producer": "Walker Bay",
-    "title": "Hemel-en-Aarde",
-    "meta": "96 wines"
+    "title": {
+      "source": "canonical",
+      "text": "Hemel-en-Aarde"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Walker Bay"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 96
+    }
   },
   {
     "id": "search_region_franschhoek",
     "kind": "REGION",
     "facet": "regions",
     "entityId": "region_franschhoek",
-    "producer": "Coastal Region",
-    "title": "Franschhoek",
-    "meta": "124 wines"
+    "title": {
+      "source": "canonical",
+      "text": "Franschhoek"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Coastal Region"
+    },
+    "meta": {
+      "kind": "region",
+      "wineCount": 124
+    }
   },
   {
     "id": "search_tasting_meerlust_cellar",
     "kind": "TASTING",
     "facet": "tastings",
     "entityId": "event_meerlust_cellar_tasting",
-    "producer": "Meerlust Estate",
-    "title": "Meerlust cellar tasting",
-    "meta": "24 July · 4 seats left"
+    "title": {
+      "source": "negotiated",
+      "text": "Meerlust cellar tasting",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Meerlust Estate"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-07-24T16:00:00.000Z",
+      "seatsRemaining": 4
+    }
   },
   {
     "id": "search_tasting_swartland_six_ways",
     "kind": "TASTING",
     "facet": "tastings",
     "entityId": "event_swartland_six_ways",
-    "producer": "Publik Wine Bar",
-    "title": "Swartland, Six Ways",
-    "meta": "26 July · 12 seats"
+    "title": {
+      "source": "negotiated",
+      "text": "Swartland, Six Ways",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Publik Wine Bar"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-07-26T17:30:00.000Z",
+      "seatsRemaining": 12
+    }
   },
   {
     "id": "search_tasting_chenin_masterclass",
     "kind": "TASTING",
     "facet": "tastings",
     "entityId": "event_chenin_masterclass",
-    "producer": "Kwari Live",
-    "title": "Chenin blanc masterclass",
-    "meta": "30 July · open"
+    "title": {
+      "source": "negotiated",
+      "text": "Chenin blanc masterclass",
+      "languageTag": "en"
+    },
+    "eyebrow": {
+      "source": "canonical",
+      "text": "Kwari Live"
+    },
+    "meta": {
+      "kind": "tasting",
+      "startsAt": "2026-07-30T18:00:00.000Z"
+    }
   },
   {
     "id": "search_person_alexandra_meyer",
     "kind": "PERSON",
     "facet": "people",
     "entityId": "user_alexandra_meyer",
-    "producer": "Enthusiast",
-    "title": "Alexandra Meyer",
-    "meta": "42 notes"
+    "title": {
+      "source": "canonical",
+      "text": "Alexandra Meyer"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "enthusiast"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 42
+    }
   },
   {
     "id": "search_person_thandi_nkosi",
     "kind": "PERSON",
     "facet": "people",
     "entityId": "user_thandi_nkosi",
-    "producer": "Sommelier",
-    "title": "Thandi Nkosi",
-    "meta": "214 notes"
+    "title": {
+      "source": "canonical",
+      "text": "Thandi Nkosi"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "sommelier"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 214
+    }
   },
   {
     "id": "search_person_nomsa_dlamini",
     "kind": "PERSON",
     "facet": "people",
     "entityId": "user_nomsa_dlamini",
-    "producer": "Sommelier",
-    "title": "Nomsa Dlamini",
-    "meta": "88 notes"
+    "title": {
+      "source": "canonical",
+      "text": "Nomsa Dlamini"
+    },
+    "eyebrow": {
+      "source": "chrome",
+      "key": "sommelier"
+    },
+    "meta": {
+      "kind": "noteCount",
+      "count": 88
+    }
   }
 ]
