@@ -1,5 +1,77 @@
 [
   {
+    "id": "event_meerlust_cellar_tasting",
+    "title": "Meerlust cellar tasting",
+    "eventType": "winemaker_dinner",
+    "startDateTime": "2026-07-24T16:00:00.000Z",
+    "venueName": "Meerlust Estate",
+    "location": "Stellenbosch",
+    "seatsAvailable": 4,
+    "host": {
+      "name": "Meerlust Estate",
+      "tier": "producer",
+      "role": "producer"
+    },
+    "subject": {
+      "kind": "producer",
+      "producerId": "estate_meerlust"
+    }
+  },
+  {
+    "id": "event_swartland_six_ways",
+    "title": "Swartland, Six Ways",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-07-26T17:30:00.000Z",
+    "venueName": "Publik Wine Bar",
+    "location": "Bree Street",
+    "seatsAvailable": 12,
+    "imageUrl": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80",
+    "host": {
+      "name": "Thandi Nkosi",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "subject": {
+      "kind": "region",
+      "regionId": "region_swartland"
+    }
+  },
+  {
+    "id": "event_chenin_masterclass",
+    "title": "Chenin blanc masterclass",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-07-30T18:00:00.000Z",
+    "venueName": "Kwari Live",
+    "location": "Online",
+    "host": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "subject": {
+      "kind": "style",
+      "styleName": "Chenin Blanc"
+    }
+  },
+  {
+    "id": "event_cap_classique_brunch",
+    "title": "Cap Classique brunch",
+    "eventType": "pairing",
+    "startDateTime": "2026-08-03T09:00:00.000Z",
+    "venueName": "Leeu Estates",
+    "location": "Franschhoek",
+    "seatsAvailable": 0,
+    "host": {
+      "name": "Leeu Estates",
+      "tier": "producer",
+      "role": "producer"
+    },
+    "subject": {
+      "kind": "region",
+      "regionId": "region_franschhoek"
+    }
+  },
+  {
     "id": "event_meerlust-cellar-tasting",
     "title": "Meerlust cellar tasting",
     "titleLanguage": "en",

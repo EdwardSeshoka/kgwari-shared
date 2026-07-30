@@ -1,16 +1,16 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 
-import { createDiscover, createPublicWines } from "../dist/index.js";
+import { createDiscover, createWines } from "../dist/index.js";
 
 const ALLOWED_USER_KEYS = ["displayName", "id", "initials", "role", "status", "tier"];
 
-describe("createPublicWines", () => {
+describe("createWines", () => {
   it(
     "returns the sample wine catalog as WineContract records",
     function givenSampleCatalog_whenCreated_thenReturnsWineRecords() {
       // When
-      const wines = createPublicWines();
+      const wines = createWines();
 
       // Then
       assert.ok(wines.length > 0);
@@ -22,7 +22,7 @@ describe("createPublicWines", () => {
     "carries the editorial signal, never a public numeric score",
     function givenSampleCatalog_whenInspected_thenCarriesVerdictNotScore() {
       // Given
-      const wines = createPublicWines();
+      const wines = createWines();
 
       // Then
       for (const wine of wines) {
@@ -36,7 +36,7 @@ describe("createPublicWines", () => {
     "covers non-South-African origin systems",
     function givenSampleCatalog_whenInspected_thenCoversGlobalOriginSystems() {
       // Given
-      const wines = createPublicWines();
+      const wines = createWines();
 
       // Then
       assert.ok(wines.some((wine) => wine.appellation?.system === "DOCG"));

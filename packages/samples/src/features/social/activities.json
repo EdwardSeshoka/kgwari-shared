@@ -1,5 +1,69 @@
 [
   {
+    "id": "activity_alexandra_rubicon_review",
+    "activityType": "review",
+    "user": {
+      "id": "user_alexandra_meyer",
+      "displayName": "Alexandra Meyer",
+      "initials": "AM",
+      "status": "enthusiast"
+    },
+    "wine": {
+      "id": "rubicon-2018",
+      "wineLabelId": "rubicon",
+      "name": "Rubicon",
+      "producerName": "Meerlust Estate",
+      "vintage": 2018,
+      "vintageDisplay": "2018"
+    },
+    "verdict": "Essential",
+    "note": "Cassis and cedar, still tightly wound — gave it three hours and it opened into something generous.",
+    "createdAt": "2026-07-16T18:30:00.000Z"
+  },
+  {
+    "id": "activity_johan_pinotage_review",
+    "activityType": "review",
+    "user": {
+      "id": "user_johan_terblanche",
+      "displayName": "Johan Terblanche",
+      "initials": "JT",
+      "status": "collector"
+    },
+    "wine": {
+      "id": "kanonkop-pinotage-2019",
+      "wineLabelId": "kanonkop-pinotage",
+      "name": "Kanonkop Pinotage",
+      "producerName": "Kanonkop Estate",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
+    },
+    "verdict": "Essential",
+    "note": "Fine-grained tannin over a long graphite finish. There is no hurry with this one — another decade, easily.",
+    "createdAt": "2026-07-14T15:30:00.000Z"
+  },
+  {
+    "id": "activity_nomsa_constance_note",
+    "activityType": "tasting_note",
+    "user": {
+      "id": "user_nomsa_dlamini",
+      "displayName": "Nomsa Dlamini",
+      "initials": "ND",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "wine": {
+      "id": "groot-constantia-grand-constance-2014",
+      "wineLabelId": "groot-constantia-grand-constance",
+      "name": "Grand Constance",
+      "producerName": "Groot Constantia",
+      "vintage": 2014,
+      "vintageDisplay": "2014"
+    },
+    "verdict": "Unforgettable",
+    "note": "Apricot and orange blossom, cut clean by a saline line that keeps all that sweetness honest.",
+    "createdAt": "2026-07-12T20:15:00.000Z"
+  },
+  {
     "id": "activity_alexandra-meyer_0",
     "activityType": "review",
     "user": {
@@ -9,14 +73,14 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "rubicon-2010-meerlust-est",
+      "id": "rubicon-2018",
       "wineLabelId": "rubicon",
       "name": "Rubicon",
       "producerName": "Meerlust Estate",
-      "vintage": 2010,
-      "vintageDisplay": "2010"
+      "vintage": 2018,
+      "vintageDisplay": "2018"
     },
-    "verdict": "Unforgettable",
+    "verdict": "Essential",
     "note": "Tasted at Stellenbosch.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
@@ -31,15 +95,15 @@
       "role": "sommelier"
     },
     "wine": {
-      "id": "the-mint-2010-thelema-moun",
-      "wineLabelId": "the-mint",
-      "name": "The Mint",
-      "producerName": "Thelema Mountain Vineyards",
-      "vintage": 2010,
-      "vintageDisplay": "2010"
+      "id": "boekenhoutskloof-syrah-2020",
+      "wineLabelId": "boekenhoutskloof-syrah",
+      "name": "Syrah",
+      "producerName": "Boekenhoutskloof",
+      "vintage": 2020,
+      "vintageDisplay": "2020"
     },
-    "verdict": "Essential",
-    "note": "Tasted at Stellenbosch.",
+    "verdict": "Worth Revisiting",
+    "note": "Tasted at Franschhoek.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -53,15 +117,15 @@
       "role": "sommelier"
     },
     "wine": {
-      "id": "palladius-2011-sadie-family",
-      "wineLabelId": "palladius",
-      "name": "Palladius",
-      "producerName": "Sadie Family Wines",
-      "vintage": 2011,
-      "vintageDisplay": "2011"
+      "id": "de-toren-book-xvii-2016",
+      "wineLabelId": "de-toren-book-xvii",
+      "name": "Book 17 XVII",
+      "producerName": "De Toren",
+      "vintage": 2016,
+      "vintageDisplay": "2016"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Swartland.",
+    "verdict": "Essential",
+    "note": "Tasted at Stellenbosch.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -74,15 +138,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "cape-blend-2018-boekenhoutsk",
-      "wineLabelId": "cape-blend",
-      "name": "Cape Blend",
-      "producerName": "Boekenhoutskloof",
-      "vintage": 2018,
-      "vintageDisplay": "2018"
+      "id": "steenberg-lady-r-mcc-2011",
+      "wineLabelId": "steenberg-lady-r-mcc",
+      "name": "Lady R MCC",
+      "producerName": "Steenberg",
+      "vintage": 2011,
+      "vintageDisplay": "2011"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Franschhoek.",
+    "verdict": "Worth Revisiting",
+    "note": "Tasted at Constantia.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -95,13 +159,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "bouchard-finlayson-pinotage-reserve-nv",
-      "wineLabelId": "pinotage-reserve",
-      "name": "Pinotage Reserve",
-      "producerName": "Bouchard Finlayson"
+      "id": "ridge-monte-bello-2019",
+      "wineLabelId": "ridge-monte-bello",
+      "name": "Monte Bello",
+      "producerName": "Ridge Vineyards",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Hemel-en-Aarde.",
+    "verdict": "Essential",
+    "note": "Tasted at Napa Valley.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -114,15 +180,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "cabernet-sauvignon-2022-paul-cluver",
-      "wineLabelId": "cabernet-sauvignon",
-      "name": "Cabernet Sauvignon",
-      "producerName": "Paul Cluver",
-      "vintage": 2022,
-      "vintageDisplay": "2022"
+      "id": "paul-sauer-2011-kanonkop-est",
+      "wineLabelId": "paul-sauer",
+      "name": "Paul Sauer",
+      "producerName": "Kanonkop Estate",
+      "vintage": 2011,
+      "vintageDisplay": "2011"
     },
     "verdict": "Worth Revisiting",
-    "note": "Tasted at Elgin.",
+    "note": "Tasted at Stellenbosch.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -136,15 +202,15 @@
       "role": "winemaker"
     },
     "wine": {
-      "id": "rubicon-2020-groote-post",
-      "wineLabelId": "rubicon",
-      "name": "Rubicon",
-      "producerName": "Groote Post",
-      "vintage": 2020,
-      "vintageDisplay": "2020"
+      "id": "directors-reserve-2021-tokara",
+      "wineLabelId": "directors-reserve",
+      "name": "Directors Reserve",
+      "producerName": "Tokara",
+      "vintage": 2021,
+      "vintageDisplay": "2021"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Darling.",
+    "verdict": "Essential",
+    "note": "Tasted at Stellenbosch.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -157,15 +223,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "brut-nature-2018-domaine-lefl",
-      "wineLabelId": "brut-nature",
-      "name": "Brut Nature",
-      "producerName": "Domaine Leflaive",
-      "vintage": 2018,
-      "vintageDisplay": "2018"
+      "id": "columella-2017-mullineux",
+      "wineLabelId": "columella",
+      "name": "Columella",
+      "producerName": "Mullineux",
+      "vintage": 2017,
+      "vintageDisplay": "2017"
     },
-    "verdict": "Essential",
-    "note": "Tasted at Bourgogne.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Swartland.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -179,15 +245,15 @@
       "role": "venue"
     },
     "wine": {
-      "id": "clos-des-vignes-2010-chateau-marg",
-      "wineLabelId": "clos-des-vignes",
-      "name": "Clos des Vignes",
-      "producerName": "Château Margaux",
-      "vintage": 2010,
-      "vintageDisplay": "2010"
+      "id": "grand-constance-2018-hamilton-rus",
+      "wineLabelId": "grand-constance",
+      "name": "Grand Constance",
+      "producerName": "Hamilton Russell Vineyards",
+      "vintage": 2018,
+      "vintageDisplay": "2018"
     },
-    "verdict": "Essential",
-    "note": "Tasted at Margaux.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Hemel-en-Aarde.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -201,15 +267,15 @@
       "role": "winemaker"
     },
     "wine": {
-      "id": "latitude-extra-brut-2022-champagne-bo",
-      "wineLabelId": "latitude-extra-brut",
-      "name": "Latitude Extra Brut",
-      "producerName": "Champagne Bollinger",
-      "vintage": 2022,
-      "vintageDisplay": "2022"
+      "id": "sauvignon-blanc-reserve-2010-groot-consta",
+      "wineLabelId": "sauvignon-blanc-reserve",
+      "name": "Sauvignon Blanc Reserve",
+      "producerName": "Groot Constantia",
+      "vintage": 2010,
+      "vintageDisplay": "2010"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Champagne.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Constantia.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -223,13 +289,15 @@
       "role": "sommelier"
     },
     "wine": {
-      "id": "e-guigal-sancerre-les-romains-nv",
-      "wineLabelId": "sancerre-les-romains",
-      "name": "Sancerre Les Romains",
-      "producerName": "E. Guigal"
+      "id": "shiraz-2017-cederberg-pr",
+      "wineLabelId": "shiraz",
+      "name": "Shiraz",
+      "producerName": "Cederberg Private Cellar",
+      "vintage": 2017,
+      "vintageDisplay": "2017"
     },
-    "verdict": "Essential",
-    "note": "Tasted at Côte-Rôtie.",
+    "verdict": "Worth Revisiting",
+    "note": "Tasted at Cederberg.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -243,15 +311,15 @@
       "role": "winemaker"
     },
     "wine": {
-      "id": "vieilles-vignes-2014-domaine-zind",
+      "id": "vieilles-vignes-2015-domaine-de-l",
       "wineLabelId": "vieilles-vignes",
       "name": "Vieilles Vignes",
-      "producerName": "Domaine Zind-Humbrecht",
-      "vintage": 2014,
-      "vintageDisplay": "2014"
+      "producerName": "Domaine de la Romanée-Conti",
+      "vintage": 2015,
+      "vintageDisplay": "2015"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Alsace.",
+    "verdict": "Essential",
+    "note": "Tasted at Bourgogne.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -264,15 +332,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "barolo-castiglione-2018-vietti",
-      "wineLabelId": "barolo-castiglione",
-      "name": "Barolo Castiglione",
-      "producerName": "Vietti",
-      "vintage": 2018,
-      "vintageDisplay": "2018"
+      "id": "grand-cru-2011-maison-louis",
+      "wineLabelId": "grand-cru",
+      "name": "Grand Cru",
+      "producerName": "Maison Louis Jadot",
+      "vintage": 2011,
+      "vintageDisplay": "2011"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Barolo.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Bourgogne.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -286,15 +354,15 @@
       "role": "distributor"
     },
     "wine": {
-      "id": "etna-rosso-2015-biondi-santi",
-      "wineLabelId": "etna-rosso",
-      "name": "Etna Rosso",
-      "producerName": "Biondi-Santi",
-      "vintage": 2015,
-      "vintageDisplay": "2015"
+      "id": "cote-rotie-la-mouline-2016-chateau-chev",
+      "wineLabelId": "cote-rotie-la-mouline",
+      "name": "Côte-Rôtie La Mouline",
+      "producerName": "Château Cheval Blanc",
+      "vintage": 2016,
+      "vintageDisplay": "2016"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Montalcino.",
+    "verdict": "Essential",
+    "note": "Tasted at Saint-Émilion.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -307,15 +375,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "barbaresco-2017-elena-walch",
-      "wineLabelId": "barbaresco",
-      "name": "Barbaresco",
-      "producerName": "Elena Walch",
+      "id": "blanc-de-blancs-2017-champagne-bo",
+      "wineLabelId": "blanc-de-blancs",
+      "name": "Blanc de Blancs",
+      "producerName": "Champagne Bollinger",
       "vintage": 2017,
       "vintageDisplay": "2017"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Alto Adige.",
+    "verdict": "Essential",
+    "note": "Tasted at Champagne.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -329,15 +397,15 @@
       "role": "winemaker"
     },
     "wine": {
-      "id": "ribolla-gialla-2014-passopisciar",
-      "wineLabelId": "ribolla-gialla",
-      "name": "Ribolla Gialla",
-      "producerName": "Passopisciaro",
-      "vintage": 2014,
-      "vintageDisplay": "2014"
+      "id": "sancerre-les-romains-2019-chateau-de-b",
+      "wineLabelId": "sancerre-les-romains",
+      "name": "Sancerre Les Romains",
+      "producerName": "Château de Beaucastel",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
     },
-    "verdict": "Essential",
-    "note": "Tasted at Etna.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Châteauneuf-du-Pape.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -350,15 +418,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "gran-reserva-2019-la-rioja-alt",
-      "wineLabelId": "gran-reserva",
-      "name": "Gran Reserva",
-      "producerName": "La Rioja Alta",
-      "vintage": 2019,
-      "vintageDisplay": "2019"
+      "id": "vieilles-vignes-2016-domaine-vach",
+      "wineLabelId": "vieilles-vignes",
+      "name": "Vieilles Vignes",
+      "producerName": "Domaine Vacheron",
+      "vintage": 2016,
+      "vintageDisplay": "2016"
     },
-    "verdict": "Essential",
-    "note": "Tasted at Rioja.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Sancerre.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -372,15 +440,15 @@
       "role": "sommelier"
     },
     "wine": {
-      "id": "fino-en-rama-2022-vega-sicilia",
-      "wineLabelId": "fino-en-rama",
-      "name": "Fino en Rama",
-      "producerName": "Vega Sicilia",
-      "vintage": 2022,
-      "vintageDisplay": "2022"
+      "id": "brunello-2020-giacomo-cont",
+      "wineLabelId": "brunello",
+      "name": "Brunello",
+      "producerName": "Giacomo Conterno",
+      "vintage": 2020,
+      "vintageDisplay": "2020"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Ribera del Duero.",
+    "verdict": "Essential",
+    "note": "Tasted at Barolo.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -393,15 +461,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "reserva-especial-2014-pazo-de-seno",
-      "wineLabelId": "reserva-especial",
-      "name": "Reserva Especial",
-      "producerName": "Pazo de Señoráns",
-      "vintage": 2014,
-      "vintageDisplay": "2014"
+      "id": "etna-rosso-2019-castello-di-",
+      "wineLabelId": "etna-rosso",
+      "name": "Etna Rosso",
+      "producerName": "Castello di Ama",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Rías Baixas.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Chianti Classico.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -415,15 +483,15 @@
       "role": "sommelier"
     },
     "wine": {
-      "id": "weissburgunder-2013-weingut-egon",
-      "wineLabelId": "weissburgunder",
-      "name": "Weissburgunder",
-      "producerName": "Weingut Egon Müller",
-      "vintage": 2013,
-      "vintageDisplay": "2013"
+      "id": "barbaresco-2022-gravner",
+      "wineLabelId": "barbaresco",
+      "name": "Barbaresco",
+      "producerName": "Gravner",
+      "vintage": 2022,
+      "vintageDisplay": "2022"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Mosel.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Friuli-Venezia Giulia.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -437,15 +505,15 @@
       "role": "winemaker"
     },
     "wine": {
-      "id": "grosses-gewachs-2018-weingut-dr-l",
-      "wineLabelId": "grosses-gewachs",
-      "name": "Grosses Gewächs",
-      "producerName": "Weingut Dr. Loosen",
-      "vintage": 2018,
-      "vintageDisplay": "2018"
+      "id": "nebbiolo-langhe-2011-passopisciar",
+      "wineLabelId": "nebbiolo-langhe",
+      "name": "Nebbiolo Langhe",
+      "producerName": "Passopisciaro",
+      "vintage": 2011,
+      "vintageDisplay": "2011"
     },
-    "verdict": "Essential",
-    "note": "Tasted at Mosel.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Etna.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -458,15 +526,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "trockenbeerenauslese-2020-weingut-donn",
-      "wineLabelId": "trockenbeerenauslese",
-      "name": "Trockenbeerenauslese",
-      "producerName": "Weingut Dönnhoff",
-      "vintage": 2020,
-      "vintageDisplay": "2020"
+      "id": "unico-2014-bodegas-muga",
+      "wineLabelId": "unico",
+      "name": "Único",
+      "producerName": "Bodegas Muga",
+      "vintage": 2014,
+      "vintageDisplay": "2014"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Nahe.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Rioja.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -479,15 +547,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "chasselas-grand-cru-2013-domaine-jean",
-      "wineLabelId": "chasselas-grand-cru",
-      "name": "Chasselas Grand Cru",
-      "producerName": "Domaine Jean-René Germanier",
-      "vintage": 2013,
-      "vintageDisplay": "2013"
+      "id": "fino-en-rama-2020-clos-mogador",
+      "wineLabelId": "fino-en-rama",
+      "name": "Fino en Rama",
+      "producerName": "Clos Mogador",
+      "vintage": 2020,
+      "vintageDisplay": "2020"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Valais.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Priorat.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -501,15 +569,15 @@
       "role": "sommelier"
     },
     "wine": {
-      "id": "russian-river-chardonnay-2017-ridge-vineya",
-      "wineLabelId": "russian-river-chardonnay",
-      "name": "Russian River Chardonnay",
-      "producerName": "Ridge Vineyards",
-      "vintage": 2017,
-      "vintageDisplay": "2017"
+      "id": "reserva-especial-2011-gonzalez-bya",
+      "wineLabelId": "reserva-especial",
+      "name": "Reserva Especial",
+      "producerName": "González Byass",
+      "vintage": 2011,
+      "vintageDisplay": "2011"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Napa Valley.",
+    "verdict": "Essential",
+    "note": "Tasted at Jerez.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -523,15 +591,15 @@
       "role": "importer"
     },
     "wine": {
-      "id": "icewine-riesling-2012-mission-hill",
-      "wineLabelId": "icewine-riesling",
-      "name": "Icewine Riesling",
-      "producerName": "Mission Hill Family Estate",
-      "vintage": 2012,
-      "vintageDisplay": "2012"
+      "id": "riesling-kabinett-2021-weingut-egon",
+      "wineLabelId": "riesling-kabinett",
+      "name": "Riesling Kabinett",
+      "producerName": "Weingut Egon Müller",
+      "vintage": 2021,
+      "vintageDisplay": "2021"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Okanagan Valley.",
+    "verdict": "Essential",
+    "note": "Tasted at Mosel.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -544,15 +612,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "sparkling-reserve-2014-ridgeview-wi",
-      "wineLabelId": "sparkling-reserve",
-      "name": "Sparkling Reserve",
-      "producerName": "Ridgeview Wine Estate",
+      "id": "grosses-gewachs-2014-schloss-joha",
+      "wineLabelId": "grosses-gewachs",
+      "name": "Grosses Gewächs",
+      "producerName": "Schloss Johannisberg",
       "vintage": 2014,
       "vintageDisplay": "2014"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Sussex.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Rheingau.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -565,15 +633,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "rose-brut-2014-gusbourne-es",
-      "wineLabelId": "rose-brut",
-      "name": "Rosé Brut",
-      "producerName": "Gusbourne Estate",
-      "vintage": 2014,
-      "vintageDisplay": "2014"
+      "id": "riesling-federspiel-2019-weingut-f-x-",
+      "wineLabelId": "riesling-federspiel",
+      "name": "Riesling Federspiel",
+      "producerName": "Weingut F.X. Pichler",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Kent.",
+    "verdict": "Essential",
+    "note": "Tasted at Wachau.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -587,15 +655,15 @@
       "role": "wine_club"
     },
     "wine": {
-      "id": "estate-reserve-2017-rust-en-vred",
-      "wineLabelId": "estate-reserve",
-      "name": "Estate Reserve",
-      "producerName": "Rust en Vrede",
-      "vintage": 2017,
-      "vintageDisplay": "2017"
+      "id": "fendant-du-valais-2019-domaine-jean",
+      "wineLabelId": "fendant-du-valais",
+      "name": "Fendant du Valais",
+      "producerName": "Domaine Jean-René Germanier",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Stellenbosch.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Valais.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -608,15 +676,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "book-xvii-2019-de-toren",
-      "wineLabelId": "book-xvii",
-      "name": "Book XVII",
-      "producerName": "De Toren",
-      "vintage": 2019,
-      "vintageDisplay": "2019"
+      "id": "russian-river-chardonnay-2016-ridge-monte-",
+      "wineLabelId": "russian-river-chardonnay",
+      "name": "Russian River Chardonnay",
+      "producerName": "Ridge Monte Bello Estate",
+      "vintage": 2016,
+      "vintageDisplay": "2016"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Stellenbosch.",
+    "verdict": "Essential",
+    "note": "Tasted at Sonoma County.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -630,15 +698,15 @@
       "role": "sommelier"
     },
     "wine": {
-      "id": "old-vine-chenin-2014-a-a-badenhor",
-      "wineLabelId": "old-vine-chenin",
-      "name": "Old Vine Chenin",
-      "producerName": "A.A. Badenhorst",
-      "vintage": 2014,
-      "vintageDisplay": "2014"
+      "id": "estate-pinot-noir-2019-mission-hill",
+      "wineLabelId": "estate-pinot-noir",
+      "name": "Estate Pinot Noir",
+      "producerName": "Mission Hill Family Estate",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Swartland.",
+    "verdict": "Essential",
+    "note": "Tasted at Okanagan Valley.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -651,15 +719,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "grand-constance-2018-hamilton-rus",
-      "wineLabelId": "grand-constance",
-      "name": "Grand Constance",
-      "producerName": "Hamilton Russell Vineyards",
-      "vintage": 2018,
-      "vintageDisplay": "2018"
+      "id": "classic-cuvee-2011-nyetimber",
+      "wineLabelId": "classic-cuvee",
+      "name": "Classic Cuvée",
+      "producerName": "Nyetimber",
+      "vintage": 2011,
+      "vintageDisplay": "2011"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Hemel-en-Aarde.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Sussex.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -673,15 +741,15 @@
       "role": "venue"
     },
     "wine": {
-      "id": "sauvignon-blanc-reserve-2020-groot-consta",
-      "wineLabelId": "sauvignon-blanc-reserve",
-      "name": "Sauvignon Blanc Reserve",
-      "producerName": "Groot Constantia",
-      "vintage": 2020,
-      "vintageDisplay": "2020"
+      "id": "rubicon-2018",
+      "wineLabelId": "rubicon",
+      "name": "Rubicon",
+      "producerName": "Meerlust Estate",
+      "vintage": 2018,
+      "vintageDisplay": "2018"
     },
     "verdict": "Essential",
-    "note": "Tasted at Constantia.",
+    "note": "Tasted at Stellenbosch.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -694,15 +762,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "shiraz-2015-cederberg-pr",
-      "wineLabelId": "shiraz",
-      "name": "Shiraz",
-      "producerName": "Cederberg Private Cellar",
-      "vintage": 2015,
-      "vintageDisplay": "2015"
+      "id": "boekenhoutskloof-syrah-2020",
+      "wineLabelId": "boekenhoutskloof-syrah",
+      "name": "Syrah",
+      "producerName": "Boekenhoutskloof",
+      "vintage": 2020,
+      "vintageDisplay": "2020"
     },
-    "verdict": "Essential",
-    "note": "Tasted at Cederberg.",
+    "verdict": "Worth Revisiting",
+    "note": "Tasted at Franschhoek.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -716,15 +784,15 @@
       "role": "distributor"
     },
     "wine": {
-      "id": "vieilles-vignes-2010-domaine-de-l",
-      "wineLabelId": "vieilles-vignes",
-      "name": "Vieilles Vignes",
-      "producerName": "Domaine de la Romanée-Conti",
-      "vintage": 2010,
-      "vintageDisplay": "2010"
+      "id": "de-toren-book-xvii-2016",
+      "wineLabelId": "de-toren-book-xvii",
+      "name": "Book 17 XVII",
+      "producerName": "De Toren",
+      "vintage": 2016,
+      "vintageDisplay": "2016"
     },
     "verdict": "Essential",
-    "note": "Tasted at Bourgogne.",
+    "note": "Tasted at Stellenbosch.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -737,13 +805,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "chateau-pichon-baron-premier-cru-nv",
-      "wineLabelId": "premier-cru",
-      "name": "Premier Cru",
-      "producerName": "Château Pichon Baron"
+      "id": "steenberg-lady-r-mcc-2011",
+      "wineLabelId": "steenberg-lady-r-mcc",
+      "name": "Lady R MCC",
+      "producerName": "Steenberg",
+      "vintage": 2011,
+      "vintageDisplay": "2011"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Pauillac.",
+    "verdict": "Worth Revisiting",
+    "note": "Tasted at Constantia.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -756,13 +826,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "larmandier-bernier-chateauneuf-hommage-nv",
-      "wineLabelId": "chateauneuf-hommage",
-      "name": "Châteauneuf Hommage",
-      "producerName": "Larmandier-Bernier"
+      "id": "ridge-monte-bello-2019",
+      "wineLabelId": "ridge-monte-bello",
+      "name": "Monte Bello",
+      "producerName": "Ridge Vineyards",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Champagne.",
+    "verdict": "Essential",
+    "note": "Tasted at Napa Valley.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -776,13 +848,15 @@
       "role": "sommelier"
     },
     "wine": {
-      "id": "e-guigal-blanc-de-blancs-nv",
-      "wineLabelId": "blanc-de-blancs",
-      "name": "Blanc de Blancs",
-      "producerName": "E. Guigal"
+      "id": "paul-sauer-2011-kanonkop-est",
+      "wineLabelId": "paul-sauer",
+      "name": "Paul Sauer",
+      "producerName": "Kanonkop Estate",
+      "vintage": 2011,
+      "vintageDisplay": "2011"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Côte-Rôtie.",
+    "verdict": "Worth Revisiting",
+    "note": "Tasted at Stellenbosch.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -795,15 +869,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "cuvee-reserve-2014-domaine-zind",
-      "wineLabelId": "cuvee-reserve",
-      "name": "Cuvée Réserve",
-      "producerName": "Domaine Zind-Humbrecht",
-      "vintage": 2014,
-      "vintageDisplay": "2014"
+      "id": "directors-reserve-2021-tokara",
+      "wineLabelId": "directors-reserve",
+      "name": "Directors Reserve",
+      "producerName": "Tokara",
+      "vintage": 2021,
+      "vintageDisplay": "2021"
     },
     "verdict": "Essential",
-    "note": "Tasted at Alsace.",
+    "note": "Tasted at Stellenbosch.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -816,15 +890,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "brut-nature-2016-domaine-vach",
-      "wineLabelId": "brut-nature",
-      "name": "Brut Nature",
-      "producerName": "Domaine Vacheron",
-      "vintage": 2016,
-      "vintageDisplay": "2016"
+      "id": "columella-2017-mullineux",
+      "wineLabelId": "columella",
+      "name": "Columella",
+      "producerName": "Mullineux",
+      "vintage": 2017,
+      "vintageDisplay": "2017"
     },
-    "verdict": "Essential",
-    "note": "Tasted at Sancerre.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Swartland.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -838,15 +912,15 @@
       "role": "producer"
     },
     "wine": {
-      "id": "chianti-classico-riserva-2022-biondi-santi",
-      "wineLabelId": "chianti-classico-riserva",
-      "name": "Chianti Classico Riserva",
-      "producerName": "Biondi-Santi",
-      "vintage": 2022,
-      "vintageDisplay": "2022"
+      "id": "grand-constance-2018-hamilton-rus",
+      "wineLabelId": "grand-constance",
+      "name": "Grand Constance",
+      "producerName": "Hamilton Russell Vineyards",
+      "vintage": 2018,
+      "vintageDisplay": "2018"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Montalcino.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Hemel-en-Aarde.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -859,15 +933,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "amarone-della-valpolicella-2016-elena-walch",
-      "wineLabelId": "amarone-della-valpolicella",
-      "name": "Amarone della Valpolicella",
-      "producerName": "Elena Walch",
-      "vintage": 2016,
-      "vintageDisplay": "2016"
+      "id": "sauvignon-blanc-reserve-2010-groot-consta",
+      "wineLabelId": "sauvignon-blanc-reserve",
+      "name": "Sauvignon Blanc Reserve",
+      "producerName": "Groot Constantia",
+      "vintage": 2010,
+      "vintageDisplay": "2010"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Alto Adige.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Constantia.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -880,15 +954,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "ribolla-gialla-2012-gravner",
-      "wineLabelId": "ribolla-gialla",
-      "name": "Ribolla Gialla",
-      "producerName": "Gravner",
-      "vintage": 2012,
-      "vintageDisplay": "2012"
+      "id": "shiraz-2017-cederberg-pr",
+      "wineLabelId": "shiraz",
+      "name": "Shiraz",
+      "producerName": "Cederberg Private Cellar",
+      "vintage": 2017,
+      "vintageDisplay": "2017"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Friuli-Venezia Giulia.",
+    "verdict": "Worth Revisiting",
+    "note": "Tasted at Cederberg.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -902,15 +976,15 @@
       "role": "winemaker"
     },
     "wine": {
-      "id": "nebbiolo-langhe-2017-allegrini",
-      "wineLabelId": "nebbiolo-langhe",
-      "name": "Nebbiolo Langhe",
-      "producerName": "Allegrini",
-      "vintage": 2017,
-      "vintageDisplay": "2017"
+      "id": "vieilles-vignes-2015-domaine-de-l",
+      "wineLabelId": "vieilles-vignes",
+      "name": "Vieilles Vignes",
+      "producerName": "Domaine de la Romanée-Conti",
+      "vintage": 2015,
+      "vintageDisplay": "2015"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Veneto.",
+    "verdict": "Essential",
+    "note": "Tasted at Bourgogne.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -923,13 +997,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "vega-sicilia-albarino-nv",
-      "wineLabelId": "albarino",
-      "name": "Albariño",
-      "producerName": "Vega Sicilia"
+      "id": "grand-cru-2011-maison-louis",
+      "wineLabelId": "grand-cru",
+      "name": "Grand Cru",
+      "producerName": "Maison Louis Jadot",
+      "vintage": 2011,
+      "vintageDisplay": "2011"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Ribera del Duero.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Bourgogne.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -943,15 +1019,15 @@
       "role": "importer"
     },
     "wine": {
-      "id": "clos-mogador-2021-pazo-de-seno",
-      "wineLabelId": "clos-mogador",
-      "name": "Clos Mogador",
-      "producerName": "Pazo de Señoráns",
-      "vintage": 2021,
-      "vintageDisplay": "2021"
+      "id": "cote-rotie-la-mouline-2016-chateau-chev",
+      "wineLabelId": "cote-rotie-la-mouline",
+      "name": "Côte-Rôtie La Mouline",
+      "producerName": "Château Cheval Blanc",
+      "vintage": 2016,
+      "vintageDisplay": "2016"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Rías Baixas.",
+    "verdict": "Essential",
+    "note": "Tasted at Saint-Émilion.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -964,15 +1040,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "tinto-crianza-2011-descendiente",
-      "wineLabelId": "tinto-crianza",
-      "name": "Tinto Crianza",
-      "producerName": "Descendientes de J. Palacios",
-      "vintage": 2011,
-      "vintageDisplay": "2011"
+      "id": "blanc-de-blancs-2017-champagne-bo",
+      "wineLabelId": "blanc-de-blancs",
+      "name": "Blanc de Blancs",
+      "producerName": "Champagne Bollinger",
+      "vintage": 2017,
+      "vintageDisplay": "2017"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Bierzo.",
+    "verdict": "Essential",
+    "note": "Tasted at Champagne.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -985,15 +1061,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "riesling-kabinett-2021-weingut-dr-l",
-      "wineLabelId": "riesling-kabinett",
-      "name": "Riesling Kabinett",
-      "producerName": "Weingut Dr. Loosen",
-      "vintage": 2021,
-      "vintageDisplay": "2021"
+      "id": "sancerre-les-romains-2019-chateau-de-b",
+      "wineLabelId": "sancerre-les-romains",
+      "name": "Sancerre Les Romains",
+      "producerName": "Château de Beaucastel",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Mosel.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Châteauneuf-du-Pape.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -1007,15 +1083,15 @@
       "role": "sommelier"
     },
     "wine": {
-      "id": "spatlese-trocken-2022-weingut-mull",
-      "wineLabelId": "spatlese-trocken",
-      "name": "Spätlese Trocken",
-      "producerName": "Weingut Müller-Catoir",
-      "vintage": 2022,
-      "vintageDisplay": "2022"
+      "id": "vieilles-vignes-2016-domaine-vach",
+      "wineLabelId": "vieilles-vignes",
+      "name": "Vieilles Vignes",
+      "producerName": "Domaine Vacheron",
+      "vintage": 2016,
+      "vintageDisplay": "2016"
     },
-    "verdict": "Worth Revisiting",
-    "note": "Tasted at Pfalz.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Sancerre.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -1028,15 +1104,15 @@
       "status": "collector"
     },
     "wine": {
-      "id": "gruner-veltliner-ried-2020-weingut-f-x-",
-      "wineLabelId": "gruner-veltliner-ried",
-      "name": "Grüner Veltliner Ried",
-      "producerName": "Weingut F.X. Pichler",
+      "id": "brunello-2020-giacomo-cont",
+      "wineLabelId": "brunello",
+      "name": "Brunello",
+      "producerName": "Giacomo Conterno",
       "vintage": 2020,
       "vintageDisplay": "2020"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Wachau.",
+    "verdict": "Essential",
+    "note": "Tasted at Barolo.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -1049,15 +1125,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "napa-cabernet-reserve-2015-ridge-vineya",
-      "wineLabelId": "napa-cabernet-reserve",
-      "name": "Napa Cabernet Reserve",
-      "producerName": "Ridge Vineyards",
-      "vintage": 2015,
-      "vintageDisplay": "2015"
+      "id": "etna-rosso-2019-castello-di-",
+      "wineLabelId": "etna-rosso",
+      "name": "Etna Rosso",
+      "producerName": "Castello di Ama",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Napa Valley.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Chianti Classico.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -1071,15 +1147,15 @@
       "role": "distributor"
     },
     "wine": {
-      "id": "monte-bello-2020-domaine-drou",
-      "wineLabelId": "monte-bello",
-      "name": "Monte Bello",
-      "producerName": "Domaine Drouhin Oregon",
-      "vintage": 2020,
-      "vintageDisplay": "2020"
+      "id": "barbaresco-2022-gravner",
+      "wineLabelId": "barbaresco",
+      "name": "Barbaresco",
+      "producerName": "Gravner",
+      "vintage": 2022,
+      "vintageDisplay": "2022"
     },
-    "verdict": "An Interesting Discovery",
-    "note": "Tasted at Willamette Valley.",
+    "verdict": "Unforgettable",
+    "note": "Tasted at Friuli-Venezia Giulia.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   },
   {
@@ -1092,15 +1168,15 @@
       "status": "enthusiast"
     },
     "wine": {
-      "id": "estate-pinot-noir-2016-tawse-winery",
-      "wineLabelId": "estate-pinot-noir",
-      "name": "Estate Pinot Noir",
-      "producerName": "Tawse Winery",
-      "vintage": 2016,
-      "vintageDisplay": "2016"
+      "id": "nebbiolo-langhe-2011-passopisciar",
+      "wineLabelId": "nebbiolo-langhe",
+      "name": "Nebbiolo Langhe",
+      "producerName": "Passopisciaro",
+      "vintage": 2011,
+      "vintageDisplay": "2011"
     },
-    "verdict": "Unforgettable",
-    "note": "Tasted at Niagara Peninsula.",
+    "verdict": "An Interesting Discovery",
+    "note": "Tasted at Etna.",
     "createdAt": "2026-07-20T18:30:00.000Z"
   }
 ]

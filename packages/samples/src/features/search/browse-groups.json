@@ -89,7 +89,7 @@
           "source": "chrome",
           "key": "Unforgettable"
         },
-        "count": 22,
+        "count": 25,
         "query": "Unforgettable"
       },
       {
@@ -98,7 +98,7 @@
           "source": "chrome",
           "key": "Essential"
         },
-        "count": 22,
+        "count": 27,
         "query": "Essential"
       },
       {
@@ -107,7 +107,7 @@
           "source": "chrome",
           "key": "Worth Revisiting"
         },
-        "count": 17,
+        "count": 22,
         "query": "Worth Revisiting"
       },
       {
@@ -116,7 +116,7 @@
           "source": "chrome",
           "key": "An Interesting Discovery"
         },
-        "count": 18,
+        "count": 19,
         "query": "An Interesting Discovery"
       }
     ]
@@ -131,7 +131,7 @@
           "source": "canonical",
           "text": "South Africa"
         },
-        "count": 20,
+        "count": 23,
         "query": "South Africa"
       },
       {
@@ -140,7 +140,7 @@
           "source": "canonical",
           "text": "France"
         },
-        "count": 16,
+        "count": 19,
         "query": "France"
       },
       {
@@ -149,7 +149,7 @@
           "source": "canonical",
           "text": "Italia"
         },
-        "count": 12,
+        "count": 13,
         "query": "Italia"
       },
       {
