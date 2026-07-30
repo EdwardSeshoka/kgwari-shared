@@ -1,0 +1,21 @@
+[
+  {
+    "id": "region",
+    "labelKey": "home.byRegion",
+    "items": [
+      { "id": "stellenbosch", "label": "Stellenbosch", "count": "312" },
+      { "id": "swartland", "label": "Swartland", "count": "188" },
+      { "id": "franschhoek", "label": "Franschhoek", "count": "124" },
+      { "id": "hemel-en-aarde", "label": "Hemel-en-Aarde", "count": "96" }
+    ]
+  },
+  {
+    "id": "verdict",
+    "labelKey": "home.byVerdict",
+    "items": [
+      { "id": "unforgettable", "label": "Unforgettable", "count": "24" },
+      { "id": "essential", "label": "Essential", "count": "78" },
+      { "id": "worth-revisiting", "label": "Worth Revisiting", "count": "141" }
+    ]
+  }
+]

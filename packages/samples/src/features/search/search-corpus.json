@@ -1,0 +1,208 @@
+[
+  {
+    "id": "search_wine_rubicon_2018",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "rubicon-2018",
+    "producer": "Meerlust Estate",
+    "title": "Rubicon",
+    "meta": "2018",
+    "verdict": "Essential"
+  },
+  {
+    "id": "search_wine_kanonkop_pinotage_2019",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "kanonkop-pinotage-2019",
+    "producer": "Kanonkop Estate",
+    "title": "Kanonkop Pinotage",
+    "meta": "2019",
+    "verdict": "Unforgettable"
+  },
+  {
+    "id": "search_wine_palladius_2010",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "palladius-2010",
+    "producer": "Sadie Family Wines",
+    "title": "Palladius",
+    "meta": "2010",
+    "verdict": "Unforgettable"
+  },
+  {
+    "id": "search_wine_boekenhoutskloof_syrah_2020",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "boekenhoutskloof-syrah-2020",
+    "producer": "Boekenhoutskloof",
+    "title": "Syrah",
+    "meta": "2020",
+    "verdict": "An Interesting Discovery"
+  },
+  {
+    "id": "search_wine_tokara_sauvignon_blanc_2022",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "tokara-sauvignon-blanc-2022",
+    "producer": "Tokara",
+    "title": "Sauvignon Blanc Reserve",
+    "meta": "2022",
+    "verdict": "Worth Revisiting"
+  },
+  {
+    "id": "search_wine_lamotte_chardonnay_2021",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "lamotte-chardonnay-2021",
+    "producer": "La Motte",
+    "title": "Chardonnay",
+    "meta": "2021",
+    "verdict": "Worth Revisiting"
+  },
+  {
+    "id": "search_wine_de_toren_book_xvii_2016",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "de-toren-book-xvii-2016",
+    "producer": "De Toren",
+    "title": "Book 17 XVII",
+    "meta": "2016",
+    "verdict": "Essential"
+  },
+  {
+    "id": "search_wine_mullineux_elandskloof_chardonnay_2016",
+    "kind": "WINE",
+    "facet": "wines",
+    "entityId": "mullineux-elandskloof-chardonnay-2016",
+    "producer": "Mullineux",
+    "title": "Elandskloof Chardonnay",
+    "meta": "2016",
+    "verdict": "Essential"
+  },
+  {
+    "id": "search_estate_meerlust",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_meerlust",
+    "producer": "Stellenbosch",
+    "title": "Meerlust Estate",
+    "meta": "Est. 1693 · 6 wines"
+  },
+  {
+    "id": "search_estate_kanonkop",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_kanonkop",
+    "producer": "Stellenbosch",
+    "title": "Kanonkop Estate",
+    "meta": "Est. 1910 · 11 wines"
+  },
+  {
+    "id": "search_estate_sadie_family",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_sadie_family",
+    "producer": "Swartland",
+    "title": "Sadie Family Wines",
+    "meta": "Est. 1999 · 9 wines"
+  },
+  {
+    "id": "search_estate_boekenhoutskloof",
+    "kind": "ESTATE",
+    "facet": "estates",
+    "entityId": "estate_boekenhoutskloof",
+    "producer": "Franschhoek",
+    "title": "Boekenhoutskloof",
+    "meta": "Est. 1776 · 14 wines"
+  },
+  {
+    "id": "search_region_stellenbosch",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_stellenbosch",
+    "producer": "Coastal Region",
+    "title": "Stellenbosch",
+    "meta": "312 wines"
+  },
+  {
+    "id": "search_region_swartland",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_swartland",
+    "producer": "Coastal Region",
+    "title": "Swartland",
+    "meta": "188 wines"
+  },
+  {
+    "id": "search_region_hemel_en_aarde",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_hemel_en_aarde",
+    "producer": "Walker Bay",
+    "title": "Hemel-en-Aarde",
+    "meta": "96 wines"
+  },
+  {
+    "id": "search_region_franschhoek",
+    "kind": "REGION",
+    "facet": "regions",
+    "entityId": "region_franschhoek",
+    "producer": "Coastal Region",
+    "title": "Franschhoek",
+    "meta": "124 wines"
+  },
+  {
+    "id": "search_tasting_meerlust_cellar",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_meerlust_cellar_tasting",
+    "producer": "Meerlust Estate",
+    "title": "Meerlust cellar tasting",
+    "meta": "24 July · 4 seats left"
+  },
+  {
+    "id": "search_tasting_swartland_six_ways",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_swartland_six_ways",
+    "producer": "Publik Wine Bar",
+    "title": "Swartland, Six Ways",
+    "meta": "26 July · 12 seats"
+  },
+  {
+    "id": "search_tasting_chenin_masterclass",
+    "kind": "TASTING",
+    "facet": "tastings",
+    "entityId": "event_chenin_masterclass",
+    "producer": "Kwari Live",
+    "title": "Chenin blanc masterclass",
+    "meta": "30 July · open"
+  },
+  {
+    "id": "search_person_alexandra_meyer",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_alexandra_meyer",
+    "producer": "Enthusiast",
+    "title": "Alexandra Meyer",
+    "meta": "42 notes"
+  },
+  {
+    "id": "search_person_thandi_nkosi",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_thandi_nkosi",
+    "producer": "Sommelier",
+    "title": "Thandi Nkosi",
+    "meta": "214 notes"
+  },
+  {
+    "id": "search_person_nomsa_dlamini",
+    "kind": "PERSON",
+    "facet": "people",
+    "entityId": "user_nomsa_dlamini",
+    "producer": "Sommelier",
+    "title": "Nomsa Dlamini",
+    "meta": "88 notes"
+  }
+]
