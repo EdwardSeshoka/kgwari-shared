@@ -4,28 +4,78 @@
     "labelKey": "home.byRegion",
     "items": [
       {
+        "id": "pfalz",
+        "label": {
+          "source": "negotiated",
+          "text": "Pfalz",
+          "languageTag": "de"
+        },
+        "count": 1393,
+        "query": "Pfalz"
+      },
+      {
+        "id": "beaujolais",
+        "label": {
+          "source": "canonical",
+          "text": "Beaujolais"
+        },
+        "count": 1390,
+        "query": "Beaujolais"
+      },
+      {
+        "id": "wellington",
+        "label": {
+          "source": "canonical",
+          "text": "Wellington"
+        },
+        "count": 1331,
+        "query": "Wellington"
+      },
+      {
+        "id": "etna",
+        "label": {
+          "source": "canonical",
+          "text": "Etna"
+        },
+        "count": 1307,
+        "query": "Etna"
+      },
+      {
         "id": "stellenbosch",
-        "label": { "source": "canonical", "text": "Stellenbosch" },
-        "count": 312,
+        "label": {
+          "source": "canonical",
+          "text": "Stellenbosch"
+        },
+        "count": 1299,
         "query": "Stellenbosch"
       },
       {
-        "id": "swartland",
-        "label": { "source": "canonical", "text": "Swartland" },
-        "count": 188,
-        "query": "Swartland"
+        "id": "vallee-du-rhone",
+        "label": {
+          "source": "negotiated",
+          "text": "Vallée du Rhône",
+          "languageTag": "fr"
+        },
+        "count": 1281,
+        "query": "Vallée du Rhône"
       },
       {
-        "id": "franschhoek",
-        "label": { "source": "canonical", "text": "Franschhoek" },
-        "count": 124,
-        "query": "Franschhoek"
+        "id": "durbanville",
+        "label": {
+          "source": "canonical",
+          "text": "Durbanville"
+        },
+        "count": 1271,
+        "query": "Durbanville"
       },
       {
-        "id": "hemel-en-aarde",
-        "label": { "source": "canonical", "text": "Hemel-en-Aarde" },
-        "count": 96,
-        "query": "Hemel-en-Aarde"
+        "id": "chateauneuf-du-pape",
+        "label": {
+          "source": "canonical",
+          "text": "Châteauneuf-du-Pape"
+        },
+        "count": 1239,
+        "query": "Châteauneuf-du-Pape"
       }
     ]
   },
@@ -35,21 +85,117 @@
     "items": [
       {
         "id": "unforgettable",
-        "label": { "source": "chrome", "key": "Unforgettable" },
-        "count": 24,
+        "label": {
+          "source": "chrome",
+          "key": "Unforgettable"
+        },
+        "count": 22,
         "query": "Unforgettable"
       },
       {
         "id": "essential",
-        "label": { "source": "chrome", "key": "Essential" },
-        "count": 78,
+        "label": {
+          "source": "chrome",
+          "key": "Essential"
+        },
+        "count": 22,
         "query": "Essential"
       },
       {
         "id": "worth-revisiting",
-        "label": { "source": "chrome", "key": "Worth Revisiting" },
-        "count": 141,
+        "label": {
+          "source": "chrome",
+          "key": "Worth Revisiting"
+        },
+        "count": 17,
         "query": "Worth Revisiting"
+      },
+      {
+        "id": "an-interesting-discovery",
+        "label": {
+          "source": "chrome",
+          "key": "An Interesting Discovery"
+        },
+        "count": 18,
+        "query": "An Interesting Discovery"
+      }
+    ]
+  },
+  {
+    "id": "country",
+    "labelKey": "home.byCountry",
+    "items": [
+      {
+        "id": "south-africa",
+        "label": {
+          "source": "canonical",
+          "text": "South Africa"
+        },
+        "count": 20,
+        "query": "South Africa"
+      },
+      {
+        "id": "france",
+        "label": {
+          "source": "canonical",
+          "text": "France"
+        },
+        "count": 16,
+        "query": "France"
+      },
+      {
+        "id": "italia",
+        "label": {
+          "source": "canonical",
+          "text": "Italia"
+        },
+        "count": 12,
+        "query": "Italia"
+      },
+      {
+        "id": "espana",
+        "label": {
+          "source": "canonical",
+          "text": "España"
+        },
+        "count": 9,
+        "query": "España"
+      },
+      {
+        "id": "deutschland",
+        "label": {
+          "source": "canonical",
+          "text": "Deutschland"
+        },
+        "count": 7,
+        "query": "Deutschland"
+      },
+      {
+        "id": "osterreich",
+        "label": {
+          "source": "canonical",
+          "text": "Österreich"
+        },
+        "count": 2,
+        "query": "Österreich"
+      },
+      {
+        "id": "suisse",
+        "label": {
+          "source": "canonical",
+          "text": "Suisse"
+        },
+        "count": 2,
+        "query": "Suisse"
+      },
+      {
+        "id": "united-states",
+        "label": {
+          "source": "canonical",
+          "text": "United States"
+        },
+        "count": 4,
+        "query": "United States"
       }
     ]
   }
