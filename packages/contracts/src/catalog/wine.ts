@@ -12,10 +12,20 @@ export type WineLocationContract = {
   area: string;
 };
 
-export type MoneyContract = {
-  amount: number;
-  currency: "ZAR" | "USD" | "EUR" | "GBP";
-};
+/**
+ * Money moved to its own module — it is not a catalog concept. Cellar, events
+ * and search all price things too, and a shared money type that lives inside
+ * `catalog` invites each of them to declare their own.
+ *
+ * Re-exported here so existing `@edwardseshoka/contracts/catalog` importers keep
+ * resolving. Note the shape CHANGED in 5.0.0: `amount` became
+ * `amountMinorUnits`, and it now means cents rather than rands.
+ *
+ * @see {@link ../money!MoneyContract}
+ */
+import type { MoneyContract } from "../money/index.js";
+
+export type { CurrencyCode, MoneyContract } from "../money/index.js";
 
 /** Wine colour / style family. */
 export type WineColorContract =

@@ -3,19 +3,54 @@
     "id": "region",
     "labelKey": "home.byRegion",
     "items": [
-      { "id": "stellenbosch", "label": "Stellenbosch", "count": "312" },
-      { "id": "swartland", "label": "Swartland", "count": "188" },
-      { "id": "franschhoek", "label": "Franschhoek", "count": "124" },
-      { "id": "hemel-en-aarde", "label": "Hemel-en-Aarde", "count": "96" }
+      {
+        "id": "stellenbosch",
+        "label": { "source": "canonical", "text": "Stellenbosch" },
+        "count": 312,
+        "query": "Stellenbosch"
+      },
+      {
+        "id": "swartland",
+        "label": { "source": "canonical", "text": "Swartland" },
+        "count": 188,
+        "query": "Swartland"
+      },
+      {
+        "id": "franschhoek",
+        "label": { "source": "canonical", "text": "Franschhoek" },
+        "count": 124,
+        "query": "Franschhoek"
+      },
+      {
+        "id": "hemel-en-aarde",
+        "label": { "source": "canonical", "text": "Hemel-en-Aarde" },
+        "count": 96,
+        "query": "Hemel-en-Aarde"
+      }
     ]
   },
   {
     "id": "verdict",
     "labelKey": "home.byVerdict",
     "items": [
-      { "id": "unforgettable", "label": "Unforgettable", "count": "24" },
-      { "id": "essential", "label": "Essential", "count": "78" },
-      { "id": "worth-revisiting", "label": "Worth Revisiting", "count": "141" }
+      {
+        "id": "unforgettable",
+        "label": { "source": "chrome", "key": "Unforgettable" },
+        "count": 24,
+        "query": "Unforgettable"
+      },
+      {
+        "id": "essential",
+        "label": { "source": "chrome", "key": "Essential" },
+        "count": 78,
+        "query": "Essential"
+      },
+      {
+        "id": "worth-revisiting",
+        "label": { "source": "chrome", "key": "Worth Revisiting" },
+        "count": 141,
+        "query": "Worth Revisiting"
+      }
     ]
   }
 ]
