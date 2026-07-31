@@ -1,5 +1,204 @@
 # @edwardseshoka/fixtures
 
+## 10.0.0
+
+### Major Changes
+
+- d5e853d: Add a `Composition` contract, and rename the seed service to a factory.
+
+  **`Composition<Sources, Output>`** joins `Mapper`, `Validator` and `UseCase` in
+  foundation. A mapper turns one thing into one other thing and may fail because
+  its input can be malformed; a composition assembles several things into one that
+  did not exist before.
+
+  It is **deliberately not failable**, and that is the contract's whole statement:
+  composition degrades rather than rejects. A missing source means an absent
+  section, not an error — a discover page with no events is a valid discover page.
+  Making it failable would hand every caller a `Result` they can do nothing with
+  except render the empty page composing would have given them anyway. Anything
+  that genuinely can fail is a `Mapper` or a `Validator` and should be one.
+
+  `Composition.present()` captures the shape every composition written so far has
+  needed — build the list with a `null` where a section is empty, then drop them —
+  which encodes the rule that runs through this codebase: **an absent section beats
+  an empty one.**
+
+  The contract is split across two files — `CompositionInterface.ts` for what a
+  composition IS, `Composition.ts` for the helpers — matching the
+  `<X>UseCaseInterface.ts` / `<X>UseCase.ts` convention the feature packages
+  already follow and foundation had not.
+
+  **Configuration goes in the constructor, inputs go in `compose`.** That is what
+  makes this a class contract rather than an object literal like `Mapper`: which
+  market a catalogue is read from is decided once per request, while which wines
+  are in it changes every call. Folding both into one bundle made every call site
+  restate a setting that never varies.
+
+  **Breaking:** `groupIntoCollections(wines, options)` is now
+  `new WineCollectionsComposition(homeMarket).compose({ wines })`.
+
+  It takes `WineContract[]` directly. An interim version was generic over anything
+  wine-shaped, so a backend entity and a wire contract could both be passed without
+  either importing the other — but that flexibility had no user. The frontend never
+  builds a collection (it hardcodes `collections: []` and holds the type only to
+  consume one), which leaves two callers, and both can hold a `WineContract`.
+
+  It also cost two bugs, each from mis-declaring "the loosest shape a caller might
+  hold": `location` was required and absent on four wines, then `isFeatured` was
+  required and optional on the wire — meaning `WineContract` never satisfied the
+  constraint written for it. Invisible at runtime; only a type-checked call site
+  caught it.
+
+  The deeper reason is that **a collection is a response shape, not a domain
+  concept**. "Featured Picks" is a way of presenting a catalogue, so composing at
+  the contract level is the correct layering rather than a concession — and it
+  implies the backend's `WineCollection` entity and `listPublicCollections`
+  repository method should go, with the grouping moving to the presentation edge.
+
+  **Breaking:** `CatalogSeedService` is now `CatalogSeedFactory`. The taxonomy
+  reserves "Service" for the HTTP edge that speaks DTOs, and nothing in it makes a
+  call — it builds objects from static JSON. The old name described what its output
+  looked like rather than what it did; by that reasoning every constructor is a
+  service. Its methods still mirror the API, because "what does `GET /wines`
+  return?" is the question a reader arrives with.
+
+  `contracts` now depends on `foundation`. It is a type-only import, erased at
+  compile time, and foundation carries no dependencies of its own, so the cost to
+  consumers is nothing.
+
+- d5e853d: Rebuild the wine record around who can answer a field, and make provenance
+  binary.
+
+  **Breaking:** `ProvenanceState` is now `"community" | "claimed"`. It was
+  `"community" | "listed" | "verified"`, which folded two independent axes into
+  one field: whether anyone accountable has claimed the record (binary) and how
+  much the community has said about it (a continuum, and not a provenance question
+  at all). `"listed"` was never a third provenance — it was a distributor claim
+  wearing a middle state's clothes, and it moves to `WineContract.claimedBy.kind`.
+  `provenance` is now a projection of `claimedBy` and is never written
+  independently of it.
+
+  Sample wines migrate accordingly: `verified` → claimed by a producer, `listed` →
+  claimed by a distributor, `community` unchanged. Anything switching on
+  `"verified"` or `"listed"` must read `claimedBy.kind` instead — including the
+  backend's own copy of the union in `packages/core/domain/trust.ts` and the
+  `wine.provenance === "listed"` branch in the discover hero mapper.
+
+  **The record model.** A wine's facts do not start empty. Estate, region, ward,
+  vintage, varietal, alcohol, closure and format are matched from Wine of Origin,
+  the back label and the SAWIS register at ingest, and are present from the first
+  second a record exists. The previous model treated the record as a progress bar
+  the crowd fills in, which framed a matched record as an empty one. What an
+  unclaimed record lacks is not knowledge — it is a voice.
+
+  New `WineRecordContract` (a separate fetch from the card shape, so ninety-odd
+  fields never ride along in a list) groups its rows by `RecordFieldKind` — who
+  _can_ answer:
+
+  - `reference` — matched at ingest, always has a value, and the member's job is
+    to **confirm or dispute** it, never to fill it in
+  - `estate_private` — only the producer holds it, so it is enumerable while
+    empty: the page names what it is waiting on and offers no call to action,
+    because a member guessing the yield is noise entering a record whose whole
+    value is that it does not guess
+  - `commercial` — a distributor claim opens these and only these
+
+  That makes the claim asymmetry mechanical rather than a rule each client
+  reimplements: a producer claim answers the estate-private rows and opens the
+  estate's voice; a distributor claim opens commerce and leaves the voice shut.
+
+  Also new: `WineRegisterContract` (the community aggregate — the only layer that
+  moves with note count, with thresholds expressed as absent fields rather than
+  numbers clients compare against), `ClaimantAvailabilityContract` (price leaves
+  Kgwari's chrome for the claimant's block, with a response record), confirm and
+  dispute requests, and `cellarCount` / `saveCount` on wines plus `saveCount` and
+  `languageTag` on tasting notes.
+
+  **Text moves out of `search`.** `CanonicalText`, `ChromeText` and
+  `NegotiatedText` were never a search concept — the same three-way distinction
+  governs a record's ninety fields, its register of tasting words and an estate's
+  essay. They now live in `@edwardseshoka/contracts/text` alongside two new
+  carriers, `Measurement` and `YearRange`, and are re-exported from `search`
+  unchanged so existing importers keep resolving.
+
+  The record obeys the rule those types exist for: no field is a display string.
+  Field identity travels as a chrome key, values as measurements and year ranges,
+  closed vocabularies (aromas, tasting descriptors, colour readings) as chrome
+  keys, and only genuinely authored prose as negotiated text with the language it
+  landed on. `"14.21 %"` is a number, a unit and a decimal separator that is a
+  comma for most of this catalogue's members; `"73 % put it at worth knowing or
+better"` is a percentage, an enum and English word order. Both are now sent as
+  data.
+
+  **Records are generated, not authored.** `catalog/wine-records.json` now comes
+  out of `generator/generate.mjs` with the rest of the seeds — one record per wine
+  rather than a hand-written few, with the field-to-source mapping declared once in
+  a table. Adding a reference field to the contract is one row there instead of 93
+  edits, and the taxonomy holds by construction: the table cannot emit an
+  estate-private row and nothing outside it can emit a reference one. Only what no
+  algorithm can derive is authored, in `generator/orig-wine-records.json` — an
+  estate's own essay and seals, and the most-saved member note.
+
+  `npm run check:seeds` regenerates in memory and fails on any drift, so a
+  hand-edit to a generated seed breaks the build instead of surviving to
+  production. `SamplesTests/WineRecords.test.js` asserts the model's invariants
+  over all 93 records, including that no value is ever a bare display string.
+
+  Keeping the register's vocabularies as keys is also what makes them searchable:
+  the index holds `aroma.fynbosSmoke` and the member sees their own language, so
+  browsing by aroma works in every locale without the index carrying one
+  translated word — the same mechanism that already makes verdict browsing work.
+  `SearchBrowseItemContract` needs no change to support it.
+
+- d5e853d: Group seeds by feature, and fix the one dependency that pointed the wrong way.
+
+  **`@edwardseshoka/samples` gains per-feature subpaths** — `/catalog`,
+  `/provenance`, `/editorial`, `/events`, `/social`, `/search`, `/discover` —
+  mirroring the ones `contracts` already had. Previously there was a single root
+  export, so importing one wine pulled every domain's fixtures in behind it and
+  nothing stopped a catalog module quietly depending on a social one. The root
+  export remains for the seed script and the generator, which legitimately need
+  all of them at once.
+
+  **`WineOriginSystemContract` moved from `catalog` to `provenance`.** It is a
+  certification scheme that appellations are granted under, and provenance owns
+  appellations — catalog's own `WineAppellationRefContract` describes itself as "a
+  denormalized reference… the full record lives in provenance". So provenance
+  reaching into catalog for the scheme its own appellations are defined by was an
+  inversion, and the only cycle-shaped edge in the graph. It is still re-exported
+  from `catalog` for callers that expect it there.
+
+  The contract folders are now cleanly layered:
+
+  ```
+  money · text · trust · provenance     depend on nothing
+  catalog · search · editorial · events · member · social
+  discover                              the aggregator
+  ```
+
+  **`groupIntoCollections` added to `catalog`**, replacing composition that lived
+  in the backend. It is generic over a structural minimum, so the backend's `Wine`,
+  the frontend's own model and `WineContract` all satisfy it without any of them
+  importing another's types. Two bugs are fixed in the move: the collection titles,
+  subtitles, descriptions and badge labels were composed in English on the server,
+  and now travel as a chrome key plus params; and the home-market collection
+  matched a hardcoded South African region list, which is wrong once `fr-FR`, `de`,
+  `it` and `es` are launch locales — it now takes a `homeMarket` country code,
+  defaulting to `ZA`.
+
+  **`VERDICTS` added to `trust`** — the best-to-worst ordering was a doc comment
+  here and a runtime array in the backend, which is two declarations of one fact
+  that every verdict-ranking feature depends on.
+
+### Patch Changes
+
+- Updated dependencies [d5e853d]
+- Updated dependencies [d5e853d]
+- Updated dependencies [d5e853d]
+- Updated dependencies [d5e853d]
+- Updated dependencies [d5e853d]
+  - @edwardseshoka/contracts@6.0.0
+
 ## 9.0.0
 
 ### Major Changes
