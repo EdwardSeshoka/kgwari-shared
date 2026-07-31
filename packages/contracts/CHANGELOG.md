@@ -1,5 +1,121 @@
 # @edwardseshoka/contracts
 
+## 6.1.0
+
+### Minor Changes
+
+- 53b7935: feature(contracts): ship the two missing test doubles
+
+  Every contract a consumer holds should have a double shipped from the same
+  package as the contract, so a field that moves breaks the consumer at compile
+  time. Two did not, and both gaps had already cost something.
+
+  **`@edwardseshoka/contracts/member/test-doubles` — new export.** The source
+  directory existed and was empty; nothing has ever been published from it, so
+  every consumer wrote its own member fixture. The frontend's copy is what
+  `MemberContract.noteCount` becoming required in 6.0.0 landed on: nothing pointed
+  at the hand-written stub, so the gap surfaced only when that repo upgraded — two
+  majors and several weeks later. `MemberContract.StubFactory` now offers `make()`
+  (an onboarded enthusiast, every nullable field explicitly `null` because `null`
+  is what the wire carries), `makeEstate()` (a verified business account with its
+  business fields populated together — a persona without a `businessName` is a
+  state onboarding does not produce) and `makeOnboarding()` (signed up, nothing
+  filled in, `noteCount: 0` rather than absent, since a member who has written
+  nothing has written nothing).
+
+  **`SearchBrowseGroupContract.StubFactory` — added to the existing
+  `search/test-doubles`.** `SearchResultContract` shipped a double when search rows
+  became localisable; its browse-group companion did not. The consequence was
+  visible in the frontend, which carried a hand-written one still declaring `id`
+  plus `labelKey` and a pre-formatted `count: "312"` long after the contract had
+  collapsed the first two into one closed `key` and made the third a number.
+
+  The three factories are chosen to cover the three text sources a way-in label can
+  have, because that is the distinction the shape exists to carry: `make()` is the
+  region group (canonical proper nouns), `makeVerdict()` is chrome — and is the
+  case that proves `query` cannot default to the label, since the member reads
+  "Inoubliable" while the index holds `Unforgettable` — and `makeCountry()` is
+  negotiated, an exonym carrying the language it actually came back in.
+
+  Purely additive: no existing type or export changes.
+
+- 53b7935: Add the cellar contract — the shape a member's holdings travel in.
+
+  There was none, so the backend was declaring `CellarHoldingContract` locally
+  while splitting the catalogue from the cellar: the one place still reaching its
+  own conclusion about what a client reads, which is exactly what the search
+  projections were just moved here to stop.
+
+  **Its own module, not part of `catalog`.** A catalogue is one shared set of wines;
+  a cellar is one member's holdings. They were the same backend interface until
+  recently — seven methods told apart only by the adjective "public" — and the
+  adjective was load-bearing because two concepts shared one seam. Putting the
+  cellar inside `catalog` would re-merge in the contract what the split separated.
+
+  New at `@edwardseshoka/contracts/cellar`:
+
+  - `CellarEntryContract` — a **reference plus the member's own facts**
+    (`wineId`, `bottles`, `paidPrice`, `acquiredAt`, `note`), never a copy of the
+    wine. A cellar row used to duplicate the whole wine, so every catalogue
+    correction left a stale copy behind in each cellar holding it.
+  - `CellarHoldingContract` — the entry plus the resolved wine, nested rather than
+    flattened so `entry.bottles` and `wine.name` say whose fact each one is at the
+    point of use. `wine` is nullable: a holding outlives its catalogue entry, and
+    dropping it would delete a member's record because somebody edited a catalogue.
+  - `ListCellarResponse`, `GetCellarEntryResponse`, `AddCellarEntryRequest`,
+    `AddCellarEntryResponse`.
+
+  `paidPrice` is the first consumer of `TransactedMoneyContract`, which was written
+  for exactly this and had none. A paid price is the member's immutable historical
+  record, so it must not share a field with the distributor's current listing.
+
+  `acquiredAt` is deliberately separate from `paidPrice.asOf` rather than a
+  duplicate of it: wine bought en primeur is paid for on release and delivered two
+  or three vintages later, so one date cannot state both. A gift has an
+  `acquiredAt` and no price, which is the other reason the date does not simply
+  ride along on the money.
+
+  Test doubles at `@edwardseshoka/contracts/cellar/test-doubles`, with the variants
+  that carry the _why_ — `makeEnPrimeur()` (the two dates genuinely differ),
+  `makeGifted()` (no price), `makeDrunk()` (zero bottles is a holding, not an
+  absent one) and `makeDelisted()` (the wine is gone, the bottles are not).
+
+  `AddWineRequest` / `AddWineResponse` are deprecated. `POST /wines` meant "put a
+  wine in my cellar", which is why it accepted `name`, `estate`, `region` and
+  `imageUrl` — a member filing their own idea of what a wine is. That is
+  `AddCellarEntryRequest` against `POST /cellar` now, and it takes a `wineId`.
+
+- 53b7935: Correct the member contract's routes, and give `PATCH /members/me` a request type.
+
+  The docblocks described `/user/profile` while the backend and frontend both use
+  `/members/me`. Reported as "one of the two is wrong"; neither was. The member
+  resource moved to `/members/me`, and `GET /user/profile` survives as a deprecated
+  **read-only alias** so already-shipped clients keep working. The contract was
+  simply documenting the retired address.
+
+  The write side was worse than stale. `SaveMemberProfileRequest` documented
+  `POST /user/profile`, a route that no longer exists in any form: it took a whole
+  profile, so it could only express "replace everything", and a client that omitted
+  a field silently reset it — a member editing their taste note lost their address.
+
+  New:
+
+  - `PatchMemberProfileRequest` — the body `PATCH /members/me` accepts. Derived as
+    `Partial<Omit<MemberContract, "userId" | "createdAt" | "noteCount" |
+"profileType">>` rather than restated, so a field added to the profile is
+    patchable without anyone remembering, and a removed one cannot linger. Verified
+    key-for-key against the backend's zod schema: 16 fields, exact match. `null`
+    clears a value and omission leaves it alone — a distinction a full-body PUT
+    cannot express.
+  - `PatchMemberProfileResponse` — the updated `MemberContract`. The whole member
+    comes back rather than `{ success: true }`, because server-owned fields
+    (`noteCount`, a system-assigned `profileType`) can change as a side effect and
+    an acknowledgement leaves the client holding a stale copy it believes is
+    current.
+
+  `SaveMemberProfileRequest` and `SaveMemberProfileResponse` are deprecated, and
+  `GetMemberProfileResponse` now names `/members/me` with the alias explained.
+
 ## 6.0.0
 
 ### Major Changes
