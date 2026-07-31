@@ -26,8 +26,13 @@ export type MemberContactMethod = "mobile" | "email";
  * Dates are ISO-8601 strings; absent optional values are `null`.
  *
  * This is the single source of truth shared by:
- *  - the backend `MemberDto` (DynamoDB serialization) and `GET /user/profile` response
- *  - the frontend `MemberDTO` (network) and `MemberRepositoryAppDouble` mock
+ *  - the backend `MemberDto` (DynamoDB serialization) and its profile response
+ *  - the frontend's member service, mappers and `MemberRepositoryAppDouble`
+ *
+ * The frontend's `MemberDTO` alias is gone. It named nothing this type had not
+ * already named, and an alias in that position is where a hand-written copy
+ * eventually grows — so consumers import this type directly, and take their
+ * doubles from `@edwardseshoka/contracts/member/test-doubles`.
  */
 export type MemberContract = {
   userId: string;

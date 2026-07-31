@@ -20,6 +20,10 @@
       "types": "./dist/catalog/index.d.ts",
       "default": "./dist/catalog/index.js"
     },
+    "./cellar": {
+      "types": "./dist/cellar/index.d.ts",
+      "default": "./dist/cellar/index.js"
+    },
     "./provenance": {
       "types": "./dist/provenance/index.d.ts",
       "default": "./dist/provenance/index.js"
@@ -63,6 +67,14 @@
     "./catalog/test-doubles": {
       "types": "./dist/catalog/test-doubles/index.d.ts",
       "default": "./dist/catalog/test-doubles/index.js"
+    },
+    "./member/test-doubles": {
+      "types": "./dist/member/test-doubles/index.d.ts",
+      "default": "./dist/member/test-doubles/index.js"
+    },
+    "./cellar/test-doubles": {
+      "types": "./dist/cellar/test-doubles/index.d.ts",
+      "default": "./dist/cellar/test-doubles/index.js"
     },
     "./search/test-doubles": {
       "types": "./dist/search/test-doubles/index.d.ts",
