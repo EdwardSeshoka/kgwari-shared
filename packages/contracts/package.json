@@ -1,6 +1,6 @@
 {
   "name": "@edwardseshoka/contracts",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Morara shared DTOs and API contracts.",
   "license": "UNLICENSED",
   "repository": {
@@ -87,6 +87,6 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@edwardseshoka/foundation": "^3.2.0"
+    "@edwardseshoka/foundation": "^3.3.0"
   }
 }
