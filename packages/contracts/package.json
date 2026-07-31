@@ -79,8 +79,11 @@
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.json",
     "lint": "tsc -p tsconfig.json --noEmit",
+    "prebuild": "npm run build --workspace @edwardseshoka/foundation",
+    "prelint": "npm run build --workspace @edwardseshoka/foundation",
     "prepack": "npm run build",
-    "test": "node --test",
+    "pretypecheck": "npm run build --workspace @edwardseshoka/foundation",
+    "test": "npm run build && node --test",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
