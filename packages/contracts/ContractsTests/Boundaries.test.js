@@ -39,8 +39,12 @@ const SRC = new URL("../src/", import.meta.url).pathname;
  *  1 — the vocabularies. Closed value sets the whole system agrees on.
  *  2 — the features. Each owns one domain's contracts and the composition of
  *      them.
- *  3 — the aggregator. Discover exists to assemble other domains, so it is the
- *      only folder allowed to know about many.
+ *  3 — the composers. A folder whose own contracts are assembled OUT OF another
+ *      feature's, rather than out of a vocabulary alone. Discover is the broad
+ *      case — it exists to assemble many. Cellar is the narrow one: a holding is
+ *      the member's own facts joined onto one catalogue wine, so it reads
+ *      `catalog` and nothing reads it. Both sit above what they read, which is
+ *      what keeps the arrow from ever pointing sideways.
  */
 const LAYERS = {
   text: 0,
@@ -53,6 +57,7 @@ const LAYERS = {
   events: 2,
   member: 2,
   social: 2,
+  cellar: 3,
   discover: 3
 };
 
