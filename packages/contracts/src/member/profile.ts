@@ -49,4 +49,18 @@ export type MemberContract = {
   country: string | null;
   onboardingCompleted: boolean;
   createdAt: string;
+  /**
+   * How many tasting notes this member has written.
+   *
+   * A denormalised counter, maintained on the record rather than aggregated on
+   * read — the same shape as `Producer.wineCount` and `Region.wineCount`, and
+   * for the same reason: search projects a member into a row and cannot run an
+   * aggregate over the social table while doing it.
+   *
+   * **Not optional, and 0 is a true statement.** A member who has written
+   * nothing has written nothing — unlike a price, where 0 and "not listed" are
+   * different facts. So a missing value reads as 0 rather than as unknown, and
+   * records written before this field existed need no migration.
+   */
+  noteCount: number;
 };

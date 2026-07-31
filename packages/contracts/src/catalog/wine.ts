@@ -2,6 +2,7 @@ import type {
   ProvenanceState,
   TrustBylineContract,
   VerdictWord,
+  WineClaimContract,
 } from "../trust/index.js";
 
 export type WineBadgeContract = {
@@ -24,8 +25,11 @@ export type WineLocationContract = {
  * @see {@link ../money!MoneyContract}
  */
 import type { MoneyContract } from "../money/index.js";
+import type { WineOriginSystemContract } from "../provenance/index.js";
 
 export type { CurrencyCode, MoneyContract } from "../money/index.js";
+/** Re-exported: the type now lives in provenance, which owns appellations. */
+export type { WineOriginSystemContract } from "../provenance/index.js";
 
 /** Wine colour / style family. */
 export type WineColorContract =
@@ -35,19 +39,6 @@ export type WineColorContract =
   | "orange"
   | "sparkling"
   | "fortified";
-
-/** Protected-origin systems, by country. */
-export type WineOriginSystemContract =
-  | "WO" // South Africa — Wine of Origin
-  | "AOC" // France — Appellation d'Origine Contrôlée
-  | "AOP" // France / EU — Appellation d'Origine Protégée
-  | "DOC" // Italy — Denominazione di Origine Controllata
-  | "DOCG" // Italy — …e Garantita
-  | "DO" // Spain — Denominación de Origen
-  | "DOCa" // Spain — …Calificada
-  | "AVA" // USA — American Viticultural Area
-  | "GI" // Australia — Geographical Indication
-  | "Other";
 
 /** A denormalized reference to a wine's appellation; the full record lives in provenance. */
 export type WineAppellationRefContract = {
@@ -111,10 +102,25 @@ export type WineContract = {
   //    wine appears (discover · detail · search), not just in a list. ──
   /** Kgwari's worded verdict — never a numeric score. */
   verdict?: VerdictWord;
-  /** How backed the record is; drives the ProvenanceTag + "Request a taste". */
+  /**
+   * Binary: has anyone accountable claimed this record. DERIVED from
+   * {@link claimedBy} — present so list surfaces can render the tag without
+   * carrying the whole claim, never written independently of it.
+   */
   provenance?: ProvenanceState;
+  /**
+   * The accepted claim, and the source of truth `provenance` projects. Absent on
+   * a community record. Its `kind` is what the ProvenanceTag names — "Claimed by
+   * Môrester" against "Listed by Great Domaines" — so the tag stays binary while
+   * the label carries who.
+   */
+  claimedBy?: WineClaimContract;
   /** The backing byline — "Community knowledge", a verified estate, a distributor. */
   source?: TrustBylineContract;
   /** Member-notes count (a count, not a score) — e.g. 1,480. */
   noteCount?: number;
+  /** Members holding this vintage in a cellar. Drives "12 members have cellared this". */
+  cellarCount?: number;
+  /** Times this vintage has been saved. Distinct from cellaring — intent, not possession. */
+  saveCount?: number;
 };

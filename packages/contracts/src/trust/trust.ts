@@ -1,3 +1,5 @@
+import type { CanonicalText } from "../text/index.js";
+
 /**
  * Trust, provenance and verdict — the cross-cutting "how backed is this record,
  * and what does Kgwari say about it" vocabulary. Shared by wines, doorways,
@@ -61,16 +63,63 @@ export const personaTier: Record<BusinessPersona, TrustTier> = {
 };
 
 /**
- * How backed a record is. Drives the ProvenanceTag and, when `listed`, the
- * "Request a taste" availability action.
- *  - community: seeded from member knowledge; no owner has claimed it. No mark —
- *               the missing mark is a reward not yet given, never a defect.
- *  - listed:    a distributor has listed it (commerce is live) but the producer
- *               has not verified — the crest shows in its outline state.
- *  - verified:  the producer has claimed it — the full burgundy crest; the
- *               byline is the estate's official word.
+ * Who may stand behind a record. A claim is always made by a verified business
+ * account, so this is exactly the two {@link TrustTier}s that own a wine rather
+ * than merely taste one — a professional pours, they do not claim.
  */
-export type ProvenanceState = "community" | "listed" | "verified";
+export type ClaimantKind = Extract<TrustTier, "producer" | "distributor">;
+
+/**
+ * An accepted claim on a wine record: who stands behind it, and since when.
+ *
+ * The claimant's `kind` decides what the claim unlocks, and the asymmetry is the
+ * point. A producer claim opens the estate's own voice — the essay, the
+ * cellarmaster, the estate-private cellar facts. A distributor claim opens
+ * commerce and nothing else: it can say where the bottle is, never what the
+ * vineyard is. See {@link RecordFieldKind}.
+ *
+ * INVARIANT: a claim buys a voice, never the verdict. The verdict is computed
+ * from member notes in every state and a claim does not move it.
+ */
+export type WineClaimContract = {
+  kind: ClaimantKind;
+  /**
+   * The claimant — the estate, or the distributor.
+   *
+   * `CanonicalText` rather than a bare string, like every other proper noun on
+   * the wire. The carrier is what says "this is the same word in every locale,
+   * do not translate it", and a name that does not say so is a name some client
+   * will eventually try to localise.
+   */
+  name: CanonicalText;
+  /** Set when the claimant is a producer already in the provenance catalogue. */
+  producerId?: string;
+  /** ISO-8601. When the claim was accepted, not when it was requested. */
+  claimedAt: string;
+};
+
+/**
+ * How backed a record is — **binary**, because the thing it describes is binary:
+ * either somebody accountable has claimed the record or nobody has.
+ *
+ * This is a projection of {@link WineClaimContract}, never an independent field:
+ * a record is "claimed" exactly when a claim exists. Servers derive it, clients
+ * read it, and nothing writes it directly — which is why the claimant kind lives
+ * on the claim and not in this union.
+ *
+ * CHANGED in 6.0.0. It was `"community" | "listed" | "verified"`, which folded
+ * two independent axes together: whether anyone is accountable (binary) and how
+ * much the community has said (a continuum, and not a provenance question at
+ * all). "listed" was never a third provenance — it was a distributor claim
+ * wearing a middle state's clothes, so it moves to `claimedBy.kind`.
+ *
+ * NOTE: "community" does not mean thin, unknown or unverified. A wine's facts
+ * are matched from Wine of Origin, the back label and the SAWIS register at
+ * ingest and are present from the first second the record exists. What an
+ * unclaimed record lacks is not knowledge — it is a voice. See
+ * {@link FieldSourceContract}.
+ */
+export type ProvenanceState = "community" | "claimed";
 
 /**
  * The author line that carries trust: a name plus EITHER a verification `tier`
@@ -106,3 +155,25 @@ export type VerdictWord =
 
 /** The verdict type used across contracts — the fixed {@link VerdictWord} set. */
 export type Verdict = VerdictWord;
+
+/**
+ * All verdict rungs, best → worst — the ordinal source of truth.
+ *
+ * The ORDER is the point, and it is why this exists as a value rather than
+ * living only in the type above. "Ordered best → worst" was previously stated in
+ * a doc comment here and implemented as a separate array in the backend, which
+ * is two declarations of one fact: any ranking that sorts by verdict — the
+ * catalogue's "worth opening now", a search relevance tiebreak, a register's
+ * distribution — has to know this order, and each one re-deriving it is a chance
+ * for two of them to disagree about which verdict outranks which.
+ *
+ * `as const` so the array cannot be reordered by accident, and so `indexOf`
+ * yields the rank directly.
+ */
+export const VERDICTS = [
+  "Unforgettable",
+  "Essential",
+  "Worth Revisiting",
+  "An Interesting Discovery",
+  "Not One I'd Revisit"
+] as const satisfies readonly VerdictWord[];

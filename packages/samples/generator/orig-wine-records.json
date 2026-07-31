@@ -1,0 +1,116 @@
+[
+  {
+    "wineVintageId": "rubicon-2018",
+    "featuredNote": {
+      "noteId": "note_alexandra_rubicon_2018",
+      "authorName": {
+        "source": "canonical",
+        "text": "Alexandra Meyer"
+      },
+      "authorStatus": "enthusiast",
+      "text": {
+        "source": "negotiated",
+        "text": "Cassis and cedar, still tightly wound \u2014 gave it three hours and it opened into something generous.",
+        "languageTag": "en"
+      },
+      "saveCount": 340
+    },
+    "estateVoice": {
+      "headline": {
+        "source": "negotiated",
+        "text": "A Bordeaux blend that argues with its own reputation.",
+        "languageTag": "en"
+      },
+      "standfirst": {
+        "source": "negotiated",
+        "text": "Dryland vines on decomposed granite, whole-berry into open concrete, eighteen months in old French oak.",
+        "languageTag": "en"
+      },
+      "essay": [
+        {
+          "source": "negotiated",
+          "text": "The fruit comes off a single block on the Stellenbosch side of the estate, planted long before anyone was picking for acid, and never trellised \u2014 so the vines carry their own canopy and ripen slowly in their own shade.",
+          "languageTag": "en"
+        },
+        {
+          "source": "negotiated",
+          "text": "The structure is where the estate\u2019s hand shows. Tannin is fine-grained rather than grippy, and the alcohol never announces itself.",
+          "languageTag": "en"
+        }
+      ],
+      "bylineName": {
+        "source": "canonical",
+        "text": "Anele Mokoena"
+      },
+      "bylineRoleKey": "role.cellarmaster",
+      "quote": {
+        "source": "negotiated",
+        "text": "We stopped picking for colour in 2011. The moment we started picking for acid, the vineyard told us what it actually was.",
+        "languageTag": "en"
+      },
+      "seals": [
+        {
+          "key": "oldVineProject",
+          "name": {
+            "source": "canonical",
+            "text": "Old Vine Project"
+          },
+          "sinceYear": 2019
+        },
+        {
+          "key": "capeWinemakersGuild",
+          "name": {
+            "source": "canonical",
+            "text": "Cape Winemakers Guild"
+          },
+          "sinceYear": 2011
+        },
+        {
+          "key": "wieta",
+          "name": {
+            "source": "canonical",
+            "text": "WIETA"
+          },
+          "auditedYear": 2024
+        }
+      ]
+    },
+    "availability": {
+      "isAllocation": true
+    }
+  },
+  {
+    "wineVintageId": "de-toren-book-xvii-2016",
+    "featuredNote": {
+      "noteId": "note_jaco_de_toren_2016",
+      "authorName": {
+        "source": "canonical",
+        "text": "Jaco Reinders"
+      },
+      "authorTier": "professional",
+      "text": {
+        "source": "negotiated",
+        "text": "Poured it blind beside a village C\u00f4te-R\u00f4tie for a table of six. Four preferred the De Toren.",
+        "languageTag": "en"
+      },
+      "saveCount": 57
+    }
+  },
+  {
+    "wineVintageId": "tokara-sauvignon-blanc-2022",
+    "featuredNote": {
+      "noteId": "note_thandiwe_tokara_2022",
+      "authorName": {
+        "source": "canonical",
+        "text": "Thandiwe Mbeki"
+      },
+      "authorTier": "professional",
+      "text": {
+        "source": "negotiated",
+        "text": "The fynbos note is not a marketing fiction \u2014 it is in the glass, and it is the reason this wine cannot be made anywhere else.",
+        "languageTag": "en"
+      },
+      "saveCount": 340
+    }
+  }
+]

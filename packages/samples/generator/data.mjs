@@ -1,300 +1,38 @@
-/**
- * Curated source data for the seeds.
- *
- * Real producers, regions and appellations, because the point is to exercise
- * search: `château` vs `chateau`, `shiraz` vs `syrah`, `Bourgogne` vs `Burgundy`,
- * `Grüner Veltliner`, `Rías Baixas`. Invented names fold and stem differently
- * from real ones and would prove nothing.
- */
+import { readFileSync } from "node:fs";
 
-/** slug helper — stable ids from names, diacritics stripped. */
+/**
+ * The seed CONTENT — regions, estates, people, tasting titles, grape words.
+ *
+ * Data, and now stored as data. It was 300 lines of JavaScript, which meant the
+ * `--check` drift guard could not cover it and it sat in a different format from
+ * `orig-*.json`, its siblings in the same directory doing the same job.
+ *
+ * What is NOT here any more: the vocabularies and mappings this file used to
+ * carry — verdicts, currency by country, origin systems, grape keys. Those are
+ * models the running app depends on and live in `@edwardseshoka/contracts`. The
+ * line between them: **a fact the app relies on is a model; material for
+ * inventing plausible rows is content.** "France uses AOC" is the first;
+ * "Château Margaux is a believable French name" is the second.
+ */
+const content = JSON.parse(readFileSync(new URL("./content.json", import.meta.url), "utf8"));
+
+export const REGIONS = content.regions;
+export const PRODUCERS = content.producers;
+export const PEOPLE = content.people;
+export const TASTING_TITLES = content.tastingTitles;
+
+/**
+ * Display words for the grape KEYS `@edwardseshoka/contracts/catalog` declares.
+ * The keys are the model; these words exist so a generated wine reads
+ * believably, which is scaffolding.
+ */
+export const GRAPE_NAMES = content.grapeNames;
+
+/** URL-safe id fragment. */
 export const slug = (s) =>
   s
+    .toLowerCase()
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
-    .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
-
-/**
- * Regions. `exonym` is set where the place is genuinely known by a different
- * name in English — that is what makes `NegotiatedText` worth testing rather
- * than a theoretical case.
- */
-export const REGIONS = [
-  // South Africa — the home market, WO system
-  ["Stellenbosch", "ZA", "South Africa", "Coastal Region", null, "af"],
-  ["Swartland", "ZA", "South Africa", "Coastal Region", null, "af"],
-  ["Franschhoek", "ZA", "South Africa", "Coastal Region", null, "af"],
-  ["Hemel-en-Aarde", "ZA", "South Africa", "Walker Bay", null, "af"],
-  ["Constantia", "ZA", "South Africa", "Cape Town", null, "af"],
-  ["Elgin", "ZA", "South Africa", "Cape South Coast", null, "af"],
-  ["Robertson", "ZA", "South Africa", "Breede River Valley", null, "af"],
-  ["Paarl", "ZA", "South Africa", "Coastal Region", null, "af"],
-  ["Darling", "ZA", "South Africa", "Coastal Region", null, "af"],
-  ["Tulbagh", "ZA", "South Africa", "Coastal Region", null, "af"],
-  ["Cederberg", "ZA", "South Africa", "Olifants River", null, "af"],
-  ["Wellington", "ZA", "South Africa", "Coastal Region", null, "af"],
-  ["Durbanville", "ZA", "South Africa", "Cape Town", null, "af"],
-  ["Walker Bay", "ZA", "South Africa", "Cape South Coast", null, "af"],
-  ["Breedekloof", "ZA", "South Africa", "Breede River Valley", null, "af"],
-  // France — exonyms are the real localisation test
-  ["Bourgogne", "FR", "France", "Est", "Burgundy", "fr"],
-  ["Bordeaux", "FR", "France", "Nouvelle-Aquitaine", null, "fr"],
-  ["Champagne", "FR", "France", "Grand Est", null, "fr"],
-  ["Vallée du Rhône", "FR", "France", "Sud-Est", "Rhône Valley", "fr"],
-  ["Alsace", "FR", "France", "Grand Est", null, "fr"],
-  ["Val de Loire", "FR", "France", "Centre", "Loire Valley", "fr"],
-  ["Beaujolais", "FR", "France", "Est", null, "fr"],
-  ["Chablis", "FR", "France", "Bourgogne", null, "fr"],
-  ["Sancerre", "FR", "France", "Val de Loire", null, "fr"],
-  ["Pauillac", "FR", "France", "Bordeaux", null, "fr"],
-  ["Margaux", "FR", "France", "Bordeaux", null, "fr"],
-  ["Saint-Émilion", "FR", "France", "Bordeaux", null, "fr"],
-  ["Châteauneuf-du-Pape", "FR", "France", "Vallée du Rhône", null, "fr"],
-  ["Côte-Rôtie", "FR", "France", "Vallée du Rhône", null, "fr"],
-  // Italy
-  ["Piemonte", "IT", "Italia", "Nord-Ovest", "Piedmont", "it"],
-  ["Toscana", "IT", "Italia", "Centro", "Tuscany", "it"],
-  ["Veneto", "IT", "Italia", "Nord-Est", null, "it"],
-  ["Barolo", "IT", "Italia", "Piemonte", null, "it"],
-  ["Chianti Classico", "IT", "Italia", "Toscana", null, "it"],
-  ["Montalcino", "IT", "Italia", "Toscana", null, "it"],
-  ["Alto Adige", "IT", "Italia", "Nord-Est", "South Tyrol", "it"],
-  ["Friuli-Venezia Giulia", "IT", "Italia", "Nord-Est", null, "it"],
-  ["Sicilia", "IT", "Italia", "Sud", "Sicily", "it"],
-  ["Etna", "IT", "Italia", "Sicilia", null, "it"],
-  // Spain
-  ["Rioja", "ES", "España", "Norte", null, "es"],
-  ["Ribera del Duero", "ES", "España", "Castilla y León", null, "es"],
-  ["Priorat", "ES", "España", "Cataluña", null, "es"],
-  ["Rías Baixas", "ES", "España", "Galicia", null, "es"],
-  ["Jerez", "ES", "España", "Andalucía", "Sherry", "es"],
-  ["Penedès", "ES", "España", "Cataluña", null, "es"],
-  ["Bierzo", "ES", "España", "Castilla y León", null, "es"],
-  // Germany + Austria
-  ["Mosel", "DE", "Deutschland", "West", null, "de"],
-  ["Rheingau", "DE", "Deutschland", "West", null, "de"],
-  ["Pfalz", "DE", "Deutschland", "West", "Palatinate", "de"],
-  ["Baden", "DE", "Deutschland", "Süd", null, "de"],
-  ["Nahe", "DE", "Deutschland", "West", null, "de"],
-  ["Wachau", "AT", "Österreich", "Niederösterreich", null, "de"],
-  // Switzerland, North America
-  ["Valais", "CH", "Suisse", "Romandie", null, "fr"],
-  ["Vaud", "CH", "Suisse", "Romandie", null, "fr"],
-  ["Napa Valley", "US", "United States", "California", null, "en"],
-  ["Sonoma County", "US", "United States", "California", null, "en"],
-  ["Willamette Valley", "US", "United States", "Oregon", null, "en"],
-  ["Okanagan Valley", "CA", "Canada", "British Columbia", null, "en"],
-  ["Niagara Peninsula", "CA", "Canada", "Ontario", null, "en"],
-  ["Sussex", "GB", "United Kingdom", "South East England", null, "en"],
-  ["Kent", "GB", "United Kingdom", "South East England", null, "en"],
-];
-
-/** [name, regionName, founded, wineCount] */
-export const PRODUCERS = [
-  ["Meerlust Estate", "Stellenbosch", 1693, 18],
-  ["Kanonkop Estate", "Stellenbosch", 1910, 11],
-  ["Rust en Vrede", "Stellenbosch", 1694, 9],
-  ["Thelema Mountain Vineyards", "Stellenbosch", 1983, 14],
-  ["Tokara", "Stellenbosch", 1994, 16],
-  ["De Toren", "Stellenbosch", 1994, 7],
-  ["Sadie Family Wines", "Swartland", 1999, 9],
-  ["Mullineux", "Swartland", 2007, 12],
-  ["A.A. Badenhorst", "Swartland", 2008, 10],
-  ["Boekenhoutskloof", "Franschhoek", 1776, 14],
-  ["La Motte", "Franschhoek", 1695, 13],
-  ["Hamilton Russell Vineyards", "Hemel-en-Aarde", 1975, 6],
-  ["Bouchard Finlayson", "Hemel-en-Aarde", 1989, 8],
-  ["Klein Constantia", "Constantia", 1685, 12],
-  ["Groot Constantia", "Constantia", 1685, 15],
-  ["Paul Cluver", "Elgin", 1896, 11],
-  ["Springfield Estate", "Robertson", 1995, 9],
-  ["Cederberg Private Cellar", "Cederberg", 1973, 10],
-  ["Groote Post", "Darling", 1999, 8],
-  ["Steenberg", "Constantia", 1682, 13],
-  ["Domaine de la Romanée-Conti", "Bourgogne", 1869, 8],
-  ["Domaine Leflaive", "Bourgogne", 1717, 14],
-  ["Maison Louis Jadot", "Bourgogne", 1859, 30],
-  ["Château Pichon Baron", "Pauillac", 1694, 5],
-  ["Château Margaux", "Margaux", 1572, 4],
-  ["Château Cheval Blanc", "Saint-Émilion", 1832, 3],
-  ["Larmandier-Bernier", "Champagne", 1971, 9],
-  ["Champagne Bollinger", "Champagne", 1829, 11],
-  ["E. Guigal", "Côte-Rôtie", 1946, 22],
-  ["Château de Beaucastel", "Châteauneuf-du-Pape", 1909, 8],
-  ["Domaine Zind-Humbrecht", "Alsace", 1959, 17],
-  ["Domaine Vacheron", "Sancerre", 1950, 7],
-  ["Vietti", "Barolo", 1919, 15],
-  ["Giacomo Conterno", "Barolo", 1908, 6],
-  ["Biondi-Santi", "Montalcino", 1888, 5],
-  ["Castello di Ama", "Chianti Classico", 1972, 10],
-  ["Elena Walch", "Alto Adige", 1869, 18],
-  ["Gravner", "Friuli-Venezia Giulia", 1901, 6],
-  ["Passopisciaro", "Etna", 2000, 9],
-  ["Allegrini", "Veneto", 1854, 12],
-  ["La Rioja Alta", "Rioja", 1890, 13],
-  ["Bodegas Muga", "Rioja", 1932, 11],
-  ["Vega Sicilia", "Ribera del Duero", 1864, 6],
-  ["Clos Mogador", "Priorat", 1979, 5],
-  ["Pazo de Señoráns", "Rías Baixas", 1989, 6],
-  ["González Byass", "Jerez", 1835, 20],
-  ["Descendientes de J. Palacios", "Bierzo", 1999, 7],
-  ["Weingut Egon Müller", "Mosel", 1797, 8],
-  ["Weingut Dr. Loosen", "Mosel", 1988, 14],
-  ["Schloss Johannisberg", "Rheingau", 1100, 10],
-  ["Weingut Müller-Catoir", "Pfalz", 1744, 12],
-  ["Weingut Dönnhoff", "Nahe", 1750, 13],
-  ["Weingut F.X. Pichler", "Wachau", 1898, 9],
-  ["Domaine Jean-René Germanier", "Valais", 1896, 11],
-  ["Ridge Vineyards", "Napa Valley", 1962, 16],
-  ["Ridge Monte Bello Estate", "Sonoma County", 1959, 12],
-  ["Domaine Drouhin Oregon", "Willamette Valley", 1987, 9],
-  ["Mission Hill Family Estate", "Okanagan Valley", 1981, 14],
-  ["Tawse Winery", "Niagara Peninsula", 2001, 11],
-  ["Ridgeview Wine Estate", "Sussex", 1995, 9],
-  ["Nyetimber", "Sussex", 1988, 8],
-  ["Chapel Down", "Kent", 1977, 15],
-  ["Gusbourne Estate", "Kent", 2004, 10],
-];
-
-/** Grapes, including the synonym pairs the index mapping declares. */
-export const GRAPES = [
-  "Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot", "Pinotage",
-  "Syrah", "Shiraz", "Grenache", "Mourvèdre", "Cinsaut",
-  "Chenin Blanc", "Chardonnay", "Sauvignon Blanc", "Sémillon", "Riesling",
-  "Pinot Noir", "Pinot Gris", "Pinot Grigio", "Grüner Veltliner", "Gewürztraminer",
-  "Nebbiolo", "Sangiovese", "Barbera", "Corvina", "Nerello Mascalese",
-  "Tempranillo", "Garnacha", "Albariño", "Palomino", "Mencía",
-];
-
-/**
- * Currency by country — the currency follows the DATA, never the locale. This
- * table is what makes that testable rather than asserted.
- */
-export const CURRENCY_BY_COUNTRY = {
-  ZA: "ZAR", FR: "EUR", IT: "EUR", ES: "EUR", DE: "EUR", AT: "EUR",
-  CH: "CHF", US: "USD", CA: "CAD", GB: "GBP",
-};
-
-/** Tasting titles, deliberately spread across every launch language. */
-export const TASTING_TITLES = [
-  ["Meerlust cellar tasting", "en"],
-  ["Swartland, Six Ways", "en"],
-  ["Chenin blanc masterclass", "en"],
-  ["Cape Bordeaux blends, blind", "en"],
-  ["Old-vine Cinsaut, a vertical", "en"],
-  ["Hemel-en-Aarde Pinot: four estates", "en"],
-  ["Wynproe: Kaapse Chenin", "af"],
-  ["Ontmoet die wynmaker", "af"],
-  ["Ou wingerde van die Swartland", "af"],
-  ["Stellenbosch se rooiwyne", "af"],
-  ["Dégustation verticale de Pauillac", "fr"],
-  ["Les grands crus de Bourgogne", "fr"],
-  ["Champagne: dosage et terroir", "fr"],
-  ["Découverte des vins du Rhône", "fr"],
-  ["Atelier assemblage à Bordeaux", "fr"],
-  ["Rieslingprobe an der Mosel", "de"],
-  ["Große Gewächse aus dem Rheingau", "de"],
-  ["Grüner Veltliner im Vergleich", "de"],
-  ["Weinreise durch die Pfalz", "de"],
-  ["Degustazione verticale di Barolo", "it"],
-  ["I grandi rossi della Toscana", "it"],
-  ["Etna: altitudine e minerale", "it"],
-  ["Vini bianchi del Friuli", "it"],
-  ["Cata vertical de Rioja", "es"],
-  ["Los tintos de Ribera del Duero", "es"],
-  ["Albariño y el Atlántico", "es"],
-  ["Jerez: de fino a oloroso", "es"],
-  ["Priorat, pizarra y garnacha", "es"],
-  ["Sparkling from the South Downs", "en"],
-  ["English fizz vs Champagne, blind", "en"],
-  ["Kent harvest walk and tasting", "en"],
-  ["Napa Cabernet: five vintages", "en"],
-  ["Oregon Pinot, north to south", "en"],
-  ["Okanagan icewine and dessert pairing", "en"],
-  ["Constantia se soet wyne", "af"],
-  ["Pinotage: ou en nuwe styl", "af"],
-  ["Elgin se koel klimaat wyne", "af"],
-  ["Wynmakers van die Boland", "af"],
-  ["Kaapse mousserende wyn", "af"],
-  ["Les vins de Loire au naturel", "fr"],
-  ["Alsace: sept cépages", "fr"],
-  ["Beaujolais, cru par cru", "fr"],
-  ["Vins du Valais et fondue", "fr"],
-  ["Sancerre et fromage de chèvre", "fr"],
-  ["Spätburgunder aus Baden", "de"],
-  ["Trockenbeerenauslese verkosten", "de"],
-  ["Weinbergwanderung an der Nahe", "de"],
-  ["Wachauer Smaragd im Glas", "de"],
-  ["Amarone e Valpolicella a confronto", "it"],
-  ["Nebbiolo oltre il Barolo", "it"],
-  ["Prosecco: metodo e territorio", "it"],
-  ["Vini vulcanici della Sicilia", "it"],
-  ["Vinos de Jerez y tapas", "es"],
-  ["Garnacha en tres regiones", "es"],
-  ["Espumosos: cava y método tradicional", "es"],
-];
-
-/** People — a mix of statuses and personas, names from the launch markets. */
-export const PEOPLE = [
-  ["Alexandra Meyer", "enthusiast", null],
-  ["Thandi Nkosi", null, "sommelier"],
-  ["Nomsa Dlamini", null, "sommelier"],
-  ["Johan Terblanche", "collector", null],
-  ["Pieter van Zyl", "enthusiast", null],
-  ["Zanele Mokoena", "collector", null],
-  ["Riaan Botha", null, "winemaker"],
-  ["Lerato Mabaso", "enthusiast", null],
-  ["Sipho Khumalo", null, "venue"],
-  ["Anneke du Plessis", null, "winemaker"],
-  ["Camille Dubois", null, "sommelier"],
-  ["Étienne Laurent", null, "winemaker"],
-  ["Marie-Claire Fontaine", "collector", null],
-  ["Olivier Rousseau", null, "distributor"],
-  ["Amélie Girard", "enthusiast", null],
-  ["Klaus Bergmann", null, "winemaker"],
-  ["Ingrid Hoffmann", "collector", null],
-  ["Sebastian Vogel", null, "sommelier"],
-  ["Lena Schäfer", "enthusiast", null],
-  ["Giulia Rossi", null, "sommelier"],
-  ["Marco Bianchi", null, "winemaker"],
-  ["Francesca Conti", "collector", null],
-  ["Alessandro Ferrari", "enthusiast", null],
-  ["Lucía Fernández", null, "sommelier"],
-  ["Javier Moreno", null, "importer"],
-  ["Carmen Ortiz", "collector", null],
-  ["Diego Ramírez", "enthusiast", null],
-  ["Emily Carter", null, "wine_club"],
-  ["James Whitfield", "collector", null],
-  ["Sarah Bennett", null, "sommelier"],
-  ["Michael O'Donnell", "enthusiast", null],
-  ["Claire Beaumont", null, "venue"],
-  ["Hannah Fischer", "enthusiast", null],
-  ["Tobias Wagner", null, "distributor"],
-  ["Isabella Marino", "collector", null],
-  ["Rafael Costa", "enthusiast", null],
-  ["Sophie Laurent", null, "sommelier"],
-  ["Daniel Brandt", "collector", null],
-  ["Nadia Haddad", "enthusiast", null],
-  ["Kobus Steyn", null, "producer"],
-  ["Yolanda Petersen", "enthusiast", null],
-  ["Bianca Adams", "collector", null],
-  ["Werner Kruger", null, "winemaker"],
-  ["Chiara Lombardi", "enthusiast", null],
-  ["Paulo Silva", null, "importer"],
-  ["Antoine Mercier", "collector", null],
-  ["Greta Bauer", "enthusiast", null],
-  ["Nomvula Sithole", null, "sommelier"],
-  ["Hendrik de Villiers", "collector", null],
-  ["Valentina Russo", "enthusiast", null],
-  ["Tomas Novak", null, "distributor"],
-  ["Ayanda Mthembu", "enthusiast", null],
-];
-
-export const VERDICTS = [
-  "Unforgettable",
-  "Essential",
-  "Worth Revisiting",
-  "An Interesting Discovery",
-];
+    .replace(/^-|-$/g, "");

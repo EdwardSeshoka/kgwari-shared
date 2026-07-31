@@ -15,6 +15,34 @@
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
+    },
+    "./catalog": {
+      "types": "./dist/features/catalog/index.d.ts",
+      "default": "./dist/features/catalog/index.js"
+    },
+    "./provenance": {
+      "types": "./dist/features/provenance/index.d.ts",
+      "default": "./dist/features/provenance/index.js"
+    },
+    "./editorial": {
+      "types": "./dist/features/editorial/index.d.ts",
+      "default": "./dist/features/editorial/index.js"
+    },
+    "./events": {
+      "types": "./dist/features/events/index.d.ts",
+      "default": "./dist/features/events/index.js"
+    },
+    "./social": {
+      "types": "./dist/features/social/index.d.ts",
+      "default": "./dist/features/social/index.js"
+    },
+    "./search": {
+      "types": "./dist/features/search/index.d.ts",
+      "default": "./dist/features/search/index.js"
+    },
+    "./discover": {
+      "types": "./dist/features/discover/index.d.ts",
+      "default": "./dist/features/discover/index.js"
     }
   },
   "files": [
@@ -36,6 +64,8 @@
     "test": "npm run build && node --test",
     "pretypecheck": "npm run build --workspace @edwardseshoka/contracts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "generate:seeds": "node generator/generate.mjs"
-  }
+    "generate:seeds": "node generator/index.mjs",
+    "check:seeds": "node generator/index.mjs --check"
+  },
+  "test": null
 }

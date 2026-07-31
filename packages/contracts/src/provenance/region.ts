@@ -25,6 +25,24 @@ export type RegionContract = {
   regionType?: RegionType;
   imageUrl?: string;
   description?: string;
+  /**
+   * True when this place is known by a different name in another language —
+   * Bourgogne / Burgundy, Toscana / Tuscany.
+   *
+   * It exists because a region's name is the ONE catalogue field that is
+   * genuinely translatable, and a client cannot tell a translated name from an
+   * untranslated one without being told. Search projects an exonymous region's
+   * title as `NegotiatedText` and a single-name place as `CanonicalText`, so
+   * this flag is what decides which claim the row makes.
+   */
+  exonym?: boolean;
+  /**
+   * BCP 47 tag of the name in {@link name}. Only meaningful with `exonym`.
+   *
+   * Without it, a fallback is indistinguishable from a translation — serving
+   * "Burgundy" to a French member reads as though French were what we had.
+   */
+  nameLanguage?: string;
   producerCount: number;
   wineCount: number;
 };

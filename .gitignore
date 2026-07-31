@@ -5,3 +5,9 @@ dist
 # (core.excludesFile) would otherwise silently drop newly-added fixtures and
 # break CI on a fresh checkout (imports resolve to missing modules).
 !packages/samples/src/**/*.json
+
+# The generator's curated input, which the negation above did not reach — so
+# `orig-wines.json` and friends were never committed and a fresh clone could not
+# run `generate:seeds` at all. The generated seeds are only reproducible if the
+# source they are generated FROM is in the repo.
+!packages/samples/generator/*.json
