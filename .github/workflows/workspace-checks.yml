@@ -31,3 +31,11 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Check seeds
+        # The generated seeds must match what the generator produces. Without
+        # this, "never hand-edit a generated seed" is advice; with it, a
+        # hand-edit fails here with the drifted file named — which is how the
+        # discover hero broke silently the last time one was treated as
+        # editable.
+        run: npm run check:seeds --workspace @edwardseshoka/samples

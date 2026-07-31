@@ -2,14 +2,43 @@
 
 Shared internal TypeScript packages for Morara.
 
+## What belongs here
+
+**Straightforward, mechanical things.** A package earns a place in shared only if
+it is pure: no network, no long-running work, no ambient state. Everything here
+should give the same answer on a plane as it does in production, which is what
+makes it safe for the backend, the frontend and a generator to all depend on the
+same copy.
+
+Anything that adapts to an outside system — an HTTP provider, a platform SDK, a
+third-party library with its own release cadence — belongs to whichever app talks
+to it, not here.
+
 ## Packages
 
-- `@edwardseshoka/foundation` — common protocols and abstractions
-- `@edwardseshoka/phone-number-validation` — Morara phone-number validation capability
-- `@edwardseshoka/places` — Morara Places capability with domain and Morara API data access
-- `@edwardseshoka/google-places-adapter` — backend Google Places provider adapter
-- `@edwardseshoka/contracts` — DTOs and shared contracts
-- `@edwardseshoka/fixtures` — shared seed/fixture JSON for API scenarios
+- `@edwardseshoka/contracts` — the wire shape, plus the pure rules derived from
+  it. Feature-foldered with per-domain subpaths (`/catalog`, `/search`, …) and
+  boundaries enforced by `ContractsTests/Boundaries.test.js`.
+- `@edwardseshoka/samples` — seed data, with matching per-domain subpaths.
+  Generated; see `packages/samples/generator`.
+- `@edwardseshoka/foundation` — common protocols and abstractions (`Mapper`,
+  `Result`, validation). **Deliberately dependency-free.**
+
+Three packages, all pure, none with a third-party dependency.
+
+### Removed on 2026-07-31
+
+- `@edwardseshoka/google-places-adapter` — a networked provider adapter,
+  published for a backend that never adopted it and imported by nothing.
+- `@edwardseshoka/places` — a capability over a networked places API.
+- `@edwardseshoka/phone-number-validation` — pure, but it pulled
+  `libphonenumber-js`, and a package here should not hand its consumers a
+  third-party dependency they did not ask for.
+
+The last two are consumed by **morara-frontend-app** and by nothing else, so
+they belong to it. Their published versions still resolve, so nothing breaks
+today — but they are unmaintained here and should be absorbed into the frontend
+rather than left to rot on the registry.
 
 ## Versioning model
 
@@ -45,11 +74,16 @@ registry=https://registry.npmjs.org/
 
 Fixtures are organized by API endpoint/use-case (for example `list-wines.json`, `featured-events.json`) rather than by entity tables or frontend view state. This keeps seed data response-like, domain-oriented, and reusable across backend seeding and frontend local doubles.
 
-Morara-specific canonical dev/deploy seed data now also lives here:
+Kgwari's canonical dev/deploy seed data lives in the `samples` package, split by
+feature:
 
-- `packages/fixtures/src/seeds/morara/public-wines.json`
+- `packages/samples/src/features/catalog/wines.json`
+- `packages/samples/src/features/search/browse-groups.json`
+- `packages/samples/src/features/discover/curation.json`
 
-Consumer repos can sync from that file to keep backend deploy seeding and frontend local doubles aligned from one source of truth.
+The corpus is generated — see `packages/samples/generator/README.md`. Consumer
+repos read these through `@edwardseshoka/samples` so backend deploy seeding and
+frontend local doubles stay aligned from one source of truth.
 
 ## Getting started
 

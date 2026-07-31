@@ -1,0 +1,78 @@
+[
+  {
+    "id": "estate_meerlust",
+    "name": "Meerlust Estate",
+    "countryCode": "ZA",
+    "regionId": "region_stellenbosch",
+    "regionName": "Stellenbosch",
+    "imageUrl": "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=1200&q=80",
+    "description": "A historic Stellenbosch estate best known for Rubicon and age-worthy Cape blends.",
+    "wineCount": 18
+  },
+  {
+    "id": "estate_kanonkop",
+    "name": "Kanonkop Estate",
+    "countryCode": "ZA",
+    "regionId": "region_stellenbosch",
+    "regionName": "Stellenbosch",
+    "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1200&q=80",
+    "description": "A benchmark Cape producer with a deep reputation for Pinotage and structured reds.",
+    "wineCount": 22
+  },
+  {
+    "id": "estate_sadie_family",
+    "name": "Sadie Family Wines",
+    "countryCode": "ZA",
+    "regionId": "region_swartland",
+    "regionName": "Swartland",
+    "imageUrl": "https://images.unsplash.com/photo-1535869462434-f92cc30bf40c?auto=format&fit=crop&w=1200&q=80",
+    "description": "Swartland-focused wines built around old vines, texture, and restrained power.",
+    "wineCount": 11
+  },
+  {
+    "id": "estate_boekenhoutskloof",
+    "name": "Boekenhoutskloof",
+    "countryCode": "ZA",
+    "regionId": "region_franschhoek",
+    "regionName": "Franschhoek",
+    "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?auto=format&fit=crop&w=1200&q=80",
+    "description": "Franschhoek producer known for expressive Syrah, Cabernet, and layered reds.",
+    "wineCount": 16
+  },
+  {
+    "id": "producer_pichon_baron",
+    "name": "Château Pichon Baron",
+    "countryCode": "FR",
+    "regionId": "region_pauillac",
+    "regionName": "Pauillac",
+    "description": "A Pauillac second-growth on the Left Bank of Bordeaux.",
+    "wineCount": 3
+  },
+  {
+    "id": "producer_vietti",
+    "name": "Vietti",
+    "countryCode": "IT",
+    "regionId": "region_barolo",
+    "regionName": "Barolo",
+    "description": "A historic Castiglione Falletto house making cru and classic Barolo.",
+    "wineCount": 9
+  },
+  {
+    "id": "producer_ridge",
+    "name": "Ridge Vineyards",
+    "countryCode": "US",
+    "regionId": "region_napa_valley",
+    "regionName": "Napa Valley",
+    "description": "California pioneer of site-driven, age-worthy Cabernet.",
+    "wineCount": 7
+  },
+  {
+    "id": "producer_larmandier_bernier",
+    "name": "Larmandier-Bernier",
+    "countryCode": "FR",
+    "regionId": "region_champagne",
+    "regionName": "Champagne",
+    "description": "Biodynamic grower-producer in Vertus, Côte des Blancs.",
+    "wineCount": 6
+  }
+]

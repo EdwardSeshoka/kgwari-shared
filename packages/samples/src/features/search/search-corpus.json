@@ -375,7 +375,7 @@
       "kind": "vintage",
       "year": 2011
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 189600,
       "currency": "ZAR"
@@ -399,7 +399,7 @@
       "kind": "vintage",
       "year": 2017
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 150400,
       "currency": "ZAR"
@@ -471,7 +471,7 @@
       "kind": "vintage",
       "year": 2019
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 30400,
       "currency": "ZAR"
@@ -519,7 +519,7 @@
       "kind": "vintage",
       "year": 2017
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 12800,
       "currency": "ZAR"
@@ -591,7 +591,7 @@
       "kind": "vintage",
       "year": 2018
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 36800,
       "currency": "ZAR"
@@ -615,7 +615,7 @@
       "kind": "vintage",
       "year": 2018
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 49200,
       "currency": "ZAR"
@@ -634,9 +634,6 @@
     "eyebrow": {
       "source": "canonical",
       "text": "Klein Constantia"
-    },
-    "meta": {
-      "kind": "nonVintage"
     },
     "verdict": "Unforgettable",
     "listedPrice": {
@@ -662,7 +659,7 @@
       "kind": "vintage",
       "year": 2010
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 96400,
       "currency": "ZAR"
@@ -686,7 +683,7 @@
       "kind": "vintage",
       "year": 2020
     },
-    "verdict": "Essential",
+    "verdict": "Worth Revisiting",
     "listedPrice": {
       "amountMinorUnits": 114400,
       "currency": "ZAR"
@@ -782,7 +779,7 @@
       "kind": "vintage",
       "year": 2020
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 18800,
       "currency": "ZAR"
@@ -898,10 +895,7 @@
       "source": "canonical",
       "text": "Château Pichon Baron"
     },
-    "meta": {
-      "kind": "nonVintage"
-    },
-    "verdict": "Unforgettable",
+    "verdict": "Essential",
     "listedPrice": {
       "amountMinorUnits": 46800,
       "currency": "EUR"
@@ -925,7 +919,7 @@
       "kind": "vintage",
       "year": 2010
     },
-    "verdict": "Essential",
+    "verdict": "Worth Revisiting",
     "listedPrice": {
       "amountMinorUnits": 10100,
       "currency": "EUR"
@@ -949,7 +943,7 @@
       "kind": "vintage",
       "year": 2016
     },
-    "verdict": "Essential",
+    "verdict": "Worth Revisiting",
     "listedPrice": {
       "amountMinorUnits": 13300,
       "currency": "EUR"
@@ -969,10 +963,7 @@
       "source": "canonical",
       "text": "Larmandier-Bernier"
     },
-    "meta": {
-      "kind": "nonVintage"
-    },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 25000,
       "currency": "EUR"
@@ -1020,7 +1011,7 @@
       "kind": "vintage",
       "year": 2017
     },
-    "verdict": "Essential",
+    "verdict": "Worth Revisiting",
     "listedPrice": {
       "amountMinorUnits": 13100,
       "currency": "EUR"
@@ -1039,9 +1030,6 @@
     "eyebrow": {
       "source": "canonical",
       "text": "E. Guigal"
-    },
-    "meta": {
-      "kind": "nonVintage"
     },
     "verdict": "Unforgettable",
     "listedPrice": {
@@ -1062,9 +1050,6 @@
     "eyebrow": {
       "source": "canonical",
       "text": "E. Guigal"
-    },
-    "meta": {
-      "kind": "nonVintage"
     },
     "verdict": "Essential",
     "listedPrice": {
@@ -1090,7 +1075,7 @@
       "kind": "vintage",
       "year": 2019
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 42400,
       "currency": "EUR"
@@ -1162,7 +1147,7 @@
       "kind": "vintage",
       "year": 2016
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 5100,
       "currency": "EUR"
@@ -1282,7 +1267,7 @@
       "kind": "vintage",
       "year": 2015
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 11700,
       "currency": "EUR"
@@ -1354,7 +1339,7 @@
       "kind": "vintage",
       "year": 2017
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 30200,
       "currency": "EUR"
@@ -1402,7 +1387,7 @@
       "kind": "vintage",
       "year": 2012
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 8300,
       "currency": "EUR"
@@ -1450,7 +1435,7 @@
       "kind": "vintage",
       "year": 2011
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 4600,
       "currency": "EUR"
@@ -1542,10 +1527,7 @@
       "source": "canonical",
       "text": "Vega Sicilia"
     },
-    "meta": {
-      "kind": "nonVintage"
-    },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 17800,
       "currency": "EUR"
@@ -1569,7 +1551,7 @@
       "kind": "vintage",
       "year": 2022
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 21600,
       "currency": "EUR"
@@ -1593,7 +1575,7 @@
       "kind": "vintage",
       "year": 2020
     },
-    "verdict": "Unforgettable",
+    "verdict": "Essential",
     "listedPrice": {
       "amountMinorUnits": 16800,
       "currency": "EUR"
@@ -1617,7 +1599,7 @@
       "kind": "vintage",
       "year": 2021
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 29400,
       "currency": "EUR"
@@ -1665,7 +1647,7 @@
       "kind": "vintage",
       "year": 2011
     },
-    "verdict": "Essential",
+    "verdict": "Worth Revisiting",
     "listedPrice": {
       "amountMinorUnits": 3400,
       "currency": "EUR"
@@ -1761,7 +1743,7 @@
       "kind": "vintage",
       "year": 2021
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 19500,
       "currency": "EUR"
@@ -1809,7 +1791,7 @@
       "kind": "vintage",
       "year": 2014
     },
-    "verdict": "Unforgettable",
+    "verdict": "Essential",
     "listedPrice": {
       "amountMinorUnits": 25500,
       "currency": "EUR"
@@ -1833,7 +1815,7 @@
       "kind": "vintage",
       "year": 2022
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 47300,
       "currency": "EUR"
@@ -1857,7 +1839,7 @@
       "kind": "vintage",
       "year": 2020
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 10400,
       "currency": "EUR"
@@ -1881,7 +1863,7 @@
       "kind": "vintage",
       "year": 2019
     },
-    "verdict": "Essential",
+    "verdict": "Worth Revisiting",
     "listedPrice": {
       "amountMinorUnits": 34600,
       "currency": "EUR"
@@ -1929,7 +1911,7 @@
       "kind": "vintage",
       "year": 2013
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 11800,
       "currency": "CHF"
@@ -2001,7 +1983,7 @@
       "kind": "vintage",
       "year": 2017
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 39800,
       "currency": "USD"
@@ -2073,7 +2055,7 @@
       "kind": "vintage",
       "year": 2012
     },
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "listedPrice": {
       "amountMinorUnits": 45100,
       "currency": "CAD"
@@ -2145,7 +2127,7 @@
       "kind": "vintage",
       "year": 2014
     },
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "listedPrice": {
       "amountMinorUnits": 47700,
       "currency": "GBP"

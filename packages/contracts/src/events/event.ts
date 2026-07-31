@@ -26,6 +26,16 @@ export type EventSubjectContract =
 export type EventContract = {
   id: string;
   title: string;
+  /**
+   * BCP 47 tag the title was authored in.
+   *
+   * A tasting title is curated PROSE, unlike an estate or region name, so the
+   * language it was written in is part of the fact. Search sends it as
+   * `NegotiatedText` carrying this tag; without it the row has to guess, and
+   * guessing "en" is how an Afrikaans title gets served as though it were a
+   * translation.
+   */
+  titleLanguage?: string;
   eventType?: WineEventType;
   startDateTime?: string;
   venueName?: string;

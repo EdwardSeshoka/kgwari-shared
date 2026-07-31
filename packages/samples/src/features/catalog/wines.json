@@ -19,22 +19,22 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet_sauvignon",
+        "grapeVarietyId": "grape.cabernetSauvignon",
         "grapeName": "Cabernet Sauvignon",
         "percentage": 63
       },
       {
-        "grapeVarietyId": "grape_merlot",
+        "grapeVarietyId": "grape.merlot",
         "grapeName": "Merlot",
         "percentage": 23
       },
       {
-        "grapeVarietyId": "grape_cabernet_franc",
+        "grapeVarietyId": "grape.cabernetFranc",
         "grapeName": "Cabernet Franc",
         "percentage": 10
       },
       {
-        "grapeVarietyId": "grape_petit_verdot",
+        "grapeVarietyId": "grape.petitVerdot",
         "grapeName": "Petit Verdot",
         "percentage": 4
       }
@@ -53,13 +53,24 @@
     },
     "isFeatured": true,
     "verdict": "Essential",
-    "provenance": "verified",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "producerId": "estate_meerlust",
+      "claimedAt": "2025-01-05T00:00:00.000Z"
+    },
     "source": {
       "name": "Meerlust Estate",
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 1480
+    "noteCount": 1480,
+    "cellarCount": 2664,
+    "saveCount": 4943
   },
   {
     "id": "kanonkop-pinotage-2019",
@@ -81,7 +92,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinotage",
+        "grapeVarietyId": "grape.pinotage",
         "grapeName": "Pinotage",
         "percentage": 100
       }
@@ -100,13 +111,24 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "verified",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Kanonkop Estate"
+      },
+      "producerId": "estate_kanonkop",
+      "claimedAt": "2025-09-01T00:00:00.000Z"
+    },
     "source": {
       "name": "Kanonkop Estate",
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 1280
+    "noteCount": 1280,
+    "cellarCount": 2074,
+    "saveCount": 4851
   },
   {
     "id": "palladius-2010",
@@ -137,13 +159,24 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "verified",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Sadie Family Wines"
+      },
+      "producerId": "estate_sadie_family",
+      "claimedAt": "2025-06-28T00:00:00.000Z"
+    },
     "source": {
       "name": "Sadie Family Wines",
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 172
+    "noteCount": 172,
+    "cellarCount": 280,
+    "saveCount": 671
   },
   {
     "id": "boekenhoutskloof-syrah-2020",
@@ -169,13 +202,24 @@
     },
     "isFeatured": false,
     "verdict": "Worth Revisiting",
-    "provenance": "verified",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Boekenhoutskloof"
+      },
+      "producerId": "estate_boekenhoutskloof",
+      "claimedAt": "2025-02-20T00:00:00.000Z"
+    },
     "source": {
       "name": "Boekenhoutskloof",
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 980
+    "noteCount": 980,
+    "cellarCount": 1490,
+    "saveCount": 3430
   },
   {
     "id": "tokara-sauvignon-blanc-2022",
@@ -204,7 +248,9 @@
       "name": "Community knowledge",
       "role": "640 member notes"
     },
-    "noteCount": 640
+    "noteCount": 640,
+    "cellarCount": 1120,
+    "saveCount": 2451
   },
   {
     "id": "lamotte-chardonnay-2021",
@@ -233,7 +279,9 @@
       "name": "Community knowledge",
       "role": "520 member notes"
     },
-    "noteCount": 520
+    "noteCount": 520,
+    "cellarCount": 806,
+    "saveCount": 1960
   },
   {
     "id": "de-toren-book-xvii-2016",
@@ -257,13 +305,23 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "listed",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-01-01T00:00:00.000Z"
+    },
     "source": {
       "name": "Great Domaines",
       "tier": "distributor",
       "role": "distributor"
     },
-    "noteCount": 43
+    "noteCount": 43,
+    "cellarCount": 63,
+    "saveCount": 163
   },
   {
     "id": "mullineux-elandskloof-chardonnay-2016",
@@ -292,7 +350,9 @@
       "name": "Community knowledge",
       "role": "120 member notes"
     },
-    "noteCount": 120
+    "noteCount": 120,
+    "cellarCount": 170,
+    "saveCount": 450
   },
   {
     "id": "groot-constantia-grand-constance-2014",
@@ -316,13 +376,23 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "verified",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "claimedAt": "2025-09-01T00:00:00.000Z"
+    },
     "source": {
       "name": "Groot Constantia",
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 219
+    "noteCount": 219,
+    "cellarCount": 337,
+    "saveCount": 701
   },
   {
     "id": "steenberg-lady-r-mcc-2011",
@@ -351,7 +421,9 @@
       "name": "Community knowledge",
       "role": "38 member notes"
     },
-    "noteCount": 38
+    "noteCount": 38,
+    "cellarCount": 56,
+    "saveCount": 138
   },
   {
     "id": "pichon-baron-2016",
@@ -373,12 +445,12 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet_sauvignon",
+        "grapeVarietyId": "grape.cabernetSauvignon",
         "grapeName": "Cabernet Sauvignon",
         "percentage": 78
       },
       {
-        "grapeVarietyId": "grape_merlot",
+        "grapeVarietyId": "grape.merlot",
         "grapeName": "Merlot",
         "percentage": 22
       }
@@ -391,13 +463,23 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "listed",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-06-12T00:00:00.000Z"
+    },
     "source": {
       "name": "Great Domaines",
       "tier": "distributor",
       "role": "distributor"
     },
-    "noteCount": 64
+    "noteCount": 64,
+    "cellarCount": 96,
+    "saveCount": 206
   },
   {
     "id": "vietti-castiglione-barolo-2018",
@@ -419,7 +501,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_nebbiolo",
+        "grapeVarietyId": "grape.nebbiolo",
         "grapeName": "Nebbiolo",
         "percentage": 100
       }
@@ -432,13 +514,23 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "listed",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-12-10T00:00:00.000Z"
+    },
     "source": {
       "name": "Great Domaines",
       "tier": "distributor",
       "role": "distributor"
     },
-    "noteCount": 51
+    "noteCount": 51,
+    "cellarCount": 83,
+    "saveCount": 159
   },
   {
     "id": "ridge-monte-bello-2019",
@@ -460,12 +552,12 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet_sauvignon",
+        "grapeVarietyId": "grape.cabernetSauvignon",
         "grapeName": "Cabernet Sauvignon",
         "percentage": 96
       },
       {
-        "grapeVarietyId": "grape_petit_verdot",
+        "grapeVarietyId": "grape.petitVerdot",
         "grapeName": "Petit Verdot",
         "percentage": 4
       }
@@ -483,7 +575,9 @@
       "name": "Community knowledge",
       "role": "88 member notes"
     },
-    "noteCount": 88
+    "noteCount": 88,
+    "cellarCount": 154,
+    "saveCount": 341
   },
   {
     "id": "larmandier-bernier-latitude-nv",
@@ -504,7 +598,7 @@
     "color": "sparkling",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_chardonnay",
+        "grapeVarietyId": "grape.chardonnay",
         "grapeName": "Chardonnay",
         "percentage": 100
       }
@@ -517,13 +611,23 @@
     },
     "isFeatured": false,
     "verdict": "Worth Revisiting",
-    "provenance": "listed",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-07-19T00:00:00.000Z"
+    },
     "source": {
       "name": "Great Domaines",
       "tier": "distributor",
       "role": "distributor"
     },
-    "noteCount": 37
+    "noteCount": 37,
+    "cellarCount": 53,
+    "saveCount": 136
   },
   {
     "id": "rubicon-2010-meerlust-est",
@@ -545,7 +649,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_merlot",
+        "grapeVarietyId": "grape.merlot",
         "grapeName": "Merlot",
         "percentage": 100
       }
@@ -561,8 +665,19 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "verified",
-    "noteCount": 420
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "producerId": "estate_meerlust-estate",
+      "claimedAt": "2025-06-12T00:00:00.000Z"
+    },
+    "noteCount": 420,
+    "cellarCount": 613,
+    "saveCount": 1277
   },
   {
     "id": "paul-sauer-2011-kanonkop-est",
@@ -584,7 +699,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_barbera",
+        "grapeVarietyId": "grape.barbera",
         "grapeName": "Barbera",
         "percentage": 100
       }
@@ -599,9 +714,20 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
-    "provenance": "verified",
-    "noteCount": 872
+    "verdict": "An Interesting Discovery",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Kanonkop Estate"
+      },
+      "producerId": "estate_kanonkop-estate",
+      "claimedAt": "2025-02-04T00:00:00.000Z"
+    },
+    "noteCount": 872,
+    "cellarCount": 1482,
+    "saveCount": 2947
   },
   {
     "id": "estate-reserve-2017-rust-en-vred",
@@ -623,7 +749,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinot-noir",
+        "grapeVarietyId": "grape.pinotNoir",
         "grapeName": "Pinot Noir",
         "percentage": 100
       }
@@ -638,9 +764,19 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
-    "provenance": "listed",
-    "noteCount": 118
+    "verdict": "Not One I'd Revisit",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-11-23T00:00:00.000Z"
+    },
+    "noteCount": 118,
+    "cellarCount": 165,
+    "saveCount": 388
   },
   {
     "id": "the-mint-2010-thelema-moun",
@@ -662,7 +798,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_nerello-mascalese",
+        "grapeVarietyId": "grape.nerelloMascalese",
         "grapeName": "Nerello Mascalese",
         "percentage": 100
       }
@@ -678,8 +814,18 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "listed",
-    "noteCount": 862
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-09-09T00:00:00.000Z"
+    },
+    "noteCount": 862,
+    "cellarCount": 1215,
+    "saveCount": 3310
   },
   {
     "id": "directors-reserve-2021-tokara",
@@ -701,7 +847,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinot-gris",
+        "grapeVarietyId": "grape.pinotGris",
         "grapeName": "Pinot Gris",
         "percentage": 100
       }
@@ -717,8 +863,19 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "verified",
-    "noteCount": 201
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Tokara"
+      },
+      "producerId": "estate_tokara",
+      "claimedAt": "2025-04-14T00:00:00.000Z"
+    },
+    "noteCount": 201,
+    "cellarCount": 332,
+    "saveCount": 683
   },
   {
     "id": "book-xvii-2019-de-toren",
@@ -740,7 +897,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_chenin-blanc",
+        "grapeVarietyId": "grape.cheninBlanc",
         "grapeName": "Chenin Blanc",
         "percentage": 100
       }
@@ -755,9 +912,11 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 637
+    "noteCount": 637,
+    "cellarCount": 1102,
+    "saveCount": 2325
   },
   {
     "id": "palladius-2011-sadie-family",
@@ -779,7 +938,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_chardonnay",
+        "grapeVarietyId": "grape.chardonnay",
         "grapeName": "Chardonnay",
         "percentage": 100
       }
@@ -795,8 +954,19 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "verified",
-    "noteCount": 309
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Sadie Family Wines"
+      },
+      "producerId": "estate_sadie-family-wines",
+      "claimedAt": "2025-07-23T00:00:00.000Z"
+    },
+    "noteCount": 309,
+    "cellarCount": 470,
+    "saveCount": 1048
   },
   {
     "id": "columella-2017-mullineux",
@@ -818,7 +988,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_palomino",
+        "grapeVarietyId": "grape.palomino",
         "grapeName": "Palomino",
         "percentage": 100
       }
@@ -833,9 +1003,19 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
-    "provenance": "listed",
-    "noteCount": 588
+    "verdict": "Not One I'd Revisit",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-05-01T00:00:00.000Z"
+    },
+    "noteCount": 588,
+    "cellarCount": 888,
+    "saveCount": 2052
   },
   {
     "id": "old-vine-chenin-2014-a-a-badenhor",
@@ -857,7 +1037,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_gewurztraminer",
+        "grapeVarietyId": "grape.gewurztraminer",
         "grapeName": "Gewürztraminer",
         "percentage": 100
       }
@@ -874,7 +1054,9 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 317
+    "noteCount": 317,
+    "cellarCount": 476,
+    "saveCount": 1125
   },
   {
     "id": "vin-de-constance-2018-la-motte",
@@ -896,7 +1078,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_mourvedre",
+        "grapeVarietyId": "grape.mourvedre",
         "grapeName": "Mourvèdre",
         "percentage": 100
       }
@@ -912,8 +1094,18 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "listed",
-    "noteCount": 882
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-10-28T00:00:00.000Z"
+    },
+    "noteCount": 882,
+    "cellarCount": 1446,
+    "saveCount": 2681
   },
   {
     "id": "grand-constance-2018-hamilton-rus",
@@ -935,7 +1127,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_mourvedre",
+        "grapeVarietyId": "grape.mourvedre",
         "grapeName": "Mourvèdre",
         "percentage": 100
       }
@@ -950,9 +1142,11 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "provenance": "community",
-    "noteCount": 528
+    "noteCount": 528,
+    "cellarCount": 882,
+    "saveCount": 1700
   },
   {
     "id": "pinotage-reserve-2018-bouchard-fin",
@@ -974,7 +1168,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_albarino",
+        "grapeVarietyId": "grape.albarino",
         "grapeName": "Albariño",
         "percentage": 100
       }
@@ -989,9 +1183,20 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
-    "provenance": "verified",
-    "noteCount": 223
+    "verdict": "An Interesting Discovery",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Bouchard Finlayson"
+      },
+      "producerId": "estate_bouchard-finlayson",
+      "claimedAt": "2025-02-20T00:00:00.000Z"
+    },
+    "noteCount": 223,
+    "cellarCount": 368,
+    "saveCount": 847
   },
   {
     "id": "klein-constantia-chenin-blanc-nv",
@@ -1011,7 +1216,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_tempranillo",
+        "grapeVarietyId": "grape.tempranillo",
         "grapeName": "Tempranillo",
         "percentage": 100
       }
@@ -1027,8 +1232,18 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "listed",
-    "noteCount": 432
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-10-28T00:00:00.000Z"
+    },
+    "noteCount": 432,
+    "cellarCount": 691,
+    "saveCount": 1624
   },
   {
     "id": "sauvignon-blanc-reserve-2010-groot-consta",
@@ -1050,7 +1265,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet-sauvignon",
+        "grapeVarietyId": "grape.cabernetSauvignon",
         "grapeName": "Cabernet Sauvignon",
         "percentage": 100
       }
@@ -1065,9 +1280,20 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
-    "provenance": "verified",
-    "noteCount": 726
+    "verdict": "Not One I'd Revisit",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "producerId": "estate_groot-constantia",
+      "claimedAt": "2025-06-08T00:00:00.000Z"
+    },
+    "noteCount": 726,
+    "cellarCount": 1169,
+    "saveCount": 2193
   },
   {
     "id": "cabernet-sauvignon-2020-paul-cluver",
@@ -1089,7 +1315,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinotage",
+        "grapeVarietyId": "grape.pinotage",
         "grapeName": "Pinotage",
         "percentage": 100
       }
@@ -1104,9 +1330,19 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
-    "provenance": "listed",
-    "noteCount": 810
+    "verdict": "Worth Revisiting",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-03-03T00:00:00.000Z"
+    },
+    "noteCount": 810,
+    "cellarCount": 1175,
+    "saveCount": 2754
   },
   {
     "id": "syrah-2022-springfield-",
@@ -1128,7 +1364,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet-franc",
+        "grapeVarietyId": "grape.cabernetFranc",
         "grapeName": "Cabernet Franc",
         "percentage": 100
       }
@@ -1144,8 +1380,19 @@
     },
     "isFeatured": false,
     "verdict": "Worth Revisiting",
-    "provenance": "verified",
-    "noteCount": 65
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Springfield Estate"
+      },
+      "producerId": "estate_springfield-estate",
+      "claimedAt": "2025-04-18T00:00:00.000Z"
+    },
+    "noteCount": 65,
+    "cellarCount": 93,
+    "saveCount": 200
   },
   {
     "id": "shiraz-2017-cederberg-pr",
@@ -1167,7 +1414,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_gewurztraminer",
+        "grapeVarietyId": "grape.gewurztraminer",
         "grapeName": "Gewürztraminer",
         "percentage": 100
       }
@@ -1183,8 +1430,19 @@
     },
     "isFeatured": false,
     "verdict": "Worth Revisiting",
-    "provenance": "verified",
-    "noteCount": 170
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Cederberg Private Cellar"
+      },
+      "producerId": "estate_cederberg-private-cellar",
+      "claimedAt": "2025-06-08T00:00:00.000Z"
+    },
+    "noteCount": 170,
+    "cellarCount": 279,
+    "saveCount": 537
   },
   {
     "id": "rubicon-2015-groote-post",
@@ -1206,7 +1464,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinot-noir",
+        "grapeVarietyId": "grape.pinotNoir",
         "grapeName": "Pinot Noir",
         "percentage": 100
       }
@@ -1223,7 +1481,9 @@
     "isFeatured": false,
     "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 790
+    "noteCount": 790,
+    "cellarCount": 1406,
+    "saveCount": 2781
   },
   {
     "id": "paul-sauer-2020-steenberg",
@@ -1245,7 +1505,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_nebbiolo",
+        "grapeVarietyId": "grape.nebbiolo",
         "grapeName": "Nebbiolo",
         "percentage": 100
       }
@@ -1260,9 +1520,20 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
-    "provenance": "verified",
-    "noteCount": 453
+    "verdict": "An Interesting Discovery",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Steenberg"
+      },
+      "producerId": "estate_steenberg",
+      "claimedAt": "2025-05-13T00:00:00.000Z"
+    },
+    "noteCount": 453,
+    "cellarCount": 702,
+    "saveCount": 1667
   },
   {
     "id": "vieilles-vignes-2015-domaine-de-l",
@@ -1284,7 +1555,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_palomino",
+        "grapeVarietyId": "grape.palomino",
         "grapeName": "Palomino",
         "percentage": 100
       }
@@ -1300,8 +1571,18 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "listed",
-    "noteCount": 107
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-06-16T00:00:00.000Z"
+    },
+    "noteCount": 107,
+    "cellarCount": 193,
+    "saveCount": 393
   },
   {
     "id": "brut-nature-2010-domaine-de-l",
@@ -1323,7 +1604,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinotage",
+        "grapeVarietyId": "grape.pinotage",
         "grapeName": "Pinotage",
         "percentage": 100
       }
@@ -1340,7 +1621,9 @@
     "isFeatured": false,
     "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 861
+    "noteCount": 861,
+    "cellarCount": 1257,
+    "saveCount": 2712
   },
   {
     "id": "brut-nature-2018-domaine-lefl",
@@ -1362,7 +1645,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_chardonnay",
+        "grapeVarietyId": "grape.chardonnay",
         "grapeName": "Chardonnay",
         "percentage": 100
       }
@@ -1378,8 +1661,19 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "verified",
-    "noteCount": 885
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "producerId": "estate_domaine-leflaive",
+      "claimedAt": "2025-10-04T00:00:00.000Z"
+    },
+    "noteCount": 885,
+    "cellarCount": 1319,
+    "saveCount": 3053
   },
   {
     "id": "grand-cru-2011-maison-louis",
@@ -1401,7 +1695,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_shiraz",
+        "grapeVarietyId": "grape.shiraz",
         "grapeName": "Shiraz",
         "percentage": 100
       }
@@ -1417,8 +1711,18 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "listed",
-    "noteCount": 461
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-01-17T00:00:00.000Z"
+    },
+    "noteCount": 461,
+    "cellarCount": 807,
+    "saveCount": 1687
   },
   {
     "id": "chateau-pichon-baron-premier-cru-nv",
@@ -1438,7 +1742,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_albarino",
+        "grapeVarietyId": "grape.albarino",
         "grapeName": "Albariño",
         "percentage": 100
       }
@@ -1453,9 +1757,11 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
+    "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 502
+    "noteCount": 502,
+    "cellarCount": 833,
+    "saveCount": 1531
   },
   {
     "id": "clos-des-vignes-2010-chateau-marg",
@@ -1477,7 +1783,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_tempranillo",
+        "grapeVarietyId": "grape.tempranillo",
         "grapeName": "Tempranillo",
         "percentage": 100
       }
@@ -1492,9 +1798,11 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
+    "verdict": "Worth Revisiting",
     "provenance": "community",
-    "noteCount": 733
+    "noteCount": 733,
+    "cellarCount": 1136,
+    "saveCount": 2456
   },
   {
     "id": "cote-rotie-la-mouline-2016-chateau-chev",
@@ -1516,7 +1824,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_grenache",
+        "grapeVarietyId": "grape.grenache",
         "grapeName": "Grenache",
         "percentage": 100
       }
@@ -1531,9 +1839,20 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
-    "provenance": "verified",
-    "noteCount": 645
+    "verdict": "Worth Revisiting",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Château Cheval Blanc"
+      },
+      "producerId": "estate_chateau-cheval-blanc",
+      "claimedAt": "2025-07-11T00:00:00.000Z"
+    },
+    "noteCount": 645,
+    "cellarCount": 987,
+    "saveCount": 2406
   },
   {
     "id": "larmandier-bernier-chateauneuf-hommage-nv",
@@ -1553,7 +1872,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_mourvedre",
+        "grapeVarietyId": "grape.mourvedre",
         "grapeName": "Mourvèdre",
         "percentage": 100
       }
@@ -1568,9 +1887,19 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
-    "provenance": "listed",
-    "noteCount": 412
+    "verdict": "Not One I'd Revisit",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-03-27T00:00:00.000Z"
+    },
+    "noteCount": 412,
+    "cellarCount": 676,
+    "saveCount": 1487
   },
   {
     "id": "latitude-extra-brut-2022-champagne-bo",
@@ -1592,7 +1921,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_palomino",
+        "grapeVarietyId": "grape.palomino",
         "grapeName": "Palomino",
         "percentage": 100
       }
@@ -1608,8 +1937,18 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "listed",
-    "noteCount": 898
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-03-27T00:00:00.000Z"
+    },
+    "noteCount": 898,
+    "cellarCount": 1392,
+    "saveCount": 3305
   },
   {
     "id": "blanc-de-blancs-2017-champagne-bo",
@@ -1631,7 +1970,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_chardonnay",
+        "grapeVarietyId": "grape.chardonnay",
         "grapeName": "Chardonnay",
         "percentage": 100
       }
@@ -1646,9 +1985,11 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
+    "verdict": "Worth Revisiting",
     "provenance": "community",
-    "noteCount": 736
+    "noteCount": 736,
+    "cellarCount": 1111,
+    "saveCount": 2848
   },
   {
     "id": "e-guigal-blanc-de-blancs-nv",
@@ -1668,7 +2009,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_palomino",
+        "grapeVarietyId": "grape.palomino",
         "grapeName": "Palomino",
         "percentage": 100
       }
@@ -1685,7 +2026,9 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 142
+    "noteCount": 142,
+    "cellarCount": 250,
+    "saveCount": 450
   },
   {
     "id": "e-guigal-sancerre-les-romains-nv",
@@ -1705,7 +2048,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_grenache",
+        "grapeVarietyId": "grape.grenache",
         "grapeName": "Grenache",
         "percentage": 100
       }
@@ -1722,7 +2065,9 @@
     "isFeatured": false,
     "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 257
+    "noteCount": 257,
+    "cellarCount": 452,
+    "saveCount": 979
   },
   {
     "id": "sancerre-les-romains-2019-chateau-de-b",
@@ -1744,7 +2089,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet-sauvignon",
+        "grapeVarietyId": "grape.cabernetSauvignon",
         "grapeName": "Cabernet Sauvignon",
         "percentage": 100
       }
@@ -1759,9 +2104,11 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "provenance": "community",
-    "noteCount": 601
+    "noteCount": 601,
+    "cellarCount": 968,
+    "saveCount": 2290
   },
   {
     "id": "cuvee-reserve-2014-domaine-zind",
@@ -1783,7 +2130,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cinsaut",
+        "grapeVarietyId": "grape.cinsaut",
         "grapeName": "Cinsaut",
         "percentage": 100
       }
@@ -1800,7 +2147,9 @@
     "isFeatured": false,
     "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 26
+    "noteCount": 26,
+    "cellarCount": 38,
+    "saveCount": 83
   },
   {
     "id": "vieilles-vignes-2014-domaine-zind",
@@ -1822,7 +2171,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_sangiovese",
+        "grapeVarietyId": "grape.sangiovese",
         "grapeName": "Sangiovese",
         "percentage": 100
       }
@@ -1839,7 +2188,9 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 75
+    "noteCount": 75,
+    "cellarCount": 116,
+    "saveCount": 236
   },
   {
     "id": "vieilles-vignes-2016-domaine-vach",
@@ -1861,7 +2212,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_palomino",
+        "grapeVarietyId": "grape.palomino",
         "grapeName": "Palomino",
         "percentage": 100
       }
@@ -1876,9 +2227,11 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "provenance": "community",
-    "noteCount": 746
+    "noteCount": 746,
+    "cellarCount": 1283,
+    "saveCount": 2253
   },
   {
     "id": "brut-nature-2016-domaine-vach",
@@ -1900,7 +2253,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_semillon",
+        "grapeVarietyId": "grape.semillon",
         "grapeName": "Sémillon",
         "percentage": 100
       }
@@ -1916,8 +2269,18 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "listed",
-    "noteCount": 782
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-02-08T00:00:00.000Z"
+    },
+    "noteCount": 782,
+    "cellarCount": 1361,
+    "saveCount": 3050
   },
   {
     "id": "barolo-castiglione-2018-vietti",
@@ -1939,7 +2302,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_barbera",
+        "grapeVarietyId": "grape.barbera",
         "grapeName": "Barbera",
         "percentage": 100
       }
@@ -1956,7 +2319,9 @@
     "isFeatured": false,
     "verdict": "Worth Revisiting",
     "provenance": "community",
-    "noteCount": 416
+    "noteCount": 416,
+    "cellarCount": 703,
+    "saveCount": 1473
   },
   {
     "id": "brunello-2020-giacomo-cont",
@@ -1978,7 +2343,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_grenache",
+        "grapeVarietyId": "grape.grenache",
         "grapeName": "Grenache",
         "percentage": 100
       }
@@ -1994,8 +2359,18 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "listed",
-    "noteCount": 414
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-07-23T00:00:00.000Z"
+    },
+    "noteCount": 414,
+    "cellarCount": 650,
+    "saveCount": 1391
   },
   {
     "id": "chianti-classico-riserva-2022-biondi-santi",
@@ -2017,7 +2392,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_garnacha",
+        "grapeVarietyId": "grape.garnacha",
         "grapeName": "Garnacha",
         "percentage": 100
       }
@@ -2033,8 +2408,19 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "verified",
-    "noteCount": 426
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Biondi-Santi"
+      },
+      "producerId": "estate_biondi-santi",
+      "claimedAt": "2025-07-07T00:00:00.000Z"
+    },
+    "noteCount": 426,
+    "cellarCount": 699,
+    "saveCount": 1598
   },
   {
     "id": "etna-rosso-2015-biondi-santi",
@@ -2056,7 +2442,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet-sauvignon",
+        "grapeVarietyId": "grape.cabernetSauvignon",
         "grapeName": "Cabernet Sauvignon",
         "percentage": 100
       }
@@ -2071,9 +2457,11 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 660
+    "noteCount": 660,
+    "cellarCount": 1003,
+    "saveCount": 2053
   },
   {
     "id": "etna-rosso-2019-castello-di-",
@@ -2095,7 +2483,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_barbera",
+        "grapeVarietyId": "grape.barbera",
         "grapeName": "Barbera",
         "percentage": 100
       }
@@ -2111,8 +2499,18 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "listed",
-    "noteCount": 88
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-03-19T00:00:00.000Z"
+    },
+    "noteCount": 88,
+    "cellarCount": 152,
+    "saveCount": 334
   },
   {
     "id": "amarone-della-valpolicella-2016-elena-walch",
@@ -2134,7 +2532,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinot-gris",
+        "grapeVarietyId": "grape.pinotGris",
         "grapeName": "Pinot Gris",
         "percentage": 100
       }
@@ -2150,8 +2548,19 @@
     },
     "isFeatured": false,
     "verdict": "Worth Revisiting",
-    "provenance": "verified",
-    "noteCount": 596
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Elena Walch"
+      },
+      "producerId": "estate_elena-walch",
+      "claimedAt": "2025-10-20T00:00:00.000Z"
+    },
+    "noteCount": 596,
+    "cellarCount": 906,
+    "saveCount": 2158
   },
   {
     "id": "barbaresco-2017-elena-walch",
@@ -2173,7 +2582,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_chenin-blanc",
+        "grapeVarietyId": "grape.cheninBlanc",
         "grapeName": "Chenin Blanc",
         "percentage": 100
       }
@@ -2188,9 +2597,11 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 543
+    "noteCount": 543,
+    "cellarCount": 782,
+    "saveCount": 1917
   },
   {
     "id": "barbaresco-2022-gravner",
@@ -2212,7 +2623,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet-franc",
+        "grapeVarietyId": "grape.cabernetFranc",
         "grapeName": "Cabernet Franc",
         "percentage": 100
       }
@@ -2229,7 +2640,9 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 730
+    "noteCount": 730,
+    "cellarCount": 1256,
+    "saveCount": 2234
   },
   {
     "id": "ribolla-gialla-2012-gravner",
@@ -2251,7 +2664,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinot-gris",
+        "grapeVarietyId": "grape.pinotGris",
         "grapeName": "Pinot Gris",
         "percentage": 100
       }
@@ -2266,9 +2679,20 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
-    "provenance": "verified",
-    "noteCount": 186
+    "verdict": "Not One I'd Revisit",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Gravner"
+      },
+      "producerId": "estate_gravner",
+      "claimedAt": "2025-03-07T00:00:00.000Z"
+    },
+    "noteCount": 186,
+    "cellarCount": 272,
+    "saveCount": 638
   },
   {
     "id": "ribolla-gialla-2014-passopisciar",
@@ -2290,7 +2714,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet-sauvignon",
+        "grapeVarietyId": "grape.cabernetSauvignon",
         "grapeName": "Cabernet Sauvignon",
         "percentage": 100
       }
@@ -2307,7 +2731,9 @@
     "isFeatured": false,
     "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 139
+    "noteCount": 139,
+    "cellarCount": 209,
+    "saveCount": 493
   },
   {
     "id": "nebbiolo-langhe-2011-passopisciar",
@@ -2329,7 +2755,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_merlot",
+        "grapeVarietyId": "grape.merlot",
         "grapeName": "Merlot",
         "percentage": 100
       }
@@ -2344,9 +2770,20 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
-    "provenance": "verified",
-    "noteCount": 847
+    "verdict": "Not One I'd Revisit",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Passopisciaro"
+      },
+      "producerId": "estate_passopisciaro",
+      "claimedAt": "2025-04-02T00:00:00.000Z"
+    },
+    "noteCount": 847,
+    "cellarCount": 1186,
+    "saveCount": 2685
   },
   {
     "id": "nebbiolo-langhe-2017-allegrini",
@@ -2368,7 +2805,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_mencia",
+        "grapeVarietyId": "grape.mencia",
         "grapeName": "Mencía",
         "percentage": 100
       }
@@ -2385,7 +2822,9 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 104
+    "noteCount": 104,
+    "cellarCount": 178,
+    "saveCount": 354
   },
   {
     "id": "gran-reserva-2019-la-rioja-alt",
@@ -2407,7 +2846,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_albarino",
+        "grapeVarietyId": "grape.albarino",
         "grapeName": "Albariño",
         "percentage": 100
       }
@@ -2423,8 +2862,19 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "verified",
-    "noteCount": 852
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "La Rioja Alta"
+      },
+      "producerId": "estate_la-rioja-alta",
+      "claimedAt": "2025-07-27T00:00:00.000Z"
+    },
+    "noteCount": 852,
+    "cellarCount": 1304,
+    "saveCount": 2965
   },
   {
     "id": "unico-2014-bodegas-muga",
@@ -2446,7 +2896,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cinsaut",
+        "grapeVarietyId": "grape.cinsaut",
         "grapeName": "Cinsaut",
         "percentage": 100
       }
@@ -2462,8 +2912,18 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "listed",
-    "noteCount": 80
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-05-01T00:00:00.000Z"
+    },
+    "noteCount": 80,
+    "cellarCount": 115,
+    "saveCount": 248
   },
   {
     "id": "vega-sicilia-albarino-nv",
@@ -2483,7 +2943,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_mencia",
+        "grapeVarietyId": "grape.mencia",
         "grapeName": "Mencía",
         "percentage": 100
       }
@@ -2498,9 +2958,20 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
-    "provenance": "verified",
-    "noteCount": 692
+    "verdict": "An Interesting Discovery",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "producerId": "estate_vega-sicilia",
+      "claimedAt": "2025-05-05T00:00:00.000Z"
+    },
+    "noteCount": 692,
+    "cellarCount": 1017,
+    "saveCount": 2443
   },
   {
     "id": "fino-en-rama-2022-vega-sicilia",
@@ -2522,7 +2993,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_shiraz",
+        "grapeVarietyId": "grape.shiraz",
         "grapeName": "Shiraz",
         "percentage": 100
       }
@@ -2537,9 +3008,19 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
-    "provenance": "listed",
-    "noteCount": 78
+    "verdict": "An Interesting Discovery",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-08-02T00:00:00.000Z"
+    },
+    "noteCount": 78,
+    "cellarCount": 137,
+    "saveCount": 248
   },
   {
     "id": "fino-en-rama-2020-clos-mogador",
@@ -2561,7 +3042,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_nebbiolo",
+        "grapeVarietyId": "grape.nebbiolo",
         "grapeName": "Nebbiolo",
         "percentage": 100
       }
@@ -2576,9 +3057,19 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
-    "provenance": "listed",
-    "noteCount": 452
+    "verdict": "Essential",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-11-11T00:00:00.000Z"
+    },
+    "noteCount": 452,
+    "cellarCount": 755,
+    "saveCount": 1464
   },
   {
     "id": "clos-mogador-2021-pazo-de-seno",
@@ -2600,7 +3091,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet-franc",
+        "grapeVarietyId": "grape.cabernetFranc",
         "grapeName": "Cabernet Franc",
         "percentage": 100
       }
@@ -2615,9 +3106,20 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
-    "provenance": "verified",
-    "noteCount": 628
+    "verdict": "Not One I'd Revisit",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Pazo de Señoráns"
+      },
+      "producerId": "estate_pazo-de-senorans",
+      "claimedAt": "2025-09-09T00:00:00.000Z"
+    },
+    "noteCount": 628,
+    "cellarCount": 879,
+    "saveCount": 2430
   },
   {
     "id": "reserva-especial-2014-pazo-de-seno",
@@ -2639,7 +3141,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_albarino",
+        "grapeVarietyId": "grape.albarino",
         "grapeName": "Albariño",
         "percentage": 100
       }
@@ -2655,8 +3157,19 @@
     },
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
-    "provenance": "verified",
-    "noteCount": 288
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Pazo de Señoráns"
+      },
+      "producerId": "estate_pazo-de-senorans",
+      "claimedAt": "2025-03-27T00:00:00.000Z"
+    },
+    "noteCount": 288,
+    "cellarCount": 518,
+    "saveCount": 899
   },
   {
     "id": "reserva-especial-2011-gonzalez-bya",
@@ -2678,7 +3191,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cinsaut",
+        "grapeVarietyId": "grape.cinsaut",
         "grapeName": "Cinsaut",
         "percentage": 100
       }
@@ -2693,9 +3206,20 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
-    "provenance": "verified",
-    "noteCount": 178
+    "verdict": "Worth Revisiting",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "González Byass"
+      },
+      "producerId": "estate_gonzalez-byass",
+      "claimedAt": "2025-03-27T00:00:00.000Z"
+    },
+    "noteCount": 178,
+    "cellarCount": 308,
+    "saveCount": 605
   },
   {
     "id": "tinto-crianza-2011-descendiente",
@@ -2717,7 +3241,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_nerello-mascalese",
+        "grapeVarietyId": "grape.nerelloMascalese",
         "grapeName": "Nerello Mascalese",
         "percentage": 100
       }
@@ -2733,8 +3257,18 @@
     },
     "isFeatured": false,
     "verdict": "Worth Revisiting",
-    "provenance": "listed",
-    "noteCount": 546
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-12-14T00:00:00.000Z"
+    },
+    "noteCount": 546,
+    "cellarCount": 797,
+    "saveCount": 2020
   },
   {
     "id": "weissburgunder-2013-weingut-egon",
@@ -2756,7 +3290,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_chardonnay",
+        "grapeVarietyId": "grape.chardonnay",
         "grapeName": "Chardonnay",
         "percentage": 100
       }
@@ -2772,8 +3306,18 @@
     },
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
-    "provenance": "listed",
-    "noteCount": 815
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-12-22T00:00:00.000Z"
+    },
+    "noteCount": 815,
+    "cellarCount": 1443,
+    "saveCount": 2722
   },
   {
     "id": "riesling-kabinett-2021-weingut-egon",
@@ -2795,7 +3339,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_tempranillo",
+        "grapeVarietyId": "grape.tempranillo",
         "grapeName": "Tempranillo",
         "percentage": 100
       }
@@ -2812,7 +3356,9 @@
     "isFeatured": false,
     "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 416
+    "noteCount": 416,
+    "cellarCount": 657,
+    "saveCount": 1315
   },
   {
     "id": "riesling-kabinett-2021-weingut-dr-l",
@@ -2834,7 +3380,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_riesling",
+        "grapeVarietyId": "grape.riesling",
         "grapeName": "Riesling",
         "percentage": 100
       }
@@ -2849,9 +3395,19 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
-    "provenance": "listed",
-    "noteCount": 35
+    "verdict": "An Interesting Discovery",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-12-26T00:00:00.000Z"
+    },
+    "noteCount": 35,
+    "cellarCount": 60,
+    "saveCount": 106
   },
   {
     "id": "grosses-gewachs-2018-weingut-dr-l",
@@ -2873,7 +3429,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_mourvedre",
+        "grapeVarietyId": "grape.mourvedre",
         "grapeName": "Mourvèdre",
         "percentage": 100
       }
@@ -2889,8 +3445,18 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "listed",
-    "noteCount": 528
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-03-03T00:00:00.000Z"
+    },
+    "noteCount": 528,
+    "cellarCount": 945,
+    "saveCount": 1690
   },
   {
     "id": "grosses-gewachs-2014-schloss-joha",
@@ -2912,7 +3478,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_shiraz",
+        "grapeVarietyId": "grape.shiraz",
         "grapeName": "Shiraz",
         "percentage": 100
       }
@@ -2927,9 +3493,19 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
-    "provenance": "listed",
-    "noteCount": 529
+    "verdict": "Essential",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-02-04T00:00:00.000Z"
+    },
+    "noteCount": 529,
+    "cellarCount": 836,
+    "saveCount": 1682
   },
   {
     "id": "spatlese-trocken-2022-weingut-mull",
@@ -2951,7 +3527,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_cabernet-franc",
+        "grapeVarietyId": "grape.cabernetFranc",
         "grapeName": "Cabernet Franc",
         "percentage": 100
       }
@@ -2966,9 +3542,20 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
-    "provenance": "verified",
-    "noteCount": 282
+    "verdict": "An Interesting Discovery",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Weingut Müller-Catoir"
+      },
+      "producerId": "estate_weingut-muller-catoir",
+      "claimedAt": "2025-11-19T00:00:00.000Z"
+    },
+    "noteCount": 282,
+    "cellarCount": 417,
+    "saveCount": 1024
   },
   {
     "id": "trockenbeerenauslese-2020-weingut-donn",
@@ -2990,7 +3577,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_garnacha",
+        "grapeVarietyId": "grape.garnacha",
         "grapeName": "Garnacha",
         "percentage": 100
       }
@@ -3005,9 +3592,19 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
-    "provenance": "listed",
-    "noteCount": 897
+    "verdict": "Not One I'd Revisit",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-08-22T00:00:00.000Z"
+    },
+    "noteCount": 897,
+    "cellarCount": 1354,
+    "saveCount": 3014
   },
   {
     "id": "riesling-federspiel-2019-weingut-f-x-",
@@ -3029,7 +3626,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_nerello-mascalese",
+        "grapeVarietyId": "grape.nerelloMascalese",
         "grapeName": "Nerello Mascalese",
         "percentage": 100
       }
@@ -3044,9 +3641,11 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
+    "verdict": "Worth Revisiting",
     "provenance": "community",
-    "noteCount": 880
+    "noteCount": 880,
+    "cellarCount": 1276,
+    "saveCount": 2913
   },
   {
     "id": "gruner-veltliner-ried-2020-weingut-f-x-",
@@ -3068,7 +3667,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_tempranillo",
+        "grapeVarietyId": "grape.tempranillo",
         "grapeName": "Tempranillo",
         "percentage": 100
       }
@@ -3085,7 +3684,9 @@
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 894
+    "noteCount": 894,
+    "cellarCount": 1252,
+    "saveCount": 3335
   },
   {
     "id": "chasselas-grand-cru-2013-domaine-jean",
@@ -3107,7 +3708,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_sangiovese",
+        "grapeVarietyId": "grape.sangiovese",
         "grapeName": "Sangiovese",
         "percentage": 100
       }
@@ -3122,9 +3723,11 @@
       "currency": "CHF"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "provenance": "community",
-    "noteCount": 157
+    "noteCount": 157,
+    "cellarCount": 276,
+    "saveCount": 612
   },
   {
     "id": "fendant-du-valais-2019-domaine-jean",
@@ -3146,7 +3749,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinot-noir",
+        "grapeVarietyId": "grape.pinotNoir",
         "grapeName": "Pinot Noir",
         "percentage": 100
       }
@@ -3163,7 +3766,9 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 677
+    "noteCount": 677,
+    "cellarCount": 1212,
+    "saveCount": 2627
   },
   {
     "id": "napa-cabernet-reserve-2015-ridge-vineya",
@@ -3185,7 +3790,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_semillon",
+        "grapeVarietyId": "grape.semillon",
         "grapeName": "Sémillon",
         "percentage": 100
       }
@@ -3202,7 +3807,9 @@
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 486
+    "noteCount": 486,
+    "cellarCount": 773,
+    "saveCount": 1502
   },
   {
     "id": "russian-river-chardonnay-2017-ridge-vineya",
@@ -3224,7 +3831,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_riesling",
+        "grapeVarietyId": "grape.riesling",
         "grapeName": "Riesling",
         "percentage": 100
       }
@@ -3239,9 +3846,11 @@
       "currency": "USD"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 80
+    "noteCount": 80,
+    "cellarCount": 129,
+    "saveCount": 304
   },
   {
     "id": "russian-river-chardonnay-2016-ridge-monte-",
@@ -3263,7 +3872,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinot-grigio",
+        "grapeVarietyId": "grape.pinotGrigio",
         "grapeName": "Pinot Grigio",
         "percentage": 100
       }
@@ -3279,8 +3888,19 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "verified",
-    "noteCount": 352
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Ridge Monte Bello Estate"
+      },
+      "producerId": "estate_ridge-monte-bello-estate",
+      "claimedAt": "2025-02-08T00:00:00.000Z"
+    },
+    "noteCount": 352,
+    "cellarCount": 595,
+    "saveCount": 1309
   },
   {
     "id": "monte-bello-2020-domaine-drou",
@@ -3302,7 +3922,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_barbera",
+        "grapeVarietyId": "grape.barbera",
         "grapeName": "Barbera",
         "percentage": 100
       }
@@ -3319,7 +3939,9 @@
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 87
+    "noteCount": 87,
+    "cellarCount": 150,
+    "saveCount": 302
   },
   {
     "id": "icewine-riesling-2012-mission-hill",
@@ -3341,7 +3963,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinot-grigio",
+        "grapeVarietyId": "grape.pinotGrigio",
         "grapeName": "Pinot Grigio",
         "percentage": 100
       }
@@ -3356,9 +3978,11 @@
       "currency": "CAD"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
+    "verdict": "Not One I'd Revisit",
     "provenance": "community",
-    "noteCount": 666
+    "noteCount": 666,
+    "cellarCount": 1032,
+    "saveCount": 2238
   },
   {
     "id": "estate-pinot-noir-2019-mission-hill",
@@ -3380,7 +4004,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_garnacha",
+        "grapeVarietyId": "grape.garnacha",
         "grapeName": "Garnacha",
         "percentage": 100
       }
@@ -3396,8 +4020,18 @@
     },
     "isFeatured": false,
     "verdict": "Essential",
-    "provenance": "listed",
-    "noteCount": 321
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "distributor",
+      "name": {
+        "source": "canonical",
+        "text": "Great Domaines"
+      },
+      "claimedAt": "2026-06-04T00:00:00.000Z"
+    },
+    "noteCount": 321,
+    "cellarCount": 453,
+    "saveCount": 1037
   },
   {
     "id": "estate-pinot-noir-2016-tawse-winery",
@@ -3419,7 +4053,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_gewurztraminer",
+        "grapeVarietyId": "grape.gewurztraminer",
         "grapeName": "Gewürztraminer",
         "percentage": 100
       }
@@ -3436,7 +4070,9 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 295
+    "noteCount": 295,
+    "cellarCount": 510,
+    "saveCount": 935
   },
   {
     "id": "sparkling-reserve-2014-ridgeview-wi",
@@ -3458,7 +4094,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_petit-verdot",
+        "grapeVarietyId": "grape.petitVerdot",
         "grapeName": "Petit Verdot",
         "percentage": 100
       }
@@ -3473,9 +4109,20 @@
       "currency": "GBP"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
-    "provenance": "verified",
-    "noteCount": 409
+    "verdict": "An Interesting Discovery",
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Ridgeview Wine Estate"
+      },
+      "producerId": "estate_ridgeview-wine-estate",
+      "claimedAt": "2025-03-23T00:00:00.000Z"
+    },
+    "noteCount": 409,
+    "cellarCount": 650,
+    "saveCount": 1571
   },
   {
     "id": "classic-cuvee-2011-nyetimber",
@@ -3497,7 +4144,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_riesling",
+        "grapeVarietyId": "grape.riesling",
         "grapeName": "Riesling",
         "percentage": 100
       }
@@ -3513,8 +4160,19 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "verified",
-    "noteCount": 785
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Nyetimber"
+      },
+      "producerId": "estate_nyetimber",
+      "claimedAt": "2025-01-21T00:00:00.000Z"
+    },
+    "noteCount": 785,
+    "cellarCount": 1185,
+    "saveCount": 2520
   },
   {
     "id": "blanc-de-blancs-brut-2012-chapel-down",
@@ -3536,7 +4194,7 @@
     "color": "red",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_merlot",
+        "grapeVarietyId": "grape.merlot",
         "grapeName": "Merlot",
         "percentage": 100
       }
@@ -3552,8 +4210,19 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "verified",
-    "noteCount": 189
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Chapel Down"
+      },
+      "producerId": "estate_chapel-down",
+      "claimedAt": "2025-12-06T00:00:00.000Z"
+    },
+    "noteCount": 189,
+    "cellarCount": 282,
+    "saveCount": 586
   },
   {
     "id": "rose-brut-2014-gusbourne-es",
@@ -3575,7 +4244,7 @@
     "color": "white",
     "grapeBlend": [
       {
-        "grapeVarietyId": "grape_pinot-grigio",
+        "grapeVarietyId": "grape.pinotGrigio",
         "grapeName": "Pinot Grigio",
         "percentage": 100
       }
@@ -3591,7 +4260,18 @@
     },
     "isFeatured": false,
     "verdict": "Unforgettable",
-    "provenance": "verified",
-    "noteCount": 510
+    "provenance": "claimed",
+    "claimedBy": {
+      "kind": "producer",
+      "name": {
+        "source": "canonical",
+        "text": "Gusbourne Estate"
+      },
+      "producerId": "estate_gusbourne-estate",
+      "claimedAt": "2025-04-02T00:00:00.000Z"
+    },
+    "noteCount": 510,
+    "cellarCount": 816,
+    "saveCount": 1831
   }
 ]

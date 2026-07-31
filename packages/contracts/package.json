@@ -55,6 +55,18 @@
     "./search": {
       "types": "./dist/search/index.d.ts",
       "default": "./dist/search/index.js"
+    },
+    "./text": {
+      "types": "./dist/text/index.d.ts",
+      "default": "./dist/text/index.js"
+    },
+    "./catalog/test-doubles": {
+      "types": "./dist/catalog/test-doubles/index.d.ts",
+      "default": "./dist/catalog/test-doubles/index.js"
+    },
+    "./search/test-doubles": {
+      "types": "./dist/search/test-doubles/index.d.ts",
+      "default": "./dist/search/test-doubles/index.js"
     }
   },
   "files": [
@@ -70,5 +82,8 @@
     "prepack": "npm run build",
     "test": "node --test",
     "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@edwardseshoka/foundation": "^3.2.0"
   }
 }

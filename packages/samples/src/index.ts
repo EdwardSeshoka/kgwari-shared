@@ -1,19 +1,15 @@
-export { createWines } from "./features/catalog/wines.js";
-export { provenanceSamples } from "./features/provenance/provenanceSamples.js";
-export { editorialSamples } from "./features/editorial/editorialSamples.js";
-export { eventsSamples } from "./features/events/eventsSamples.js";
-export { socialSamples } from "./features/social/socialSamples.js";
-export { discoverSamples } from "./features/discover/discoverSamples.js";
-export { createDiscover } from "./features/discover/discover.js";
-export {
-  createSearchCorpus,
-  createSearchBrowseGroups
-} from "./features/search/search.js";
-export type {
-  Curation,
-  CurationHero,
-  CurationItem,
-  CurationSection,
-  CurationContentType,
-  CurationSectionType
-} from "./features/discover/curation.js";
+/**
+ * Every domain's samples.
+ *
+ * Prefer the per-feature subpath — `@edwardseshoka/samples/catalog` — so a
+ * module's imports state which domains it actually depends on. This root export
+ * exists for the seed script and the generator, which legitimately need all of
+ * them at once.
+ */
+export * from "./features/catalog/index.js";
+export * from "./features/provenance/index.js";
+export * from "./features/editorial/index.js";
+export * from "./features/events/index.js";
+export * from "./features/social/index.js";
+export * from "./features/search/index.js";
+export * from "./features/discover/index.js";

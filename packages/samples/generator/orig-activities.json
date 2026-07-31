@@ -1,0 +1,66 @@
+[
+  {
+    "id": "activity_alexandra_rubicon_review",
+    "activityType": "review",
+    "user": {
+      "id": "user_alexandra_meyer",
+      "displayName": "Alexandra Meyer",
+      "initials": "AM",
+      "status": "enthusiast"
+    },
+    "wine": {
+      "id": "rubicon-2018",
+      "wineLabelId": "rubicon",
+      "name": "Rubicon",
+      "producerName": "Meerlust Estate",
+      "vintage": 2018,
+      "vintageDisplay": "2018"
+    },
+    "verdict": "Essential",
+    "note": "Cassis and cedar, still tightly wound — gave it three hours and it opened into something generous.",
+    "createdAt": "2026-07-16T18:30:00.000Z"
+  },
+  {
+    "id": "activity_johan_pinotage_review",
+    "activityType": "review",
+    "user": {
+      "id": "user_johan_terblanche",
+      "displayName": "Johan Terblanche",
+      "initials": "JT",
+      "status": "collector"
+    },
+    "wine": {
+      "id": "kanonkop-pinotage-2019",
+      "wineLabelId": "kanonkop-pinotage",
+      "name": "Kanonkop Pinotage",
+      "producerName": "Kanonkop Estate",
+      "vintage": 2019,
+      "vintageDisplay": "2019"
+    },
+    "verdict": "Essential",
+    "note": "Fine-grained tannin over a long graphite finish. There is no hurry with this one — another decade, easily.",
+    "createdAt": "2026-07-14T15:30:00.000Z"
+  },
+  {
+    "id": "activity_nomsa_constance_note",
+    "activityType": "tasting_note",
+    "user": {
+      "id": "user_nomsa_dlamini",
+      "displayName": "Nomsa Dlamini",
+      "initials": "ND",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "wine": {
+      "id": "groot-constantia-grand-constance-2014",
+      "wineLabelId": "groot-constantia-grand-constance",
+      "name": "Grand Constance",
+      "producerName": "Groot Constantia",
+      "vintage": 2014,
+      "vintageDisplay": "2014"
+    },
+    "verdict": "Unforgettable",
+    "note": "Apricot and orange blossom, cut clean by a saline line that keeps all that sweetness honest.",
+    "createdAt": "2026-07-12T20:15:00.000Z"
+  }
+]

@@ -1,7 +1,6 @@
 [
   {
-    "id": "region",
-    "labelKey": "home.byRegion",
+    "key": "region",
     "items": [
       {
         "id": "pfalz",
@@ -80,8 +79,7 @@
     ]
   },
   {
-    "id": "verdict",
-    "labelKey": "home.byVerdict",
+    "key": "verdict",
     "items": [
       {
         "id": "unforgettable",
@@ -89,7 +87,7 @@
           "source": "chrome",
           "key": "Unforgettable"
         },
-        "count": 25,
+        "count": 22,
         "query": "Unforgettable"
       },
       {
@@ -98,7 +96,7 @@
           "source": "chrome",
           "key": "Essential"
         },
-        "count": 27,
+        "count": 24,
         "query": "Essential"
       },
       {
@@ -107,7 +105,7 @@
           "source": "chrome",
           "key": "Worth Revisiting"
         },
-        "count": 22,
+        "count": 16,
         "query": "Worth Revisiting"
       },
       {
@@ -116,14 +114,22 @@
           "source": "chrome",
           "key": "An Interesting Discovery"
         },
-        "count": 19,
+        "count": 18,
         "query": "An Interesting Discovery"
+      },
+      {
+        "id": "not-one-i-d-revisit",
+        "label": {
+          "source": "chrome",
+          "key": "Not One I'd Revisit"
+        },
+        "count": 13,
+        "query": "Not One I'd Revisit"
       }
     ]
   },
   {
-    "id": "country",
-    "labelKey": "home.byCountry",
+    "key": "country",
     "items": [
       {
         "id": "south-africa",

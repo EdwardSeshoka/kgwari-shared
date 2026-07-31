@@ -24,7 +24,9 @@
       "name": "Meerlust Estate",
       "tier": "producer",
       "role": "verified producer"
-    }
+    },
+    "saveCount": 340,
+    "languageTag": "en"
   },
   {
     "id": "note_johan_pinotage_2019",
@@ -46,6 +48,8 @@
     "verdict": "Essential",
     "note": "Fine-grained tannin over a long graphite finish. Another decade, easily.",
     "tastedAt": "2026-07-13T19:00:00.000Z",
-    "createdAt": "2026-07-14T15:30:00.000Z"
+    "createdAt": "2026-07-14T15:30:00.000Z",
+    "saveCount": 57,
+    "languageTag": "en"
   }
 ]

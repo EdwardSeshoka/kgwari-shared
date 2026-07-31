@@ -25,6 +25,40 @@ of them.
 so regenerating without editing `data.mjs` produces byte-identical files and an
 empty diff.
 
+```bash
+npm run check:seeds --workspace @edwardseshoka/samples
+```
+
+`--check` regenerates in memory and compares instead of writing, naming any file
+that has drifted. Run it in CI: it is what turns "never hand-edit a generated
+seed" from a rule people remember into one the build enforces.
+
+## Wine records
+
+`catalog/wine-records.json` is one record per wine, and the generator is where
+the record model lives.
+
+A **reference** row is a pure function of the wine and the source that matched
+it, declared once in `REFERENCE_FIELDS` — `estate ← wo`, `alcohol ← label`,
+`certificateNumber ← sawis`. Adding a field to `WineRecordContract` is one row in
+that table and all 93 records gain it. Nothing in the table can emit an
+estate-private row and nothing outside it can emit a reference one, so the
+taxonomy holds by construction rather than by review.
+
+An **estate-private** row (soil, yield, fermentation, yeast, new oak, production
+run, drink window) is answered only under a producer claim, and is otherwise
+emitted with no value and no call to action — the record names what it is waiting
+on. Members are never asked to guess these: a guessed yield is noise entering a
+record whose whole value is that it does not guess.
+
+A **commercial** row opens to a distributor claim and to nothing else.
+
+`orig-wine-records.json` is the overlay, and holds only what no algorithm can
+derive: an estate's own essay and cellarmaster line, its seals, and the most-saved
+member note. Everything else about a record is computed. `SamplesTests/
+WineRecords.test.js` asserts the invariants over all 93 — including that no value
+is ever a bare display string.
+
 ## What the data is chosen for
 
 Real producers, regions and appellations, because the point is to exercise

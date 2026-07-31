@@ -1,0 +1,160 @@
+[
+  {
+    "id": "region_western_cape",
+    "name": "Western Cape",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "regionType": "province",
+    "description": "South Africa’s premier wine province, from cool coasts to warm inland valleys.",
+    "producerCount": 530,
+    "wineCount": 6200
+  },
+  {
+    "id": "region_coastal",
+    "name": "Coastal Region",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "province": "Western Cape",
+    "parentRegionId": "region_western_cape",
+    "regionType": "region",
+    "description": "The band of districts around Cape Town where most benchmark Cape wine is grown.",
+    "producerCount": 410,
+    "wineCount": 4800
+  },
+  {
+    "id": "region_stellenbosch",
+    "name": "Stellenbosch",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "province": "Western Cape",
+    "parentRegionId": "region_coastal",
+    "regionType": "district",
+    "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Historic Cape vineyards shaped by mountain air and serious cellar craft.",
+    "producerCount": 142,
+    "wineCount": 1820
+  },
+  {
+    "id": "region_swartland",
+    "name": "Swartland",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "province": "Western Cape",
+    "parentRegionId": "region_coastal",
+    "regionType": "district",
+    "imageUrl": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "description": "Old vines, dry farming, and a new generation of expressive Cape winemaking.",
+    "producerCount": 68,
+    "wineCount": 840
+  },
+  {
+    "id": "region_franschhoek",
+    "name": "Franschhoek",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "province": "Western Cape",
+    "parentRegionId": "region_coastal",
+    "regionType": "district",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "description": "A valley of cellar doors, restaurants, and polished mountain-grown wines.",
+    "producerCount": 54,
+    "wineCount": 612
+  },
+  {
+    "id": "region_hemel_en_aarde",
+    "name": "Hemel-en-Aarde",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "province": "Western Cape",
+    "parentRegionId": "region_western_cape",
+    "regionType": "ward",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "description": "Cool maritime vineyards known for precise Pinot Noir and Chardonnay.",
+    "producerCount": 31,
+    "wineCount": 287
+  },
+  {
+    "id": "region_bordeaux",
+    "name": "Bordeaux",
+    "country": "France",
+    "countryCode": "FR",
+    "regionType": "region",
+    "description": "The Left and Right Banks of the Gironde — the reference for age-worthy blends.",
+    "producerCount": 6000,
+    "wineCount": 65000
+  },
+  {
+    "id": "region_medoc",
+    "name": "Médoc",
+    "country": "France",
+    "countryCode": "FR",
+    "parentRegionId": "region_bordeaux",
+    "regionType": "district",
+    "description": "Left-Bank gravel croupes built for Cabernet-led longevity.",
+    "producerCount": 0,
+    "wineCount": 0
+  },
+  {
+    "id": "region_pauillac",
+    "name": "Pauillac",
+    "country": "France",
+    "countryCode": "FR",
+    "parentRegionId": "region_medoc",
+    "regionType": "appellation",
+    "description": "Three first-growths and a village of profound, structured Cabernet.",
+    "producerCount": 18,
+    "wineCount": 240
+  },
+  {
+    "id": "region_champagne",
+    "name": "Champagne",
+    "country": "France",
+    "countryCode": "FR",
+    "regionType": "region",
+    "description": "Chalk, cold and centuries of méthode — the world’s benchmark sparkling.",
+    "producerCount": 360,
+    "wineCount": 3200
+  },
+  {
+    "id": "region_piedmont",
+    "name": "Piedmont",
+    "country": "Italy",
+    "countryCode": "IT",
+    "regionType": "region",
+    "description": "Nebbiolo country in the foothills of the Alps.",
+    "producerCount": 0,
+    "wineCount": 0
+  },
+  {
+    "id": "region_barolo",
+    "name": "Barolo",
+    "country": "Italy",
+    "countryCode": "IT",
+    "parentRegionId": "region_piedmont",
+    "regionType": "appellation",
+    "description": "Eleven communes of long-lived, perfumed Nebbiolo.",
+    "producerCount": 280,
+    "wineCount": 1100
+  },
+  {
+    "id": "region_california",
+    "name": "California",
+    "country": "United States",
+    "countryCode": "US",
+    "regionType": "province",
+    "description": "From cool coast to warm valley — the engine of American wine.",
+    "producerCount": 0,
+    "wineCount": 0
+  },
+  {
+    "id": "region_napa_valley",
+    "name": "Napa Valley",
+    "country": "United States",
+    "countryCode": "US",
+    "parentRegionId": "region_california",
+    "regionType": "region",
+    "description": "Cabernet Sauvignon’s American home.",
+    "producerCount": 475,
+    "wineCount": 5200
+  }
+]

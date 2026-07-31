@@ -1,5 +1,10 @@
 import type { MoneyContract } from "../money/index.js";
 import type { Verdict } from "../trust/index.js";
+import type {
+  CanonicalText,
+  ChromeText,
+  NegotiatedText,
+} from "../text/index.js";
 
 /**
  * Search is a UNIFIED ledger: a wine, an estate, a region, a tasting and a
@@ -37,43 +42,25 @@ export type SearchFacet =
  * ------------------------------------------------------------------------- */
 
 /**
- * A proper noun, identical in every locale — "Meerlust Estate", "Rubicon",
- * "Alexandra Meyer". Sent as text because there is nothing to translate and
- * nothing to negotiate: a producer name is the same word in Cape Town and in
- * Québec. Must never be stemmed by the index — you do not want "Meerlust"
- * reduced to a stem.
- */
-export type CanonicalText = Readonly<{ source: "canonical"; text: string }>;
-
-/**
- * A fixed enum the CLIENT renders in the member's language — a {@link Verdict}
- * word, a member status, a business persona. The server sends the key and never
- * the word.
+ * The three text sources moved to their own module — they are not a search
+ * concept. A wine record's ninety fields, its register of tasting words and an
+ * estate's own essay are governed by exactly the same three-way distinction, and
+ * leaving these types inside `search` invited every other feature to declare its
+ * own (the mistake money made inside `catalog`).
  *
- * This is the payoff of refusing free-text verdicts: because the value set is
- * closed, it travels through the tier-1 chrome catalog and reads in every locale
- * with no translation pipeline at all. `key` is the enum value as the owning
- * contract spells it (`"Unforgettable"`, `"sommelier"`); the client owns the
- * key→catalog-path table.
- */
-export type ChromeText = Readonly<{ source: "chrome"; key: string }>;
-
-/**
- * Server-localised content: an exonym ("Bourgogne" vs "Burgundy") or curated
- * prose (a tasting's title). The server picked the best available translation
- * for the request's `Accept-Language` and states, per field, which language it
- * actually landed on.
+ * Re-exported here so existing `@edwardseshoka/contracts/search` importers keep
+ * resolving. The shapes are UNCHANGED.
  *
- * `languageTag` is what makes graceful fallback visible instead of silent: when
- * it differs from what the member asked for, the client can badge the row "not
- * yet translated" rather than presenting a fallback as a translation.
+ * @see {@link ../text!CanonicalText}
  */
-export type NegotiatedText = Readonly<{
-  source: "negotiated";
-  text: string;
-  /** BCP 47 tag of the text actually returned, e.g. "en" when "fr" was asked. */
-  languageTag: string;
-}>;
+export type {
+  CanonicalText,
+  ChromeText,
+  LocalizedText,
+  Measurement,
+  NegotiatedText,
+  YearRange,
+} from "../text/index.js";
 
 /**
  * The row's title. Either a proper noun or negotiated prose — never chrome,
@@ -237,8 +224,25 @@ export type SearchBrowseItemContract = {
  * copy — the server never sends translated text, so a group heading reads in
  * the member's language without a round trip.
  */
+/**
+ * The ways into the catalogue offered before anything is typed.
+ *
+ * A CLOSED set, because which ways in exist is an editorial decision and not
+ * data. It was two open strings — `id: "region"` plus
+ * `labelKey: "home.byRegion"` — which is two names for one thing and neither of
+ * them checkable. The decision then had nowhere to live and ended up expressed
+ * procedurally in the seed generator, interleaved with the tallies it needed.
+ */
+export type SearchBrowseGroupKey = "region" | "verdict" | "country";
+
+/**
+ * One way in, and what it offers.
+ *
+ * `key` IS the chrome key the client renders the heading from — the same
+ * arrangement as a verdict word or a collection key, and why the separate
+ * `labelKey` is gone. A closed set renders itself.
+ */
 export type SearchBrowseGroupContract = {
-  id: string;
-  labelKey: string;
+  key: SearchBrowseGroupKey;
   items: SearchBrowseItemContract[];
 };

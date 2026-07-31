@@ -143,3 +143,32 @@ export type TransactedMoneyContract = MoneyContract & {
  * | `valuation` | derived | recomputed | cellar only, always marked an estimate |
  */
 export type PriceKind = "listed" | "paid" | "valuation";
+
+/**
+ * The currency a country's wines are priced in.
+ *
+ * **The currency follows the DATA, never the locale.** A French member browsing
+ * a South African wine sees rands, because the price is the distributor's fact
+ * about that bottle — not a number to be converted into whatever the reader's
+ * phone is set to. Locale decides how `89500` is *rendered* ("R 895,00" vs
+ * "895,00 ZAR"); it never decides which currency the wine costs.
+ *
+ * This table lived in the seed generator, where nothing could check it against
+ * {@link CurrencyCode} — the same hole that let an invalid origin system ship.
+ * Here a country mapped to a currency the union does not name fails to compile.
+ *
+ * Absent means no default: a wine from a country not listed must carry its own
+ * price or none, rather than being quietly priced in dollars.
+ */
+export const CURRENCY_BY_COUNTRY: Readonly<Record<string, CurrencyCode>> = {
+  ZA: "ZAR",
+  FR: "EUR",
+  IT: "EUR",
+  ES: "EUR",
+  DE: "EUR",
+  AT: "EUR",
+  CH: "CHF",
+  US: "USD",
+  CA: "CAD",
+  GB: "GBP"
+};
