@@ -1,10 +1,8 @@
 import type { CellarHoldingContract as CellarHoldingContractShape } from "../cellar.js";
+import { defineStub, type Overrides } from "../../test-doubles/index.js";
 import { WineContract } from "../../catalog/test-doubles/index.js";
 import { CellarEntryContract } from "./CellarEntryContractStub.js";
 
-type Overrides = {
-  [K in keyof CellarHoldingContractShape]?: CellarHoldingContractShape[K] | undefined;
-};
 
 /**
  * One holding as a client receives it: the member's facts plus the wine.
@@ -14,7 +12,7 @@ type Overrides = {
  */
 export const CellarHoldingContract = {
   StubFactory: {
-    make(overrides: Overrides = {}): CellarHoldingContractShape {
+    make(overrides: Overrides<CellarHoldingContractShape> = {}): CellarHoldingContractShape {
       return {
         entry: CellarEntryContract.StubFactory.make(),
         wine: WineContract.StubFactory.make(),
@@ -28,7 +26,7 @@ export const CellarHoldingContract = {
      * The case consumers get wrong: the bottles and what was paid for them are
      * still the member's, so this must render rather than be filtered out.
      */
-    makeDelisted(overrides: Overrides = {}): CellarHoldingContractShape {
+    makeDelisted(overrides: Overrides<CellarHoldingContractShape> = {}): CellarHoldingContractShape {
       return CellarHoldingContract.StubFactory.make({ wine: null, ...overrides });
     }
   }

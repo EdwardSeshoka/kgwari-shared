@@ -1,27 +1,20 @@
 import type { ProjectableRegion as ProjectableRegionShape } from "../projection/index.js";
-
-/** Overrides that may explicitly REMOVE a field — `Partial<T>` cannot, under
- * `exactOptionalPropertyTypes`, and removing is what the interesting tests do. */
-type Overrides = { [K in keyof ProjectableRegionShape]?: ProjectableRegionShape[K] | undefined };
+import { defineStub, type Overrides } from "../../test-doubles/index.js";
 
 export const ProjectableRegion = {
   StubFactory: {
-    make(overrides: Overrides = {}): ProjectableRegionShape {
-      return {
+    ...defineStub<ProjectableRegionShape>({
         id: "region_stellenbosch",
         name: "Stellenbosch",
         country: "South Africa",
         parentRegion: "Coastal Region",
-        wineCount: 1299,
-        ...overrides
-      } as ProjectableRegionShape;
-    },
+        wineCount: 1299}),
 
     /**
      * A place whose name differs by language — Bourgogne / Burgundy. Its title
      * travels as NEGOTIATED, carrying the language actually served.
      */
-    makeExonymous(overrides: Overrides = {}): ProjectableRegionShape {
+    makeExonymous(overrides: Overrides<ProjectableRegionShape> = {}): ProjectableRegionShape {
       return ProjectableRegion.StubFactory.make({
         id: "region_bourgogne",
         name: "Bourgogne",

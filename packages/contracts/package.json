@@ -79,6 +79,38 @@
     "./search/test-doubles": {
       "types": "./dist/search/test-doubles/index.d.ts",
       "default": "./dist/search/test-doubles/index.js"
+    },
+    "./money/test-doubles": {
+      "types": "./dist/money/test-doubles/index.d.ts",
+      "default": "./dist/money/test-doubles/index.js"
+    },
+    "./trust/test-doubles": {
+      "types": "./dist/trust/test-doubles/index.d.ts",
+      "default": "./dist/trust/test-doubles/index.js"
+    },
+    "./provenance/test-doubles": {
+      "types": "./dist/provenance/test-doubles/index.d.ts",
+      "default": "./dist/provenance/test-doubles/index.js"
+    },
+    "./social/test-doubles": {
+      "types": "./dist/social/test-doubles/index.d.ts",
+      "default": "./dist/social/test-doubles/index.js"
+    },
+    "./editorial/test-doubles": {
+      "types": "./dist/editorial/test-doubles/index.d.ts",
+      "default": "./dist/editorial/test-doubles/index.js"
+    },
+    "./events/test-doubles": {
+      "types": "./dist/events/test-doubles/index.d.ts",
+      "default": "./dist/events/test-doubles/index.js"
+    },
+    "./discover/test-doubles": {
+      "types": "./dist/discover/test-doubles/index.d.ts",
+      "default": "./dist/discover/test-doubles/index.js"
+    },
+    "./text/test-doubles": {
+      "types": "./dist/text/test-doubles/index.d.ts",
+      "default": "./dist/text/test-doubles/index.js"
     }
   },
   "files": [

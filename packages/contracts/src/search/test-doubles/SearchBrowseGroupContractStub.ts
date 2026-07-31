@@ -1,4 +1,5 @@
 import type { SearchBrowseGroupContract as SearchBrowseGroupContractShape } from "../search.js";
+import { defineStub, type Overrides } from "../../test-doubles/index.js";
 
 /**
  * A way into the catalogue, as a consumer receives it.
@@ -10,10 +11,6 @@ import type { SearchBrowseGroupContract as SearchBrowseGroupContractShape } from
  * third a number.
  */
 
-/** Overrides that may explicitly REMOVE a field — `Partial<T>` cannot, under
- * `exactOptionalPropertyTypes`, and removing is what the interesting tests do. */
-type Overrides = { [K in keyof SearchBrowseGroupContractShape]?: SearchBrowseGroupContractShape[K] | undefined };
-
 export const SearchBrowseGroupContract = {
   StubFactory: {
     /**
@@ -23,8 +20,7 @@ export const SearchBrowseGroupContract = {
      * locale — `fr-CH` wants `1 234` where `en` wants `1,234`, and neither can
      * be recovered from a string the server already formatted.
      */
-    make(overrides: Overrides = {}): SearchBrowseGroupContractShape {
-      return {
+    ...defineStub<SearchBrowseGroupContractShape>({
         key: "region",
         items: [
           {
@@ -39,10 +35,7 @@ export const SearchBrowseGroupContract = {
             count: 188,
             query: "Swartland"
           }
-        ],
-        ...overrides
-      } as SearchBrowseGroupContractShape;
-    },
+        ]}),
 
     /**
      * The verdict group — the one whose labels are CHROME, and the case that
@@ -53,7 +46,7 @@ export const SearchBrowseGroupContract = {
      * browsing by verdict work in every locale without the index carrying a
      * single translated verdict word.
      */
-    makeVerdict(overrides: Overrides = {}): SearchBrowseGroupContractShape {
+    makeVerdict(overrides: Overrides<SearchBrowseGroupContractShape> = {}): SearchBrowseGroupContractShape {
       return SearchBrowseGroupContract.StubFactory.make({
         key: "verdict",
         items: [
@@ -80,7 +73,7 @@ export const SearchBrowseGroupContract = {
      * country's name is one of the few genuinely translatable catalogue fields,
      * and `languageTag` states which language the server actually landed on.
      */
-    makeCountry(overrides: Overrides = {}): SearchBrowseGroupContractShape {
+    makeCountry(overrides: Overrides<SearchBrowseGroupContractShape> = {}): SearchBrowseGroupContractShape {
       return SearchBrowseGroupContract.StubFactory.make({
         key: "country",
         items: [

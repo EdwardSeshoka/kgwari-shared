@@ -1,4 +1,5 @@
 import type { WineContract as WineContractShape } from "../wine.js";
+import { defineStub, type Overrides } from "../../test-doubles/index.js";
 
 /**
  * Overrides that may explicitly REMOVE a field.
@@ -8,7 +9,6 @@ import type { WineContract as WineContractShape } from "../wine.js";
  * precisely the ones that take something away, so the doubles have to be able
  * to say so.
  */
-type Overrides = { [K in keyof WineContractShape]?: WineContractShape[K] | undefined };
 
 /**
  * A wine as it travels on the wire.
@@ -27,8 +27,7 @@ type Overrides = { [K in keyof WineContractShape]?: WineContractShape[K] | undef
  */
 export const WineContract = {
   StubFactory: {
-    make(overrides: Overrides = {}): WineContractShape {
-      return {
+    ...defineStub<WineContractShape>({
         id: "rubicon-2018",
         wineLabelId: "rubicon",
         name: "Rubicon",
@@ -43,13 +42,10 @@ export const WineContract = {
         description: "A Bordeaux-style blend from the Cape.",
         price: { amountMinorUnits: 89500, currency: "ZAR" },
         isFeatured: true,
-        verdict: "Essential",
-        ...overrides
-      } as WineContractShape;
-    },
+        verdict: "Essential"}),
 
     /** Champagne and most fortifieds are blended across years by design. */
-    makeNonVintage(overrides: Overrides = {}): WineContractShape {
+    makeNonVintage(overrides: Overrides<WineContractShape> = {}): WineContractShape {
       return WineContract.StubFactory.make({
         id: "brut-reserve-nv",
         name: "Brut Réserve",
@@ -60,7 +56,7 @@ export const WineContract = {
     },
 
     /** Most of the catalogue is not for sale — absence is the common case. */
-    makeUnlisted(overrides: Overrides = {}): WineContractShape {
+    makeUnlisted(overrides: Overrides<WineContractShape> = {}): WineContractShape {
       return WineContract.StubFactory.make({ price: undefined, ...overrides });
     },
 
@@ -69,7 +65,7 @@ export const WineContract = {
      * A different fact from {@link makeNonVintage}, and conflating the two is
      * what made six seeded rows claim a Bordeaux château was non-vintage.
      */
-    makeVintageUnknown(overrides: Overrides = {}): WineContractShape {
+    makeVintageUnknown(overrides: Overrides<WineContractShape> = {}): WineContractShape {
       return WineContract.StubFactory.make({
         vintage: undefined,
         vintageDisplay: undefined,

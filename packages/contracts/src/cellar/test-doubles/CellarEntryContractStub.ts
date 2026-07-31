@@ -1,16 +1,6 @@
 import type { CellarEntryContract as CellarEntryContractShape } from "../cellar.js";
+import { defineStub, type Overrides } from "../../test-doubles/index.js";
 
-/**
- * Overrides that may explicitly REMOVE a field.
- *
- * `Partial<T>` is not enough under `exactOptionalPropertyTypes`: it permits
- * omitting a key but not passing `undefined` for one. The interesting tests are
- * precisely the ones that take something away, so the doubles have to be able to
- * say so.
- */
-type Overrides = {
-  [K in keyof CellarEntryContractShape]?: CellarEntryContractShape[K] | undefined;
-};
 
 /**
  * A holding's member-owned facts.
@@ -25,7 +15,7 @@ type Overrides = {
  */
 export const CellarEntryContract = {
   StubFactory: {
-    make(overrides: Overrides = {}): CellarEntryContractShape {
+    make(overrides: Overrides<CellarEntryContractShape> = {}): CellarEntryContractShape {
       return {
         wineId: "rubicon-2018",
         bottles: 6,
@@ -48,7 +38,7 @@ export const CellarEntryContract = {
      * stub where they always match would let a consumer collapse them and stay
      * green.
      */
-    makeEnPrimeur(overrides: Overrides = {}): CellarEntryContractShape {
+    makeEnPrimeur(overrides: Overrides<CellarEntryContractShape> = {}): CellarEntryContractShape {
       return CellarEntryContract.StubFactory.make({
         paidPrice: {
           amountMinorUnits: 210000,
@@ -61,7 +51,7 @@ export const CellarEntryContract = {
     },
 
     /** A gift: acquired on a date, never paid for. */
-    makeGifted(overrides: Overrides = {}): CellarEntryContractShape {
+    makeGifted(overrides: Overrides<CellarEntryContractShape> = {}): CellarEntryContractShape {
       return CellarEntryContract.StubFactory.make({
         paidPrice: undefined,
         note: "A gift from Thandi.",
@@ -75,7 +65,7 @@ export const CellarEntryContract = {
      * Zero bottles is a holding, not an absent one — a client that treats it as
      * "remove the row" erases how a member remembers having owned the wine.
      */
-    makeDrunk(overrides: Overrides = {}): CellarEntryContractShape {
+    makeDrunk(overrides: Overrides<CellarEntryContractShape> = {}): CellarEntryContractShape {
       return CellarEntryContract.StubFactory.make({ bottles: 0, ...overrides });
     }
   }

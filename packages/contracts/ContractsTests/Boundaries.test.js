@@ -32,6 +32,11 @@ const SRC = new URL("../src/", import.meta.url).pathname;
  * each other: two features that need each other are either one feature, or
  * share a vocabulary that belongs in layer 0.
  *
+ * -1 — the tooling. The one folder holding no contracts at all: `defineStub` is
+ *      generic over any `T` and imports nothing, so it knows no wine, no
+ *      vocabulary and no carrier. Below the carriers rather than beside them,
+ *      because every folder's doubles read it and it reads none of them — the
+ *      same arrow the rest of this map enforces, just starting lower.
  *  0 — the carriers. HOW a string travels: canonical, chrome, negotiated, a
  *      measurement, a year range. More primitive than any vocabulary, because
  *      everything with a name needs a way to carry it — including a verdict
@@ -47,6 +52,7 @@ const SRC = new URL("../src/", import.meta.url).pathname;
  *      what keeps the arrow from ever pointing sideways.
  */
 const LAYERS = {
+  "test-doubles": -1,
   text: 0,
   money: 1,
   trust: 1,

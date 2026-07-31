@@ -1,4 +1,5 @@
 import type { ProjectableMember as ProjectableMemberShape } from "../projection/index.js";
+import { defineStub, type Overrides } from "../../test-doubles/index.js";
 
 /**
  * The five fields a PERSON row may read.
@@ -9,24 +10,16 @@ import type { ProjectableMember as ProjectableMemberShape } from "../projection/
  * something this shape cannot express.
  */
 
-/** Overrides that may explicitly REMOVE a field — `Partial<T>` cannot, under
- * `exactOptionalPropertyTypes`, and removing is what the interesting tests do. */
-type Overrides = { [K in keyof ProjectableMemberShape]?: ProjectableMemberShape[K] | undefined };
-
 export const ProjectableMember = {
   StubFactory: {
-    make(overrides: Overrides = {}): ProjectableMemberShape {
-      return {
+    ...defineStub<ProjectableMemberShape>({
         id: "user_alexandra-meyer",
         displayName: "Alexandra Meyer",
         status: "enthusiast",
-        noteCount: 241,
-        ...overrides
-      } as ProjectableMemberShape;
-    },
+        noteCount: 241}),
 
     /** A business persona rather than an earned status — both render as chrome. */
-    makeProfessional(overrides: Overrides = {}): ProjectableMemberShape {
+    makeProfessional(overrides: Overrides<ProjectableMemberShape> = {}): ProjectableMemberShape {
       return ProjectableMember.StubFactory.make({
         id: "user_thabo-nkosi",
         displayName: "Thabo Nkosi",

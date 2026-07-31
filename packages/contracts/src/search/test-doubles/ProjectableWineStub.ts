@@ -1,4 +1,5 @@
 import type { ProjectableWine as ProjectableWineShape } from "../projection/index.js";
+import { defineStub, type Overrides } from "../../test-doubles/index.js";
 
 /**
  * The eight fields a WINE row is allowed to read.
@@ -7,27 +8,19 @@ import type { ProjectableWine as ProjectableWineShape } from "../projection/inde
  * audit, and these are exactly the fields that can reach a row everyone can see.
  */
 
-/** Overrides that may explicitly REMOVE a field — `Partial<T>` cannot, under
- * `exactOptionalPropertyTypes`, and removing is what the interesting tests do. */
-type Overrides = { [K in keyof ProjectableWineShape]?: ProjectableWineShape[K] | undefined };
-
 export const ProjectableWine = {
   StubFactory: {
-    make(overrides: Overrides = {}): ProjectableWineShape {
-      return {
+    ...defineStub<ProjectableWineShape>({
         id: "rubicon-2018",
         name: "Rubicon",
         estate: "Meerlust Estate",
         vintage: 2018,
         verdict: "Essential",
         price: { amountMinorUnits: 89500, currency: "ZAR" },
-        imageUrl: "https://images.example.com/rubicon-2018.jpg",
-        ...overrides
-      } as ProjectableWineShape;
-    },
+        imageUrl: "https://images.example.com/rubicon-2018.jpg"}),
 
     /** Blended across years by design — a statement about the WINE. */
-    makeNonVintage(overrides: Overrides = {}): ProjectableWineShape {
+    makeNonVintage(overrides: Overrides<ProjectableWineShape> = {}): ProjectableWineShape {
       return ProjectableWine.StubFactory.make({
         id: "brut-reserve-nv",
         name: "Brut Réserve",
@@ -38,7 +31,7 @@ export const ProjectableWine = {
     },
 
     /** No year and no marker — a statement about the RECORD, not the wine. */
-    makeVintageUnknown(overrides: Overrides = {}): ProjectableWineShape {
+    makeVintageUnknown(overrides: Overrides<ProjectableWineShape> = {}): ProjectableWineShape {
       return ProjectableWine.StubFactory.make({
         vintage: undefined,
         vintageDisplay: undefined,
@@ -47,7 +40,7 @@ export const ProjectableWine = {
     },
 
     /** Most of the catalogue is not for sale. */
-    makeUnlisted(overrides: Overrides = {}): ProjectableWineShape {
+    makeUnlisted(overrides: Overrides<ProjectableWineShape> = {}): ProjectableWineShape {
       return ProjectableWine.StubFactory.make({ price: undefined, ...overrides });
     }
   }
