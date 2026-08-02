@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EdwardSeshoka/morara-shared.git",
+    "url": "git+https://github.com/EdwardSeshoka/kgwari-shared.git",
     "directory": "packages/samples"
   },
   "type": "module",

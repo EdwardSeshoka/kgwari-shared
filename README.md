@@ -1,4 +1,4 @@
-# morara-shared
+# kgwari-shared
 
 Shared internal TypeScript packages for Morara.
 
@@ -35,7 +35,7 @@ Three packages, all pure, none with a third-party dependency.
   `libphonenumber-js`, and a package here should not hand its consumers a
   third-party dependency they did not ask for.
 
-The last two are consumed by **morara-frontend-app** and by nothing else, so
+The last two are consumed by **kgwari-frontend-app** and by nothing else, so
 they belong to it. Their published versions still resolve, so nothing breaks
 today — but they are unmaintained here and should be absorbed into the frontend
 rather than left to rot on the registry.
