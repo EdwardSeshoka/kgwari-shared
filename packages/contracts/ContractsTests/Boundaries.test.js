@@ -55,15 +55,17 @@ const SRC = new URL("../src/", import.meta.url).pathname;
  *      answered. A vocabulary that only the aggregate could name was a vocabulary
  *      nobody could write to.
  *  2 — the features. Each owns one domain's contracts and the composition of
- *      them. `collections` sits here and not among the composers, which is the
- *      whole reason a collection card carries a preview strip instead of its
- *      items: it POINTS at wines, estates and evenings by id and embeds none of
- *      them, so it reads a byline and a media carrier and no peer at all.
+ *      them.
  *  3+ — the composers. A folder whose own contracts are assembled OUT OF another
  *      feature's, rather than out of a vocabulary alone. They stack, so each one
  *      sits above everything it reads:
  *        3 · cellar — a holding is the member's own facts joined onto one
  *            catalogue wine, so it reads `catalog` and nothing reads it.
+ *        3 · collections — the CARD points at wines and estates by id and embeds
+ *            neither, which is why it sat at 2. The DETAIL cannot: opening a
+ *            shelf shows the bottles, and a page of ids is a page of second
+ *            fetches. So it reads `catalog` and `provenance` and moved up beside
+ *            cellar, which makes the same join for the same reason.
  *        3 · editorial — an event piece EMBEDS the events-domain event rather
  *            than restating its clock and its capacity. One dinner, two surfaces.
  *        4 · contributions — the corpus union: notes, writing and attendance in
@@ -81,12 +83,12 @@ const LAYERS = {
   vocabulary: 1,
   lenses: 1,
   catalog: 2,
-  collections: 2,
   search: 2,
   events: 2,
   member: 2,
   social: 2,
   cellar: 3,
+  collections: 3,
   editorial: 3,
   contributions: 4,
   discover: 5

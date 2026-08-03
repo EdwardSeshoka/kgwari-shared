@@ -1258,17 +1258,17 @@
           }
         },
         {
-          "id": "event_cape-bordeaux-blends-blind",
-          "title": "Cape Bordeaux blends, blind",
+          "id": "event_hemel-en-aarde-pinot-four-estates",
+          "title": "Hemel-en-Aarde Pinot: four estates",
           "titleLanguage": "en",
-          "eventType": "winemaker_dinner",
-          "startDateTime": "2026-08-24T19:00:00.000Z",
-          "endDateTime": "2026-08-24T21:30:00.000Z",
+          "eventType": "launch",
+          "startDateTime": "2026-08-26T19:00:00.000Z",
+          "endDateTime": "2026-08-26T21:30:00.000Z",
           "timezone": "Europe/Paris",
           "venue": {
             "name": {
               "source": "canonical",
-              "text": "Domaine Leflaive"
+              "text": "Castello di Ama"
             },
             "room": {
               "source": "canonical",
@@ -1276,22 +1276,22 @@
             },
             "city": {
               "source": "canonical",
-              "text": "Bourgogne"
+              "text": "Chianti Classico"
             },
-            "countryCode": "FR"
+            "countryCode": "IT"
           },
-          "venueName": "Domaine Leflaive",
-          "location": "Bourgogne",
+          "venueName": "Castello di Ama",
+          "location": "Chianti Classico",
           "languages": [
             "en"
           ],
-          "admission": "ticketed",
-          "capacity": 31,
-          "taken": 28,
-          "seatsAvailable": 3,
-          "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+          "admission": "trade",
+          "capacity": 58,
+          "taken": 23,
+          "seatsAvailable": 35,
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
           "host": {
-            "name": "Johan Terblanche",
+            "name": "Zanele Mokoena",
             "tier": "professional",
             "role": "sommelier"
           },
@@ -1299,7 +1299,7 @@
             {
               "name": {
                 "source": "canonical",
-                "text": "Johan Terblanche"
+                "text": "Zanele Mokoena"
               },
               "tier": "professional",
               "role": {
@@ -1311,7 +1311,7 @@
             {
               "name": {
                 "source": "canonical",
-                "text": "Amélie Girard"
+                "text": "Ingrid Hoffmann"
               },
               "tier": "producer",
               "role": {
@@ -1321,7 +1321,7 @@
               },
               "house": {
                 "source": "canonical",
-                "text": "Domaine Leflaive"
+                "text": "Castello di Ama"
               }
             }
           ],
@@ -1329,15 +1329,15 @@
           "booking": {
             "claimant": {
               "source": "canonical",
-              "text": "Domaine Leflaive"
+              "text": "Castello di Ama"
             },
-            "actionKey": "booking.buyTickets",
-            "url": "https://domaine-leflaive.example/book/cape-bordeaux-blends-blind"
+            "actionKey": "booking.requestSeat",
+            "url": "https://castello-di-ama.example/book/hemel-en-aarde-pinot-four-estates"
           },
-          "saveCount": 123,
+          "saveCount": 58,
           "subject": {
             "kind": "region",
-            "regionId": "region_bourgogne"
+            "regionId": "region_chianti-classico"
           }
         }
       ]

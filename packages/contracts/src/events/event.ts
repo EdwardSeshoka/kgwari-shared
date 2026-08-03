@@ -28,6 +28,7 @@ import type { EventPanellistContract } from "./panellist.js";
 import type { EventRecapContract } from "./recap.js";
 import type { EventSubjectContract } from "./subject.js";
 import type { EventVenueContract } from "./venue.js";
+import type { EventVisibility } from "./visibility.js";
 import type { WineEventType } from "./eventType.js";
 
 /**
@@ -114,6 +115,13 @@ export type EventContract = {
    * avoid.
    */
   notesFiled?: number;
+  /**
+   * Who this evening is for. Absent reads as `"published"`.
+   *
+   * A private event is the whole feature minus the audience; the restriction it
+   * expresses is on reach, not on the verb. See {@link EventVisibility}.
+   */
+  visibility?: EventVisibility;
   /** How many members have saved this event. A count, not a score. */
   saveCount?: number;
   /** What the event is about, when it links to a wine / producer / region. */

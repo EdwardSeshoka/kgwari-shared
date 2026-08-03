@@ -199,6 +199,55 @@ describe("the calendar landing", () => {
   );
 });
 
+describe("a private evening never reaches an audience", () => {
+  it(
+    "keeps private events in the corpus",
+    function givenTheEventSeed_whenRead_thenSomeAreEnthusiastsAndPrivate() {
+      // Given: an enthusiast can create an evening and invite people to it — the
+      // restriction is on REACH, not on the verb. A corpus with none of them
+      // cannot catch a surface that forgot to filter, which is the only bug this
+      // rule has.
+      const priv = eventsSamples.events.filter((event) => event.visibility === "private");
+
+      assert.ok(priv.length > 0, "no private evening to test the rule with");
+      for (const event of priv) {
+        assert.equal(event.host.status, "enthusiast", event.id);
+        assert.ok(event.startDateTime, "a private evening is a whole event, not a draft");
+      }
+    }
+  );
+
+  it(
+    "keeps every one of them off the calendar",
+    function givenTheCalendarLanding_whenRead_thenNoPrivateEveningIsListed() {
+      // Given: the calendar faces strangers by definition. A private evening
+      // reaching it would put a member's address in front of people they never
+      // invited.
+      for (const event of eventsSamples.calendarLanding.items) {
+        assert.notEqual(event.visibility, "private", event.id);
+      }
+    }
+  );
+
+  it(
+    "keeps them out of Discover and out of the ledger",
+    function givenTheHomePage_whenRead_thenNoPrivateEveningAppearsAnywhere() {
+      // Given: three surfaces, one rule. The chapter, and the attendance rows in
+      // the ledger — a member attending a private evening is not a broadcast.
+      const page = createDiscover();
+      const chapter = page.sections.find((section) => section.type === "events");
+      const ledger = page.sections.find((section) => section.type === "contributions");
+
+      for (const event of chapter.items) {
+        assert.notEqual(event.visibility, "private", event.id);
+      }
+      for (const row of ledger.items.filter((item) => item.kind === "tasting")) {
+        assert.notEqual(row.event.visibility, "private", row.id);
+      }
+    }
+  );
+});
+
 describe("the Masthead's chapter pushes", () => {
   it(
     "pushes only to the four landings that exist",

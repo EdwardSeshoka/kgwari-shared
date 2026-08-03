@@ -1,4 +1,5 @@
 export * from "./activity.js";
+export * from "./getTastingNote.js";
 export * from "./listWineNotes.js";
 export * from "./noteColourReading.js";
 export * from "./noteDrinkingWindow.js";

@@ -32,6 +32,25 @@ export const EventContract = {
       return EventContract.StubFactory.make({ seatsAvailable: 0, ...overrides });
     },
 
+    /**
+     * An enthusiast's evening — created, invited to, and NOT on Discover.
+     *
+     * The restriction is on reach and not on the verb: this is the whole feature
+     * minus the audience, which is why it carries a host, a venue and seats like
+     * any other. A consumer that treats `visibility: "private"` as a draft or an
+     * error state has read the rule backwards.
+     */
+    makePrivate(overrides: Overrides<EventContractShape> = {}): EventContractShape {
+      return EventContract.StubFactory.make({
+        id: "event_supper-for-six",
+        title: "Supper for six",
+        visibility: "private",
+        host: { name: "Sipho Ndlovu", status: "enthusiast" },
+        booking: undefined,
+        ...overrides
+      });
+    },
+
     /** An event with no date set yet — absent, rather than a placeholder date. */
     makeUndated(overrides: Overrides<EventContractShape> = {}): EventContractShape {
       return EventContract.StubFactory.make({
