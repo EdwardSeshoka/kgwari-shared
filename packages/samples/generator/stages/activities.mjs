@@ -1,6 +1,6 @@
 import { slug } from "../data.mjs";
 import { curated } from "../curated.mjs";
-import { int, pick, rnd } from "../random.mjs";
+import { spread } from "../random.mjs";
 
 const CURATED_ACTIVITIES = curated("activities");
 
@@ -26,6 +26,11 @@ export function buildActivities({ users, wines }) {
       verdict: w.verdict,
       note: `Tasted at ${w.region}.`,
       createdAt: "2026-07-20T18:30:00.000Z",
+      // Save is offered on every unit the ledger renders, so every unit reports
+      // its count. Drawn from the order-independent hash rather than the stream:
+      // how many members saved an activity is a fact about that activity, not
+      // about where it fell in the run.
+      saveCount: spread(`${u.id}${i}save`, 0, 90),
     };
   })];
 

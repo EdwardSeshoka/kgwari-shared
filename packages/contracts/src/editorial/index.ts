@@ -8,6 +8,7 @@ export * from "./offerFormat.js";
 export * from "./offerMarket.js";
 export * from "./pairing.js";
 export * from "./pieceRules.js";
+export * from "./requests.js";
 export * from "./responses.js";
 export * from "./subject.js";
 export * from "./unanswered.js";

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "collection_cape_bordeaux",
+    "kind": "shelf",
+    "subject": "wines",
+    "title": "Cape Bordeaux",
+    "description": "Cabernet-led blends built to reward a decade in the cellar.",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop&q=80",
+      "alt": {
+        "source": "negotiated",
+        "text": "A decanter and two Bordeaux-shaped bottles on a dark table.",
+        "languageTag": "en"
+      }
+    },
+    "author": { "name": "Pieter van Wyk", "status": "collector" },
+    "itemCount": 9,
+    "saveCount": 214,
+    "preview": [
+      { "contentId": "rubicon-2018", "title": "Rubicon 2018" },
+      { "contentId": "de-toren-book-xvii-2016", "title": "Book 17 XVII 2016" },
+      { "contentId": "paul-sauer-2011-kanonkop-est", "title": "Paul Sauer 2011" }
+    ],
+    "createdAt": "2026-04-18T09:30:00.000Z"
+  },
+  {
+    "id": "collection_cape_whites_worth_keeping",
+    "kind": "shelf",
+    "subject": "wines",
+    "title": "Cape whites worth keeping",
+    "description": "The bottles that get better while everyone drinks them young.",
+    "author": { "name": "Nomsa Dlamini", "tier": "professional", "role": "sommelier" },
+    "itemCount": 7,
+    "saveCount": 468,
+    "preview": [
+      { "contentId": "palladius-2010", "title": "Palladius 2010" },
+      { "contentId": "mullineux-elandskloof-chardonnay-2016", "title": "Elandskloof Chardonnay 2016" },
+      { "contentId": "lamotte-chardonnay-2021", "title": "Chardonnay 2021" }
+    ],
+    "createdAt": "2026-05-21T11:15:00.000Z"
+  },
+  {
+    "id": "collection_six_bottles_cape_winter",
+    "kind": "selection",
+    "subject": "wines",
+    "title": "Six bottles for a Cape winter",
+    "description": "What the office is opening between June and August.",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&auto=format&fit=crop&q=80",
+      "alt": {
+        "source": "negotiated",
+        "text": "A glass of red wine beside a fire.",
+        "languageTag": "en"
+      }
+    },
+    "author": { "name": "Kgwari" },
+    "itemCount": 6,
+    "saveCount": 1402,
+    "preview": [
+      { "contentId": "kanonkop-pinotage-2019", "title": "Kanonkop Pinotage 2019" },
+      { "contentId": "boekenhoutskloof-syrah-2020", "title": "Syrah 2020" },
+      { "contentId": "estate-reserve-2017-rust-en-vred", "title": "Estate Reserve 2017" }
+    ],
+    "createdAt": "2026-05-02T07:00:00.000Z"
+  },
+  {
+    "id": "collection_two_days_in_stellenbosch",
+    "kind": "itinerary",
+    "subject": "estates",
+    "title": "Two days in Stellenbosch",
+    "description": "Three cellar doors, one long lunch, and one designated driver.",
+    "author": { "name": "Thandi Nkosi", "tier": "professional", "role": "sommelier" },
+    "itemCount": 5,
+    "saveCount": 87,
+    "preview": [
+      { "contentId": "estate_meerlust-estate", "title": "Meerlust Estate" },
+      { "contentId": "estate_kanonkop-estate", "title": "Kanonkop Estate" },
+      { "contentId": "estate_rust-en-vrede", "title": "Rust en Vrede" }
+    ],
+    "createdAt": "2026-06-11T12:00:00.000Z"
+  },
+  {
+    "id": "collection_a_weekend_in_the_swartland",
+    "kind": "itinerary",
+    "subject": "estates",
+    "title": "A weekend in the Swartland",
+    "description": "Granite, old bush vines, and the people who stopped irrigating them.",
+    "author": { "name": "Marius Louw", "tier": "professional", "role": "sommelier" },
+    "itemCount": 4,
+    "saveCount": 356,
+    "preview": [
+      { "contentId": "estate_sadie-family-wines", "title": "Sadie Family Wines" },
+      { "contentId": "estate_a-a-badenhorst", "title": "A.A. Badenhorst" },
+      { "contentId": "estate_mullineux", "title": "Mullineux" }
+    ],
+    "createdAt": "2026-06-27T16:45:00.000Z"
+  }
+]

@@ -20,6 +20,10 @@
       "types": "./dist/features/catalog/index.d.ts",
       "default": "./dist/features/catalog/index.js"
     },
+    "./collections": {
+      "types": "./dist/features/collections/index.d.ts",
+      "default": "./dist/features/collections/index.js"
+    },
     "./provenance": {
       "types": "./dist/features/provenance/index.d.ts",
       "default": "./dist/features/provenance/index.js"

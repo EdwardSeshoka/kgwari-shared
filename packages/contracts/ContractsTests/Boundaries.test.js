@@ -41,7 +41,10 @@ const SRC = new URL("../src/", import.meta.url).pathname;
  *      measurement, a year range, an image with its alt text. More primitive
  *      than any vocabulary, because everything with a name needs a way to carry
  *      it — including a verdict word and a claimant's name.
- *  1 — the vocabularies, and `media`. Closed value sets the whole system agrees
+ *  1 — the vocabularies, `media`, and `lenses`. `lenses` is the chip mechanism
+ *      the Cellar, the Profile's writing stream and all four pushed landings
+ *      share; it names words and counts and knows nothing about what it narrows,
+ *      which is exactly why it sits below every one of them. Closed value sets the whole system agrees
  *      on. `media` is a carrier too and would sit at 0 with `text`, except that
  *      an image's alt text is PROSE — it is `NegotiatedText`, written by a
  *      person in a language — so media is built out of a carrier rather than
@@ -52,7 +55,10 @@ const SRC = new URL("../src/", import.meta.url).pathname;
  *      answered. A vocabulary that only the aggregate could name was a vocabulary
  *      nobody could write to.
  *  2 — the features. Each owns one domain's contracts and the composition of
- *      them.
+ *      them. `collections` sits here and not among the composers, which is the
+ *      whole reason a collection card carries a preview strip instead of its
+ *      items: it POINTS at wines, estates and evenings by id and embeds none of
+ *      them, so it reads a byline and a media carrier and no peer at all.
  *  3+ — the composers. A folder whose own contracts are assembled OUT OF another
  *      feature's, rather than out of a vocabulary alone. They stack, so each one
  *      sits above everything it reads:
@@ -73,7 +79,9 @@ const LAYERS = {
   trust: 1,
   provenance: 1,
   vocabulary: 1,
+  lenses: 1,
   catalog: 2,
+  collections: 2,
   search: 2,
   events: 2,
   member: 2,

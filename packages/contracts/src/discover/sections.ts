@@ -1,8 +1,10 @@
 import type { WineContract } from "../catalog/index.js";
+import type { PublishedCollectionContract } from "../collections/index.js";
 import type { ContributionContract } from "../contributions/index.js";
 import type { EditorialContract } from "../editorial/index.js";
 import type { EventContract } from "../events/index.js";
 import type { ActivityContract } from "../social/index.js";
+import type { DiscoverChapterLinkContract } from "./chapterLink.js";
 import type { DiscoverDoorwayContract } from "./doorway.js";
 import type { CellarTonightRowContract } from "./cellarTonightRow.js";
 import type { TonightStatsContract } from "./tonightStats.js";
@@ -12,8 +14,17 @@ import type { TonightStatsContract } from "./tonightStats.js";
  * owns arrangement (id, type, title, order); the items are the same contracts
  * each domain's own api serves, reusable anywhere.
  *
- * The Fade Yield feed reads as a funnel — read → act → explore → join → belong:
- *   editorial · wines · doorways · events · room.
+ * The Fade Yield feed reads as a funnel — read → act → explore → go → join →
+ * belong: editorial · wines · doorways · shelves · itineraries · events · room.
+ * The explore band widened rather than repeated: doorways are entrances derived
+ * from the catalogue, shelves and itineraries are lists a person enumerated, and
+ * only the first of those three is a query.
+ *
+ * Neither collection band can carry a Lens, and the type says so rather than a
+ * server remembering to — see {@link ../collections!PublishedCollectionContract}.
+ *
+ * A reader SKIPS a `type` it does not know rather than failing — which is what
+ * lets a band ship before every client can draw it.
  */
 export type DiscoverSection =
   /**
@@ -23,8 +34,70 @@ export type DiscoverSection =
   | { id: string; type: "wines"; title: string; eyebrow?: string; items: WineContract[] }
   /** Merged browse cards — regions, producers and curated sets as one doorway. */
   | { id: string; type: "doorways"; title: string; eyebrow?: string; items: DiscoverDoorwayContract[] }
-  | { id: string; type: "editorial"; title: string; eyebrow?: string; items: EditorialContract[] }
-  | { id: string; type: "events"; title: string; eyebrow?: string; items: EventContract[] }
+  /**
+   * Published shelves — lists of BOTTLES somebody made, whether that somebody is
+   * a member (a Shelf) or the house (a Selection).
+   *
+   * NOT a second doorway strip, and the difference is what is behind the card. A
+   * doorway's contents come from a QUERY: a region has its wines whether or not
+   * anybody arranged them. These contents were enumerated by a person, one at a
+   * time, and are derivable from nothing — which is why the card shows what is
+   * inside where a doorway shows a photo and a promise. The trust model's merge
+   * of regions and collections merged the ENTRANCES; this is the room.
+   *
+   * Shelf and Selection share one band because they share a subject, and the
+   * subject is what the treatment is made of — a cover of overlapping labels, a
+   * sub-line counting bottles. What tells them apart is the byline, which is the
+   * only place authorship is ever stated.
+   */
+  | {
+      id: string;
+      type: "shelves";
+      title: string;
+      eyebrow?: string;
+      /** Pushes SHELVES. Absent when the chapter already shows every one. */
+      link?: DiscoverChapterLinkContract;
+      items: PublishedCollectionContract[];
+    }
+  /**
+   * Itineraries — the same record, subject `estates`, drawn as a route.
+   *
+   * A separate `type` for the same payload because a section type on this screen
+   * selects a TREATMENT, and the treatment follows the SUBJECT: estates have no
+   * label to show, so the cover is monogram plates and the sub-line counts
+   * places. A route also reads in order, because a route has a direction. One
+   * card style for bottles and estates would be wrong for one of them.
+   *
+   * A doorway cannot carry this at all — `target` would have to name a wine
+   * query, and a weekend in Stellenbosch is not one.
+   */
+  | {
+      id: string;
+      type: "itineraries";
+      title: string;
+      eyebrow?: string;
+      /** Pushes ITINERARIES. Absent when the chapter already shows every one. */
+      link?: DiscoverChapterLinkContract;
+      items: PublishedCollectionContract[];
+    }
+  | {
+      id: string;
+      type: "editorial";
+      title: string;
+      eyebrow?: string;
+      /** Pushes ARCHIVE. */
+      link?: DiscoverChapterLinkContract;
+      items: EditorialContract[];
+    }
+  | {
+      id: string;
+      type: "events";
+      title: string;
+      eyebrow?: string;
+      /** Pushes CALENDAR. */
+      link?: DiscoverChapterLinkContract;
+      items: EventContract[];
+    }
   | {
       id: string;
       type: "room";
@@ -53,6 +126,10 @@ export type DiscoverSection =
    * is. Absent entirely for a signed-out reader, and absent rather than empty
    * for a member whose bottles nobody is drinking: a heading over nothing is
    * worse than no heading.
+   *
+   * Carries NO `link`, and the omission is typed rather than merely unset: this
+   * chapter already shows everything it is about, so there is no larger thing to
+   * push. See {@link DiscoverChapterLinkContract}.
    */
   | {
       id: string;

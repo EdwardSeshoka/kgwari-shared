@@ -4,7 +4,7 @@
     "contentType": "article",
     "categoryLabel": "THE LONG READ",
     "title": "Why 2018 is the vintage to buy in Stellenbosch.",
-    "description": "A cool, late-ripening year gave the Cape’s Bordeaux blends the structure to age a decade — here’s what to look for, and what to lay down.",
+    "description": "A cool, late-ripening year gave the Cape's Bordeaux blends the structure to age a decade — here's what to look for, and what to lay down.",
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
     "ctaLabel": "Read story",
     "author": {
@@ -17,7 +17,8 @@
       "regionId": "region_stellenbosch",
       "countryCode": "ZA",
       "vintage": 2018
-    }
+    },
+    "saveCount": 412
   },
   {
     "id": "guide_field_guide_swartland_chenin",
@@ -35,7 +36,8 @@
     "subject": {
       "kind": "region",
       "regionId": "region_swartland"
-    }
+    },
+    "saveCount": 86
   },
   {
     "id": "article_decanting_how_long",
@@ -49,7 +51,8 @@
       "name": "Nomsa Dlamini",
       "tier": "professional",
       "role": "sommelier"
-    }
+    },
+    "saveCount": 128
   },
   {
     "id": "story_six_cinsaults_poured_blind",
@@ -63,7 +66,8 @@
       "name": "Sipho Khumalo",
       "tier": "professional",
       "role": "sommelier"
-    }
+    },
+    "saveCount": 70
   },
   {
     "id": "article_case_for_cellaring_chenin",
@@ -77,6 +81,64 @@
       "name": "Thandi Nkosi",
       "tier": "professional",
       "role": "sommelier"
-    }
+    },
+    "saveCount": 82
+  },
+  {
+    "id": "event_meerlust_cellar_tasting",
+    "contentType": "event",
+    "title": "Six vintages, one afternoon in the Meerlust cellar.",
+    "description": "The estate opens a vertical it does not usually pour, and answers questions about the years it would rather forget.",
+    "author": {
+      "name": "Alexandra Meyer",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "subject": {
+      "kind": "wine",
+      "wineVintageId": "rubicon-2018",
+      "wineLabelId": "rubicon"
+    },
+    "saveCount": 96
+  },
+  {
+    "id": "cause_after_the_fire",
+    "contentType": "cause",
+    "title": "After the fire.",
+    "description": "Four estates lost vineyard to the January fires. What the relief fund is for, and who administers it.",
+    "author": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "saveCount": 208
+  },
+  {
+    "id": "offer_rubicon_2021_release",
+    "contentType": "offer",
+    "title": "Rubicon 2021, released.",
+    "description": "The estate's allocation opens on Monday, in two formats and three markets.",
+    "author": {
+      "name": "Chris Williams",
+      "tier": "producer",
+      "role": "cellarmaster"
+    },
+    "subject": {
+      "kind": "wine_label",
+      "wineLabelId": "rubicon"
+    },
+    "saveCount": 331
+  },
+  {
+    "id": "season_what_to_open_in_august",
+    "contentType": "season",
+    "title": "What to open in August.",
+    "description": "The last cold month in the Cape, and the one where the big reds finally make sense again.",
+    "author": {
+      "name": "Thandi Nkosi",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "saveCount": 74
   }
 ]

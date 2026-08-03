@@ -25,6 +25,7 @@
  * a kind is added.
  */
 
+import type { PublishedCollectionContract } from "../collections/index.js";
 import type { EditorialContract } from "../editorial/index.js";
 import type { EventContract } from "../events/index.js";
 import type { ActivityUser, TastingNoteContract } from "../social/index.js";
@@ -69,4 +70,16 @@ export type ContributionContract =
    * relation that had no wire shape at all before this contract — and the
    * payload is the events-domain event itself.
    */
-  | (ContributionBase & { kind: "tasting"; event: EventContract });
+  | (ContributionBase & { kind: "tasting"; event: EventContract })
+  /**
+   * A list somebody published — a shelf, an itinerary or the house's selection.
+   *
+   * {@link PublishedCollectionContract} rather than the base, so a Lens cannot
+   * reach the ledger: its contents are whatever its rule returns right now, and
+   * a row in a dated stream has to mean the same thing tomorrow. That is a shape
+   * a producer cannot construct, not a filter a server remembers.
+   *
+   * The row's mark reads `collection.kind` — shelf, itinerary, selection — and
+   * never the word "collection". See {@link ContributionKind}.
+   */
+  | (ContributionBase & { kind: "collection"; collection: PublishedCollectionContract });

@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "id": "collection_elgin-slowly",
+      "kind": "itinerary",
+      "subject": "estates",
+      "title": "Elgin, slowly",
+      "author": {
+        "name": "Sipho Ndlovu",
+        "status": "enthusiast"
+      },
+      "itemCount": 5,
+      "saveCount": 64,
+      "preview": [
+        {
+          "contentId": "estate_paul-cluver",
+          "title": "Paul Cluver"
+        },
+        {
+          "contentId": "estate_springfield-estate",
+          "title": "Springfield Estate"
+        },
+        {
+          "contentId": "estate_cederberg-private-cellar",
+          "title": "Cederberg Private Cellar"
+        }
+      ],
+      "createdAt": "2026-07-17T14:00:00.000Z"
+    },
+    {
+      "id": "collection_the-hemel-en-aarde-run",
+      "kind": "selection",
+      "subject": "estates",
+      "title": "The Hemel-en-Aarde run",
+      "author": {
+        "name": "Kgwari"
+      },
+      "itemCount": 5,
+      "saveCount": 37,
+      "preview": [
+        {
+          "contentId": "estate_de-toren",
+          "title": "De Toren"
+        },
+        {
+          "contentId": "estate_sadie-family-wines",
+          "title": "Sadie Family Wines"
+        },
+        {
+          "contentId": "estate_mullineux",
+          "title": "Mullineux"
+        }
+      ],
+      "createdAt": "2026-07-07T14:00:00.000Z"
+    },
+    {
+      "id": "collection_a_weekend_in_the_swartland",
+      "kind": "itinerary",
+      "subject": "estates",
+      "title": "A weekend in the Swartland",
+      "description": "Granite, old bush vines, and the people who stopped irrigating them.",
+      "author": {
+        "name": "Marius Louw",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "itemCount": 4,
+      "saveCount": 356,
+      "preview": [
+        {
+          "contentId": "estate_sadie-family-wines",
+          "title": "Sadie Family Wines"
+        },
+        {
+          "contentId": "estate_a-a-badenhorst",
+          "title": "A.A. Badenhorst"
+        },
+        {
+          "contentId": "estate_mullineux",
+          "title": "Mullineux"
+        }
+      ],
+      "createdAt": "2026-06-27T16:45:00.000Z"
+    },
+    {
+      "id": "collection_constantia-end-to-end",
+      "kind": "itinerary",
+      "subject": "estates",
+      "title": "Constantia, end to end",
+      "author": {
+        "name": "Marius Louw",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "itemCount": 5,
+      "saveCount": 46,
+      "preview": [
+        {
+          "contentId": "estate_la-motte",
+          "title": "La Motte"
+        },
+        {
+          "contentId": "estate_hamilton-russell-vineyards",
+          "title": "Hamilton Russell Vineyards"
+        },
+        {
+          "contentId": "estate_bouchard-finlayson",
+          "title": "Bouchard Finlayson"
+        }
+      ],
+      "createdAt": "2026-06-12T14:00:00.000Z"
+    },
+    {
+      "id": "collection_two_days_in_stellenbosch",
+      "kind": "itinerary",
+      "subject": "estates",
+      "title": "Two days in Stellenbosch",
+      "description": "Three cellar doors, one long lunch, and one designated driver.",
+      "author": {
+        "name": "Thandi Nkosi",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "itemCount": 5,
+      "saveCount": 87,
+      "preview": [
+        {
+          "contentId": "estate_meerlust-estate",
+          "title": "Meerlust Estate"
+        },
+        {
+          "contentId": "estate_kanonkop-estate",
+          "title": "Kanonkop Estate"
+        },
+        {
+          "contentId": "estate_rust-en-vrede",
+          "title": "Rust en Vrede"
+        }
+      ],
+      "createdAt": "2026-06-11T12:00:00.000Z"
+    },
+    {
+      "id": "collection_a-morning-in-franschhoek",
+      "kind": "itinerary",
+      "subject": "estates",
+      "title": "A morning in Franschhoek",
+      "author": {
+        "name": "Lerato Mabaso",
+        "status": "collector"
+      },
+      "itemCount": 5,
+      "saveCount": 102,
+      "preview": [
+        {
+          "contentId": "estate_meerlust-estate",
+          "title": "Meerlust Estate"
+        },
+        {
+          "contentId": "estate_kanonkop-estate",
+          "title": "Kanonkop Estate"
+        },
+        {
+          "contentId": "estate_rust-en-vrede",
+          "title": "Rust en Vrede"
+        }
+      ],
+      "createdAt": "2026-06-02T14:00:00.000Z"
+    }
+  ],
+  "lenses": {
+    "lenses": [
+      {
+        "key": "lens.all",
+        "count": 6
+      },
+      {
+        "key": "lens.sommeliers",
+        "count": 3
+      },
+      {
+        "key": "lens.members",
+        "count": 2
+      },
+      {
+        "key": "lens.kgwari",
+        "count": 1
+      }
+    ],
+    "active": "lens.all"
+  }
+}

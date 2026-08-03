@@ -1,0 +1,82 @@
+[
+  {
+    "id": "article_why_2018_stellenbosch",
+    "contentType": "article",
+    "categoryLabel": "THE LONG READ",
+    "title": "Why 2018 is the vintage to buy in Stellenbosch.",
+    "description": "A cool, late-ripening year gave the Cape’s Bordeaux blends the structure to age a decade — here’s what to look for, and what to lay down.",
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
+    "ctaLabel": "Read story",
+    "author": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "subject": {
+      "kind": "vintage_report",
+      "regionId": "region_stellenbosch",
+      "countryCode": "ZA",
+      "vintage": 2018
+    }
+  },
+  {
+    "id": "guide_field_guide_swartland_chenin",
+    "contentType": "guide",
+    "categoryLabel": "GUIDE",
+    "title": "A field guide to Swartland chenin.",
+    "description": "Old bush vines, granite soils, and the skin-contact whites redrawing the Cape’s white-wine map.",
+    "imageUrl": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1200&q=80",
+    "ctaLabel": "Open guide",
+    "author": {
+      "name": "Thandi Nkosi",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "subject": {
+      "kind": "region",
+      "regionId": "region_swartland"
+    }
+  },
+  {
+    "id": "article_decanting_how_long",
+    "contentType": "article",
+    "categoryLabel": "EDITORIAL",
+    "title": "Decanting: how long is too long?",
+    "description": "Three hours, six, overnight — when air becomes a wine’s friend, and when it quietly undoes it.",
+    "imageUrl": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=1200&q=80",
+    "ctaLabel": "Read editorial",
+    "author": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    }
+  },
+  {
+    "id": "story_six_cinsaults_poured_blind",
+    "contentType": "story",
+    "categoryLabel": "TASTING",
+    "title": "Six Cinsaults, poured blind.",
+    "description": "A grape the Cape once pulled out by the hectare, tasted without labels — and what the room reached for twice.",
+    "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&w=1200&q=80",
+    "ctaLabel": "Read tasting",
+    "author": {
+      "name": "Sipho Khumalo",
+      "tier": "professional",
+      "role": "sommelier"
+    }
+  },
+  {
+    "id": "article_case_for_cellaring_chenin",
+    "contentType": "article",
+    "categoryLabel": "NOTE",
+    "title": "The case for cellaring Chenin.",
+    "description": "Drunk young almost everywhere, yet the Cape’s old-vine bottlings reward a decade of patience more reliably than most.",
+    "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1200&q=80",
+    "ctaLabel": "Read note",
+    "author": {
+      "name": "Thandi Nkosi",
+      "tier": "professional",
+      "role": "sommelier"
+    }
+  }
+]

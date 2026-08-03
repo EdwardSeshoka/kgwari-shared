@@ -47,20 +47,20 @@ describe("createWines", () => {
 
 describe("createDiscover", () => {
   it(
-    "features a wine hero resolved from the wine catalog",
-    function givenDiscoverHome_whenComposed_thenFeaturesWineHero() {
-      // When
+    "leads on a member's note, in that member's own words",
+    function givenDiscoverHome_whenComposed_thenTheLedeComesFromTheRoom() {
+      // Given: the v2 hero is a NOTE, not a wine. That is the change that makes
+      // the front page sound like the room rather than like Kgwari — it opens in
+      // a member's exact words, under their name, about a bottle they drank.
       const home = createDiscover();
 
-      // Then
-      assert.equal(home.hero?.kind, "wine");
-      if (home.hero?.kind !== "wine") {
-        assert.fail("expected a wine hero");
+      assert.equal(home.hero?.kind, "note");
+      if (home.hero?.kind !== "note") {
+        assert.fail("expected a note hero");
       }
-      assert.equal(home.hero.wine.id, "rubicon-2018");
-      assert.equal(home.hero.wine.name, "Rubicon");
-      assert.equal(home.hero.issueLabel, "No. 47");
-      assert.ok(home.hero.title.length > 0);
+      assert.ok(home.hero.note.note.length > 0, "the lede is the member's prose");
+      assert.ok(home.hero.note.user.displayName.length > 0);
+      assert.ok(home.hero.note.wine, "a note leads with the wine it is about");
     },
   );
 
@@ -71,9 +71,25 @@ describe("createDiscover", () => {
       const home = createDiscover();
 
       // Then
+      // v2 ADDS to the funnel rather than replacing it: the ledger opens the
+      // page, tonight closes it, and everything v1 arranged is still arranged.
+      // The two collection chapters are dealt APART on the real page — three row
+      // chapters set adjacently read as one undifferentiated list however
+      // carefully each is set — and the fixture keeps that ordering.
       assert.deepEqual(
         home.sections.map((section) => section.type),
-        ["editorial", "wines", "doorways", "events", "room"],
+        [
+          "contributions",
+          "wines",
+          "events",
+          "shelves",
+          "editorial",
+          "itineraries",
+          "doorways",
+          "room",
+          "cellar_tonight",
+          "tonight_stats",
+        ],
       );
 
       const wines = home.sections.find((section) => section.type === "wines");
@@ -87,6 +103,7 @@ describe("createDiscover", () => {
 
       const events = home.sections.find((section) => section.type === "events");
       assert.ok(events.items[0].host, "a tasting row leads with its host byline");
+      assert.equal(events.items[0].lifecycle, "open", "only open evenings are advertised");
 
       const room = home.sections.find((section) => section.type === "room");
       assert.ok(room.items[0].user.displayName.length > 0);

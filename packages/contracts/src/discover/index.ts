@@ -1,5 +1,7 @@
 export * from "./actions.js";
 export * from "./cellarTonightRow.js";
+export * from "./chapterLink.js";
+export * from "./indexPush.js";
 export * from "./discover.js";
 export * from "./doorway.js";
 export * from "./feature.js";
