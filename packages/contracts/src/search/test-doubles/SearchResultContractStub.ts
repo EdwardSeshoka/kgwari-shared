@@ -62,17 +62,22 @@ export const SearchResultContract = {
     },
 
     /**
-     * A row carrying the review picker's FIFTH verdict word.
+     * A row carrying the RETIRED fifth verdict word.
      *
-     * Legal on the wire and outside the four tiers a ledger renders, so a reader
-     * must narrow it to "no verdict" rather than show a fifth type identity. The
-     * narrowing is client behaviour, but the ROW is a shape the wire really sends
-     * — which is why the double belongs here rather than in each client. It lived
-     * in the frontend until now, so only one reader was ever tested against it.
+     * Still the most important row in this file, and more so since 7.0 removed
+     * the rung from {@link VerdictWord}. An index is not a type: rows projected
+     * before the removal keep the old word until they are reprojected, so the
+     * wire really does send it and a reader must narrow it to "no verdict"
+     * rather than render a fifth tier or fail on the row.
+     *
+     * Cast for the same reason {@link makeUnknownKind} is — the value is
+     * deliberately outside today's union, which is the entire scenario. A stub
+     * that could no longer express it would quietly retire the test alongside
+     * the rung, at exactly the moment the test starts mattering.
      */
     makeWithUnrenderableVerdict(overrides: Overrides<SearchResultContractShape> = {}): SearchResultContractShape {
       return SearchResultContract.StubFactory.make({
-        verdict: "Not One I'd Revisit",
+        verdict: "Not One I'd Revisit" as SearchResultContractShape["verdict"],
         ...overrides
       });
     },

@@ -1,4 +1,4 @@
-import type { DiscoverWineHeroContract as DiscoverWineHeroContractShape } from "../hero.js";
+import type { DiscoverWineHeroContract as DiscoverWineHeroContractShape } from "../wineHero.js";
 import { defineStub, type Overrides } from "../../test-doubles/index.js";
 import { WineContract } from "../../catalog/test-doubles/index.js";
 

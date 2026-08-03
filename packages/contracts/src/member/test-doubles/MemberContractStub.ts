@@ -43,7 +43,8 @@ export const MemberContract = {
         country: null,
         onboardingCompleted: true,
         createdAt: "2026-06-23T10:15:30.000Z",
-        noteCount: 241}),
+        noteCount: 241,
+        avatar: null}),
 
     /**
      * A verified business account: an estate, which earns the producer crest.
@@ -83,6 +84,43 @@ export const MemberContract = {
         name: "",
         onboardingCompleted: false,
         noteCount: 0,
+        ...overrides
+      });
+    },
+
+    /**
+     * A member the Profile page has something to show: a picture, and both
+     * per-kind counters.
+     *
+     * The 70:1 ratio is deliberate and is the reason the counters are per kind
+     * rather than one total — a heading that read "Writing (1,433)" would be a
+     * number about notes wearing a label about writing, and the filter chips
+     * exist to pull them apart.
+     *
+     * The default above leaves `storyCount` and `tastingsAttendedCount` ABSENT,
+     * which is the honest state for a record written before those fields existed:
+     * absent means unknown, and 0 would state something nobody checked. A
+     * consumer that renders `storyCount ?? 0` as "0 stories" has turned one into
+     * the other.
+     */
+    makeWriter(overrides: Overrides<MemberContractShape> = {}): MemberContractShape {
+      return MemberContract.StubFactory.make({
+        userId: "user_thandi-mokoena",
+        name: "Thandi Mokoena",
+        profileType: "collector",
+        avatar: {
+          url: "https://images.kgwari.test/members/thandi-mokoena.jpg",
+          alt: {
+            source: "negotiated",
+            text: "Thandi Mokoena, in a cellar doorway.",
+            languageTag: "en"
+          },
+          width: 512,
+          height: 512
+        },
+        noteCount: 1412,
+        storyCount: 21,
+        tastingsAttendedCount: 26,
         ...overrides
       });
     }

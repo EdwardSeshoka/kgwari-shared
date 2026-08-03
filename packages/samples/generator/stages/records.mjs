@@ -142,8 +142,15 @@ export function buildRecords({ wines, regions, producers }) {
   const SPREAD_THRESHOLD = 25;
   const DISAGREEMENT_THRESHOLD = 100;
 
-  const distributionAround = (id, centre) => {
-    const raw = [0, 1, 2, 3, 4].map((i) => {
+  /**
+   * `size` because two different scales run through here: a tasting metric
+   * always has five rungs, and the verdict has however many `VERDICTS` has —
+   * four since the fifth was retired. It was hardcoded to five, which is how the
+   * verdict distribution came to be generated from a list that no longer matched
+   * the contract.
+   */
+  const distributionAround = (id, centre, size = 5) => {
+    const raw = Array.from({ length: size }, (_, i) => {
       const d = Math.abs(i - centre);
       return Math.max(1, 60 - d * 22 + spread(`${id}d${i}`, 0, 8));
     });
@@ -170,11 +177,16 @@ export function buildRecords({ wines, regions, producers }) {
     };
   };
 
+  /**
+   * Ordered best → worst from `VERDICTS` itself, which is imported at the top of
+   * this file and was ALSO restated here as a literal. Two declarations of one
+   * ordinal scale is precisely what the contract publishes `VERDICTS` to
+   * prevent, and the copy went stale the moment the fifth rung was retired.
+   */
   const verdictDistributionOf = (w) => {
-    const order = ["Unforgettable", "Essential", "Worth Revisiting", "An Interesting Discovery", "Not One I'd Revisit"];
-    const centre = Math.max(0, order.indexOf(w.verdict));
-    const pct = distributionAround(`${w.id}vd`, centre);
-    return order.map((verdict, i) => ({ verdict, percentage: pct[i] }));
+    const centre = Math.max(0, VERDICTS.indexOf(w.verdict));
+    const pct = distributionAround(`${w.id}vd`, centre, VERDICTS.length);
+    return VERDICTS.map((verdict, i) => ({ verdict, percentage: pct[i] }));
   };
 
   const registerOf = (w) => {

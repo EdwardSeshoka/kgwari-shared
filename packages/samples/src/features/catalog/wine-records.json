@@ -238,7 +238,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 38
         },
         {
           "verdict": "Worth Revisiting",
@@ -247,15 +247,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 61
+        "percentage": 62
       },
       "groups": [
         {
@@ -754,7 +750,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 38
+          "percentage": 39
         },
         {
           "verdict": "Worth Revisiting",
@@ -763,15 +759,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 12
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 62
+        "percentage": 63
       },
       "groups": [
         {
@@ -1152,7 +1144,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 51
+          "percentage": 52
         },
         {
           "verdict": "Essential",
@@ -1165,15 +1157,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 51
+        "percentage": 52
       },
       "groups": [
         {
@@ -1543,28 +1531,24 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 13
+          "percentage": 15
         },
         {
           "verdict": "Essential",
-          "percentage": 21
+          "percentage": 23
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 34
+          "percentage": 37
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 22
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 10
+          "percentage": 25
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Worth Revisiting",
-        "percentage": 68
+        "percentage": 75
       },
       "groups": [
         {
@@ -1886,28 +1870,24 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 10
+          "percentage": 11
         },
         {
           "verdict": "Essential",
-          "percentage": 22
+          "percentage": 25
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 33
+          "percentage": 38
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 23
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 12
+          "percentage": 26
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Worth Revisiting",
-        "percentage": 65
+        "percentage": 74
       },
       "groups": [
         {
@@ -2207,24 +2187,20 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 10
+          "percentage": 14
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 25
+          "percentage": 33
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 38
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 26
+          "percentage": 52
         }
       ],
       "verdictSummary": {
         "atOrAbove": "An Interesting Discovery",
-        "percentage": 74
+        "percentage": 100
       },
       "groups": [
         {
@@ -2571,7 +2547,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 38
+          "percentage": 39
         },
         {
           "verdict": "Worth Revisiting",
@@ -2580,15 +2556,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 12
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 62
+        "percentage": 63
       },
       "groups": [
         {
@@ -2925,28 +2897,24 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 12
+          "percentage": 14
         },
         {
           "verdict": "Essential",
-          "percentage": 25
+          "percentage": 27
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 32
+          "percentage": 36
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 21
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 10
+          "percentage": 23
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Worth Revisiting",
-        "percentage": 69
+        "percentage": 77
       },
       "groups": [
         {
@@ -3273,14 +3241,10 @@
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 16
+          "percentage": 17
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 1
         }
       ],
@@ -3593,28 +3557,24 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 11
+          "percentage": 12
         },
         {
           "verdict": "Essential",
-          "percentage": 23
+          "percentage": 25
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 34
+          "percentage": 37
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 24
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 8
+          "percentage": 26
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Worth Revisiting",
-        "percentage": 68
+        "percentage": 74
       },
       "groups": [
         {
@@ -3987,7 +3947,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 38
         },
         {
           "verdict": "Worth Revisiting",
@@ -3996,15 +3956,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 61
+        "percentage": 62
       },
       "groups": [
         {
@@ -4379,7 +4335,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 47
+          "percentage": 48
         },
         {
           "verdict": "Essential",
@@ -4392,15 +4348,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 47
+        "percentage": 48
       },
       "groups": [
         {
@@ -4738,7 +4690,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 38
         },
         {
           "verdict": "Worth Revisiting",
@@ -4747,15 +4699,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 61
+        "percentage": 62
       },
       "groups": [
         {
@@ -5090,28 +5038,24 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 9
+          "percentage": 10
         },
         {
           "verdict": "Essential",
-          "percentage": 22
+          "percentage": 25
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 35
+          "percentage": 39
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 23
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 11
+          "percentage": 26
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Worth Revisiting",
-        "percentage": 66
+        "percentage": 74
       },
       "groups": [
         {
@@ -5506,7 +5450,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 48
+          "percentage": 49
         },
         {
           "verdict": "Essential",
@@ -5519,15 +5463,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 48
+        "percentage": 49
       },
       "groups": [
         {
@@ -5943,31 +5883,27 @@
     "locked": [],
     "register": {
       "noteCount": 872,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
-        },
-        {
-          "verdict": "Essential",
           "percentage": 10
         },
         {
-          "verdict": "Worth Revisiting",
+          "verdict": "Essential",
           "percentage": 25
         },
         {
-          "verdict": "An Interesting Discovery",
-          "percentage": 38
+          "verdict": "Worth Revisiting",
+          "percentage": 39
         },
         {
-          "verdict": "Not One I'd Revisit",
+          "verdict": "An Interesting Discovery",
           "percentage": 26
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
+        "atOrAbove": "Worth Revisiting",
         "percentage": 74
       },
       "groups": [
@@ -6119,13 +6055,13 @@
       {
         "wineVintageId": "paul-sauer-2020-steenberg",
         "vintage": 2020,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 453
       },
       {
         "wineVintageId": "paul-sauer-2011-kanonkop-est",
         "vintage": 2011,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 872,
         "isCurrent": true
       }
@@ -6371,7 +6307,7 @@
     ],
     "register": {
       "noteCount": 118,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -6379,23 +6315,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
+          "percentage": 18
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 19
+          "percentage": 35
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 30
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 49
+          "percentage": 46
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -6803,7 +6735,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 38
+          "percentage": 39
         },
         {
           "verdict": "Worth Revisiting",
@@ -6812,15 +6744,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 12
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 62
+        "percentage": 63
       },
       "groups": [
         {
@@ -7209,7 +7137,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 38
+          "percentage": 39
         },
         {
           "verdict": "Worth Revisiting",
@@ -7218,15 +7146,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 12
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 62
+        "percentage": 63
       },
       "groups": [
         {
@@ -7578,32 +7502,28 @@
     ],
     "register": {
       "noteCount": 637,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
+          "percentage": 12
         },
         {
           "verdict": "Essential",
-          "percentage": 13
+          "percentage": 25
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 26
+          "percentage": 37
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 38
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 22
+          "percentage": 26
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
-        "percentage": 78
+        "atOrAbove": "Worth Revisiting",
+        "percentage": 74
       },
       "groups": [
         {
@@ -7972,7 +7892,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 51
+          "percentage": 52
         },
         {
           "verdict": "Essential",
@@ -7985,15 +7905,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 51
+        "percentage": 52
       },
       "groups": [
         {
@@ -8406,7 +8322,7 @@
     ],
     "register": {
       "noteCount": 588,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -8414,23 +8330,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
-        },
-        {
-          "verdict": "Worth Revisiting",
           "percentage": 16
         },
         {
-          "verdict": "An Interesting Discovery",
+          "verdict": "Worth Revisiting",
           "percentage": 33
         },
         {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 49
+          "verdict": "An Interesting Discovery",
+          "percentage": 50
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -8783,7 +8695,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 48
+          "percentage": 49
         },
         {
           "verdict": "Essential",
@@ -8796,15 +8708,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 48
+        "percentage": 49
       },
       "groups": [
         {
@@ -9186,7 +9094,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 49
+          "percentage": 50
         },
         {
           "verdict": "Essential",
@@ -9199,15 +9107,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 49
+        "percentage": 50
       },
       "groups": [
         {
@@ -9545,7 +9449,7 @@
     ],
     "register": {
       "noteCount": 528,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -9553,23 +9457,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
-        },
-        {
-          "verdict": "Worth Revisiting",
           "percentage": 15
         },
         {
-          "verdict": "An Interesting Discovery",
+          "verdict": "Worth Revisiting",
           "percentage": 33
         },
         {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 50
+          "verdict": "An Interesting Discovery",
+          "percentage": 51
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -9920,32 +9820,28 @@
     "locked": [],
     "register": {
       "noteCount": 223,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
+          "percentage": 13
         },
         {
           "verdict": "Essential",
-          "percentage": 14
+          "percentage": 26
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 27
+          "percentage": 39
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 35
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 23
+          "percentage": 22
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
-        "percentage": 77
+        "atOrAbove": "Worth Revisiting",
+        "percentage": 78
       },
       "groups": [
         {
@@ -10318,7 +10214,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 48
+          "percentage": 49
         },
         {
           "verdict": "Essential",
@@ -10331,15 +10227,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 48
+        "percentage": 49
       },
       "groups": [
         {
@@ -10720,7 +10612,7 @@
     "locked": [],
     "register": {
       "noteCount": 726,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -10728,23 +10620,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
-        },
-        {
-          "verdict": "Worth Revisiting",
           "percentage": 15
         },
         {
-          "verdict": "An Interesting Discovery",
+          "verdict": "Worth Revisiting",
           "percentage": 33
         },
         {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 50
+          "verdict": "An Interesting Discovery",
+          "percentage": 51
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -11138,32 +11026,28 @@
     ],
     "register": {
       "noteCount": 810,
-      "verdict": "Worth Revisiting",
+      "verdict": "Essential",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 12
+          "percentage": 27
         },
         {
           "verdict": "Essential",
-          "percentage": 25
+          "percentage": 40
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 32
+          "percentage": 23
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 21
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 10
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Worth Revisiting",
-        "percentage": 69
+        "atOrAbove": "Essential",
+        "percentage": 67
       },
       "groups": [
         {
@@ -11548,28 +11432,24 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 10
+          "percentage": 11
         },
         {
           "verdict": "Essential",
-          "percentage": 22
+          "percentage": 25
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 33
+          "percentage": 38
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 23
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 12
+          "percentage": 26
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Worth Revisiting",
-        "percentage": 65
+        "percentage": 74
       },
       "groups": [
         {
@@ -11953,28 +11833,24 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 11
+          "percentage": 12
         },
         {
           "verdict": "Essential",
-          "percentage": 23
+          "percentage": 25
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 34
+          "percentage": 37
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 24
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 8
+          "percentage": 26
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Worth Revisiting",
-        "percentage": 68
+        "percentage": 74
       },
       "groups": [
         {
@@ -12324,7 +12200,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 38
         },
         {
           "verdict": "Worth Revisiting",
@@ -12333,15 +12209,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 61
+        "percentage": 62
       },
       "groups": [
         {
@@ -12727,31 +12599,27 @@
     "locked": [],
     "register": {
       "noteCount": 453,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
-        },
-        {
-          "verdict": "Essential",
           "percentage": 11
         },
         {
-          "verdict": "Worth Revisiting",
+          "verdict": "Essential",
           "percentage": 25
         },
         {
-          "verdict": "An Interesting Discovery",
-          "percentage": 37
+          "verdict": "Worth Revisiting",
+          "percentage": 38
         },
         {
-          "verdict": "Not One I'd Revisit",
+          "verdict": "An Interesting Discovery",
           "percentage": 26
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
+        "atOrAbove": "Worth Revisiting",
         "percentage": 74
       },
       "groups": [
@@ -12908,14 +12776,14 @@
       {
         "wineVintageId": "paul-sauer-2020-steenberg",
         "vintage": 2020,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 453,
         "isCurrent": true
       },
       {
         "wineVintageId": "paul-sauer-2011-kanonkop-est",
         "vintage": 2011,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 872
       }
     ],
@@ -13155,7 +13023,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 38
         },
         {
           "verdict": "Worth Revisiting",
@@ -13164,15 +13032,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 61
+        "percentage": 62
       },
       "groups": [
         {
@@ -13339,7 +13203,7 @@
       {
         "wineVintageId": "vieilles-vignes-2016-domaine-vach",
         "vintage": 2016,
-        "verdict": "Not One I'd Revisit",
+        "verdict": "An Interesting Discovery",
         "noteCount": 746
       },
       {
@@ -13550,15 +13414,11 @@
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 26
+          "percentage": 27
         },
         {
           "verdict": "An Interesting Discovery",
           "percentage": 9
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
@@ -13939,7 +13799,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 38
         },
         {
           "verdict": "Worth Revisiting",
@@ -13948,15 +13808,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 61
+        "percentage": 62
       },
       "groups": [
         {
@@ -14361,7 +14217,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 50
+          "percentage": 51
         },
         {
           "verdict": "Essential",
@@ -14374,15 +14230,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 50
+        "percentage": 51
       },
       "groups": [
         {
@@ -14713,32 +14565,28 @@
     ],
     "register": {
       "noteCount": 502,
-      "verdict": "Essential",
+      "verdict": "Unforgettable",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 24
+          "percentage": 49
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 33
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 25
+          "percentage": 17
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 1
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Essential",
-        "percentage": 61
+        "atOrAbove": "Unforgettable",
+        "percentage": 49
       },
       "groups": [
         {
@@ -15052,32 +14900,28 @@
     ],
     "register": {
       "noteCount": 733,
-      "verdict": "Worth Revisiting",
+      "verdict": "Essential",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 12
+          "percentage": 27
         },
         {
           "verdict": "Essential",
-          "percentage": 25
+          "percentage": 40
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 32
+          "percentage": 23
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 21
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 10
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Worth Revisiting",
-        "percentage": 69
+        "atOrAbove": "Essential",
+        "percentage": 67
       },
       "groups": [
         {
@@ -15419,32 +15263,28 @@
     "locked": [],
     "register": {
       "noteCount": 645,
-      "verdict": "Worth Revisiting",
+      "verdict": "Essential",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 12
+          "percentage": 25
         },
         {
           "verdict": "Essential",
-          "percentage": 24
+          "percentage": 39
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 35
+          "percentage": 27
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 20
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 9
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Worth Revisiting",
-        "percentage": 71
+        "atOrAbove": "Essential",
+        "percentage": 64
       },
       "groups": [
         {
@@ -15810,7 +15650,7 @@
     ],
     "register": {
       "noteCount": 412,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -15818,23 +15658,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
-        },
-        {
-          "verdict": "Worth Revisiting",
           "percentage": 15
         },
         {
-          "verdict": "An Interesting Discovery",
+          "verdict": "Worth Revisiting",
           "percentage": 33
         },
         {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 50
+          "verdict": "An Interesting Discovery",
+          "percentage": 51
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -16218,14 +16054,10 @@
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 16
+          "percentage": 17
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 1
         }
       ],
@@ -16561,32 +16393,28 @@
     ],
     "register": {
       "noteCount": 736,
-      "verdict": "Worth Revisiting",
+      "verdict": "Essential",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 12
+          "percentage": 27
         },
         {
           "verdict": "Essential",
-          "percentage": 25
+          "percentage": 40
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 32
+          "percentage": 23
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 21
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 10
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Worth Revisiting",
-        "percentage": 69
+        "atOrAbove": "Essential",
+        "percentage": 67
       },
       "groups": [
         {
@@ -16890,7 +16718,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 48
+          "percentage": 49
         },
         {
           "verdict": "Essential",
@@ -16903,15 +16731,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 48
+        "percentage": 49
       },
       "groups": [
         {
@@ -17223,15 +17047,11 @@
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 26
+          "percentage": 27
         },
         {
           "verdict": "An Interesting Discovery",
           "percentage": 9
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
@@ -17550,7 +17370,7 @@
     ],
     "register": {
       "noteCount": 601,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -17558,23 +17378,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 2
+          "percentage": 19
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 13
+          "percentage": 31
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 33
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 51
+          "percentage": 49
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -17902,7 +17718,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 38
+          "percentage": 39
         },
         {
           "verdict": "Worth Revisiting",
@@ -17911,15 +17727,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 12
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 62
+        "percentage": 63
       },
       "groups": [
         {
@@ -18242,7 +18054,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 47
+          "percentage": 48
         },
         {
           "verdict": "Essential",
@@ -18255,15 +18067,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 47
+        "percentage": 48
       },
       "groups": [
         {
@@ -18404,7 +18212,7 @@
       {
         "wineVintageId": "vieilles-vignes-2016-domaine-vach",
         "vintage": 2016,
-        "verdict": "Not One I'd Revisit",
+        "verdict": "An Interesting Discovery",
         "noteCount": 746
       },
       {
@@ -18603,7 +18411,7 @@
     ],
     "register": {
       "noteCount": 746,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -18611,23 +18419,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
+          "percentage": 18
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 19
+          "percentage": 35
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 30
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 49
+          "percentage": 46
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -18754,7 +18558,7 @@
       {
         "wineVintageId": "vieilles-vignes-2016-domaine-vach",
         "vintage": 2016,
-        "verdict": "Not One I'd Revisit",
+        "verdict": "An Interesting Discovery",
         "noteCount": 746,
         "isCurrent": true
       },
@@ -19011,15 +18815,11 @@
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 22
+          "percentage": 23
         },
         {
           "verdict": "An Interesting Discovery",
           "percentage": 10
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
@@ -19394,28 +19194,24 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 10
+          "percentage": 11
         },
         {
           "verdict": "Essential",
-          "percentage": 22
+          "percentage": 25
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 33
+          "percentage": 38
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 23
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 12
+          "percentage": 26
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Worth Revisiting",
-        "percentage": 65
+        "percentage": 74
       },
       "groups": [
         {
@@ -19783,7 +19579,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 38
         },
         {
           "verdict": "Worth Revisiting",
@@ -19792,15 +19588,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 61
+        "percentage": 62
       },
       "groups": [
         {
@@ -20177,7 +19969,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 49
+          "percentage": 50
         },
         {
           "verdict": "Essential",
@@ -20190,15 +19982,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 49
+        "percentage": 50
       },
       "groups": [
         {
@@ -20532,32 +20320,28 @@
     ],
     "register": {
       "noteCount": 660,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
+          "percentage": 15
         },
         {
           "verdict": "Essential",
-          "percentage": 10
+          "percentage": 23
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 24
+          "percentage": 37
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 39
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 26
+          "percentage": 25
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
-        "percentage": 74
+        "atOrAbove": "Worth Revisiting",
+        "percentage": 75
       },
       "groups": [
         {
@@ -20699,7 +20483,7 @@
       {
         "wineVintageId": "etna-rosso-2015-biondi-santi",
         "vintage": 2015,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 660,
         "isCurrent": true
       }
@@ -20936,7 +20720,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 49
+          "percentage": 50
         },
         {
           "verdict": "Essential",
@@ -20949,15 +20733,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 49
+        "percentage": 50
       },
       "groups": [
         {
@@ -21121,7 +20901,7 @@
       {
         "wineVintageId": "etna-rosso-2015-biondi-santi",
         "vintage": 2015,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 660
       }
     ],
@@ -21349,28 +21129,24 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 11
+          "percentage": 12
         },
         {
           "verdict": "Essential",
-          "percentage": 23
+          "percentage": 25
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 34
+          "percentage": 37
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 24
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 8
+          "percentage": 26
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Worth Revisiting",
-        "percentage": 68
+        "percentage": 74
       },
       "groups": [
         {
@@ -21709,31 +21485,27 @@
     ],
     "register": {
       "noteCount": 543,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
-        },
-        {
-          "verdict": "Essential",
           "percentage": 11
         },
         {
-          "verdict": "Worth Revisiting",
+          "verdict": "Essential",
           "percentage": 25
         },
         {
-          "verdict": "An Interesting Discovery",
-          "percentage": 37
+          "verdict": "Worth Revisiting",
+          "percentage": 38
         },
         {
-          "verdict": "Not One I'd Revisit",
+          "verdict": "An Interesting Discovery",
           "percentage": 26
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
+        "atOrAbove": "Worth Revisiting",
         "percentage": 74
       },
       "groups": [
@@ -21861,7 +21633,7 @@
       {
         "wineVintageId": "barbaresco-2017-elena-walch",
         "vintage": 2017,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 543,
         "isCurrent": true
       }
@@ -22052,7 +21824,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 48
+          "percentage": 49
         },
         {
           "verdict": "Essential",
@@ -22065,15 +21837,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 48
+        "percentage": 49
       },
       "groups": [
         {
@@ -22216,7 +21984,7 @@
       {
         "wineVintageId": "barbaresco-2017-elena-walch",
         "vintage": 2017,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 543
       }
     ],
@@ -22440,7 +22208,7 @@
     "locked": [],
     "register": {
       "noteCount": 186,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -22448,23 +22216,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
-        },
-        {
-          "verdict": "Worth Revisiting",
           "percentage": 15
         },
         {
-          "verdict": "An Interesting Discovery",
+          "verdict": "Worth Revisiting",
           "percentage": 33
         },
         {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 50
+          "verdict": "An Interesting Discovery",
+          "percentage": 51
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -22627,7 +22391,7 @@
       {
         "wineVintageId": "ribolla-gialla-2012-gravner",
         "vintage": 2012,
-        "verdict": "Not One I'd Revisit",
+        "verdict": "An Interesting Discovery",
         "noteCount": 186,
         "isCurrent": true
       }
@@ -22822,7 +22586,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 38
         },
         {
           "verdict": "Worth Revisiting",
@@ -22831,15 +22595,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 61
+        "percentage": 62
       },
       "groups": [
         {
@@ -22982,7 +22742,7 @@
       {
         "wineVintageId": "ribolla-gialla-2012-gravner",
         "vintage": 2012,
-        "verdict": "Not One I'd Revisit",
+        "verdict": "An Interesting Discovery",
         "noteCount": 186
       }
     ],
@@ -23206,7 +22966,7 @@
     "locked": [],
     "register": {
       "noteCount": 847,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -23214,23 +22974,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
+          "percentage": 18
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 19
+          "percentage": 35
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 30
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 49
+          "percentage": 46
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -23383,7 +23139,7 @@
       {
         "wineVintageId": "nebbiolo-langhe-2011-passopisciar",
         "vintage": 2011,
-        "verdict": "Not One I'd Revisit",
+        "verdict": "An Interesting Discovery",
         "noteCount": 847,
         "isCurrent": true
       }
@@ -23574,7 +23330,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 47
+          "percentage": 48
         },
         {
           "verdict": "Essential",
@@ -23587,15 +23343,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 47
+        "percentage": 48
       },
       "groups": [
         {
@@ -23733,7 +23485,7 @@
       {
         "wineVintageId": "nebbiolo-langhe-2011-passopisciar",
         "vintage": 2011,
-        "verdict": "Not One I'd Revisit",
+        "verdict": "An Interesting Discovery",
         "noteCount": 847
       }
     ],
@@ -23965,7 +23717,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 38
+          "percentage": 39
         },
         {
           "verdict": "Worth Revisiting",
@@ -23974,15 +23726,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 12
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 62
+        "percentage": 63
       },
       "groups": [
         {
@@ -24371,7 +24119,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 47
+          "percentage": 48
         },
         {
           "verdict": "Essential",
@@ -24384,15 +24132,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 47
+        "percentage": 48
       },
       "groups": [
         {
@@ -24746,31 +24490,27 @@
     "locked": [],
     "register": {
       "noteCount": 692,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
+          "percentage": 11
         },
         {
           "verdict": "Essential",
-          "percentage": 12
-        },
-        {
-          "verdict": "Worth Revisiting",
           "percentage": 25
         },
         {
-          "verdict": "An Interesting Discovery",
-          "percentage": 36
+          "verdict": "Worth Revisiting",
+          "percentage": 38
         },
         {
-          "verdict": "Not One I'd Revisit",
+          "verdict": "An Interesting Discovery",
           "percentage": 26
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
+        "atOrAbove": "Worth Revisiting",
         "percentage": 74
       },
       "groups": [
@@ -25151,32 +24891,28 @@
     ],
     "register": {
       "noteCount": 78,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
+          "percentage": 14
         },
         {
           "verdict": "Essential",
-          "percentage": 15
+          "percentage": 27
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 23
+          "percentage": 36
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 37
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 24
+          "percentage": 23
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
-        "percentage": 76
+        "atOrAbove": "Worth Revisiting",
+        "percentage": 77
       },
       "groups": [
         {
@@ -25338,14 +25074,14 @@
       {
         "wineVintageId": "fino-en-rama-2022-vega-sicilia",
         "vintage": 2022,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 78,
         "isCurrent": true
       },
       {
         "wineVintageId": "fino-en-rama-2020-clos-mogador",
         "vintage": 2020,
-        "verdict": "Essential",
+        "verdict": "Unforgettable",
         "noteCount": 452
       }
     ],
@@ -25577,32 +25313,28 @@
     ],
     "register": {
       "noteCount": 452,
-      "verdict": "Essential",
+      "verdict": "Unforgettable",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 24
+          "percentage": 49
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 33
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 25
+          "percentage": 17
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 1
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Essential",
-        "percentage": 61
+        "atOrAbove": "Unforgettable",
+        "percentage": 49
       },
       "groups": [
         {
@@ -25754,13 +25486,13 @@
       {
         "wineVintageId": "fino-en-rama-2022-vega-sicilia",
         "vintage": 2022,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 78
       },
       {
         "wineVintageId": "fino-en-rama-2020-clos-mogador",
         "vintage": 2020,
-        "verdict": "Essential",
+        "verdict": "Unforgettable",
         "noteCount": 452,
         "isCurrent": true
       }
@@ -25985,7 +25717,7 @@
     "locked": [],
     "register": {
       "noteCount": 628,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -25993,23 +25725,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
+          "percentage": 15
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 16
-        },
-        {
-          "verdict": "An Interesting Discovery",
           "percentage": 33
         },
         {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 49
+          "verdict": "An Interesting Discovery",
+          "percentage": 51
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -26400,24 +26128,20 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 11
+          "percentage": 15
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 25
+          "percentage": 33
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 37
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 26
+          "percentage": 51
         }
       ],
       "verdictSummary": {
         "atOrAbove": "An Interesting Discovery",
-        "percentage": 74
+        "percentage": 100
       },
       "groups": [
         {
@@ -26585,7 +26309,7 @@
       {
         "wineVintageId": "reserva-especial-2011-gonzalez-bya",
         "vintage": 2011,
-        "verdict": "Worth Revisiting",
+        "verdict": "Essential",
         "noteCount": 178
       }
     ],
@@ -26809,32 +26533,28 @@
     "locked": [],
     "register": {
       "noteCount": 178,
-      "verdict": "Worth Revisiting",
+      "verdict": "Essential",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 12
+          "percentage": 25
         },
         {
           "verdict": "Essential",
-          "percentage": 24
+          "percentage": 39
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 35
+          "percentage": 27
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 20
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 9
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Worth Revisiting",
-        "percentage": 71
+        "atOrAbove": "Essential",
+        "percentage": 64
       },
       "groups": [
         {
@@ -26991,7 +26711,7 @@
       {
         "wineVintageId": "reserva-especial-2011-gonzalez-bya",
         "vintage": 2011,
-        "verdict": "Worth Revisiting",
+        "verdict": "Essential",
         "noteCount": 178,
         "isCurrent": true
       }
@@ -27228,28 +26948,24 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 11
+          "percentage": 12
         },
         {
           "verdict": "Essential",
-          "percentage": 23
+          "percentage": 25
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 34
+          "percentage": 37
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 24
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 8
+          "percentage": 26
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Worth Revisiting",
-        "percentage": 68
+        "percentage": 74
       },
       "groups": [
         {
@@ -27633,24 +27349,20 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 11
+          "percentage": 15
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 25
+          "percentage": 33
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 37
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 26
+          "percentage": 51
         }
       ],
       "verdictSummary": {
         "atOrAbove": "An Interesting Discovery",
-        "percentage": 74
+        "percentage": 100
       },
       "groups": [
         {
@@ -27992,15 +27704,11 @@
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 26
+          "percentage": 27
         },
         {
           "verdict": "An Interesting Discovery",
           "percentage": 9
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
@@ -28143,7 +27851,7 @@
       {
         "wineVintageId": "riesling-kabinett-2021-weingut-dr-l",
         "vintage": 2021,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 35
       }
     ],
@@ -28375,31 +28083,27 @@
     ],
     "register": {
       "noteCount": 35,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
-        },
-        {
-          "verdict": "Essential",
           "percentage": 10
         },
         {
-          "verdict": "Worth Revisiting",
+          "verdict": "Essential",
           "percentage": 25
         },
         {
-          "verdict": "An Interesting Discovery",
-          "percentage": 38
+          "verdict": "Worth Revisiting",
+          "percentage": 39
         },
         {
-          "verdict": "Not One I'd Revisit",
+          "verdict": "An Interesting Discovery",
           "percentage": 26
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
+        "atOrAbove": "Worth Revisiting",
         "percentage": 74
       },
       "groups": [
@@ -28573,7 +28277,7 @@
       {
         "wineVintageId": "riesling-kabinett-2021-weingut-dr-l",
         "vintage": 2021,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 35,
         "isCurrent": true
       }
@@ -28818,15 +28522,11 @@
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 26
+          "percentage": 27
         },
         {
           "verdict": "An Interesting Discovery",
           "percentage": 9
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
@@ -28985,7 +28685,7 @@
       {
         "wineVintageId": "grosses-gewachs-2014-schloss-joha",
         "vintage": 2014,
-        "verdict": "Essential",
+        "verdict": "Unforgettable",
         "noteCount": 529
       }
     ],
@@ -29217,32 +28917,28 @@
     ],
     "register": {
       "noteCount": 529,
-      "verdict": "Essential",
+      "verdict": "Unforgettable",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 24
+          "percentage": 49
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 33
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 25
+          "percentage": 17
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 1
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Essential",
-        "percentage": 61
+        "atOrAbove": "Unforgettable",
+        "percentage": 49
       },
       "groups": [
         {
@@ -29400,7 +29096,7 @@
       {
         "wineVintageId": "grosses-gewachs-2014-schloss-joha",
         "vintage": 2014,
-        "verdict": "Essential",
+        "verdict": "Unforgettable",
         "noteCount": 529,
         "isCurrent": true
       }
@@ -29625,31 +29321,27 @@
     "locked": [],
     "register": {
       "noteCount": 282,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
-        },
-        {
-          "verdict": "Essential",
           "percentage": 11
         },
         {
-          "verdict": "Worth Revisiting",
+          "verdict": "Essential",
           "percentage": 25
         },
         {
-          "verdict": "An Interesting Discovery",
-          "percentage": 37
+          "verdict": "Worth Revisiting",
+          "percentage": 38
         },
         {
-          "verdict": "Not One I'd Revisit",
+          "verdict": "An Interesting Discovery",
           "percentage": 26
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
+        "atOrAbove": "Worth Revisiting",
         "percentage": 74
       },
       "groups": [
@@ -30035,7 +29727,7 @@
     ],
     "register": {
       "noteCount": 897,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -30043,23 +29735,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
+          "percentage": 18
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 19
+          "percentage": 35
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 30
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 49
+          "percentage": 46
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -30400,32 +30088,28 @@
     ],
     "register": {
       "noteCount": 880,
-      "verdict": "Worth Revisiting",
+      "verdict": "Essential",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 9
+          "percentage": 24
         },
         {
           "verdict": "Essential",
-          "percentage": 22
+          "percentage": 39
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 35
+          "percentage": 25
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 23
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 11
+          "percentage": 12
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Worth Revisiting",
-        "percentage": 66
+        "atOrAbove": "Essential",
+        "percentage": 63
       },
       "groups": [
         {
@@ -30737,24 +30421,20 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 10
+          "percentage": 14
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 25
+          "percentage": 33
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 38
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 26
+          "percentage": 52
         }
       ],
       "verdictSummary": {
         "atOrAbove": "An Interesting Discovery",
-        "percentage": 74
+        "percentage": 100
       },
       "groups": [
         {
@@ -31073,7 +30753,7 @@
     ],
     "register": {
       "noteCount": 157,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -31081,23 +30761,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
-        },
-        {
-          "verdict": "Worth Revisiting",
           "percentage": 16
         },
         {
-          "verdict": "An Interesting Discovery",
+          "verdict": "Worth Revisiting",
           "percentage": 33
         },
         {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 49
+          "verdict": "An Interesting Discovery",
+          "percentage": 50
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -31401,7 +31077,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 48
+          "percentage": 49
         },
         {
           "verdict": "Essential",
@@ -31414,15 +31090,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 48
+        "percentage": 49
       },
       "groups": [
         {
@@ -31734,24 +31406,20 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 14
+          "percentage": 18
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 27
-        },
-        {
-          "verdict": "An Interesting Discovery",
           "percentage": 35
         },
         {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 23
+          "verdict": "An Interesting Discovery",
+          "percentage": 46
         }
       ],
       "verdictSummary": {
         "atOrAbove": "An Interesting Discovery",
-        "percentage": 77
+        "percentage": 100
       },
       "groups": [
         {
@@ -32065,32 +31733,28 @@
     ],
     "register": {
       "noteCount": 80,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
+          "percentage": 13
         },
         {
           "verdict": "Essential",
-          "percentage": 14
+          "percentage": 26
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 27
+          "percentage": 39
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 35
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 23
+          "percentage": 22
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
-        "percentage": 77
+        "atOrAbove": "Worth Revisiting",
+        "percentage": 78
       },
       "groups": [
         {
@@ -32231,7 +31895,7 @@
       {
         "wineVintageId": "russian-river-chardonnay-2017-ridge-vineya",
         "vintage": 2017,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 80,
         "isCurrent": true
       },
@@ -32470,7 +32134,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 38
         },
         {
           "verdict": "Worth Revisiting",
@@ -32479,15 +32143,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 61
+        "percentage": 62
       },
       "groups": [
         {
@@ -32643,7 +32303,7 @@
       {
         "wineVintageId": "russian-river-chardonnay-2017-ridge-vineya",
         "vintage": 2017,
-        "verdict": "An Interesting Discovery",
+        "verdict": "Worth Revisiting",
         "noteCount": 80
       },
       {
@@ -32844,24 +32504,20 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 11
+          "percentage": 15
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 25
+          "percentage": 33
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 37
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 26
+          "percentage": 51
         }
       ],
       "verdictSummary": {
         "atOrAbove": "An Interesting Discovery",
-        "percentage": 74
+        "percentage": 100
       },
       "groups": [
         {
@@ -33160,7 +32816,7 @@
     ],
     "register": {
       "noteCount": 666,
-      "verdict": "Not One I'd Revisit",
+      "verdict": "An Interesting Discovery",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
@@ -33168,23 +32824,19 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 1
-        },
-        {
-          "verdict": "Worth Revisiting",
           "percentage": 15
         },
         {
-          "verdict": "An Interesting Discovery",
+          "verdict": "Worth Revisiting",
           "percentage": 33
         },
         {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 50
+          "verdict": "An Interesting Discovery",
+          "percentage": 51
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "Not One I'd Revisit",
+        "atOrAbove": "An Interesting Discovery",
         "percentage": 100
       },
       "groups": [
@@ -33538,7 +33190,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 37
+          "percentage": 38
         },
         {
           "verdict": "Worth Revisiting",
@@ -33547,15 +33199,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 13
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Essential",
-        "percentage": 61
+        "percentage": 62
       },
       "groups": [
         {
@@ -33909,7 +33557,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 51
+          "percentage": 52
         },
         {
           "verdict": "Essential",
@@ -33922,15 +33570,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 51
+        "percentage": 52
       },
       "groups": [
         {
@@ -34282,32 +33926,28 @@
     "locked": [],
     "register": {
       "noteCount": 409,
-      "verdict": "An Interesting Discovery",
+      "verdict": "Worth Revisiting",
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 1
+          "percentage": 13
         },
         {
           "verdict": "Essential",
-          "percentage": 14
+          "percentage": 26
         },
         {
           "verdict": "Worth Revisiting",
-          "percentage": 27
+          "percentage": 39
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 35
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 23
+          "percentage": 22
         }
       ],
       "verdictSummary": {
-        "atOrAbove": "An Interesting Discovery",
-        "percentage": 77
+        "atOrAbove": "Worth Revisiting",
+        "percentage": 78
       },
       "groups": [
         {
@@ -34687,7 +34327,7 @@
         },
         {
           "verdict": "Essential",
-          "percentage": 30
+          "percentage": 31
         },
         {
           "verdict": "Worth Revisiting",
@@ -34695,10 +34335,6 @@
         },
         {
           "verdict": "An Interesting Discovery",
-          "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
           "percentage": 1
         }
       ],
@@ -35075,7 +34711,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 48
+          "percentage": 49
         },
         {
           "verdict": "Essential",
@@ -35088,15 +34724,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 48
+        "percentage": 49
       },
       "groups": [
         {
@@ -35462,7 +35094,7 @@
       "verdictDistribution": [
         {
           "verdict": "Unforgettable",
-          "percentage": 51
+          "percentage": 52
         },
         {
           "verdict": "Essential",
@@ -35475,15 +35107,11 @@
         {
           "verdict": "An Interesting Discovery",
           "percentage": 1
-        },
-        {
-          "verdict": "Not One I'd Revisit",
-          "percentage": 1
         }
       ],
       "verdictSummary": {
         "atOrAbove": "Unforgettable",
-        "percentage": 51
+        "percentage": 52
       },
       "groups": [
         {

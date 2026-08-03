@@ -37,34 +37,51 @@ const SRC = new URL("../src/", import.meta.url).pathname;
  *      vocabulary and no carrier. Below the carriers rather than beside them,
  *      because every folder's doubles read it and it reads none of them — the
  *      same arrow the rest of this map enforces, just starting lower.
- *  0 — the carriers. HOW a string travels: canonical, chrome, negotiated, a
- *      measurement, a year range. More primitive than any vocabulary, because
- *      everything with a name needs a way to carry it — including a verdict
- *      word and a claimant's name.
- *  1 — the vocabularies. Closed value sets the whole system agrees on.
+ *  0 — the carriers. HOW a value travels: canonical, chrome, negotiated, a
+ *      measurement, a year range, an image with its alt text. More primitive
+ *      than any vocabulary, because everything with a name needs a way to carry
+ *      it — including a verdict word and a claimant's name.
+ *  1 — the vocabularies, and `media`. Closed value sets the whole system agrees
+ *      on. `media` is a carrier too and would sit at 0 with `text`, except that
+ *      an image's alt text is PROSE — it is `NegotiatedText`, written by a
+ *      person in a language — so media is built out of a carrier rather than
+ *      being one from scratch, and the arrow has to point somewhere. `vocabulary`
+ *      became a folder here in 7.0; it had been living inside `catalog`, which
+ *      made the aroma and scale keys unreachable from `social` without one
+ *      feature importing a peer — and a member's NOTE is where those keys are
+ *      answered. A vocabulary that only the aggregate could name was a vocabulary
+ *      nobody could write to.
  *  2 — the features. Each owns one domain's contracts and the composition of
  *      them.
- *  3 — the composers. A folder whose own contracts are assembled OUT OF another
- *      feature's, rather than out of a vocabulary alone. Discover is the broad
- *      case — it exists to assemble many. Cellar is the narrow one: a holding is
- *      the member's own facts joined onto one catalogue wine, so it reads
- *      `catalog` and nothing reads it. Both sit above what they read, which is
- *      what keeps the arrow from ever pointing sideways.
+ *  3+ — the composers. A folder whose own contracts are assembled OUT OF another
+ *      feature's, rather than out of a vocabulary alone. They stack, so each one
+ *      sits above everything it reads:
+ *        3 · cellar — a holding is the member's own facts joined onto one
+ *            catalogue wine, so it reads `catalog` and nothing reads it.
+ *        3 · editorial — an event piece EMBEDS the events-domain event rather
+ *            than restating its clock and its capacity. One dinner, two surfaces.
+ *        4 · contributions — the corpus union: notes, writing and attendance in
+ *            one chronological stream, so it reads all three.
+ *        5 · discover — the broadest, and now the highest: it assembles the
+ *            others and the ledger they compose.
  */
 const LAYERS = {
   "test-doubles": -1,
   text: 0,
+  media: 1,
   money: 1,
   trust: 1,
   provenance: 1,
+  vocabulary: 1,
   catalog: 2,
   search: 2,
-  editorial: 2,
   events: 2,
   member: 2,
   social: 2,
   cellar: 3,
-  discover: 3
+  editorial: 3,
+  contributions: 4,
+  discover: 5
 };
 
 function sourceFiles(dir) {

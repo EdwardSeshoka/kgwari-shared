@@ -20,7 +20,25 @@ export const TASTING_SCALES = {
   tannin: ["tasting.low", "", "tasting.medium", "", "tasting.high"],
   acidity: ["tasting.low", "", "tasting.medium", "", "tasting.high"],
   body: ["tasting.light", "", "tasting.medium", "", "tasting.full"],
-  finish: ["tasting.short", "", "tasting.medium", "", "tasting.long"]
+  finish: ["tasting.short", "", "tasting.medium", "", "tasting.long"],
+  /**
+   * Bone dry → luscious. An axis the capture design has always offered and the
+   * register could never report, because the metric did not exist here: a member
+   * answering "off-dry" had nowhere to put it, and a Chenin's whole argument is
+   * on this scale.
+   */
+  sweetness: ["tasting.boneDry", "", "tasting.offDry", "", "tasting.luscious"],
+  /**
+   * How much the glass gives before it is tasted. Belongs to the nose movement
+   * of the register, and is the one reading a member can take without swallowing.
+   */
+  noseIntensity: ["tasting.muted", "", "tasting.medium", "", "tasting.pronounced"],
+  /**
+   * How deep the colour reads. Separate from {@link COLOUR_READINGS}, which names
+   * WHICH colour it is — depth is an intensity and a garnet can be pale or opaque
+   * without becoming a different colour.
+   */
+  colourDepth: ["tasting.pale", "", "tasting.medium", "", "tasting.deep"]
 } as const satisfies Readonly<Record<string, readonly [string, string, string, string, string]>>;
 
 export type TastingMetricKey = keyof typeof TASTING_SCALES;

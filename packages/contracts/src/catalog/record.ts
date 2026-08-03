@@ -48,9 +48,10 @@ import type {
   RecordFieldKey,
   RecordGroupKey,
   RecordRoleKey
-} from "./vocabulary/index.js";
+} from "../vocabulary/index.js";
 import type { WineRegisterContract } from "./register.js";
 import type { ClaimantAvailabilityContract } from "./availability.js";
+import type { MarketPriceContract } from "./pricing.js";
 
 /**
  * Who supplied one value. Named specifically rather than lumped into "verified"
@@ -144,6 +145,32 @@ export type FieldVerificationContract = {
 };
 
 /**
+ * The piece of writing that established a value — the record's end of the
+ * editorial reverse index.
+ *
+ * A row could always name its SOURCE ("estate"), which says who supplied a fact
+ * but not where it was said. When an estate publishes *Fourteen clones, one
+ * rootstock* and that piece is what settles the clonal selection, the row should
+ * cite it: "answered by *Fourteen clones, one rootstock*" is a fact a reader can
+ * follow, and a bare Estate tag is one they cannot.
+ *
+ * A REF, not the piece. The title rides along so a row renders without a second
+ * fetch; the id is what a client navigates on. See
+ * {@link ../editorial!EditorialClaimAnswerContract}, which is the other end and
+ * the side that is actually authored — this is projected from it, never written
+ * independently, so a record cannot cite a piece that does not claim it.
+ */
+export type EditorialAnswerRefContract = {
+  editorialId: string;
+  /**
+   * The piece's title, for the citation line. Prose, so it carries the language
+   * it was written in — a citation served in English to an Afrikaans reader
+   * should say so rather than imply the piece was translated.
+   */
+  title: NegotiatedText;
+};
+
+/**
  * One row of the record.
  *
  * Modelled as a row with a `kind` rather than an optional property on a flat
@@ -174,6 +201,15 @@ export type RecordFieldContract = {
   source?: FieldSourceContract;
   /** The specific instance of the source — a certificate number, a database name. */
   sourceRef?: CanonicalText;
+  /**
+   * The piece of writing that answered this row, when one did.
+   *
+   * Sits BESIDE `source` rather than replacing it: the source says an estate
+   * supplied the fact, this says where the estate said it. Most rows have no
+   * such piece and are none the worse for it — a value matched from Wine of
+   * Origin was never written about.
+   */
+  answeredBy?: EditorialAnswerRefContract;
   kind: RecordFieldKind;
   /**
    * Present on `reference` rows, which are the only ones a member may argue
@@ -322,6 +358,22 @@ export type WineRecordContract = {
 
   /** Price and how to ask for the bottle. Present only when a claim is. */
   availability?: ClaimantAvailabilityContract;
+
+  /**
+   * What the room paid — the market band, per currency.
+   *
+   * Beside `availability` and emphatically not part of it. That block is ONE
+   * claimant's asking price and exists only when somebody has claimed the
+   * record; this is drawn from members' own recorded purchases and exists on
+   * community records too — which is where a reader has nothing else to judge a
+   * shelf price against. A record can carry both, and when it does the two
+   * disagreeing is a fact worth seeing rather than a bug.
+   *
+   * Absent when the server computed no band in any currency. See
+   * {@link MarketPriceContract} for why a thin sample is withheld rather than
+   * published, and why nothing here can be traced to a member.
+   */
+  marketPrice?: MarketPriceContract;
 
   /**
    * The same label across vintages, each with its own verdict and weight. Uses

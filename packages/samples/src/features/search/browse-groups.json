@@ -87,7 +87,7 @@
           "source": "chrome",
           "key": "Unforgettable"
         },
-        "count": 22,
+        "count": 25,
         "query": "Unforgettable"
       },
       {
@@ -96,7 +96,7 @@
           "source": "chrome",
           "key": "Essential"
         },
-        "count": 24,
+        "count": 27,
         "query": "Essential"
       },
       {
@@ -105,7 +105,7 @@
           "source": "chrome",
           "key": "Worth Revisiting"
         },
-        "count": 16,
+        "count": 22,
         "query": "Worth Revisiting"
       },
       {
@@ -114,17 +114,8 @@
           "source": "chrome",
           "key": "An Interesting Discovery"
         },
-        "count": 18,
+        "count": 19,
         "query": "An Interesting Discovery"
-      },
-      {
-        "id": "not-one-i-d-revisit",
-        "label": {
-          "source": "chrome",
-          "key": "Not One I'd Revisit"
-        },
-        "count": 13,
-        "query": "Not One I'd Revisit"
       }
     ]
   },
