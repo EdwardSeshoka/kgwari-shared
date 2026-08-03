@@ -1,5 +1,354 @@
 # @edwardseshoka/fixtures
 
+## 12.0.0
+
+### Major Changes
+
+- 49b510b: feat(samples)!: seeds for the settled surfaces
+
+  The contracts for the Masthead, the Note and the Editorial detail shipped with
+  nothing to render them. This is the seed half.
+
+  ## The check was green and the seeds were stale
+
+  `npm run check:seeds` compared generator output against committed files and
+  reported "up to date" — while `editorial.json`, `tasting-notes.json` and
+  `discover-response.json` were **hand-maintained and outside the check
+  entirely**. It is a consistency check, not a coverage one, and it could not see
+  that editorial sat on three content types long after six more shipped, or that
+  the note fixture was two rows carrying no structured reading at all.
+
+  Editorial and the notes are now generated, which brings them under `--check`.
+  The prose stays curated — generated sentences would be worse than none, and a
+  fixture nobody wants to read is a fixture nobody checks — so the hand-written
+  sources live in `generator/orig-*.json` beside the curated wines and events.
+  Only the JOIN is computed.
+
+  ## What the seeds now carry
+
+  **Tasting notes: 2 → 509, with readings.** The register could report scale means,
+  aroma mentions and colour readings, and nothing in the corpus had ever produced
+  one — the aggregate could only be seeded, never derived, and the capture screen
+  the readings were designed for had no data. Notes now answer all seven scales
+  (including the three added in 7.0), name aromas from the pool their wine's colour
+  allows, take a colour and a rim reading, record a pour, and about one in twenty
+  reports a real fault. **A faulted note carries no verdict**, which is the
+  invariant stated the other way round: a fault never counts against the wine's
+  record. Roughly one in eight is private, so consumers meet a note that aggregates
+  without appearing.
+
+  **Events: the v2 fields.** `endDateTime`, the venue's IANA `timezone`, a
+  structured `venue` with its room, `languages`, `admission`, `capacity`/`taken`
+  with `seatsAvailable` derived from them rather than generated beside them,
+  `panel`, `lifecycle`, `booking`, `recap` on past evenings, `notesFiled` and
+  `saveCount`. Curated events are enriched too — the curated-first rule protects
+  IDS, not field sets, and the one event an editorial piece embeds should not be
+  the one event with no lifecycle.
+
+  **Editorial: cards derived from pieces.** Five detail pieces covering `article`,
+  `event`, `cause`, `offer` and `season` — with per-claim sources, an `unanswered`
+  column using all three reasons, per-market offers including one absent with a
+  stated reason, and claims that answer real wine-record rows through
+  `claims[].answers[]`. The event piece **embeds the events-domain event**,
+  resolved against the event seed: an `eventId` that resolves to nothing is now a
+  build failure rather than a quietly absent block. Cards are derived from pieces,
+  so a card cannot advertise something its piece no longer says.
+
+  **`createDiscover()` is the v2 page.** A member's note as the lede, chosen by
+  save count; the Latest ledger interleaving notes, pieces and attendance in one
+  chronological run; "from your cellar tonight"; and the room's standing record.
+  The v1 doorways and room feed are carried through verbatim — the brief lists
+  ADDITIONS, and dropping "Find your way in" would be a design decision taken by a
+  generator.
+
+  It briefly shipped as a second fixture beside the v1 snapshot. That was the wrong
+  shape to leave behind: two discover payloads is two answers to one question, and
+  a reader gets whichever they find first.
+
+  ## The register is now counted, not invented
+
+  The reconciliation the previous pass left undone. A record claimed 1,480 notes,
+  the corpus held two, and the register in between was synthesised from the claim —
+  so the fixture's aggregate could not be checked against anything, and the
+  fault-exclusion rule had no rows to demonstrate itself on.
+
+  Now `buildRecords` derives every register from the note corpus and
+  `applyNoteCounts` writes the tally back onto the wine. `wine.noteCount` is a
+  COUNT of the note file rather than a number beside it, and `wine.verdict` is the
+  one its own notes voted for — a wine nobody has judged has none, because the
+  verdict comes from members. The totals fell by two orders of magnitude, which is
+  the correction rather than a regression: the old ones were never counting
+  anything.
+
+  The corpus is a long tail — one flagship at 120 notes, a few at 40-60, most at
+  one or two, a quarter with none — because a register is meant to look different
+  at one note, at forty and at a hundred and twenty, and a corpus with the same
+  depth everywhere can only demonstrate one of those. It now carries a dense
+  register, a thin one, an empty one, single-reading metrics that name their lone
+  reader, and the one disagreement section thick enough to open.
+
+  **The fault rule is now arithmetic.** 509 notes, 19 faulted, and the registers
+  sum to exactly 490 — asserted across the whole corpus rather than asserted about
+  one row.
+
+  ## Two bugs the fixture had been shipping
+
+  `eventType` was drawn from a list containing `"masterclass"` — a value
+  `WineEventType` has never had — while omitting `"launch"`, which it has. And the
+  register's aroma TIER was assigned by position (`i < 3` primary, `i < 5`
+  secondary), so a wine's third-most-mentioned aroma was primary by arithmetic and
+  `aroma.curedMeat` could be reported as fruit. Tier is a property of the aroma and
+  is now declared as one. Nothing caught either, because every seed is CAST to its
+  contract rather than checked against it. Fixed, and `SamplesTests/SeedConformance.test.js` now keeps the promise the
+  casts make: legal enum members, closed-vocabulary keys drawn from their own
+  vocabulary, seats equal to capacity minus taken, no booking on an evening that is
+  off or already over, a recap dated after its own event, and the deprecated flat
+  venue fields equal to the structured block.
+
+  ## Breaking
+
+  Requires `@edwardseshoka/contracts@^7.0.0`. `socialSamples.tastingNotes` grows
+  from 2 rows to 509 and `editorialSamples` gains `details`, so any consumer
+  asserting on fixture LENGTH rather than shape will need updating.
+
+  **Every `noteCount` in the catalogue changed**, because it is now a count rather
+  than a claim — a fixture asserting on a specific one will need rereading. So did
+  `createDiscover()`, which is the v2 page: a consumer expecting a wine hero and
+  five sections gets a note hero and eight.
+
+  Every seed id referenced from outside the generator is unchanged — verified
+  against the previous output, all 328 corpus rows and 55 activity ids byte-identical.
+
+- 49b510b: feat(collections): one record, four nouns — shelves and itineraries on Discover
+
+  Discover has shipped a doorway targeting `collection_cape_bordeaux` since before
+  collections existed, and nothing resolved it — no contract, no store, no
+  endpoint. The `collections` folder is the room behind that door, built to the
+  collection taxonomy rather than to the ledger's guess at it.
+
+  ## The taxonomy, as contracts
+
+  Two axes make the type. **Membership** — did someone enumerate the contents, or
+  does a rule decide them. **Author** — the member, or editorial. Four types come
+  out and only four:
+
+  |             | Enumerated                | Derived                                               |
+  | ----------- | ------------------------- | ----------------------------------------------------- |
+  | Member-made | **Shelf** · **Itinerary** | **Lens**                                              |
+  | Editorial   | **Selection**             | _(the catalogue by facet — browse, not a collection)_ |
+
+  "Collection" is the abstract base — `membership · author · subject · visibility`
+  — and it **stays in the code and leaves the interface**. The member never holds
+  the word; they hold four concrete nouns, and `shelf` is the one that translates
+  from real life.
+
+  `kind` is on the wire even though it is a function of the axes, for the reason
+  `SearchFacet` states in this same package: capability is the reader's question,
+  and deriving it from two other fields is a table every client would have to own.
+  `membership` is therefore NOT sent — two fields that must agree are two fields
+  that eventually will not.
+
+  ## Subject is a field, not a type
+
+  `subject: "wines" | "estates"`. That is the whole economy of it — "a collection
+  of estates" needs no new concept, only a better noun, because _shelf of estates_
+  is nonsense. Regions and vintages are absent on purpose: a region is a facet, so
+  "Swartland + Piekenierskloof" is a RULE over wines and lands in `lens`, correctly
+  losing ordering and publishing on the way.
+
+  **There is no mixed subject, and the preview strip is where that is enforced.**
+  `CollectionPreviewItemContract` carries an id, a caption and maybe an image, and
+  **no kind of its own** — the collection's `subject` says what its contents are.
+  A mixed collection is therefore inexpressible rather than merely discouraged.
+  Wines and stories and evenings together is the SAVE mechanism: different verb,
+  different object, and letting a shelf hold a story collapses the two one-way.
+
+  The subject also does display work — it decides what a cover is made of
+  (overlapping labels, or monogram plates for estates) and what the sub-line
+  counts. Which is why there is no separate `wineCount`: a collection has exactly
+  one subject and cannot be part one thing and part another.
+
+  ## A lens can never be published, and the type says so
+
+  `PublishedCollectionContract` is `CollectionContract` with `lens` excluded, and
+  both Discover bands carry it. **A published thing's contents are only ever
+  changed by a person** — a published lens would keep changing after publication
+  without its author touching it, so a stranger following it and the member whose
+  name is on it would both be looking at something neither has seen.
+
+  The way there is to FREEZE the lens: the rule runs once, the result is
+  enumerated, and the rule is discarded (a wines lens yields a Shelf, an estates
+  lens an Itinerary). One-directional, with the rule surviving only as inert
+  provenance — keep it attached and somebody asks for "refresh from rule", which
+  rebuilds a live rule inside a shelf and is exactly the cycle the invariant
+  forbids.
+
+  So "no lens in a feed" is not a policy a server remembers to apply. It is a shape
+  a producer cannot construct.
+
+  ## Two Discover bands, cut by subject
+
+  `DiscoverSection` gains `shelves` and `itineraries`, both carrying
+  `PublishedCollectionContract[]`. A section type on this screen selects a
+  TREATMENT, and the treatment follows the subject — so a Shelf and a Selection
+  share the `shelves` band (same subject, same cover, same sub-line; what tells
+  them apart is the byline) while estates get their own.
+
+  This does not undo the trust model's merge of regions and collections into "Find
+  your way in". That merged the ENTRANCES: a doorway's contents come from a query,
+  and a region has its wines whether or not anybody arranged them. These were
+  enumerated by a person and are derivable from nothing — which is why the card
+  shows what is inside where a doorway shows a photo and a promise.
+
+  ## Also
+
+  - **`visibility` is not on the wire.** A card that reaches a reader has already
+    passed the gate. A member's own index needs private rows and therefore needs a
+    member-scoped contract, exactly as `CellarTonightRowContract` is member-scoped
+    — it does not need this one loosened.
+  - **No `items`.** The card carries a strip; the ordered list belongs to the
+    collection's own endpoint, which does not exist yet.
+  - **No frozen-from provenance.** Real, and owed — but it belongs to the cellar's
+    sheet where a member reads it, and inventing its shape from the card's side
+    would repeat the mistake this taxonomy just corrected.
+  - **`SavableKind` gained `collection` and `producer`.** Following a collection IS
+    saving it — no separate follow model, because a list you follow stays live the
+    way a saved live unit does. `producer` is what the "Estates you follow" lens is
+    derived from.
+  - **`ContributionKind` still has no `collection`**, and the doc comment now says
+    why the reason changed: the taxonomy has landed, so what remains open is a
+    LEDGER question — whether publishing a list is a contribution the way a note or
+    a story is. That is a decision, not a hunch, and adding the kind on a hunch is
+    a major to remove.
+
+  ## Tests
+
+  `Collections/CollectionCard` asserts what a type cannot — mostly absences. That
+  no published double carries `visibility` or `items`; that a preview entry carries
+  no kind, so mixing is unwritable; that no card carries a second count; that an
+  itinerary supplies no artwork (an estate has no label, and a fixture that handed
+  it one would ship the monogram path untested); that a lens is unfollowable; and
+  that editorial's byline is a name with no mark.
+
+  ## Samples — BREAKING
+
+  **The curation gained two sections**, `collection_shelves` and
+  `collection_itineraries`, referencing the collections pool rather than inlining
+  their content the way doorways do: a doorway has no life outside the plan, a
+  collection has an author who edits it, and an inlined copy would still say nine
+  bottles the day a tenth arrived. **A backend reading this curation must learn
+  both section types before it can parse the document at all** — that is the major.
+
+  Five collections seed them — two Shelves, one Selection, two Itineraries, and no
+  Lens, because a lens is nobody's to render. The collector-authored
+  `collection_cape_bordeaux` is the instructive one: it exists so the curation's
+  long-dangling doorway finally resolves, and it is deliberately in **neither**
+  band. The house pointing a doorway at one specific list is editorial judgement; a
+  band filling itself is reach, and only the second is a tiered capability.
+
+  `SamplesTests/Collections` resolves every strip entry against the pool its
+  SUBJECT names — which is what catches a miscast collection, the failure the
+  taxonomy was written to prevent.
+
+- 49b510b: feat(contracts)!: the lens, the pushed landings, and lists in the ledger
+
+  The Masthead v2 and The Lens sheets moved a few things around. Most of it the
+  collections work already carried — the CollectionRow's anatomy, both chapters,
+  the event row's two verbs, the day rules. Three things did not fit.
+
+  ## The lens mechanism — new, and shared
+
+  Four landings need a chip row with per-lens counts, and nothing carried one.
+  `ContributionCountContract` counts contribution KINDS for the Profile's writing
+  stream; it is not a lens.
+
+  `lenses` is a layer-1 folder because this is ONE mechanism used in several
+  places — the Cellar's lenses, the Profile's chips, and all four pushed landings
+  — and a second copy of "all" is a second translation of the same word. The
+  vocabularies are per list, because a diary is asked WHEN and an archive is asked
+  WHO; the two collection landings are asked WHO in the SAME four words, which is
+  evidence they are one record with two subjects rather than a coincidence to tidy
+  away. There is deliberately no region lens anywhere: geography belongs to the
+  doorways, where the contents come from a query.
+
+  **The counts are on the wire because a client cannot compute them.** Not merely
+  should not — cannot: the authorship lenses have to tell the house's lists from a
+  member's, and a byline gives no structural way to do it. Kgwari is
+  `{ name: "Kgwari" }` with no tier, and a member byline with no `status` is the
+  same shape. Bucketing on the literal string "Kgwari" is worse than not bucketing
+  at all.
+
+  Two rules are enforced by construction rather than remembered: a lens with
+  nothing in it is never offered, and **a row where nothing NARROWS is sent
+  empty**. The second is subtler than "no lone All" — when only the house has
+  published, "All" and "Kgwari" select the same rows, and a second chip that
+  changes nothing is as useless as a first one that does. The first implementation
+  got this wrong by checking chip count; the test caught it, in both repos.
+
+  ## Lists in the ledger
+
+  `ContributionKind` gains `collection`. It had been parked twice — first for the
+  taxonomy, then pending a decision about whether publishing a list is a
+  contribution in the way a note is. The Latest design answers it: the ledger is
+  cut to carry every kind, and a fixture exercising only notes ships its other
+  branches untested.
+
+  **One `collection` kind, not `shelf` and `itinerary`.** The design's rule is
+  about the rendered MARK, and `collection.kind` supplies it. Splitting the
+  discriminant would make this the only place in the union where the abstract type
+  does not carry its own noun — `editorial` already works exactly this way, with
+  `contentType` naming article or story — and would need a third member the day a
+  Selection is published, which the ledger requires, since the house's lists sort
+  by date beside everyone else's. The payload is `PublishedCollectionContract`, so
+  a Lens cannot reach a dated stream at all.
+
+  ## The chapter push
+
+  `DiscoverSection` gains `link?: DiscoverChapterLinkContract` on the four types
+  that have a landing. This was previously called navigation and left off the wire;
+  the design makes it a server fact, because **a chapter that already shows
+  everything it is about carries no link** — "From your cellar" is the standing
+  example — and only the server knows whether a section was truncated.
+
+  ## Endpoints
+
+  `ListCollectionsRequest`/`Response` (one endpoint, two subjects),
+  `ListEventsRequest`/`Response` for the calendar, and
+  `ListEditorialRequest`/`Response` for the archive. All three carry the lens row.
+
+  ## Seeds
+
+  `collections.json` was hand-maintained and outside `--check`, the same gap
+  editorial and the notes had; it is generated now. Five rows also could not
+  exercise an authorship lens — three chips of one or two cannot tell a working
+  filter from a broken one — so the corpus grew to fifteen across the three
+  buckets, and the four landings ship as fixtures: `shelvesLanding`,
+  `itinerariesLanding`, `calendarLanding`, `archiveLanding`.
+
+  The Masthead's chapters carry their pushes, its ledger carries collection rows,
+  and the two collection chapters are dealt APART with the article between them —
+  three index-row chapters set adjacently read as one long undifferentiated list
+  however carefully each is set.
+
+  Two bugs fixed while wiring it: route stops named estates the catalogue does not
+  carry, and previews that were a census of their own list rather than a handful.
+
+  ## Backend
+
+  A new `collections` feature (entities and mappers), the lens row in
+  `core/domain` with its rules and its own tests, the two chapters and the chapter
+  link on `DiscoverGroup`, and the ledger's collection branch. Compiles against
+  7.0 and passes 507/507.
+
+  `composeDiscover` still emits the v1 funnel. The types, the mappers and the hero
+  branch are ready, so that stays a composition problem rather than a plumbing one.
+
+### Patch Changes
+
+- Updated dependencies [49b510b]
+- Updated dependencies [49b510b]
+  - @edwardseshoka/contracts@8.0.0
+
 ## 11.0.0
 
 ### Major Changes
