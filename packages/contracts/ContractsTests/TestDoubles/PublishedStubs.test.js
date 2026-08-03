@@ -3,10 +3,12 @@ import { describe, it } from "node:test";
 
 import * as catalog from "../../dist/catalog/test-doubles/index.js";
 import * as cellar from "../../dist/cellar/test-doubles/index.js";
+import * as collections from "../../dist/collections/test-doubles/index.js";
 import * as contributions from "../../dist/contributions/test-doubles/index.js";
 import * as discover from "../../dist/discover/test-doubles/index.js";
 import * as editorial from "../../dist/editorial/test-doubles/index.js";
 import * as events from "../../dist/events/test-doubles/index.js";
+import * as lenses from "../../dist/lenses/test-doubles/index.js";
 import * as media from "../../dist/media/test-doubles/index.js";
 import * as member from "../../dist/member/test-doubles/index.js";
 import * as money from "../../dist/money/test-doubles/index.js";
@@ -33,10 +35,12 @@ import * as trust from "../../dist/trust/test-doubles/index.js";
 const BARRELS = {
   catalog,
   cellar,
+  collections,
   contributions,
   discover,
   editorial,
   events,
+  lenses,
   media,
   member,
   money,
@@ -238,6 +242,26 @@ describe("the doubles for the contracts added in 7.0", () => {
       assert.equal(typeof row.activityCount, "number");
       assert.ok(row.activityCount < 100);
       assert.equal(quiet.mostOpened, undefined, "a quiet night has no most-opened wine");
+    }
+  );
+
+  it(
+    "puts a published list in the ledger, marked by its concrete noun",
+    function givenACollectionRow_whenRead_thenItsMarkComesFromTheCollectionKind() {
+      // Given: the ledger is cut to carry every kind, and the mark names the
+      // concrete noun — shelf, itinerary, selection — never "collection", which
+      // is the abstract base type and would leak first here, because a ledger is
+      // where every kind meets.
+      const row = contributions.ContributionContract.StubFactory.makeCollection();
+      const house = contributions.ContributionContract.StubFactory.makeHouseCollection();
+
+      assert.equal(row.kind, "collection");
+      assert.ok(["shelf", "itinerary", "selection"].includes(row.collection.kind));
+      // A Lens is derived and can never be published, so it cannot reach a dated
+      // stream at all — a shape a producer cannot construct, not a filter.
+      assert.notEqual(row.collection.kind, "lens");
+      assert.equal(house.collection.kind, "selection");
+      assert.equal(house.author.tier, undefined, "the house carries a name and no mark");
     }
   );
 

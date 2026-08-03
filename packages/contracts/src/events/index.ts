@@ -5,5 +5,6 @@ export * from "./eventType.js";
 export * from "./lifecycle.js";
 export * from "./panellist.js";
 export * from "./recap.js";
+export * from "./requests.js";
 export * from "./subject.js";
 export * from "./venue.js";

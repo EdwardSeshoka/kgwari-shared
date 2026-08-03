@@ -68,7 +68,7 @@
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 1480,
+    "noteCount": 121,
     "cellarCount": 2664,
     "saveCount": 4943
   },
@@ -126,7 +126,7 @@
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 1280,
+    "noteCount": 1,
     "cellarCount": 2074,
     "saveCount": 4851
   },
@@ -174,7 +174,7 @@
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 172,
+    "noteCount": 6,
     "cellarCount": 280,
     "saveCount": 671
   },
@@ -217,7 +217,7 @@
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 980,
+    "noteCount": 3,
     "cellarCount": 1490,
     "saveCount": 3430
   },
@@ -248,7 +248,7 @@
       "name": "Community knowledge",
       "role": "640 member notes"
     },
-    "noteCount": 640,
+    "noteCount": 2,
     "cellarCount": 1120,
     "saveCount": 2451
   },
@@ -279,7 +279,7 @@
       "name": "Community knowledge",
       "role": "520 member notes"
     },
-    "noteCount": 520,
+    "noteCount": 1,
     "cellarCount": 806,
     "saveCount": 1960
   },
@@ -319,7 +319,7 @@
       "tier": "distributor",
       "role": "distributor"
     },
-    "noteCount": 43,
+    "noteCount": 1,
     "cellarCount": 63,
     "saveCount": 163
   },
@@ -344,13 +344,13 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
+    "verdict": "Essential",
     "provenance": "community",
     "source": {
       "name": "Community knowledge",
       "role": "120 member notes"
     },
-    "noteCount": 120,
+    "noteCount": 2,
     "cellarCount": 170,
     "saveCount": 450
   },
@@ -390,7 +390,7 @@
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 219,
+    "noteCount": 5,
     "cellarCount": 337,
     "saveCount": 701
   },
@@ -415,13 +415,13 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
+    "verdict": "An Interesting Discovery",
     "provenance": "community",
     "source": {
       "name": "Community knowledge",
       "role": "38 member notes"
     },
-    "noteCount": 38,
+    "noteCount": 3,
     "cellarCount": 56,
     "saveCount": 138
   },
@@ -477,7 +477,7 @@
       "tier": "distributor",
       "role": "distributor"
     },
-    "noteCount": 64,
+    "noteCount": 9,
     "cellarCount": 96,
     "saveCount": 206
   },
@@ -513,7 +513,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -528,7 +527,7 @@
       "tier": "distributor",
       "role": "distributor"
     },
-    "noteCount": 51,
+    "noteCount": 0,
     "cellarCount": 83,
     "saveCount": 159
   },
@@ -569,13 +568,13 @@
       "currency": "USD"
     },
     "isFeatured": false,
-    "verdict": "Essential",
+    "verdict": "Unforgettable",
     "provenance": "community",
     "source": {
       "name": "Community knowledge",
       "role": "88 member notes"
     },
-    "noteCount": 88,
+    "noteCount": 1,
     "cellarCount": 154,
     "saveCount": 341
   },
@@ -610,7 +609,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -625,7 +623,7 @@
       "tier": "distributor",
       "role": "distributor"
     },
-    "noteCount": 37,
+    "noteCount": 0,
     "cellarCount": 53,
     "saveCount": 136
   },
@@ -675,7 +673,7 @@
       "producerId": "estate_meerlust-estate",
       "claimedAt": "2025-06-12T00:00:00.000Z"
     },
-    "noteCount": 420,
+    "noteCount": 2,
     "cellarCount": 613,
     "saveCount": 1277
   },
@@ -725,7 +723,7 @@
       "producerId": "estate_kanonkop-estate",
       "claimedAt": "2025-02-04T00:00:00.000Z"
     },
-    "noteCount": 872,
+    "noteCount": 7,
     "cellarCount": 1482,
     "saveCount": 2947
   },
@@ -774,7 +772,7 @@
       },
       "claimedAt": "2026-11-23T00:00:00.000Z"
     },
-    "noteCount": 118,
+    "noteCount": 49,
     "cellarCount": 165,
     "saveCount": 388
   },
@@ -823,7 +821,7 @@
       },
       "claimedAt": "2026-09-09T00:00:00.000Z"
     },
-    "noteCount": 862,
+    "noteCount": 6,
     "cellarCount": 1215,
     "saveCount": 3310
   },
@@ -873,7 +871,7 @@
       "producerId": "estate_tokara",
       "claimedAt": "2025-04-14T00:00:00.000Z"
     },
-    "noteCount": 201,
+    "noteCount": 1,
     "cellarCount": 332,
     "saveCount": 683
   },
@@ -912,9 +910,8 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
     "provenance": "community",
-    "noteCount": 637,
+    "noteCount": 0,
     "cellarCount": 1102,
     "saveCount": 2325
   },
@@ -953,7 +950,6 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -964,7 +960,7 @@
       "producerId": "estate_sadie-family-wines",
       "claimedAt": "2025-07-23T00:00:00.000Z"
     },
-    "noteCount": 309,
+    "noteCount": 0,
     "cellarCount": 470,
     "saveCount": 1048
   },
@@ -1013,7 +1009,7 @@
       },
       "claimedAt": "2026-05-01T00:00:00.000Z"
     },
-    "noteCount": 588,
+    "noteCount": 2,
     "cellarCount": 888,
     "saveCount": 2052
   },
@@ -1054,7 +1050,7 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 317,
+    "noteCount": 2,
     "cellarCount": 476,
     "saveCount": 1125
   },
@@ -1093,7 +1089,6 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -1103,7 +1098,7 @@
       },
       "claimedAt": "2026-10-28T00:00:00.000Z"
     },
-    "noteCount": 882,
+    "noteCount": 0,
     "cellarCount": 1446,
     "saveCount": 2681
   },
@@ -1142,9 +1137,9 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
+    "verdict": "Worth Revisiting",
     "provenance": "community",
-    "noteCount": 528,
+    "noteCount": 2,
     "cellarCount": 882,
     "saveCount": 1700
   },
@@ -1183,7 +1178,7 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
+    "verdict": "Essential",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -1194,7 +1189,7 @@
       "producerId": "estate_bouchard-finlayson",
       "claimedAt": "2025-02-20T00:00:00.000Z"
     },
-    "noteCount": 223,
+    "noteCount": 1,
     "cellarCount": 368,
     "saveCount": 847
   },
@@ -1241,7 +1236,7 @@
       },
       "claimedAt": "2026-10-28T00:00:00.000Z"
     },
-    "noteCount": 432,
+    "noteCount": 3,
     "cellarCount": 691,
     "saveCount": 1624
   },
@@ -1291,7 +1286,7 @@
       "producerId": "estate_groot-constantia",
       "claimedAt": "2025-06-08T00:00:00.000Z"
     },
-    "noteCount": 726,
+    "noteCount": 2,
     "cellarCount": 1169,
     "saveCount": 2193
   },
@@ -1330,7 +1325,6 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -1340,7 +1334,7 @@
       },
       "claimedAt": "2026-03-03T00:00:00.000Z"
     },
-    "noteCount": 810,
+    "noteCount": 0,
     "cellarCount": 1175,
     "saveCount": 2754
   },
@@ -1379,7 +1373,6 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -1390,7 +1383,7 @@
       "producerId": "estate_springfield-estate",
       "claimedAt": "2025-04-18T00:00:00.000Z"
     },
-    "noteCount": 65,
+    "noteCount": 0,
     "cellarCount": 93,
     "saveCount": 200
   },
@@ -1440,7 +1433,7 @@
       "producerId": "estate_cederberg-private-cellar",
       "claimedAt": "2025-06-08T00:00:00.000Z"
     },
-    "noteCount": 170,
+    "noteCount": 3,
     "cellarCount": 279,
     "saveCount": 537
   },
@@ -1481,7 +1474,7 @@
     "isFeatured": false,
     "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 790,
+    "noteCount": 2,
     "cellarCount": 1406,
     "saveCount": 2781
   },
@@ -1531,7 +1524,7 @@
       "producerId": "estate_steenberg",
       "claimedAt": "2025-05-13T00:00:00.000Z"
     },
-    "noteCount": 453,
+    "noteCount": 3,
     "cellarCount": 702,
     "saveCount": 1667
   },
@@ -1580,7 +1573,7 @@
       },
       "claimedAt": "2026-06-16T00:00:00.000Z"
     },
-    "noteCount": 107,
+    "noteCount": 57,
     "cellarCount": 193,
     "saveCount": 393
   },
@@ -1619,9 +1612,8 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 861,
+    "noteCount": 1,
     "cellarCount": 1257,
     "saveCount": 2712
   },
@@ -1671,7 +1663,7 @@
       "producerId": "estate_domaine-leflaive",
       "claimedAt": "2025-10-04T00:00:00.000Z"
     },
-    "noteCount": 885,
+    "noteCount": 1,
     "cellarCount": 1319,
     "saveCount": 3053
   },
@@ -1710,7 +1702,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -1720,7 +1711,7 @@
       },
       "claimedAt": "2026-01-17T00:00:00.000Z"
     },
-    "noteCount": 461,
+    "noteCount": 0,
     "cellarCount": 807,
     "saveCount": 1687
   },
@@ -1757,9 +1748,8 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 502,
+    "noteCount": 0,
     "cellarCount": 833,
     "saveCount": 1531
   },
@@ -1800,7 +1790,7 @@
     "isFeatured": false,
     "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 733,
+    "noteCount": 2,
     "cellarCount": 1136,
     "saveCount": 2456
   },
@@ -1850,7 +1840,7 @@
       "producerId": "estate_chateau-cheval-blanc",
       "claimedAt": "2025-07-11T00:00:00.000Z"
     },
-    "noteCount": 645,
+    "noteCount": 58,
     "cellarCount": 987,
     "saveCount": 2406
   },
@@ -1887,7 +1877,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -1897,7 +1886,7 @@
       },
       "claimedAt": "2026-03-27T00:00:00.000Z"
     },
-    "noteCount": 412,
+    "noteCount": 0,
     "cellarCount": 676,
     "saveCount": 1487
   },
@@ -1946,7 +1935,7 @@
       },
       "claimedAt": "2026-03-27T00:00:00.000Z"
     },
-    "noteCount": 898,
+    "noteCount": 1,
     "cellarCount": 1392,
     "saveCount": 3305
   },
@@ -1985,9 +1974,8 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 736,
+    "noteCount": 0,
     "cellarCount": 1111,
     "saveCount": 2848
   },
@@ -2024,9 +2012,8 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 142,
+    "noteCount": 0,
     "cellarCount": 250,
     "saveCount": 450
   },
@@ -2065,7 +2052,7 @@
     "isFeatured": false,
     "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 257,
+    "noteCount": 10,
     "cellarCount": 452,
     "saveCount": 979
   },
@@ -2106,7 +2093,7 @@
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 601,
+    "noteCount": 2,
     "cellarCount": 968,
     "saveCount": 2290
   },
@@ -2145,9 +2132,8 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 26,
+    "noteCount": 0,
     "cellarCount": 38,
     "saveCount": 83
   },
@@ -2188,7 +2174,7 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 75,
+    "noteCount": 5,
     "cellarCount": 116,
     "saveCount": 236
   },
@@ -2229,7 +2215,7 @@
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 746,
+    "noteCount": 1,
     "cellarCount": 1283,
     "saveCount": 2253
   },
@@ -2278,7 +2264,7 @@
       },
       "claimedAt": "2026-02-08T00:00:00.000Z"
     },
-    "noteCount": 782,
+    "noteCount": 2,
     "cellarCount": 1361,
     "saveCount": 3050
   },
@@ -2317,9 +2303,8 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
     "provenance": "community",
-    "noteCount": 416,
+    "noteCount": 0,
     "cellarCount": 703,
     "saveCount": 1473
   },
@@ -2368,7 +2353,7 @@
       },
       "claimedAt": "2026-07-23T00:00:00.000Z"
     },
-    "noteCount": 414,
+    "noteCount": 3,
     "cellarCount": 650,
     "saveCount": 1391
   },
@@ -2407,7 +2392,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -2418,7 +2402,7 @@
       "producerId": "estate_biondi-santi",
       "claimedAt": "2025-07-07T00:00:00.000Z"
     },
-    "noteCount": 426,
+    "noteCount": 0,
     "cellarCount": 699,
     "saveCount": 1598
   },
@@ -2457,9 +2441,9 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
+    "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 660,
+    "noteCount": 3,
     "cellarCount": 1003,
     "saveCount": 2053
   },
@@ -2498,7 +2482,7 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
+    "verdict": "Essential",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -2508,7 +2492,7 @@
       },
       "claimedAt": "2026-03-19T00:00:00.000Z"
     },
-    "noteCount": 88,
+    "noteCount": 2,
     "cellarCount": 152,
     "saveCount": 334
   },
@@ -2547,7 +2531,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -2558,7 +2541,7 @@
       "producerId": "estate_elena-walch",
       "claimedAt": "2025-10-20T00:00:00.000Z"
     },
-    "noteCount": 596,
+    "noteCount": 0,
     "cellarCount": 906,
     "saveCount": 2158
   },
@@ -2599,7 +2582,7 @@
     "isFeatured": false,
     "verdict": "Worth Revisiting",
     "provenance": "community",
-    "noteCount": 543,
+    "noteCount": 3,
     "cellarCount": 782,
     "saveCount": 1917
   },
@@ -2640,7 +2623,7 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 730,
+    "noteCount": 5,
     "cellarCount": 1256,
     "saveCount": 2234
   },
@@ -2690,7 +2673,7 @@
       "producerId": "estate_gravner",
       "claimedAt": "2025-03-07T00:00:00.000Z"
     },
-    "noteCount": 186,
+    "noteCount": 12,
     "cellarCount": 272,
     "saveCount": 638
   },
@@ -2731,7 +2714,7 @@
     "isFeatured": false,
     "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 139,
+    "noteCount": 8,
     "cellarCount": 209,
     "saveCount": 493
   },
@@ -2781,7 +2764,7 @@
       "producerId": "estate_passopisciaro",
       "claimedAt": "2025-04-02T00:00:00.000Z"
     },
-    "noteCount": 847,
+    "noteCount": 1,
     "cellarCount": 1186,
     "saveCount": 2685
   },
@@ -2822,7 +2805,7 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 104,
+    "noteCount": 1,
     "cellarCount": 178,
     "saveCount": 354
   },
@@ -2861,7 +2844,7 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
+    "verdict": "Unforgettable",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -2872,7 +2855,7 @@
       "producerId": "estate_la-rioja-alta",
       "claimedAt": "2025-07-27T00:00:00.000Z"
     },
-    "noteCount": 852,
+    "noteCount": 1,
     "cellarCount": 1304,
     "saveCount": 2965
   },
@@ -2911,7 +2894,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -2921,7 +2903,7 @@
       },
       "claimedAt": "2026-05-01T00:00:00.000Z"
     },
-    "noteCount": 80,
+    "noteCount": 0,
     "cellarCount": 115,
     "saveCount": 248
   },
@@ -2958,7 +2940,7 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
+    "verdict": "Essential",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -2969,7 +2951,7 @@
       "producerId": "estate_vega-sicilia",
       "claimedAt": "2025-05-05T00:00:00.000Z"
     },
-    "noteCount": 692,
+    "noteCount": 2,
     "cellarCount": 1017,
     "saveCount": 2443
   },
@@ -3008,7 +2990,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -3018,7 +2999,7 @@
       },
       "claimedAt": "2026-08-02T00:00:00.000Z"
     },
-    "noteCount": 78,
+    "noteCount": 0,
     "cellarCount": 137,
     "saveCount": 248
   },
@@ -3067,7 +3048,7 @@
       },
       "claimedAt": "2026-11-11T00:00:00.000Z"
     },
-    "noteCount": 452,
+    "noteCount": 8,
     "cellarCount": 755,
     "saveCount": 1464
   },
@@ -3106,7 +3087,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -3117,7 +3097,7 @@
       "producerId": "estate_pazo-de-senorans",
       "claimedAt": "2025-09-09T00:00:00.000Z"
     },
-    "noteCount": 628,
+    "noteCount": 0,
     "cellarCount": 879,
     "saveCount": 2430
   },
@@ -3167,7 +3147,7 @@
       "producerId": "estate_pazo-de-senorans",
       "claimedAt": "2025-03-27T00:00:00.000Z"
     },
-    "noteCount": 288,
+    "noteCount": 12,
     "cellarCount": 518,
     "saveCount": 899
   },
@@ -3217,7 +3197,7 @@
       "producerId": "estate_gonzalez-byass",
       "claimedAt": "2025-03-27T00:00:00.000Z"
     },
-    "noteCount": 178,
+    "noteCount": 1,
     "cellarCount": 308,
     "saveCount": 605
   },
@@ -3266,7 +3246,7 @@
       },
       "claimedAt": "2026-12-14T00:00:00.000Z"
     },
-    "noteCount": 546,
+    "noteCount": 11,
     "cellarCount": 797,
     "saveCount": 2020
   },
@@ -3315,7 +3295,7 @@
       },
       "claimedAt": "2026-12-22T00:00:00.000Z"
     },
-    "noteCount": 815,
+    "noteCount": 6,
     "cellarCount": 1443,
     "saveCount": 2722
   },
@@ -3354,9 +3334,9 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
+    "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 416,
+    "noteCount": 1,
     "cellarCount": 657,
     "saveCount": 1315
   },
@@ -3405,7 +3385,7 @@
       },
       "claimedAt": "2026-12-26T00:00:00.000Z"
     },
-    "noteCount": 35,
+    "noteCount": 12,
     "cellarCount": 60,
     "saveCount": 106
   },
@@ -3454,7 +3434,7 @@
       },
       "claimedAt": "2026-03-03T00:00:00.000Z"
     },
-    "noteCount": 528,
+    "noteCount": 5,
     "cellarCount": 945,
     "saveCount": 1690
   },
@@ -3493,7 +3473,7 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
+    "verdict": "Essential",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -3503,7 +3483,7 @@
       },
       "claimedAt": "2026-02-04T00:00:00.000Z"
     },
-    "noteCount": 529,
+    "noteCount": 1,
     "cellarCount": 836,
     "saveCount": 1682
   },
@@ -3542,7 +3522,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Worth Revisiting",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -3553,7 +3532,7 @@
       "producerId": "estate_weingut-muller-catoir",
       "claimedAt": "2025-11-19T00:00:00.000Z"
     },
-    "noteCount": 282,
+    "noteCount": 0,
     "cellarCount": 417,
     "saveCount": 1024
   },
@@ -3592,7 +3571,6 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -3602,7 +3580,7 @@
       },
       "claimedAt": "2026-08-22T00:00:00.000Z"
     },
-    "noteCount": 897,
+    "noteCount": 0,
     "cellarCount": 1354,
     "saveCount": 3014
   },
@@ -3641,9 +3619,8 @@
       "currency": "EUR"
     },
     "isFeatured": false,
-    "verdict": "Essential",
     "provenance": "community",
-    "noteCount": 880,
+    "noteCount": 0,
     "cellarCount": 1276,
     "saveCount": 2913
   },
@@ -3684,7 +3661,7 @@
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 894,
+    "noteCount": 1,
     "cellarCount": 1252,
     "saveCount": 3335
   },
@@ -3725,7 +3702,7 @@
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 157,
+    "noteCount": 2,
     "cellarCount": 276,
     "saveCount": 612
   },
@@ -3766,7 +3743,7 @@
     "isFeatured": false,
     "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 677,
+    "noteCount": 2,
     "cellarCount": 1212,
     "saveCount": 2627
   },
@@ -3807,7 +3784,7 @@
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 486,
+    "noteCount": 11,
     "cellarCount": 773,
     "saveCount": 1502
   },
@@ -3848,7 +3825,7 @@
     "isFeatured": false,
     "verdict": "Worth Revisiting",
     "provenance": "community",
-    "noteCount": 80,
+    "noteCount": 5,
     "cellarCount": 129,
     "saveCount": 304
   },
@@ -3887,7 +3864,6 @@
       "currency": "USD"
     },
     "isFeatured": false,
-    "verdict": "Essential",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -3898,7 +3874,7 @@
       "producerId": "estate_ridge-monte-bello-estate",
       "claimedAt": "2025-02-08T00:00:00.000Z"
     },
-    "noteCount": 352,
+    "noteCount": 0,
     "cellarCount": 595,
     "saveCount": 1309
   },
@@ -3937,9 +3913,8 @@
       "currency": "USD"
     },
     "isFeatured": false,
-    "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 87,
+    "noteCount": 0,
     "cellarCount": 150,
     "saveCount": 302
   },
@@ -3980,7 +3955,7 @@
     "isFeatured": false,
     "verdict": "An Interesting Discovery",
     "provenance": "community",
-    "noteCount": 666,
+    "noteCount": 4,
     "cellarCount": 1032,
     "saveCount": 2238
   },
@@ -4019,7 +3994,6 @@
       "currency": "CAD"
     },
     "isFeatured": false,
-    "verdict": "Essential",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -4029,7 +4003,7 @@
       },
       "claimedAt": "2026-06-04T00:00:00.000Z"
     },
-    "noteCount": 321,
+    "noteCount": 0,
     "cellarCount": 453,
     "saveCount": 1037
   },
@@ -4068,9 +4042,8 @@
       "currency": "CAD"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
     "provenance": "community",
-    "noteCount": 295,
+    "noteCount": 0,
     "cellarCount": 510,
     "saveCount": 935
   },
@@ -4120,7 +4093,7 @@
       "producerId": "estate_ridgeview-wine-estate",
       "claimedAt": "2025-03-23T00:00:00.000Z"
     },
-    "noteCount": 409,
+    "noteCount": 1,
     "cellarCount": 650,
     "saveCount": 1571
   },
@@ -4170,7 +4143,7 @@
       "producerId": "estate_nyetimber",
       "claimedAt": "2025-01-21T00:00:00.000Z"
     },
-    "noteCount": 785,
+    "noteCount": 3,
     "cellarCount": 1185,
     "saveCount": 2520
   },
@@ -4220,7 +4193,7 @@
       "producerId": "estate_chapel-down",
       "claimedAt": "2025-12-06T00:00:00.000Z"
     },
-    "noteCount": 189,
+    "noteCount": 2,
     "cellarCount": 282,
     "saveCount": 586
   },
@@ -4259,7 +4232,6 @@
       "currency": "GBP"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -4270,7 +4242,7 @@
       "producerId": "estate_gusbourne-estate",
       "claimedAt": "2025-04-02T00:00:00.000Z"
     },
-    "noteCount": 510,
+    "noteCount": 0,
     "cellarCount": 816,
     "saveCount": 1831
   }

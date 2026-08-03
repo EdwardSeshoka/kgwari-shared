@@ -82,7 +82,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Stellenbosch.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 66
   },
   {
     "id": "activity_thandi-nkosi_1",
@@ -104,7 +105,8 @@
     },
     "verdict": "Worth Revisiting",
     "note": "Tasted at Franschhoek.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 78
   },
   {
     "id": "activity_nomsa-dlamini_2",
@@ -126,7 +128,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Stellenbosch.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 21
   },
   {
     "id": "activity_johan-terblanche_3",
@@ -147,7 +150,8 @@
     },
     "verdict": "Worth Revisiting",
     "note": "Tasted at Constantia.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 66
   },
   {
     "id": "activity_pieter-van-zyl_4",
@@ -168,7 +172,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Napa Valley.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 41
   },
   {
     "id": "activity_zanele-mokoena_5",
@@ -189,7 +194,8 @@
     },
     "verdict": "Worth Revisiting",
     "note": "Tasted at Stellenbosch.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 21
   },
   {
     "id": "activity_riaan-botha_6",
@@ -211,7 +217,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Stellenbosch.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 24
   },
   {
     "id": "activity_lerato-mabaso_7",
@@ -232,7 +239,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Swartland.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 41
   },
   {
     "id": "activity_sipho-khumalo_8",
@@ -254,7 +262,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Hemel-en-Aarde.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 30
   },
   {
     "id": "activity_anneke-du-plessis_9",
@@ -276,7 +285,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Constantia.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 33
   },
   {
     "id": "activity_camille-dubois_10",
@@ -298,7 +308,8 @@
     },
     "verdict": "Worth Revisiting",
     "note": "Tasted at Cederberg.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 12
   },
   {
     "id": "activity_etienne-laurent_11",
@@ -320,7 +331,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Bourgogne.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 76
   },
   {
     "id": "activity_marie-claire-fontaine_12",
@@ -341,7 +353,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Bourgogne.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 41
   },
   {
     "id": "activity_olivier-rousseau_13",
@@ -363,7 +376,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Saint-Émilion.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 34
   },
   {
     "id": "activity_amelie-girard_14",
@@ -384,7 +398,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Champagne.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 50
   },
   {
     "id": "activity_klaus-bergmann_15",
@@ -406,7 +421,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Châteauneuf-du-Pape.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 8
   },
   {
     "id": "activity_ingrid-hoffmann_16",
@@ -427,7 +443,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Sancerre.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 4
   },
   {
     "id": "activity_sebastian-vogel_17",
@@ -449,7 +466,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Barolo.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 41
   },
   {
     "id": "activity_lena-schafer_18",
@@ -470,7 +488,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Chianti Classico.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 25
   },
   {
     "id": "activity_giulia-rossi_19",
@@ -492,7 +511,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Friuli-Venezia Giulia.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 34
   },
   {
     "id": "activity_marco-bianchi_20",
@@ -514,7 +534,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Etna.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 14
   },
   {
     "id": "activity_francesca-conti_21",
@@ -535,7 +556,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Rioja.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 31
   },
   {
     "id": "activity_alessandro-ferrari_22",
@@ -556,7 +578,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Priorat.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 0
   },
   {
     "id": "activity_lucia-fernandez_23",
@@ -578,7 +601,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Jerez.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 37
   },
   {
     "id": "activity_javier-moreno_24",
@@ -600,7 +624,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Mosel.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 39
   },
   {
     "id": "activity_carmen-ortiz_25",
@@ -621,7 +646,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Rheingau.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 54
   },
   {
     "id": "activity_diego-ramirez_26",
@@ -642,7 +668,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Wachau.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 24
   },
   {
     "id": "activity_emily-carter_27",
@@ -664,7 +691,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Valais.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 20
   },
   {
     "id": "activity_james-whitfield_28",
@@ -685,7 +713,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Sonoma County.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 23
   },
   {
     "id": "activity_sarah-bennett_29",
@@ -707,7 +736,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Okanagan Valley.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 58
   },
   {
     "id": "activity_michael-o-donnell_30",
@@ -728,7 +758,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Sussex.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 49
   },
   {
     "id": "activity_claire-beaumont_31",
@@ -750,7 +781,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Stellenbosch.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 79
   },
   {
     "id": "activity_hannah-fischer_32",
@@ -771,7 +803,8 @@
     },
     "verdict": "Worth Revisiting",
     "note": "Tasted at Franschhoek.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 60
   },
   {
     "id": "activity_tobias-wagner_33",
@@ -793,7 +826,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Stellenbosch.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 89
   },
   {
     "id": "activity_isabella-marino_34",
@@ -814,7 +848,8 @@
     },
     "verdict": "Worth Revisiting",
     "note": "Tasted at Constantia.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 44
   },
   {
     "id": "activity_rafael-costa_35",
@@ -835,7 +870,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Napa Valley.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 42
   },
   {
     "id": "activity_sophie-laurent_36",
@@ -857,7 +893,8 @@
     },
     "verdict": "Worth Revisiting",
     "note": "Tasted at Stellenbosch.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 75
   },
   {
     "id": "activity_daniel-brandt_37",
@@ -878,7 +915,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Stellenbosch.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 85
   },
   {
     "id": "activity_nadia-haddad_38",
@@ -899,7 +937,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Swartland.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 49
   },
   {
     "id": "activity_kobus-steyn_39",
@@ -921,7 +960,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Hemel-en-Aarde.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 76
   },
   {
     "id": "activity_yolanda-petersen_40",
@@ -942,7 +982,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Constantia.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 5
   },
   {
     "id": "activity_bianca-adams_41",
@@ -963,7 +1004,8 @@
     },
     "verdict": "Worth Revisiting",
     "note": "Tasted at Cederberg.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 29
   },
   {
     "id": "activity_werner-kruger_42",
@@ -985,7 +1027,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Bourgogne.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 60
   },
   {
     "id": "activity_chiara-lombardi_43",
@@ -1006,7 +1049,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Bourgogne.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 20
   },
   {
     "id": "activity_paulo-silva_44",
@@ -1028,7 +1072,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Saint-Émilion.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 72
   },
   {
     "id": "activity_antoine-mercier_45",
@@ -1049,7 +1094,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Champagne.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 46
   },
   {
     "id": "activity_greta-bauer_46",
@@ -1070,7 +1116,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Châteauneuf-du-Pape.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 88
   },
   {
     "id": "activity_nomvula-sithole_47",
@@ -1092,7 +1139,8 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Sancerre.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 14
   },
   {
     "id": "activity_hendrik-de-villiers_48",
@@ -1113,7 +1161,8 @@
     },
     "verdict": "Essential",
     "note": "Tasted at Barolo.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 50
   },
   {
     "id": "activity_valentina-russo_49",
@@ -1134,7 +1183,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Chianti Classico.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 59
   },
   {
     "id": "activity_tomas-novak_50",
@@ -1156,7 +1206,8 @@
     },
     "verdict": "Unforgettable",
     "note": "Tasted at Friuli-Venezia Giulia.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 73
   },
   {
     "id": "activity_ayanda-mthembu_51",
@@ -1177,6 +1228,7 @@
     },
     "verdict": "An Interesting Discovery",
     "note": "Tasted at Etna.",
-    "createdAt": "2026-07-20T18:30:00.000Z"
+    "createdAt": "2026-07-20T18:30:00.000Z",
+    "saveCount": 25
   }
 ]

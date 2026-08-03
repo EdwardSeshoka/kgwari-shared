@@ -7,6 +7,7 @@
  * them at once.
  */
 export * from "./features/catalog/index.js";
+export * from "./features/collections/index.js";
 export * from "./features/provenance/index.js";
 export * from "./features/editorial/index.js";
 export * from "./features/events/index.js";

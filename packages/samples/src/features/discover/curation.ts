@@ -33,16 +33,36 @@ export type CurationHero = CurationItem & {
 export type CurationSectionType =
   | "editorial_cards"
   | "doorway_cards"
+  | "collection_shelves"
+  | "collection_itineraries"
   | "room_activity"
   | "event_cards";
 
 /**
  * A section that selects pool-backed content by reference (editorial, events,
- * room activity). The backend resolves each ref against that domain's pool.
+ * room activity, collections). The backend resolves each ref against that
+ * domain's pool.
+ *
+ * Collections select by reference and NOT inline like doorways, and the
+ * difference is ownership. A doorway is merchandising with no life outside the
+ * plan — nothing else in the system holds one. A collection is a stored entity
+ * with an author who edits it, so inlining it here would fork the truth: the
+ * plan's copy would keep saying nine bottles the day its author added a tenth.
+ *
+ * `collection_shelves` and `collection_itineraries` draw from the same pool, and
+ * which band a collection belongs in is decided by its SUBJECT rather than by
+ * the plan: a wines collection is drawn as labels and counts bottles, an estates
+ * collection as monogram plates and counts places. Merchandising picks which
+ * collections appear and in what order — never what they are.
  */
 export type CurationRefSection = {
   id: string;
-  type: "editorial_cards" | "room_activity" | "event_cards";
+  type:
+    | "editorial_cards"
+    | "room_activity"
+    | "event_cards"
+    | "collection_shelves"
+    | "collection_itineraries";
   eyebrow?: string;
   title: string;
   description?: string;

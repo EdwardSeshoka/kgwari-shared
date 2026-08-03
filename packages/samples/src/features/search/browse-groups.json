@@ -87,7 +87,7 @@
           "source": "chrome",
           "key": "Unforgettable"
         },
-        "count": 25,
+        "count": 16,
         "query": "Unforgettable"
       },
       {
@@ -96,7 +96,7 @@
           "source": "chrome",
           "key": "Essential"
         },
-        "count": 27,
+        "count": 23,
         "query": "Essential"
       },
       {
@@ -105,7 +105,7 @@
           "source": "chrome",
           "key": "Worth Revisiting"
         },
-        "count": 22,
+        "count": 11,
         "query": "Worth Revisiting"
       },
       {
@@ -114,7 +114,7 @@
           "source": "chrome",
           "key": "An Interesting Discovery"
         },
-        "count": 19,
+        "count": 15,
         "query": "An Interesting Discovery"
       }
     ]

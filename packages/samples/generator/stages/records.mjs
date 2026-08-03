@@ -10,6 +10,7 @@ import {
 import { VERDICTS } from "@edwardseshoka/contracts/trust";
 
 import { curated } from "../curated.mjs";
+import { registerFromNotes } from "../register.mjs";
 import { int, pick, rnd, spread } from "../random.mjs";
 import { recordGroupLabelKey, recordGroupNoteKey } from "@edwardseshoka/contracts/catalog";
 
@@ -23,7 +24,13 @@ import { slug } from "../data.mjs";
  * on the estate for by name. The overlay carries the only things no algorithm
  * can invent: an estate's own essay, a cellarmaster's line, a member's note.
  */
-export function buildRecords({ wines, regions, producers }) {
+export function buildRecords({ wines, regions, producers, notes }) {
+  const notesByWine = new Map();
+  for (const note of notes) {
+    if (!notesByWine.has(note.wineVintageId)) notesByWine.set(note.wineVintageId, []);
+    notesByWine.get(note.wineVintageId).push(note);
+  }
+
 
   /**
    * The record model, as a table.
@@ -134,99 +141,16 @@ export function buildRecords({ wines, regions, producers }) {
 
 
   /**
-   * A five-bucket spread that sums to 100 and leans toward `centre`. Below the
-   * threshold it is omitted entirely rather than flattened: one reading is a
-   * reading, not a consensus, and a distribution behind it would claim agreement
-   * that does not exist. The threshold lives here, never on the client.
+   * The register, counted from the notes this wine actually has.
+   *
+   * It used to be synthesised from `w.noteCount` — a number that counted nothing
+   * — so the aggregate could not be checked against anything and the
+   * fault-exclusion rule had no rows to demonstrate itself on. The thresholds,
+   * the fault filter and the whole derivation now live in `../register.mjs`,
+   * which is also where a server would put them: one filter at the top, not a
+   * condition remembered at seven call sites.
    */
-  const SPREAD_THRESHOLD = 25;
-  const DISAGREEMENT_THRESHOLD = 100;
-
-  /**
-   * `size` because two different scales run through here: a tasting metric
-   * always has five rungs, and the verdict has however many `VERDICTS` has —
-   * four since the fifth was retired. It was hardcoded to five, which is how the
-   * verdict distribution came to be generated from a list that no longer matched
-   * the contract.
-   */
-  const distributionAround = (id, centre, size = 5) => {
-    const raw = Array.from({ length: size }, (_, i) => {
-      const d = Math.abs(i - centre);
-      return Math.max(1, 60 - d * 22 + spread(`${id}d${i}`, 0, 8));
-    });
-    const total = raw.reduce((a, b) => a + b, 0);
-    const pct = raw.map((v) => Math.round((v / total) * 100));
-    pct[centre] += 100 - pct.reduce((a, b) => a + b, 0);
-    return pct;
-  };
-
-  const metricOf = (w, key) => {
-    const centre = spread(`${w.id}${key}c`, 2, 4);
-    const value = Math.round((centre + 1 + spread(`${w.id}${key}f`, 0, 9) / 10) * 10) / 10;
-    const noteCount = Math.max(1, (w.noteCount ?? 1) - spread(`${w.id}${key}n`, 0, 12));
-    return {
-      shape: "scale",
-      key,
-      wordKey: TASTING_SCALES[key][centre] || "tasting.medium",
-      value: Math.min(value, 5),
-      noteCount,
-      scaleWordKeys: TASTING_SCALES[key],
-      ...((w.noteCount ?? 0) >= SPREAD_THRESHOLD
-        ? { distribution: distributionAround(`${w.id}${key}`, centre) }
-        : {}),
-    };
-  };
-
-  /**
-   * Ordered best → worst from `VERDICTS` itself, which is imported at the top of
-   * this file and was ALSO restated here as a literal. Two declarations of one
-   * ordinal scale is precisely what the contract publishes `VERDICTS` to
-   * prevent, and the copy went stale the moment the fifth rung was retired.
-   */
-  const verdictDistributionOf = (w) => {
-    const centre = Math.max(0, VERDICTS.indexOf(w.verdict));
-    const pct = distributionAround(`${w.id}vd`, centre, VERDICTS.length);
-    return VERDICTS.map((verdict, i) => ({ verdict, percentage: pct[i] }));
-  };
-
-  const registerOf = (w) => {
-    const dense = (w.noteCount ?? 0) >= SPREAD_THRESHOLD;
-    const dist = dense ? verdictDistributionOf(w) : null;
-    const pool = w.color === "white" ? AROMAS_WHITE : AROMAS_RED;
-    const aromaCount = Math.min(pool.length, 3 + spread(`${w.id}ac`, 0, 4));
-    return {
-      noteCount: w.noteCount ?? 0,
-      ...(w.verdict ? { verdict: w.verdict } : {}),
-      ...(dist ? { verdictDistribution: dist } : {}),
-      ...(dist
-        ? {
-            verdictSummary: {
-              atOrAbove: w.verdict,
-              percentage: dist
-                .slice(0, dist.findIndex((d) => d.verdict === w.verdict) + 1)
-                .reduce((a, d) => a + d.percentage, 0),
-            },
-          }
-        : {}),
-      groups: [
-        {
-          key: "palate",
-          metrics: ["tannin", "acidity", "body", "finish"].map((k) => metricOf(w, k)),
-        },
-      ],
-      aromas: pool.slice(0, aromaCount).map((key, i) => ({
-        key,
-        tier: i < 3 ? "primary" : i < 5 ? "secondary" : "tertiary",
-        mentions: Math.max(1, Math.round((w.noteCount ?? 1) * (0.55 - i * 0.06))),
-      })),
-      colour: {
-        readingKey: w.color === "white" ? "colour.paleStraw" : "colour.deepGarnet",
-        readingCount: Math.max(1, (w.noteCount ?? 1) - spread(`${w.id}cr`, 0, 40)),
-        coreHex: w.color === "white" ? "#d8c98a" : "#6d1626",
-        rimHex: w.color === "white" ? "#efe6bd" : "#b1566a",
-      },
-    };
-  };
+  const registerOf = (w) => registerFromNotes(notesByWine.get(w.id) ?? []);
 
   const availabilityOf = (w, overlay) => {
     const kind = w.claimedBy.kind;

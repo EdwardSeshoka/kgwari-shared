@@ -6,7 +6,7 @@
     "startDateTime": "2026-07-24T16:00:00.000Z",
     "venueName": "Meerlust Estate",
     "location": "Stellenbosch",
-    "seatsAvailable": 4,
+    "seatsAvailable": 27,
     "host": {
       "name": "Meerlust Estate",
       "tier": "producer",
@@ -15,7 +15,28 @@
     "subject": {
       "kind": "producer",
       "producerId": "estate_meerlust"
-    }
+    },
+    "endDateTime": "2026-07-24T18:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Stellenbosch"
+      },
+      "countryCode": "ZA"
+    },
+    "languages": [
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 53,
+    "taken": 26,
+    "lifecycle": "past",
+    "saveCount": 23
   },
   {
     "id": "event_swartland_six_ways",
@@ -24,7 +45,7 @@
     "startDateTime": "2026-07-26T17:30:00.000Z",
     "venueName": "Publik Wine Bar",
     "location": "Bree Street",
-    "seatsAvailable": 12,
+    "seatsAvailable": 22,
     "imageUrl": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80",
     "host": {
       "name": "Thandi Nkosi",
@@ -34,7 +55,28 @@
     "subject": {
       "kind": "region",
       "regionId": "region_swartland"
-    }
+    },
+    "endDateTime": "2026-07-26T20:00:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Publik Wine Bar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Bree Street"
+      },
+      "countryCode": "ZA"
+    },
+    "languages": [
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 48,
+    "taken": 26,
+    "lifecycle": "past",
+    "saveCount": 154
   },
   {
     "id": "event_chenin_masterclass",
@@ -51,7 +93,29 @@
     "subject": {
       "kind": "style",
       "styleName": "Chenin Blanc"
-    }
+    },
+    "endDateTime": "2026-07-30T20:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Kwari Live"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Online"
+      },
+      "countryCode": "ZA"
+    },
+    "languages": [
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 54,
+    "taken": 14,
+    "seatsAvailable": 40,
+    "lifecycle": "past",
+    "saveCount": 123
   },
   {
     "id": "event_cap_classique_brunch",
@@ -60,7 +124,7 @@
     "startDateTime": "2026-08-03T09:00:00.000Z",
     "venueName": "Leeu Estates",
     "location": "Franschhoek",
-    "seatsAvailable": 0,
+    "seatsAvailable": 1,
     "host": {
       "name": "Leeu Estates",
       "tier": "producer",
@@ -69,22 +133,108 @@
     "subject": {
       "kind": "region",
       "regionId": "region_franschhoek"
-    }
+    },
+    "endDateTime": "2026-08-03T11:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Leeu Estates"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Franschhoek"
+      },
+      "countryCode": "ZA"
+    },
+    "languages": [
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 25,
+    "taken": 24,
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Leeu Estates"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://kgwari.example/events/event_cap_classique_brunch"
+    },
+    "saveCount": 116
   },
   {
     "id": "event_meerlust-cellar-tasting",
     "title": "Meerlust cellar tasting",
     "titleLanguage": "en",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-21T17:00:00.000Z",
+    "eventType": "tasting",
+    "startDateTime": "2026-08-21T19:00:00.000Z",
+    "endDateTime": "2026-08-21T21:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Stellenbosch"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Meerlust Estate",
     "location": "Stellenbosch",
+    "languages": [
+      "en"
+    ],
+    "admission": "trade",
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Alexandra Meyer",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Alexandra Meyer"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Étienne Laurent"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Meerlust Estate"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://meerlust-estate.example/book/meerlust-cellar-tasting"
+    },
+    "saveCount": 172,
     "subject": {
       "kind": "region",
       "regionId": "region_stellenbosch"
@@ -96,15 +246,74 @@
     "titleLanguage": "en",
     "eventType": "sommelier_led",
     "startDateTime": "2026-08-22T16:00:00.000Z",
+    "endDateTime": "2026-08-22T18:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Swartland"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Mullineux",
     "location": "Swartland",
-    "seatsAvailable": 7,
+    "languages": [
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 19,
+    "taken": 9,
+    "seatsAvailable": 10,
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Thandi Nkosi",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Thandi Nkosi"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Marie-Claire Fontaine"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Mullineux"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://mullineux.example/book/swartland-six-ways"
+    },
+    "saveCount": 60,
     "subject": {
       "kind": "region",
       "regionId": "region_swartland"
@@ -114,17 +323,76 @@
     "id": "event_chenin-blanc-masterclass",
     "title": "Chenin blanc masterclass",
     "titleLanguage": "en",
-    "eventType": "sommelier_led",
+    "eventType": "winemaker_dinner",
     "startDateTime": "2026-08-23T16:00:00.000Z",
+    "endDateTime": "2026-08-23T18:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Constantia"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Groot Constantia",
     "location": "Constantia",
-    "seatsAvailable": 29,
+    "languages": [
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 15,
+    "taken": 15,
+    "seatsAvailable": 0,
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Nomsa Dlamini",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Nomsa Dlamini"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Olivier Rousseau"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Groot Constantia"
+        }
+      }
+    ],
+    "lifecycle": "full",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://groot-constantia.example/book/chenin-blanc-masterclass"
+    },
+    "saveCount": 61,
     "subject": {
       "kind": "region",
       "regionId": "region_constantia"
@@ -136,15 +404,78 @@
     "titleLanguage": "en",
     "eventType": "winemaker_dinner",
     "startDateTime": "2026-08-24T19:00:00.000Z",
+    "endDateTime": "2026-08-24T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Bourgogne"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "Domaine Leflaive",
     "location": "Bourgogne",
-    "seatsAvailable": 37,
+    "languages": [
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 31,
+    "taken": 28,
+    "seatsAvailable": 3,
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Johan Terblanche",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Johan Terblanche"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Amélie Girard"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Leflaive"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://domaine-leflaive.example/book/cape-bordeaux-blends-blind"
+    },
+    "saveCount": 123,
     "subject": {
       "kind": "region",
       "regionId": "region_bourgogne"
@@ -154,16 +485,72 @@
     "id": "event_old-vine-cinsaut-a-vertical",
     "title": "Old-vine Cinsaut, a vertical",
     "titleLanguage": "en",
-    "eventType": "sommelier_led",
+    "eventType": "winemaker_dinner",
     "startDateTime": "2026-08-25T19:00:00.000Z",
+    "endDateTime": "2026-08-25T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "E. Guigal"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Côte-Rôtie"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "E. Guigal",
     "location": "Côte-Rôtie",
+    "languages": [
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 59,
+    "taken": 10,
+    "seatsAvailable": 49,
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Pieter van Zyl",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Pieter van Zyl"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Klaus Bergmann"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "E. Guigal"
+        }
+      }
+    ],
+    "lifecycle": "cancelled",
+    "saveCount": 97,
     "subject": {
       "kind": "region",
       "regionId": "region_cote-rotie"
@@ -173,17 +560,80 @@
     "id": "event_hemel-en-aarde-pinot-four-estates",
     "title": "Hemel-en-Aarde Pinot: four estates",
     "titleLanguage": "en",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-26T16:00:00.000Z",
+    "eventType": "launch",
+    "startDateTime": "2026-08-26T19:00:00.000Z",
+    "endDateTime": "2026-08-26T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Chianti Classico"
+      },
+      "countryCode": "IT"
+    },
     "venueName": "Castello di Ama",
     "location": "Chianti Classico",
-    "seatsAvailable": 6,
+    "languages": [
+      "en"
+    ],
+    "admission": "trade",
+    "capacity": 58,
+    "taken": 23,
+    "seatsAvailable": 35,
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Zanele Mokoena",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Zanele Mokoena"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Ingrid Hoffmann"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Castello di Ama"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://castello-di-ama.example/book/hemel-en-aarde-pinot-four-estates"
+    },
+    "saveCount": 58,
     "subject": {
       "kind": "region",
       "regionId": "region_chianti-classico"
@@ -193,17 +643,74 @@
     "id": "event_wynproe-kaapse-chenin",
     "title": "Wynproe: Kaapse Chenin",
     "titleLanguage": "af",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-27T19:00:00.000Z",
+    "eventType": "winemaker_dinner",
+    "startDateTime": "2026-08-27T17:00:00.000Z",
+    "endDateTime": "2026-08-27T19:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Ribera del Duero"
+      },
+      "countryCode": "ES"
+    },
     "venueName": "Vega Sicilia",
     "location": "Ribera del Duero",
-    "seatsAvailable": 8,
+    "languages": [
+      "af",
+      "en"
+    ],
+    "admission": "open",
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Riaan Botha",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Riaan Botha"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Sebastian Vogel"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Vega Sicilia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://vega-sicilia.example/book/wynproe-kaapse-chenin"
+    },
+    "saveCount": 55,
     "subject": {
       "kind": "region",
       "regionId": "region_ribera-del-duero"
@@ -213,17 +720,81 @@
     "id": "event_ontmoet-die-wynmaker",
     "title": "Ontmoet die wynmaker",
     "titleLanguage": "af",
-    "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-28T16:00:00.000Z",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-08-28T15:00:00.000Z",
+    "endDateTime": "2026-08-28T17:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Rheingau"
+      },
+      "countryCode": "DE"
+    },
     "venueName": "Schloss Johannisberg",
     "location": "Rheingau",
-    "seatsAvailable": 38,
+    "languages": [
+      "af",
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 18,
+    "taken": 0,
+    "seatsAvailable": 18,
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Lerato Mabaso",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Lerato Mabaso"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Lena Schäfer"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Schloss Johannisberg"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://schloss-johannisberg.example/book/ontmoet-die-wynmaker"
+    },
+    "saveCount": 145,
     "subject": {
       "kind": "region",
       "regionId": "region_rheingau"
@@ -233,17 +804,81 @@
     "id": "event_ou-wingerde-van-die-swartland",
     "title": "Ou wingerde van die Swartland",
     "titleLanguage": "af",
-    "eventType": "sommelier_led",
-    "startDateTime": "2026-08-01T18:00:00.000Z",
+    "eventType": "launch",
+    "startDateTime": "2026-08-01T19:00:00.000Z",
+    "endDateTime": "2026-08-01T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Drouhin Oregon"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Willamette Valley"
+      },
+      "countryCode": "US"
+    },
     "venueName": "Domaine Drouhin Oregon",
     "location": "Willamette Valley",
-    "seatsAvailable": 35,
+    "languages": [
+      "af",
+      "en"
+    ],
+    "admission": "open",
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Sipho Khumalo",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Sipho Khumalo"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Giulia Rossi"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Drouhin Oregon"
+        }
+      }
+    ],
+    "lifecycle": "past",
+    "recap": {
+      "body": [
+        {
+          "source": "negotiated",
+          "text": "Six pours and a long argument about the Willamette Valley vintage.",
+          "languageTag": "en"
+        }
+      ],
+      "byline": {
+        "name": "Olivier Rousseau",
+        "status": "collector"
+      },
+      "filedAt": "2026-08-03T07:00:00.000Z"
+    },
+    "notesFiled": 8,
+    "saveCount": 111,
     "subject": {
       "kind": "region",
       "regionId": "region_willamette-valley"
@@ -253,16 +888,74 @@
     "id": "event_stellenbosch-se-rooiwyne",
     "title": "Stellenbosch se rooiwyne",
     "titleLanguage": "af",
-    "eventType": "pairing",
-    "startDateTime": "2026-08-21T15:00:00.000Z",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-08-21T16:00:00.000Z",
+    "endDateTime": "2026-08-21T18:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Stellenbosch"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Meerlust Estate",
     "location": "Stellenbosch",
+    "languages": [
+      "af",
+      "en"
+    ],
+    "admission": "trade",
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Anneke du Plessis",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Anneke du Plessis"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Marco Bianchi"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Meerlust Estate"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://meerlust-estate.example/book/stellenbosch-se-rooiwyne"
+    },
+    "saveCount": 7,
     "subject": {
       "kind": "region",
       "regionId": "region_stellenbosch"
@@ -272,16 +965,77 @@
     "id": "event_degustation-verticale-de-pauillac",
     "title": "Dégustation verticale de Pauillac",
     "titleLanguage": "fr",
-    "eventType": "pairing",
-    "startDateTime": "2026-08-22T15:00:00.000Z",
+    "eventType": "winemaker_dinner",
+    "startDateTime": "2026-08-22T16:00:00.000Z",
+    "endDateTime": "2026-08-22T18:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Swartland"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Mullineux",
     "location": "Swartland",
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "admission": "trade",
+    "capacity": 16,
+    "taken": 6,
+    "seatsAvailable": 10,
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Camille Dubois",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Camille Dubois"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Francesca Conti"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Mullineux"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://mullineux.example/book/degustation-verticale-de-pauillac"
+    },
+    "saveCount": 109,
     "subject": {
       "kind": "region",
       "regionId": "region_swartland"
@@ -291,16 +1045,81 @@
     "id": "event_les-grands-crus-de-bourgogne",
     "title": "Les grands crus de Bourgogne",
     "titleLanguage": "fr",
-    "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-23T17:00:00.000Z",
+    "eventType": "tasting",
+    "startDateTime": "2026-08-23T18:00:00.000Z",
+    "endDateTime": "2026-08-23T20:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Constantia"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Groot Constantia",
     "location": "Constantia",
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "admission": "trade",
+    "capacity": 16,
+    "taken": 2,
+    "seatsAvailable": 14,
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Étienne Laurent",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Étienne Laurent"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Alessandro Ferrari"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Groot Constantia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://groot-constantia.example/book/les-grands-crus-de-bourgogne"
+    },
+    "saveCount": 61,
     "subject": {
       "kind": "region",
       "regionId": "region_constantia"
@@ -310,17 +1129,77 @@
     "id": "event_champagne-dosage-et-terroir",
     "title": "Champagne: dosage et terroir",
     "titleLanguage": "fr",
-    "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-24T19:00:00.000Z",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-08-24T16:00:00.000Z",
+    "endDateTime": "2026-08-24T18:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Bourgogne"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "Domaine Leflaive",
     "location": "Bourgogne",
-    "seatsAvailable": 4,
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 35,
+    "taken": 16,
+    "seatsAvailable": 19,
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Marie-Claire Fontaine",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Marie-Claire Fontaine"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Lucía Fernández"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Leflaive"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://domaine-leflaive.example/book/champagne-dosage-et-terroir"
+    },
+    "saveCount": 155,
     "subject": {
       "kind": "region",
       "regionId": "region_bourgogne"
@@ -330,17 +1209,66 @@
     "id": "event_decouverte-des-vins-du-rhone",
     "title": "Découverte des vins du Rhône",
     "titleLanguage": "fr",
-    "eventType": "winemaker_dinner",
+    "eventType": "tasting",
     "startDateTime": "2026-08-25T16:00:00.000Z",
+    "endDateTime": "2026-08-25T18:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "E. Guigal"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Côte-Rôtie"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "E. Guigal",
     "location": "Côte-Rôtie",
-    "seatsAvailable": 29,
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "admission": "club",
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Olivier Rousseau",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Olivier Rousseau"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Javier Moreno"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "E. Guigal"
+        }
+      }
+    ],
+    "lifecycle": "cancelled",
+    "saveCount": 63,
     "subject": {
       "kind": "region",
       "regionId": "region_cote-rotie"
@@ -350,17 +1278,77 @@
     "id": "event_atelier-assemblage-a-bordeaux",
     "title": "Atelier assemblage à Bordeaux",
     "titleLanguage": "fr",
-    "eventType": "sommelier_led",
+    "eventType": "tasting",
     "startDateTime": "2026-08-26T16:00:00.000Z",
+    "endDateTime": "2026-08-26T18:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Chianti Classico"
+      },
+      "countryCode": "IT"
+    },
     "venueName": "Castello di Ama",
     "location": "Chianti Classico",
-    "seatsAvailable": 5,
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 44,
+    "taken": 25,
+    "seatsAvailable": 19,
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Amélie Girard",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Amélie Girard"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Carmen Ortiz"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Castello di Ama"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://castello-di-ama.example/book/atelier-assemblage-a-bordeaux"
+    },
+    "saveCount": 125,
     "subject": {
       "kind": "region",
       "regionId": "region_chianti-classico"
@@ -370,17 +1358,74 @@
     "id": "event_rieslingprobe-an-der-mosel",
     "title": "Rieslingprobe an der Mosel",
     "titleLanguage": "de",
-    "eventType": "pairing",
-    "startDateTime": "2026-08-27T15:00:00.000Z",
+    "eventType": "tasting",
+    "startDateTime": "2026-08-27T19:00:00.000Z",
+    "endDateTime": "2026-08-27T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Ribera del Duero"
+      },
+      "countryCode": "ES"
+    },
     "venueName": "Vega Sicilia",
     "location": "Ribera del Duero",
-    "seatsAvailable": 12,
+    "languages": [
+      "de",
+      "en"
+    ],
+    "admission": "club",
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Klaus Bergmann",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Klaus Bergmann"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Diego Ramírez"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Vega Sicilia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://vega-sicilia.example/book/rieslingprobe-an-der-mosel"
+    },
+    "saveCount": 130,
     "subject": {
       "kind": "region",
       "regionId": "region_ribera-del-duero"
@@ -390,17 +1435,77 @@
     "id": "event_gro-e-gewachse-aus-dem-rheingau",
     "title": "Große Gewächse aus dem Rheingau",
     "titleLanguage": "de",
-    "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-28T15:00:00.000Z",
+    "eventType": "launch",
+    "startDateTime": "2026-08-28T17:00:00.000Z",
+    "endDateTime": "2026-08-28T19:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Rheingau"
+      },
+      "countryCode": "DE"
+    },
     "venueName": "Schloss Johannisberg",
     "location": "Rheingau",
-    "seatsAvailable": 30,
+    "languages": [
+      "de",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 50,
+    "taken": 44,
+    "seatsAvailable": 6,
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Ingrid Hoffmann",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Ingrid Hoffmann"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Emily Carter"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Schloss Johannisberg"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://schloss-johannisberg.example/book/gro-e-gewachse-aus-dem-rheingau"
+    },
+    "saveCount": 126,
     "subject": {
       "kind": "region",
       "regionId": "region_rheingau"
@@ -411,16 +1516,83 @@
     "title": "Grüner Veltliner im Vergleich",
     "titleLanguage": "de",
     "eventType": "sommelier_led",
-    "startDateTime": "2026-08-01T16:00:00.000Z",
+    "startDateTime": "2026-08-01T15:00:00.000Z",
+    "endDateTime": "2026-08-01T17:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Drouhin Oregon"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Willamette Valley"
+      },
+      "countryCode": "US"
+    },
     "venueName": "Domaine Drouhin Oregon",
     "location": "Willamette Valley",
-    "seatsAvailable": 20,
+    "languages": [
+      "de",
+      "en"
+    ],
+    "admission": "open",
+    "capacity": 24,
+    "taken": 15,
+    "seatsAvailable": 9,
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Sebastian Vogel",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Sebastian Vogel"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "James Whitfield"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Drouhin Oregon"
+        }
+      }
+    ],
+    "lifecycle": "past",
+    "recap": {
+      "body": [
+        {
+          "source": "negotiated",
+          "text": "Six pours and a long argument about the Willamette Valley vintage.",
+          "languageTag": "en"
+        }
+      ],
+      "byline": {
+        "name": "Alessandro Ferrari",
+        "status": "collector"
+      },
+      "filedAt": "2026-08-03T03:00:00.000Z"
+    },
+    "notesFiled": 12,
+    "saveCount": 142,
     "subject": {
       "kind": "region",
       "regionId": "region_willamette-valley"
@@ -432,15 +1604,75 @@
     "titleLanguage": "de",
     "eventType": "sommelier_led",
     "startDateTime": "2026-08-21T16:00:00.000Z",
+    "endDateTime": "2026-08-21T18:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Stellenbosch"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Meerlust Estate",
     "location": "Stellenbosch",
-    "seatsAvailable": 10,
+    "languages": [
+      "de",
+      "en"
+    ],
+    "admission": "open",
+    "capacity": 30,
+    "taken": 21,
+    "seatsAvailable": 9,
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Lena Schäfer",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Lena Schäfer"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Sarah Bennett"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Meerlust Estate"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://meerlust-estate.example/book/weinreise-durch-die-pfalz"
+    },
+    "saveCount": 45,
     "subject": {
       "kind": "region",
       "regionId": "region_stellenbosch"
@@ -450,17 +1682,77 @@
     "id": "event_degustazione-verticale-di-barolo",
     "title": "Degustazione verticale di Barolo",
     "titleLanguage": "it",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-22T18:00:00.000Z",
+    "eventType": "launch",
+    "startDateTime": "2026-08-22T17:00:00.000Z",
+    "endDateTime": "2026-08-22T19:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Swartland"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Mullineux",
     "location": "Swartland",
-    "seatsAvailable": 36,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 19,
+    "taken": 1,
+    "seatsAvailable": 18,
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Giulia Rossi",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Giulia Rossi"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Michael O'Donnell"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Mullineux"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://mullineux.example/book/degustazione-verticale-di-barolo"
+    },
+    "saveCount": 43,
     "subject": {
       "kind": "region",
       "regionId": "region_swartland"
@@ -470,17 +1762,77 @@
     "id": "event_i-grandi-rossi-della-toscana",
     "title": "I grandi rossi della Toscana",
     "titleLanguage": "it",
-    "eventType": "pairing",
-    "startDateTime": "2026-08-23T17:00:00.000Z",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-08-23T19:00:00.000Z",
+    "endDateTime": "2026-08-23T21:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Constantia"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Groot Constantia",
     "location": "Constantia",
-    "seatsAvailable": 16,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "admission": "open",
+    "capacity": 40,
+    "taken": 35,
+    "seatsAvailable": 5,
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Marco Bianchi",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Marco Bianchi"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Claire Beaumont"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Groot Constantia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://groot-constantia.example/book/i-grandi-rossi-della-toscana"
+    },
+    "saveCount": 35,
     "subject": {
       "kind": "region",
       "regionId": "region_constantia"
@@ -490,17 +1842,74 @@
     "id": "event_etna-altitudine-e-minerale",
     "title": "Etna: altitudine e minerale",
     "titleLanguage": "it",
-    "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-24T19:00:00.000Z",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-08-24T17:00:00.000Z",
+    "endDateTime": "2026-08-24T19:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Bourgogne"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "Domaine Leflaive",
     "location": "Bourgogne",
-    "seatsAvailable": 33,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "admission": "ticketed",
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Francesca Conti",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Francesca Conti"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Hannah Fischer"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Leflaive"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://domaine-leflaive.example/book/etna-altitudine-e-minerale"
+    },
+    "saveCount": 121,
     "subject": {
       "kind": "region",
       "regionId": "region_bourgogne"
@@ -510,17 +1919,81 @@
     "id": "event_vini-bianchi-del-friuli",
     "title": "Vini bianchi del Friuli",
     "titleLanguage": "it",
-    "eventType": "masterclass",
+    "eventType": "sommelier_led",
     "startDateTime": "2026-08-25T17:00:00.000Z",
+    "endDateTime": "2026-08-25T19:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "E. Guigal"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Côte-Rôtie"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "E. Guigal",
     "location": "Côte-Rôtie",
-    "seatsAvailable": 32,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 26,
+    "taken": 5,
+    "seatsAvailable": 21,
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Alessandro Ferrari",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Alessandro Ferrari"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Tobias Wagner"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "E. Guigal"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "E. Guigal"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://e-guigal.example/book/vini-bianchi-del-friuli"
+    },
+    "saveCount": 86,
     "subject": {
       "kind": "region",
       "regionId": "region_cote-rotie"
@@ -530,17 +2003,74 @@
     "id": "event_cata-vertical-de-rioja",
     "title": "Cata vertical de Rioja",
     "titleLanguage": "es",
-    "eventType": "masterclass",
+    "eventType": "tasting",
     "startDateTime": "2026-08-26T19:00:00.000Z",
+    "endDateTime": "2026-08-26T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Chianti Classico"
+      },
+      "countryCode": "IT"
+    },
     "venueName": "Castello di Ama",
     "location": "Chianti Classico",
-    "seatsAvailable": 20,
+    "languages": [
+      "es",
+      "en"
+    ],
+    "admission": "club",
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Lucía Fernández",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Lucía Fernández"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Isabella Marino"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Castello di Ama"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://castello-di-ama.example/book/cata-vertical-de-rioja"
+    },
+    "saveCount": 11,
     "subject": {
       "kind": "region",
       "regionId": "region_chianti-classico"
@@ -551,15 +2081,76 @@
     "title": "Los tintos de Ribera del Duero",
     "titleLanguage": "es",
     "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-27T18:00:00.000Z",
+    "startDateTime": "2026-08-27T17:00:00.000Z",
+    "endDateTime": "2026-08-27T19:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Ribera del Duero"
+      },
+      "countryCode": "ES"
+    },
     "venueName": "Vega Sicilia",
     "location": "Ribera del Duero",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 18,
+    "taken": 3,
+    "seatsAvailable": 15,
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Javier Moreno",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Javier Moreno"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Rafael Costa"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Vega Sicilia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://vega-sicilia.example/book/los-tintos-de-ribera-del-duero"
+    },
+    "saveCount": 26,
     "subject": {
       "kind": "region",
       "regionId": "region_ribera-del-duero"
@@ -569,16 +2160,81 @@
     "id": "event_albarino-y-el-atlantico",
     "title": "Albariño y el Atlántico",
     "titleLanguage": "es",
-    "eventType": "winemaker_dinner",
+    "eventType": "sommelier_led",
     "startDateTime": "2026-08-28T19:00:00.000Z",
+    "endDateTime": "2026-08-28T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Rheingau"
+      },
+      "countryCode": "DE"
+    },
     "venueName": "Schloss Johannisberg",
     "location": "Rheingau",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 36,
+    "taken": 33,
+    "seatsAvailable": 3,
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Carmen Ortiz",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Carmen Ortiz"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Sophie Laurent"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Schloss Johannisberg"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://schloss-johannisberg.example/book/albarino-y-el-atlantico"
+    },
+    "saveCount": 20,
     "subject": {
       "kind": "region",
       "regionId": "region_rheingau"
@@ -589,15 +2245,83 @@
     "title": "Jerez: de fino a oloroso",
     "titleLanguage": "es",
     "eventType": "sommelier_led",
-    "startDateTime": "2026-08-01T18:00:00.000Z",
+    "startDateTime": "2026-08-01T15:00:00.000Z",
+    "endDateTime": "2026-08-01T17:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Drouhin Oregon"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Willamette Valley"
+      },
+      "countryCode": "US"
+    },
     "venueName": "Domaine Drouhin Oregon",
     "location": "Willamette Valley",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "admission": "open",
+    "capacity": 33,
+    "taken": 13,
+    "seatsAvailable": 20,
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Diego Ramírez",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Diego Ramírez"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Daniel Brandt"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Drouhin Oregon"
+        }
+      }
+    ],
+    "lifecycle": "past",
+    "recap": {
+      "body": [
+        {
+          "source": "negotiated",
+          "text": "Six pours and a long argument about the Willamette Valley vintage.",
+          "languageTag": "en"
+        }
+      ],
+      "byline": {
+        "name": "Claire Beaumont",
+        "status": "collector"
+      },
+      "filedAt": "2026-08-03T03:00:00.000Z"
+    },
+    "notesFiled": 13,
+    "saveCount": 48,
     "subject": {
       "kind": "region",
       "regionId": "region_willamette-valley"
@@ -607,16 +2331,70 @@
     "id": "event_priorat-pizarra-y-garnacha",
     "title": "Priorat, pizarra y garnacha",
     "titleLanguage": "es",
-    "eventType": "sommelier_led",
-    "startDateTime": "2026-08-21T16:00:00.000Z",
+    "eventType": "launch",
+    "startDateTime": "2026-08-21T18:00:00.000Z",
+    "endDateTime": "2026-08-21T20:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Stellenbosch"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Meerlust Estate",
     "location": "Stellenbosch",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "admission": "trade",
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Emily Carter",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Emily Carter"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Nadia Haddad"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Meerlust Estate"
+        }
+      }
+    ],
+    "lifecycle": "cancelled",
+    "saveCount": 18,
     "subject": {
       "kind": "region",
       "regionId": "region_stellenbosch"
@@ -628,15 +2406,74 @@
     "titleLanguage": "en",
     "eventType": "winemaker_dinner",
     "startDateTime": "2026-08-22T15:00:00.000Z",
+    "endDateTime": "2026-08-22T17:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Swartland"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Mullineux",
     "location": "Swartland",
-    "seatsAvailable": 33,
+    "languages": [
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 50,
+    "taken": 18,
+    "seatsAvailable": 32,
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "James Whitfield",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "James Whitfield"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Kobus Steyn"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Mullineux"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://mullineux.example/book/sparkling-from-the-south-downs"
+    },
+    "saveCount": 116,
     "subject": {
       "kind": "region",
       "regionId": "region_swartland"
@@ -646,17 +2483,80 @@
     "id": "event_english-fizz-vs-champagne-blind",
     "title": "English fizz vs Champagne, blind",
     "titleLanguage": "en",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-23T19:00:00.000Z",
+    "eventType": "launch",
+    "startDateTime": "2026-08-23T15:00:00.000Z",
+    "endDateTime": "2026-08-23T17:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Constantia"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Groot Constantia",
     "location": "Constantia",
-    "seatsAvailable": 24,
+    "languages": [
+      "en"
+    ],
+    "admission": "trade",
+    "capacity": 59,
+    "taken": 29,
+    "seatsAvailable": 30,
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Sarah Bennett",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Sarah Bennett"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Yolanda Petersen"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Groot Constantia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://groot-constantia.example/book/english-fizz-vs-champagne-blind"
+    },
+    "saveCount": 166,
     "subject": {
       "kind": "region",
       "regionId": "region_constantia"
@@ -666,17 +2566,68 @@
     "id": "event_kent-harvest-walk-and-tasting",
     "title": "Kent harvest walk and tasting",
     "titleLanguage": "en",
-    "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-24T16:00:00.000Z",
+    "eventType": "tasting",
+    "startDateTime": "2026-08-24T19:00:00.000Z",
+    "endDateTime": "2026-08-24T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Bourgogne"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "Domaine Leflaive",
     "location": "Bourgogne",
-    "seatsAvailable": 4,
+    "languages": [
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 60,
+    "taken": 6,
+    "seatsAvailable": 54,
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Michael O'Donnell",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Michael O'Donnell"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Bianca Adams"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Leflaive"
+        }
+      }
+    ],
+    "lifecycle": "cancelled",
+    "saveCount": 53,
     "subject": {
       "kind": "region",
       "regionId": "region_bourgogne"
@@ -688,15 +2639,71 @@
     "titleLanguage": "en",
     "eventType": "sommelier_led",
     "startDateTime": "2026-08-25T16:00:00.000Z",
+    "endDateTime": "2026-08-25T18:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "E. Guigal"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Côte-Rôtie"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "E. Guigal",
     "location": "Côte-Rôtie",
-    "seatsAvailable": 30,
+    "languages": [
+      "en"
+    ],
+    "admission": "open",
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Claire Beaumont",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Claire Beaumont"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Werner Kruger"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "E. Guigal"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "E. Guigal"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://e-guigal.example/book/napa-cabernet-five-vintages"
+    },
+    "saveCount": 104,
     "subject": {
       "kind": "region",
       "regionId": "region_cote-rotie"
@@ -706,17 +2713,73 @@
     "id": "event_oregon-pinot-north-to-south",
     "title": "Oregon Pinot, north to south",
     "titleLanguage": "en",
-    "eventType": "sommelier_led",
+    "eventType": "tasting",
     "startDateTime": "2026-08-26T16:00:00.000Z",
+    "endDateTime": "2026-08-26T18:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Chianti Classico"
+      },
+      "countryCode": "IT"
+    },
     "venueName": "Castello di Ama",
     "location": "Chianti Classico",
-    "seatsAvailable": 38,
+    "languages": [
+      "en"
+    ],
+    "admission": "club",
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Hannah Fischer",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Hannah Fischer"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Chiara Lombardi"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Castello di Ama"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://castello-di-ama.example/book/oregon-pinot-north-to-south"
+    },
+    "saveCount": 67,
     "subject": {
       "kind": "region",
       "regionId": "region_chianti-classico"
@@ -727,15 +2790,79 @@
     "title": "Okanagan icewine and dessert pairing",
     "titleLanguage": "en",
     "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-27T19:00:00.000Z",
+    "startDateTime": "2026-08-27T15:00:00.000Z",
+    "endDateTime": "2026-08-27T17:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Ribera del Duero"
+      },
+      "countryCode": "ES"
+    },
     "venueName": "Vega Sicilia",
     "location": "Ribera del Duero",
+    "languages": [
+      "en"
+    ],
+    "admission": "open",
+    "capacity": 28,
+    "taken": 17,
+    "seatsAvailable": 11,
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Tobias Wagner",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Tobias Wagner"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Paulo Silva"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Vega Sicilia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://vega-sicilia.example/book/okanagan-icewine-and-dessert-pairing"
+    },
+    "saveCount": 138,
     "subject": {
       "kind": "region",
       "regionId": "region_ribera-del-duero"
@@ -745,17 +2872,77 @@
     "id": "event_constantia-se-soet-wyne",
     "title": "Constantia se soet wyne",
     "titleLanguage": "af",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-28T16:00:00.000Z",
+    "eventType": "tasting",
+    "startDateTime": "2026-08-28T17:00:00.000Z",
+    "endDateTime": "2026-08-28T19:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Rheingau"
+      },
+      "countryCode": "DE"
+    },
     "venueName": "Schloss Johannisberg",
     "location": "Rheingau",
-    "seatsAvailable": 22,
+    "languages": [
+      "af",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 59,
+    "taken": 4,
+    "seatsAvailable": 55,
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Isabella Marino",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Isabella Marino"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Antoine Mercier"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Schloss Johannisberg"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://schloss-johannisberg.example/book/constantia-se-soet-wyne"
+    },
+    "saveCount": 107,
     "subject": {
       "kind": "region",
       "regionId": "region_rheingau"
@@ -765,16 +2952,84 @@
     "id": "event_pinotage-ou-en-nuwe-styl",
     "title": "Pinotage: ou en nuwe styl",
     "titleLanguage": "af",
-    "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-01T16:00:00.000Z",
+    "eventType": "launch",
+    "startDateTime": "2026-08-01T19:00:00.000Z",
+    "endDateTime": "2026-08-01T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Drouhin Oregon"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Willamette Valley"
+      },
+      "countryCode": "US"
+    },
     "venueName": "Domaine Drouhin Oregon",
     "location": "Willamette Valley",
+    "languages": [
+      "af",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 27,
+    "taken": 23,
+    "seatsAvailable": 4,
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Rafael Costa",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Rafael Costa"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Greta Bauer"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Drouhin Oregon"
+        }
+      }
+    ],
+    "lifecycle": "past",
+    "recap": {
+      "body": [
+        {
+          "source": "negotiated",
+          "text": "Six pours and a long argument about the Willamette Valley vintage.",
+          "languageTag": "en"
+        }
+      ],
+      "byline": {
+        "name": "Yolanda Petersen",
+        "status": "collector"
+      },
+      "filedAt": "2026-08-03T07:00:00.000Z"
+    },
+    "notesFiled": 8,
+    "saveCount": 16,
     "subject": {
       "kind": "region",
       "regionId": "region_willamette-valley"
@@ -784,16 +3039,81 @@
     "id": "event_elgin-se-koel-klimaat-wyne",
     "title": "Elgin se koel klimaat wyne",
     "titleLanguage": "af",
-    "eventType": "masterclass",
+    "eventType": "launch",
     "startDateTime": "2026-08-21T19:00:00.000Z",
+    "endDateTime": "2026-08-21T21:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Stellenbosch"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Meerlust Estate",
     "location": "Stellenbosch",
+    "languages": [
+      "af",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 42,
+    "taken": 32,
+    "seatsAvailable": 10,
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Sophie Laurent",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Sophie Laurent"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Nomvula Sithole"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Meerlust Estate"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://meerlust-estate.example/book/elgin-se-koel-klimaat-wyne"
+    },
+    "saveCount": 97,
     "subject": {
       "kind": "region",
       "regionId": "region_stellenbosch"
@@ -803,10 +3123,34 @@
     "id": "event_wynmakers-van-die-boland",
     "title": "Wynmakers van die Boland",
     "titleLanguage": "af",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-22T18:00:00.000Z",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-08-22T19:00:00.000Z",
+    "endDateTime": "2026-08-22T21:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Swartland"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Mullineux",
     "location": "Swartland",
+    "languages": [
+      "af",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 59,
+    "taken": 45,
     "seatsAvailable": 14,
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
@@ -814,6 +3158,38 @@
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Daniel Brandt"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Hendrik de Villiers"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Mullineux"
+        }
+      }
+    ],
+    "lifecycle": "cancelled",
+    "saveCount": 49,
     "subject": {
       "kind": "region",
       "regionId": "region_swartland"
@@ -825,15 +3201,75 @@
     "titleLanguage": "af",
     "eventType": "winemaker_dinner",
     "startDateTime": "2026-08-23T17:00:00.000Z",
+    "endDateTime": "2026-08-23T19:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Constantia"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Groot Constantia",
     "location": "Constantia",
-    "seatsAvailable": 17,
+    "languages": [
+      "af",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 30,
+    "taken": 10,
+    "seatsAvailable": 20,
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Nadia Haddad",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Nadia Haddad"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Valentina Russo"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Groot Constantia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://groot-constantia.example/book/kaapse-mousserende-wyn"
+    },
+    "saveCount": 32,
     "subject": {
       "kind": "region",
       "regionId": "region_constantia"
@@ -844,15 +3280,73 @@
     "title": "Les vins de Loire au naturel",
     "titleLanguage": "fr",
     "eventType": "sommelier_led",
-    "startDateTime": "2026-08-24T15:00:00.000Z",
+    "startDateTime": "2026-08-24T17:00:00.000Z",
+    "endDateTime": "2026-08-24T19:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Bourgogne"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "Domaine Leflaive",
     "location": "Bourgogne",
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "admission": "ticketed",
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Kobus Steyn",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Kobus Steyn"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Tomas Novak"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Leflaive"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://domaine-leflaive.example/book/les-vins-de-loire-au-naturel"
+    },
+    "saveCount": 148,
     "subject": {
       "kind": "region",
       "regionId": "region_bourgogne"
@@ -862,17 +3356,77 @@
     "id": "event_alsace-sept-cepages",
     "title": "Alsace: sept cépages",
     "titleLanguage": "fr",
-    "eventType": "pairing",
-    "startDateTime": "2026-08-25T19:00:00.000Z",
+    "eventType": "winemaker_dinner",
+    "startDateTime": "2026-08-25T16:00:00.000Z",
+    "endDateTime": "2026-08-25T18:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "E. Guigal"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Côte-Rôtie"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "E. Guigal",
     "location": "Côte-Rôtie",
-    "seatsAvailable": 31,
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 43,
+    "taken": 40,
+    "seatsAvailable": 3,
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Yolanda Petersen",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Yolanda Petersen"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Ayanda Mthembu"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "E. Guigal"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "E. Guigal"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://e-guigal.example/book/alsace-sept-cepages"
+    },
+    "saveCount": 31,
     "subject": {
       "kind": "region",
       "regionId": "region_cote-rotie"
@@ -882,16 +3436,69 @@
     "id": "event_beaujolais-cru-par-cru",
     "title": "Beaujolais, cru par cru",
     "titleLanguage": "fr",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-26T16:00:00.000Z",
+    "eventType": "tasting",
+    "startDateTime": "2026-08-26T17:00:00.000Z",
+    "endDateTime": "2026-08-26T19:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Chianti Classico"
+      },
+      "countryCode": "IT"
+    },
     "venueName": "Castello di Ama",
     "location": "Chianti Classico",
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "admission": "open",
+    "capacity": 58,
+    "taken": 11,
+    "seatsAvailable": 47,
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Bianca Adams",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Bianca Adams"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Alexandra Meyer"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Castello di Ama"
+        }
+      }
+    ],
+    "lifecycle": "cancelled",
+    "saveCount": 149,
     "subject": {
       "kind": "region",
       "regionId": "region_chianti-classico"
@@ -901,17 +3508,74 @@
     "id": "event_vins-du-valais-et-fondue",
     "title": "Vins du Valais et fondue",
     "titleLanguage": "fr",
-    "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-27T17:00:00.000Z",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-08-27T19:00:00.000Z",
+    "endDateTime": "2026-08-27T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Ribera del Duero"
+      },
+      "countryCode": "ES"
+    },
     "venueName": "Vega Sicilia",
     "location": "Ribera del Duero",
-    "seatsAvailable": 4,
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "admission": "club",
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Werner Kruger",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Werner Kruger"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Thandi Nkosi"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Vega Sicilia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://vega-sicilia.example/book/vins-du-valais-et-fondue"
+    },
+    "saveCount": 21,
     "subject": {
       "kind": "region",
       "regionId": "region_ribera-del-duero"
@@ -921,17 +3585,77 @@
     "id": "event_sancerre-et-fromage-de-chevre",
     "title": "Sancerre et fromage de chèvre",
     "titleLanguage": "fr",
-    "eventType": "sommelier_led",
-    "startDateTime": "2026-08-28T17:00:00.000Z",
+    "eventType": "launch",
+    "startDateTime": "2026-08-28T16:00:00.000Z",
+    "endDateTime": "2026-08-28T18:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Rheingau"
+      },
+      "countryCode": "DE"
+    },
     "venueName": "Schloss Johannisberg",
     "location": "Rheingau",
-    "seatsAvailable": 35,
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "admission": "open",
+    "capacity": 60,
+    "taken": 1,
+    "seatsAvailable": 59,
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Chiara Lombardi",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Chiara Lombardi"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Nomsa Dlamini"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Schloss Johannisberg"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://schloss-johannisberg.example/book/sancerre-et-fromage-de-chevre"
+    },
+    "saveCount": 36,
     "subject": {
       "kind": "region",
       "regionId": "region_rheingau"
@@ -941,17 +3665,73 @@
     "id": "event_spatburgunder-aus-baden",
     "title": "Spätburgunder aus Baden",
     "titleLanguage": "de",
-    "eventType": "masterclass",
+    "eventType": "launch",
     "startDateTime": "2026-08-01T19:00:00.000Z",
+    "endDateTime": "2026-08-01T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Drouhin Oregon"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Willamette Valley"
+      },
+      "countryCode": "US"
+    },
     "venueName": "Domaine Drouhin Oregon",
     "location": "Willamette Valley",
-    "seatsAvailable": 6,
+    "languages": [
+      "de",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 57,
+    "taken": 10,
+    "seatsAvailable": 47,
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Paulo Silva",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Paulo Silva"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Johan Terblanche"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Drouhin Oregon"
+        }
+      }
+    ],
+    "lifecycle": "cancelled",
+    "saveCount": 84,
     "subject": {
       "kind": "region",
       "regionId": "region_willamette-valley"
@@ -961,17 +3741,77 @@
     "id": "event_trockenbeerenauslese-verkosten",
     "title": "Trockenbeerenauslese verkosten",
     "titleLanguage": "de",
-    "eventType": "pairing",
-    "startDateTime": "2026-08-21T15:00:00.000Z",
+    "eventType": "launch",
+    "startDateTime": "2026-08-21T16:00:00.000Z",
+    "endDateTime": "2026-08-21T18:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Stellenbosch"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Meerlust Estate",
     "location": "Stellenbosch",
-    "seatsAvailable": 10,
+    "languages": [
+      "de",
+      "en"
+    ],
+    "admission": "open",
+    "capacity": 55,
+    "taken": 28,
+    "seatsAvailable": 27,
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Antoine Mercier",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Antoine Mercier"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Pieter van Zyl"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Meerlust Estate"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://meerlust-estate.example/book/trockenbeerenauslese-verkosten"
+    },
+    "saveCount": 86,
     "subject": {
       "kind": "region",
       "regionId": "region_stellenbosch"
@@ -981,16 +3821,77 @@
     "id": "event_weinbergwanderung-an-der-nahe",
     "title": "Weinbergwanderung an der Nahe",
     "titleLanguage": "de",
-    "eventType": "sommelier_led",
+    "eventType": "launch",
     "startDateTime": "2026-08-22T15:00:00.000Z",
+    "endDateTime": "2026-08-22T17:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Swartland"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Mullineux",
     "location": "Swartland",
+    "languages": [
+      "de",
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 43,
+    "taken": 33,
+    "seatsAvailable": 10,
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Greta Bauer",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Greta Bauer"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Zanele Mokoena"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Mullineux"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Mullineux"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://mullineux.example/book/weinbergwanderung-an-der-nahe"
+    },
+    "saveCount": 64,
     "subject": {
       "kind": "region",
       "regionId": "region_swartland"
@@ -1000,17 +3901,74 @@
     "id": "event_wachauer-smaragd-im-glas",
     "title": "Wachauer Smaragd im Glas",
     "titleLanguage": "de",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-23T18:00:00.000Z",
+    "eventType": "winemaker_dinner",
+    "startDateTime": "2026-08-23T15:00:00.000Z",
+    "endDateTime": "2026-08-23T17:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Constantia"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Groot Constantia",
     "location": "Constantia",
-    "seatsAvailable": 12,
+    "languages": [
+      "de",
+      "en"
+    ],
+    "admission": "ticketed",
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Nomvula Sithole",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Nomvula Sithole"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Riaan Botha"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Groot Constantia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Groot Constantia"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://groot-constantia.example/book/wachauer-smaragd-im-glas"
+    },
+    "saveCount": 99,
     "subject": {
       "kind": "region",
       "regionId": "region_constantia"
@@ -1021,15 +3979,68 @@
     "title": "Amarone e Valpolicella a confronto",
     "titleLanguage": "it",
     "eventType": "sommelier_led",
-    "startDateTime": "2026-08-24T17:00:00.000Z",
+    "startDateTime": "2026-08-24T15:00:00.000Z",
+    "endDateTime": "2026-08-24T17:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Leflaive"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Bourgogne"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "Domaine Leflaive",
     "location": "Bourgogne",
+    "languages": [
+      "it",
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 46,
+    "taken": 32,
+    "seatsAvailable": 14,
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Hendrik de Villiers",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Hendrik de Villiers"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Lerato Mabaso"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Leflaive"
+        }
+      }
+    ],
+    "lifecycle": "cancelled",
+    "saveCount": 108,
     "subject": {
       "kind": "region",
       "regionId": "region_bourgogne"
@@ -1039,16 +4050,81 @@
     "id": "event_nebbiolo-oltre-il-barolo",
     "title": "Nebbiolo oltre il Barolo",
     "titleLanguage": "it",
-    "eventType": "winemaker_dinner",
-    "startDateTime": "2026-08-25T16:00:00.000Z",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-08-25T17:00:00.000Z",
+    "endDateTime": "2026-08-25T19:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "E. Guigal"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Côte-Rôtie"
+      },
+      "countryCode": "FR"
+    },
     "venueName": "E. Guigal",
     "location": "Côte-Rôtie",
+    "languages": [
+      "it",
+      "en"
+    ],
+    "admission": "trade",
+    "capacity": 50,
+    "taken": 45,
+    "seatsAvailable": 5,
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Valentina Russo",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Valentina Russo"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Sipho Khumalo"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "E. Guigal"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "E. Guigal"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://e-guigal.example/book/nebbiolo-oltre-il-barolo"
+    },
+    "saveCount": 179,
     "subject": {
       "kind": "region",
       "regionId": "region_cote-rotie"
@@ -1058,17 +4134,81 @@
     "id": "event_prosecco-metodo-e-territorio",
     "title": "Prosecco: metodo e territorio",
     "titleLanguage": "it",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-26T15:00:00.000Z",
+    "eventType": "pairing",
+    "startDateTime": "2026-08-26T19:00:00.000Z",
+    "endDateTime": "2026-08-26T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Chianti Classico"
+      },
+      "countryCode": "IT"
+    },
     "venueName": "Castello di Ama",
     "location": "Chianti Classico",
-    "seatsAvailable": 36,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "admission": "ticketed",
+    "capacity": 52,
+    "taken": 5,
+    "seatsAvailable": 47,
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Tomas Novak",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Tomas Novak"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Anneke du Plessis"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Castello di Ama"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Castello di Ama"
+      },
+      "actionKey": "booking.buyTickets",
+      "url": "https://castello-di-ama.example/book/prosecco-metodo-e-territorio"
+    },
+    "saveCount": 169,
     "subject": {
       "kind": "region",
       "regionId": "region_chianti-classico"
@@ -1078,10 +4218,30 @@
     "id": "event_vini-vulcanici-della-sicilia",
     "title": "Vini vulcanici della Sicilia",
     "titleLanguage": "it",
-    "eventType": "pairing",
-    "startDateTime": "2026-08-27T19:00:00.000Z",
+    "eventType": "winemaker_dinner",
+    "startDateTime": "2026-08-27T15:00:00.000Z",
+    "endDateTime": "2026-08-27T17:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Ribera del Duero"
+      },
+      "countryCode": "ES"
+    },
     "venueName": "Vega Sicilia",
     "location": "Ribera del Duero",
+    "languages": [
+      "it",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 31,
+    "taken": 17,
     "seatsAvailable": 14,
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
@@ -1089,6 +4249,46 @@
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Ayanda Mthembu"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Camille Dubois"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Vega Sicilia"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Vega Sicilia"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://vega-sicilia.example/book/vini-vulcanici-della-sicilia"
+    },
+    "saveCount": 86,
     "subject": {
       "kind": "region",
       "regionId": "region_ribera-del-duero"
@@ -1098,17 +4298,77 @@
     "id": "event_vinos-de-jerez-y-tapas",
     "title": "Vinos de Jerez y tapas",
     "titleLanguage": "es",
-    "eventType": "masterclass",
-    "startDateTime": "2026-08-28T19:00:00.000Z",
+    "eventType": "tasting",
+    "startDateTime": "2026-08-28T18:00:00.000Z",
+    "endDateTime": "2026-08-28T20:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Rheingau"
+      },
+      "countryCode": "DE"
+    },
     "venueName": "Schloss Johannisberg",
     "location": "Rheingau",
-    "seatsAvailable": 13,
+    "languages": [
+      "es",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 33,
+    "taken": 4,
+    "seatsAvailable": 29,
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Alexandra Meyer",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Alexandra Meyer"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Étienne Laurent"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Schloss Johannisberg"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Schloss Johannisberg"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://schloss-johannisberg.example/book/vinos-de-jerez-y-tapas"
+    },
+    "saveCount": 116,
     "subject": {
       "kind": "region",
       "regionId": "region_rheingau"
@@ -1118,17 +4378,88 @@
     "id": "event_garnacha-en-tres-regiones",
     "title": "Garnacha en tres regiones",
     "titleLanguage": "es",
-    "eventType": "pairing",
-    "startDateTime": "2026-08-01T18:00:00.000Z",
+    "eventType": "winemaker_dinner",
+    "startDateTime": "2026-08-01T19:00:00.000Z",
+    "endDateTime": "2026-08-01T21:30:00.000Z",
+    "timezone": "Europe/Paris",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Domaine Drouhin Oregon"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Willamette Valley"
+      },
+      "countryCode": "US"
+    },
     "venueName": "Domaine Drouhin Oregon",
     "location": "Willamette Valley",
-    "seatsAvailable": 35,
+    "languages": [
+      "es",
+      "en"
+    ],
+    "admission": "club",
+    "capacity": 25,
+    "taken": 11,
+    "seatsAvailable": 14,
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Thandi Nkosi",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Thandi Nkosi"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Marie-Claire Fontaine"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Domaine Drouhin Oregon"
+        }
+      }
+    ],
+    "lifecycle": "past",
+    "recap": {
+      "body": [
+        {
+          "source": "negotiated",
+          "text": "Six pours and a long argument about the Willamette Valley vintage.",
+          "languageTag": "en"
+        }
+      ],
+      "byline": {
+        "name": "Riaan Botha",
+        "status": "collector"
+      },
+      "filedAt": "2026-08-03T07:00:00.000Z"
+    },
+    "notesFiled": 13,
+    "saveCount": 28,
     "subject": {
       "kind": "region",
       "regionId": "region_willamette-valley"
@@ -1138,17 +4469,81 @@
     "id": "event_espumosos-cava-y-metodo-tradicional",
     "title": "Espumosos: cava y método tradicional",
     "titleLanguage": "es",
-    "eventType": "sommelier_led",
-    "startDateTime": "2026-08-21T19:00:00.000Z",
+    "eventType": "tasting",
+    "startDateTime": "2026-08-21T17:00:00.000Z",
+    "endDateTime": "2026-08-21T19:30:00.000Z",
+    "timezone": "Africa/Johannesburg",
+    "venue": {
+      "name": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "room": {
+        "source": "canonical",
+        "text": "The Cellar"
+      },
+      "city": {
+        "source": "canonical",
+        "text": "Stellenbosch"
+      },
+      "countryCode": "ZA"
+    },
     "venueName": "Meerlust Estate",
     "location": "Stellenbosch",
-    "seatsAvailable": 40,
+    "languages": [
+      "es",
+      "en"
+    ],
+    "admission": "open",
+    "capacity": 16,
+    "taken": 8,
+    "seatsAvailable": 8,
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Nomsa Dlamini",
       "tier": "professional",
       "role": "sommelier"
     },
+    "panel": [
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Nomsa Dlamini"
+        },
+        "tier": "professional",
+        "role": {
+          "source": "negotiated",
+          "text": "Host",
+          "languageTag": "en"
+        }
+      },
+      {
+        "name": {
+          "source": "canonical",
+          "text": "Olivier Rousseau"
+        },
+        "tier": "producer",
+        "role": {
+          "source": "negotiated",
+          "text": "Cellarmaster",
+          "languageTag": "en"
+        },
+        "house": {
+          "source": "canonical",
+          "text": "Meerlust Estate"
+        }
+      }
+    ],
+    "lifecycle": "open",
+    "booking": {
+      "claimant": {
+        "source": "canonical",
+        "text": "Meerlust Estate"
+      },
+      "actionKey": "booking.requestSeat",
+      "url": "https://meerlust-estate.example/book/espumosos-cava-y-metodo-tradicional"
+    },
+    "saveCount": 50,
     "subject": {
       "kind": "region",
       "regionId": "region_stellenbosch"

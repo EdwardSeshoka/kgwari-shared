@@ -1,0 +1,401 @@
+[
+  {
+    "id": "article_why_2018_stellenbosch",
+    "contentType": "article",
+    "title": "Why 2018 is the vintage to buy in Stellenbosch.",
+    "titleLanguage": "en",
+    "standfirst": {
+      "source": "negotiated",
+      "text": "A cool, late-ripening year gave the Cape's Bordeaux blends the structure to age a decade — here's what to look for, and what to lay down.",
+      "languageTag": "en"
+    },
+    "body": [
+      {
+        "source": "negotiated",
+        "text": "The 2018 harvest came in three weeks late and nobody was pleased about it at the time. Cellars that had planned for a February pick were still waiting in March, watching sugars crawl and acids hold.",
+        "languageTag": "en"
+      },
+      {
+        "source": "negotiated",
+        "text": "That slow finish is the whole story of the vintage. The tannins are fine rather than plush, the alcohols sit lower than the decade's average, and the wines were awkward for two years before they started to make sense.",
+        "languageTag": "en"
+      },
+      {
+        "source": "negotiated",
+        "text": "They make sense now. What follows is what we could establish about the year, and what we could not.",
+        "languageTag": "en"
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
+    "author": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "subject": {
+      "kind": "vintage_report",
+      "regionId": "region_stellenbosch",
+      "countryCode": "ZA",
+      "vintage": 2018
+    },
+    "publishedAt": "2026-06-20T08:00:00.000Z",
+    "claims": [
+      {
+        "id": "claim_2018_harvest_late",
+        "body": {
+          "source": "negotiated",
+          "text": "Picking at Meerlust began on 12 March, nineteen days later than the ten-year average.",
+          "languageTag": "en"
+        },
+        "source": "firsthand",
+        "answers": [
+          {
+            "wineVintageId": "rubicon-2018",
+            "fieldKey": "vintage"
+          }
+        ]
+      },
+      {
+        "id": "claim_2018_alcohol",
+        "body": {
+          "source": "negotiated",
+          "text": "The blend finished at 14.21 % — a little under where the warm years land it.",
+          "languageTag": "en"
+        },
+        "source": "reported",
+        "answers": [
+          {
+            "wineVintageId": "rubicon-2018",
+            "fieldKey": "alcohol"
+          }
+        ]
+      },
+      {
+        "id": "claim_2018_no_new_oak_increase",
+        "body": {
+          "source": "negotiated",
+          "text": "The new-oak proportion was not raised to compensate for the cooler year.",
+          "languageTag": "en"
+        },
+        "source": "panel",
+        "answers": [
+          {
+            "wineVintageId": "rubicon-2018",
+            "fieldKey": "newOak"
+          }
+        ]
+      }
+    ],
+    "unanswered": [
+      {
+        "question": {
+          "source": "negotiated",
+          "text": "How much of the crop was declassified?",
+          "languageTag": "en"
+        },
+        "answer": "declined"
+      },
+      {
+        "question": {
+          "source": "negotiated",
+          "text": "What did the late harvest cost in labour?",
+          "languageTag": "en"
+        },
+        "answer": "no_reply"
+      },
+      {
+        "question": {
+          "source": "negotiated",
+          "text": "Which blocks were picked first?",
+          "languageTag": "en"
+        },
+        "answer": "not_sought"
+      }
+    ],
+    "pairing": {
+      "dish": {
+        "source": "negotiated",
+        "text": "Lamb off the coals, more smoke than sauce.",
+        "languageTag": "en"
+      },
+      "reason": {
+        "source": "negotiated",
+        "text": "The tannin is fine enough to take char without turning bitter against it.",
+        "languageTag": "en"
+      },
+      "suggestedBy": {
+        "name": "Nomsa Dlamini",
+        "tier": "professional",
+        "role": "sommelier"
+      }
+    },
+    "saveCount": 412
+  },
+  {
+    "id": "event_meerlust_cellar_tasting",
+    "contentType": "event",
+    "title": "Six vintages, one afternoon in the Meerlust cellar.",
+    "titleLanguage": "en",
+    "standfirst": {
+      "source": "negotiated",
+      "text": "The estate opens a vertical it does not usually pour, and answers questions about the years it would rather forget.",
+      "languageTag": "en"
+    },
+    "body": [
+      {
+        "source": "negotiated",
+        "text": "Six vintages, poured in the room they were made in, in the order the cellarmaster thinks they should be met rather than the order they were picked.",
+        "languageTag": "en"
+      },
+      {
+        "source": "negotiated",
+        "text": "The 2015 and the 2018 sit next to each other on purpose. One is the warm year everybody bought and the other is the cool year almost nobody did.",
+        "languageTag": "en"
+      }
+    ],
+    "author": {
+      "name": "Alexandra Meyer",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "subject": {
+      "kind": "wine",
+      "wineVintageId": "rubicon-2018",
+      "wineLabelId": "rubicon"
+    },
+    "publishedAt": "2026-07-01T09:00:00.000Z",
+    "claims": [
+      {
+        "id": "claim_vertical_six",
+        "body": {
+          "source": "negotiated",
+          "text": "Six vintages will be poured, 2009 through 2018.",
+          "languageTag": "en"
+        },
+        "source": "panel"
+      }
+    ],
+    "pairing": {
+      "dish": {
+        "source": "negotiated",
+        "text": "Bread, hard cheese, and nothing that argues.",
+        "languageTag": "en"
+      },
+      "suggestedBy": {
+        "name": "Alexandra Meyer",
+        "tier": "professional",
+        "role": "sommelier"
+      }
+    },
+    "saveCount": 96,
+    "event": {
+      "id": "event_meerlust_cellar_tasting",
+      "title": "Meerlust cellar tasting",
+      "eventType": "winemaker_dinner",
+      "startDateTime": "2026-07-24T16:00:00.000Z",
+      "venueName": "Meerlust Estate",
+      "location": "Stellenbosch",
+      "seatsAvailable": 27,
+      "host": {
+        "name": "Meerlust Estate",
+        "tier": "producer",
+        "role": "producer"
+      },
+      "subject": {
+        "kind": "producer",
+        "producerId": "estate_meerlust"
+      },
+      "endDateTime": "2026-07-24T18:30:00.000Z",
+      "timezone": "Africa/Johannesburg",
+      "venue": {
+        "name": {
+          "source": "canonical",
+          "text": "Meerlust Estate"
+        },
+        "city": {
+          "source": "canonical",
+          "text": "Stellenbosch"
+        },
+        "countryCode": "ZA"
+      },
+      "languages": [
+        "en"
+      ],
+      "admission": "ticketed",
+      "capacity": 53,
+      "taken": 26,
+      "lifecycle": "past",
+      "saveCount": 23
+    }
+  },
+  {
+    "id": "cause_after_the_fire",
+    "contentType": "cause",
+    "title": "After the fire.",
+    "titleLanguage": "en",
+    "standfirst": {
+      "source": "negotiated",
+      "text": "Four estates lost vineyard to the January fires. What the relief fund is for, and who administers it.",
+      "languageTag": "en"
+    },
+    "body": [
+      {
+        "source": "negotiated",
+        "text": "The fires took roughly ninety hectares across four properties, most of it older plantings on the upper slopes.",
+        "languageTag": "en"
+      },
+      {
+        "source": "negotiated",
+        "text": "The fund covers replanting and the three seasons before a young block carries fruit. It is administered by the regional association, not by us, and not by any estate in it.",
+        "languageTag": "en"
+      }
+    ],
+    "author": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "publishedAt": "2026-07-14T06:30:00.000Z",
+    "unanswered": [
+      {
+        "question": {
+          "source": "negotiated",
+          "text": "How much has been raised so far?",
+          "languageTag": "en"
+        },
+        "answer": "no_reply"
+      }
+    ],
+    "saveCount": 208
+  },
+  {
+    "id": "offer_rubicon_2021_release",
+    "contentType": "offer",
+    "title": "Rubicon 2021, released.",
+    "titleLanguage": "en",
+    "standfirst": {
+      "source": "negotiated",
+      "text": "The estate's allocation opens on Monday, in two formats and three markets.",
+      "languageTag": "en"
+    },
+    "body": [
+      {
+        "source": "negotiated",
+        "text": "A smaller release than 2020, and the estate says so plainly rather than letting the allocation list imply it.",
+        "languageTag": "en"
+      }
+    ],
+    "author": {
+      "name": "Chris Williams",
+      "tier": "producer",
+      "role": "cellarmaster"
+    },
+    "subject": {
+      "kind": "wine_label",
+      "wineLabelId": "rubicon"
+    },
+    "publishedAt": "2026-07-28T07:00:00.000Z",
+    "offer": {
+      "formats": [
+        {
+          "name": {
+            "source": "canonical",
+            "text": "Bottle"
+          },
+          "volume": {
+            "source": "measurement",
+            "value": 750,
+            "unitKey": "unit.millilitre"
+          }
+        },
+        {
+          "name": {
+            "source": "canonical",
+            "text": "Magnum"
+          },
+          "volume": {
+            "source": "measurement",
+            "value": 1500,
+            "unitKey": "unit.millilitre"
+          }
+        }
+      ],
+      "markets": [
+        {
+          "countryCode": "ZA",
+          "price": {
+            "amountMinorUnits": 89000,
+            "currency": "ZAR"
+          }
+        },
+        {
+          "countryCode": "GB",
+          "price": {
+            "amountMinorUnits": 5400,
+            "currency": "GBP"
+          },
+          "clubOnly": true
+        },
+        {
+          "countryCode": "US",
+          "absenceReason": "not_distributed"
+        }
+      ]
+    },
+    "pairing": {
+      "dish": {
+        "source": "negotiated",
+        "text": "Nothing, for about six years.",
+        "languageTag": "en"
+      },
+      "serve": {
+        "source": "negotiated",
+        "text": "If you must, three hours in a decanter and a wide glass.",
+        "languageTag": "en"
+      },
+      "suggestedBy": {
+        "name": "Chris Williams",
+        "tier": "producer",
+        "role": "cellarmaster"
+      }
+    },
+    "saveCount": 331
+  },
+  {
+    "id": "season_what_to_open_in_august",
+    "contentType": "season",
+    "title": "What to open in August.",
+    "titleLanguage": "en",
+    "standfirst": {
+      "source": "negotiated",
+      "text": "The last cold month in the Cape, and the one where the big reds finally make sense again.",
+      "languageTag": "en"
+    },
+    "body": [
+      {
+        "source": "negotiated",
+        "text": "August is the month the cellar stops being a storage problem and starts being a plan.",
+        "languageTag": "en"
+      }
+    ],
+    "author": {
+      "name": "Thandi Nkosi",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "publishedAt": "2026-07-30T05:00:00.000Z",
+    "pairing": {
+      "dish": {
+        "source": "negotiated",
+        "text": "Anything that has been in an oven for four hours.",
+        "languageTag": "en"
+      },
+      "suggestedBy": {
+        "name": "Thandi Nkosi",
+        "tier": "professional",
+        "role": "sommelier"
+      }
+    },
+    "saveCount": 74
+  }
+]

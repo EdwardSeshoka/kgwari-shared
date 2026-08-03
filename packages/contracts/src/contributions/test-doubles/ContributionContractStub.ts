@@ -1,14 +1,16 @@
 import type { ContributionContract as ContributionContractShape } from "../contribution.js";
 import { defineStub, type Overrides } from "../../test-doubles/index.js";
+import { CollectionContract } from "../../collections/test-doubles/index.js";
 
 /**
  * One row of the corpus.
  *
- * Three factories because there are three kinds, and a consumer that only ever
- * sees notes is a consumer whose `switch` has an untested default. The
- * interleave is the reason this contract exists, so the doubles have to be able
- * to build one: a stream test composes all three and overrides `createdAt` to
- * put them in a deliberate order.
+ * A factory per kind, and a consumer that only ever sees notes is a consumer
+ * whose `switch` has an untested default. The interleave is the reason this
+ * contract exists, so the doubles have to be able to build one: a stream test
+ * composes every kind and overrides `createdAt` to put them in a deliberate
+ * order. The ledger is cut to carry all of them, and a fixture exercising one
+ * branch ships the rest untested.
  *
  * Each variant gets its OWN `defineStub` rather than one factory with a `kind`
  * override, and that is not ceremony. `Overrides<ContributionContract>` over a
@@ -20,6 +22,7 @@ import { defineStub, type Overrides } from "../../test-doubles/index.js";
 type NoteContribution = Extract<ContributionContractShape, { kind: "note" }>;
 type EditorialContribution = Extract<ContributionContractShape, { kind: "editorial" }>;
 type TastingContribution = Extract<ContributionContractShape, { kind: "tasting" }>;
+type CollectionContribution = Extract<ContributionContractShape, { kind: "collection" }>;
 
 const noteStub = defineStub<NoteContribution>({
   id: "contribution_1",
@@ -65,6 +68,15 @@ const tastingStub = defineStub<TastingContribution>({
   }
 });
 
+const collectionStub = defineStub<CollectionContribution>({
+  id: "contribution_4",
+  kind: "collection",
+  createdAt: "2026-06-21T11:20:00.000Z",
+  author: { id: "user_thandi-mokoena", displayName: "Thandi Mokoena", initials: "TM" },
+  saveCount: 63,
+  collection: CollectionContract.StubFactory.make()
+});
+
 export const ContributionContract = {
   StubFactory: {
     ...noteStub,
@@ -84,6 +96,36 @@ export const ContributionContract = {
      */
     makeTasting(overrides: Overrides<TastingContribution> = {}): TastingContribution {
       return tastingStub.make(overrides);
+    },
+
+    /**
+     * A list somebody published.
+     *
+     * The row's mark reads `collection.kind` — shelf here, itinerary or
+     * selection elsewhere — and never the word "collection", which is the
+     * abstract base type and would leak first in a ledger, because a ledger is
+     * where every kind meets.
+     */
+    makeCollection(overrides: Overrides<CollectionContribution> = {}): CollectionContribution {
+      return collectionStub.make(overrides);
+    },
+
+    /**
+     * The house's own list, in the stream beside everyone else's.
+     *
+     * Kgwari is a LENS and not a band: a Selection sorts by date among the
+     * members' and the sommeliers' lists, and the byline — a name and no mark —
+     * does the only distinguishing there is.
+     */
+    makeHouseCollection(
+      overrides: Overrides<CollectionContribution> = {}
+    ): CollectionContribution {
+      return collectionStub.make({
+        id: "contribution_5",
+        author: { id: "user_kgwari", displayName: "Kgwari" },
+        collection: CollectionContract.StubFactory.makeSelection(),
+        ...overrides
+      });
     }
   }
 };

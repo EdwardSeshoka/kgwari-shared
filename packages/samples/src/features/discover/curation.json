@@ -122,6 +122,42 @@
       ]
     },
     {
+      "id": "shelves_worth_following",
+      "type": "collection_shelves",
+      "eyebrow": "CURATED",
+      "title": "Shelves worth following",
+      "itemRefs": [
+        {
+          "contentType": "collection",
+          "contentId": "collection_six_bottles_cape_winter",
+          "priority": 1
+        },
+        {
+          "contentType": "collection",
+          "contentId": "collection_cape_whites_worth_keeping",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "where_to_go_next",
+      "type": "collection_itineraries",
+      "eyebrow": "PLAN A WEEKEND",
+      "title": "Where to go next",
+      "itemRefs": [
+        {
+          "contentType": "collection",
+          "contentId": "collection_two_days_in_stellenbosch",
+          "priority": 1
+        },
+        {
+          "contentType": "collection",
+          "contentId": "collection_a_weekend_in_the_swartland",
+          "priority": 2
+        }
+      ]
+    },
+    {
       "id": "pouring_near_you",
       "type": "event_cards",
       "eyebrow": "NEAR YOU",

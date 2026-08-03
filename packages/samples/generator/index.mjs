@@ -16,7 +16,13 @@
  */
 import { buildActivities } from "./stages/activities.mjs";
 import { buildBrowse } from "./stages/browse.mjs";
+import { buildCollections } from "./stages/collections.mjs";
 import { buildCorpus } from "./stages/corpus.mjs";
+import { applyNoteCounts } from "./register.mjs";
+import { buildEditorial } from "./stages/editorial.mjs";
+import { buildLandings } from "./stages/landings.mjs";
+import { buildMasthead } from "./stages/masthead.mjs";
+import { buildNotes } from "./stages/notes.mjs";
 import { buildPeople } from "./stages/people.mjs";
 import { buildProducers } from "./stages/producers.mjs";
 import { buildRecords } from "./stages/records.mjs";
@@ -31,9 +37,38 @@ const wines = buildWines({ regions, producers, regionByName });
 const events = buildTastings({ producers, regions });
 const users = buildPeople();
 const activities = buildActivities({ users, wines });
+/**
+ * Notes run AFTER activities and draw only from `spread`, never from `rnd` — so
+ * adding them changes nothing generated before or after them. That is deliberate:
+ * a stage that consumed the shared stream here would have re-rolled the entire
+ * corpus downstream, and every id referenced from outside the generator with it.
+ */
+const notes = buildNotes({ wines, users });
+/**
+ * The corpus is written BACK onto the catalogue before anything reads it again.
+ *
+ * `wine.noteCount` is now a count of the note file and `wine.verdict` is the one
+ * its own notes voted for — so the search corpus, the browse groups and the
+ * records all see the same numbers a reader would arrive at by counting. It
+ * mutates in place because those three stages already hold this array.
+ */
+applyNoteCounts({ wines, notes });
+/**
+ * The published lists, and the two landings they feed.
+ *
+ * Reads `wines` and `producers` so a preview strip points at seeds that exist —
+ * a cover of labels for a shelf, the stops in order for a route.
+ */
+const collections = buildCollections({ wines, producers });
+/** Reads `events` so an event piece can embed the one event, rather than restate it. */
+const editorial = buildEditorial({ events });
+/** The two landings that need no corpus of their own. */
+const landings = buildLandings({ events, editorial });
+/** The settled Masthead v2 page — resolved against everything above it. */
+const masthead = buildMasthead({ wines, notes, editorial, events, users, collections });
 const corpus = buildCorpus({ wines, producers, regions, events, users });
 const browse = buildBrowse({ regions, wines, corpus });
-const records = buildRecords({ wines, regions, producers });
+const records = buildRecords({ wines, regions, producers, notes });
 
 const { write, report } = emitter({ check: process.argv.includes("--check") });
 
@@ -43,6 +78,15 @@ write("catalog/wines.json", wines);
 write("catalog/wine-records.json", records);
 write("events/events.json", events);
 write("social/activities.json", activities);
+write("social/tasting-notes.json", notes);
+write("editorial/editorial.json", editorial.cards);
+write("editorial/editorial-details.json", editorial.details);
+write("collections/collections.json", collections.all);
+write("collections/shelves-landing.json", collections.shelves);
+write("collections/itineraries-landing.json", collections.itineraries);
+write("events/calendar-landing.json", landings.calendar);
+write("editorial/archive-landing.json", landings.archive);
+write("discover/discover-response.json", masthead);
 write("search/search-corpus.json", corpus);
 write("search/browse-groups.json", browse);
 

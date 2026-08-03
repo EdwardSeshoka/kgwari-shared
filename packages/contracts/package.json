@@ -24,9 +24,17 @@
       "types": "./dist/cellar/index.d.ts",
       "default": "./dist/cellar/index.js"
     },
+    "./collections": {
+      "types": "./dist/collections/index.d.ts",
+      "default": "./dist/collections/index.js"
+    },
     "./contributions": {
       "types": "./dist/contributions/index.d.ts",
       "default": "./dist/contributions/index.js"
+    },
+    "./lenses": {
+      "types": "./dist/lenses/index.d.ts",
+      "default": "./dist/lenses/index.js"
     },
     "./media": {
       "types": "./dist/media/index.d.ts",
@@ -124,9 +132,17 @@
       "types": "./dist/text/test-doubles/index.d.ts",
       "default": "./dist/text/test-doubles/index.js"
     },
+    "./lenses/test-doubles": {
+      "types": "./dist/lenses/test-doubles/index.d.ts",
+      "default": "./dist/lenses/test-doubles/index.js"
+    },
     "./media/test-doubles": {
       "types": "./dist/media/test-doubles/index.d.ts",
       "default": "./dist/media/test-doubles/index.js"
+    },
+    "./collections/test-doubles": {
+      "types": "./dist/collections/test-doubles/index.d.ts",
+      "default": "./dist/collections/test-doubles/index.js"
     },
     "./contributions/test-doubles": {
       "types": "./dist/contributions/test-doubles/index.d.ts",

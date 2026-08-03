@@ -1,0 +1,438 @@
+[
+  {
+    "id": "collection_cape_bordeaux",
+    "kind": "shelf",
+    "subject": "wines",
+    "title": "Cape Bordeaux",
+    "description": "Cabernet-led blends built to reward a decade in the cellar.",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop&q=80",
+      "alt": {
+        "source": "negotiated",
+        "text": "A decanter and two Bordeaux-shaped bottles on a dark table.",
+        "languageTag": "en"
+      }
+    },
+    "author": {
+      "name": "Pieter van Wyk",
+      "status": "collector"
+    },
+    "itemCount": 9,
+    "saveCount": 214,
+    "preview": [
+      {
+        "contentId": "rubicon-2018",
+        "title": "Rubicon 2018"
+      },
+      {
+        "contentId": "de-toren-book-xvii-2016",
+        "title": "Book 17 XVII 2016"
+      },
+      {
+        "contentId": "paul-sauer-2011-kanonkop-est",
+        "title": "Paul Sauer 2011"
+      }
+    ],
+    "createdAt": "2026-04-18T09:30:00.000Z"
+  },
+  {
+    "id": "collection_cape_whites_worth_keeping",
+    "kind": "shelf",
+    "subject": "wines",
+    "title": "Cape whites worth keeping",
+    "description": "The bottles that get better while everyone drinks them young.",
+    "author": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "itemCount": 7,
+    "saveCount": 468,
+    "preview": [
+      {
+        "contentId": "palladius-2010",
+        "title": "Palladius 2010"
+      },
+      {
+        "contentId": "mullineux-elandskloof-chardonnay-2016",
+        "title": "Elandskloof Chardonnay 2016"
+      },
+      {
+        "contentId": "lamotte-chardonnay-2021",
+        "title": "Chardonnay 2021"
+      }
+    ],
+    "createdAt": "2026-05-21T11:15:00.000Z"
+  },
+  {
+    "id": "collection_six_bottles_cape_winter",
+    "kind": "selection",
+    "subject": "wines",
+    "title": "Six bottles for a Cape winter",
+    "description": "What the office is opening between June and August.",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&auto=format&fit=crop&q=80",
+      "alt": {
+        "source": "negotiated",
+        "text": "A glass of red wine beside a fire.",
+        "languageTag": "en"
+      }
+    },
+    "author": {
+      "name": "Kgwari"
+    },
+    "itemCount": 6,
+    "saveCount": 1402,
+    "preview": [
+      {
+        "contentId": "kanonkop-pinotage-2019",
+        "title": "Kanonkop Pinotage 2019"
+      },
+      {
+        "contentId": "boekenhoutskloof-syrah-2020",
+        "title": "Syrah 2020"
+      },
+      {
+        "contentId": "estate-reserve-2017-rust-en-vred",
+        "title": "Estate Reserve 2017"
+      }
+    ],
+    "createdAt": "2026-05-02T07:00:00.000Z"
+  },
+  {
+    "id": "collection_two_days_in_stellenbosch",
+    "kind": "itinerary",
+    "subject": "estates",
+    "title": "Two days in Stellenbosch",
+    "description": "Three cellar doors, one long lunch, and one designated driver.",
+    "author": {
+      "name": "Thandi Nkosi",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "itemCount": 5,
+    "saveCount": 87,
+    "preview": [
+      {
+        "contentId": "estate_meerlust-estate",
+        "title": "Meerlust Estate"
+      },
+      {
+        "contentId": "estate_kanonkop-estate",
+        "title": "Kanonkop Estate"
+      },
+      {
+        "contentId": "estate_rust-en-vrede",
+        "title": "Rust en Vrede"
+      }
+    ],
+    "createdAt": "2026-06-11T12:00:00.000Z"
+  },
+  {
+    "id": "collection_a_weekend_in_the_swartland",
+    "kind": "itinerary",
+    "subject": "estates",
+    "title": "A weekend in the Swartland",
+    "description": "Granite, old bush vines, and the people who stopped irrigating them.",
+    "author": {
+      "name": "Marius Louw",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "itemCount": 4,
+    "saveCount": 356,
+    "preview": [
+      {
+        "contentId": "estate_sadie-family-wines",
+        "title": "Sadie Family Wines"
+      },
+      {
+        "contentId": "estate_a-a-badenhorst",
+        "title": "A.A. Badenhorst"
+      },
+      {
+        "contentId": "estate_mullineux",
+        "title": "Mullineux"
+      }
+    ],
+    "createdAt": "2026-06-27T16:45:00.000Z"
+  },
+  {
+    "id": "collection_bottles-for-a-long-lunch",
+    "kind": "shelf",
+    "subject": "wines",
+    "title": "Bottles for a long lunch",
+    "description": "Nothing that needs thinking about.",
+    "author": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "itemCount": 10,
+    "saveCount": 232,
+    "preview": [
+      {
+        "contentId": "rubicon-2018",
+        "title": "Rubicon 2018"
+      },
+      {
+        "contentId": "kanonkop-pinotage-2019",
+        "title": "Kanonkop Pinotage 2019"
+      },
+      {
+        "contentId": "palladius-2010",
+        "title": "Palladius 2010"
+      }
+    ],
+    "createdAt": "2026-05-04T09:30:00.000Z"
+  },
+  {
+    "id": "collection_the-cellar-s-quiet-corner",
+    "kind": "shelf",
+    "subject": "wines",
+    "title": "The cellar's quiet corner",
+    "description": "Wines I keep forgetting I have, and shouldn't.",
+    "author": {
+      "name": "Lerato Mabaso",
+      "status": "collector"
+    },
+    "itemCount": 15,
+    "saveCount": 176,
+    "preview": [
+      {
+        "contentId": "tokara-sauvignon-blanc-2022",
+        "title": "Sauvignon Blanc Reserve 2022"
+      },
+      {
+        "contentId": "lamotte-chardonnay-2021",
+        "title": "Chardonnay 2021"
+      },
+      {
+        "contentId": "de-toren-book-xvii-2016",
+        "title": "Book 17 XVII 2016"
+      }
+    ],
+    "createdAt": "2026-06-07T09:30:00.000Z"
+  },
+  {
+    "id": "collection_chenin-the-long-way-round",
+    "kind": "selection",
+    "subject": "wines",
+    "title": "Chenin, the long way round",
+    "description": "Ten years of one grape, in the order I met it.",
+    "author": {
+      "name": "Kgwari"
+    },
+    "itemCount": 11,
+    "saveCount": 93,
+    "preview": [
+      {
+        "contentId": "groot-constantia-grand-constance-2014",
+        "title": "Grand Constance 2014"
+      },
+      {
+        "contentId": "steenberg-lady-r-mcc-2011",
+        "title": "Lady R MCC 2011"
+      },
+      {
+        "contentId": "pichon-baron-2016",
+        "title": "Château Pichon Baron 2016"
+      }
+    ],
+    "createdAt": "2026-07-10T09:30:00.000Z"
+  },
+  {
+    "id": "collection_under-two-hundred",
+    "kind": "shelf",
+    "subject": "wines",
+    "title": "Under two hundred",
+    "description": "Proof that the good stuff is not always dear.",
+    "author": {
+      "name": "Marius Louw",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "itemCount": 16,
+    "saveCount": 172,
+    "preview": [
+      {
+        "contentId": "ridge-monte-bello-2019",
+        "title": "Monte Bello 2019"
+      },
+      {
+        "contentId": "larmandier-bernier-latitude-nv",
+        "title": "Latitude Extra Brut"
+      },
+      {
+        "contentId": "rubicon-2010-meerlust-est",
+        "title": "Rubicon 2010"
+      }
+    ],
+    "createdAt": "2026-05-13T09:30:00.000Z"
+  },
+  {
+    "id": "collection_bought-on-the-farm",
+    "kind": "shelf",
+    "subject": "wines",
+    "title": "Bought on the farm",
+    "description": "Every one of these came home in the boot.",
+    "author": {
+      "name": "Sipho Ndlovu",
+      "status": "enthusiast"
+    },
+    "itemCount": 9,
+    "saveCount": 140,
+    "preview": [
+      {
+        "contentId": "estate-reserve-2017-rust-en-vred",
+        "title": "Estate Reserve 2017"
+      },
+      {
+        "contentId": "the-mint-2010-thelema-moun",
+        "title": "The Mint 2010"
+      },
+      {
+        "contentId": "directors-reserve-2021-tokara",
+        "title": "Directors Reserve 2021"
+      }
+    ],
+    "createdAt": "2026-06-16T09:30:00.000Z"
+  },
+  {
+    "id": "collection_for-the-sceptics",
+    "kind": "shelf",
+    "subject": "wines",
+    "title": "For the sceptics",
+    "description": "Pour these blind to anyone who says the Cape can't age.",
+    "author": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "itemCount": 6,
+    "saveCount": 72,
+    "preview": [
+      {
+        "contentId": "palladius-2011-sadie-family",
+        "title": "Palladius 2011"
+      },
+      {
+        "contentId": "columella-2017-mullineux",
+        "title": "Columella 2017"
+      },
+      {
+        "contentId": "old-vine-chenin-2014-a-a-badenhor",
+        "title": "Old Vine Chenin 2014"
+      }
+    ],
+    "createdAt": "2026-07-19T09:30:00.000Z"
+  },
+  {
+    "id": "collection_a-morning-in-franschhoek",
+    "kind": "itinerary",
+    "subject": "estates",
+    "title": "A morning in Franschhoek",
+    "author": {
+      "name": "Lerato Mabaso",
+      "status": "collector"
+    },
+    "itemCount": 5,
+    "saveCount": 102,
+    "preview": [
+      {
+        "contentId": "estate_meerlust-estate",
+        "title": "Meerlust Estate"
+      },
+      {
+        "contentId": "estate_kanonkop-estate",
+        "title": "Kanonkop Estate"
+      },
+      {
+        "contentId": "estate_rust-en-vrede",
+        "title": "Rust en Vrede"
+      }
+    ],
+    "createdAt": "2026-06-02T14:00:00.000Z"
+  },
+  {
+    "id": "collection_the-hemel-en-aarde-run",
+    "kind": "selection",
+    "subject": "estates",
+    "title": "The Hemel-en-Aarde run",
+    "author": {
+      "name": "Kgwari"
+    },
+    "itemCount": 5,
+    "saveCount": 37,
+    "preview": [
+      {
+        "contentId": "estate_de-toren",
+        "title": "De Toren"
+      },
+      {
+        "contentId": "estate_sadie-family-wines",
+        "title": "Sadie Family Wines"
+      },
+      {
+        "contentId": "estate_mullineux",
+        "title": "Mullineux"
+      }
+    ],
+    "createdAt": "2026-07-07T14:00:00.000Z"
+  },
+  {
+    "id": "collection_constantia-end-to-end",
+    "kind": "itinerary",
+    "subject": "estates",
+    "title": "Constantia, end to end",
+    "author": {
+      "name": "Marius Louw",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "itemCount": 5,
+    "saveCount": 46,
+    "preview": [
+      {
+        "contentId": "estate_la-motte",
+        "title": "La Motte"
+      },
+      {
+        "contentId": "estate_hamilton-russell-vineyards",
+        "title": "Hamilton Russell Vineyards"
+      },
+      {
+        "contentId": "estate_bouchard-finlayson",
+        "title": "Bouchard Finlayson"
+      }
+    ],
+    "createdAt": "2026-06-12T14:00:00.000Z"
+  },
+  {
+    "id": "collection_elgin-slowly",
+    "kind": "itinerary",
+    "subject": "estates",
+    "title": "Elgin, slowly",
+    "author": {
+      "name": "Sipho Ndlovu",
+      "status": "enthusiast"
+    },
+    "itemCount": 5,
+    "saveCount": 64,
+    "preview": [
+      {
+        "contentId": "estate_paul-cluver",
+        "title": "Paul Cluver"
+      },
+      {
+        "contentId": "estate_springfield-estate",
+        "title": "Springfield Estate"
+      },
+      {
+        "contentId": "estate_cederberg-private-cellar",
+        "title": "Cederberg Private Cellar"
+      }
+    ],
+    "createdAt": "2026-07-17T14:00:00.000Z"
+  }
+]
