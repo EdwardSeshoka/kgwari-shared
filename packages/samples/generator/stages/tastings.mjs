@@ -202,6 +202,14 @@ export function buildTastings({ producers, regions }) {
           }
         : {}),
       saveCount: spread(`${id}save`, 0, 180),
+      // Roughly one evening in nine is an enthusiast's, and therefore PRIVATE.
+      // It is the whole feature minus the audience, so it carries a host, a
+      // venue and seats like any other — what it does not do is reach Discover.
+      // The corpus needs them: a fixture with none cannot catch a landing that
+      // forgot to filter.
+      ...(spread(`${id}vis`, 0, 8) === 0
+        ? { visibility: "private", host: { name: host, status: "enthusiast" } }
+        : {}),
       subject: { kind: "region", regionId: region.id },
     };
   }).filter((e) => !curatedEventIds.has(e.id))];

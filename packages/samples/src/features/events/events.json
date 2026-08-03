@@ -433,8 +433,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Johan Terblanche",
-      "tier": "professional",
-      "role": "sommelier"
+      "status": "enthusiast"
     },
     "panel": [
       {
@@ -476,6 +475,7 @@
       "url": "https://domaine-leflaive.example/book/cape-bordeaux-blends-blind"
     },
     "saveCount": 123,
+    "visibility": "private",
     "subject": {
       "kind": "region",
       "regionId": "region_bourgogne"
@@ -1306,8 +1306,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Amélie Girard",
-      "tier": "professional",
-      "role": "sommelier"
+      "status": "enthusiast"
     },
     "panel": [
       {
@@ -1349,6 +1348,7 @@
       "url": "https://castello-di-ama.example/book/atelier-assemblage-a-bordeaux"
     },
     "saveCount": 125,
+    "visibility": "private",
     "subject": {
       "kind": "region",
       "regionId": "region_chianti-classico"
@@ -1790,8 +1790,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
     "host": {
       "name": "Marco Bianchi",
-      "tier": "professional",
-      "role": "sommelier"
+      "status": "enthusiast"
     },
     "panel": [
       {
@@ -1833,6 +1832,7 @@
       "url": "https://groot-constantia.example/book/i-grandi-rossi-della-toscana"
     },
     "saveCount": 35,
+    "visibility": "private",
     "subject": {
       "kind": "region",
       "regionId": "region_constantia"
@@ -2108,8 +2108,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Javier Moreno",
-      "tier": "professional",
-      "role": "sommelier"
+      "status": "enthusiast"
     },
     "panel": [
       {
@@ -2151,6 +2150,7 @@
       "url": "https://vega-sicilia.example/book/los-tintos-de-ribera-del-duero"
     },
     "saveCount": 26,
+    "visibility": "private",
     "subject": {
       "kind": "region",
       "regionId": "region_ribera-del-duero"
@@ -2360,8 +2360,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Emily Carter",
-      "tier": "professional",
-      "role": "sommelier"
+      "status": "enthusiast"
     },
     "panel": [
       {
@@ -2395,6 +2394,7 @@
     ],
     "lifecycle": "cancelled",
     "saveCount": 18,
+    "visibility": "private",
     "subject": {
       "kind": "region",
       "regionId": "region_stellenbosch"
@@ -2661,8 +2661,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Claire Beaumont",
-      "tier": "professional",
-      "role": "sommelier"
+      "status": "enthusiast"
     },
     "panel": [
       {
@@ -2704,6 +2703,7 @@
       "url": "https://e-guigal.example/book/napa-cabernet-five-vintages"
     },
     "saveCount": 104,
+    "visibility": "private",
     "subject": {
       "kind": "region",
       "regionId": "region_cote-rotie"
@@ -2820,8 +2820,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Tobias Wagner",
-      "tier": "professional",
-      "role": "sommelier"
+      "status": "enthusiast"
     },
     "panel": [
       {
@@ -2863,6 +2862,7 @@
       "url": "https://vega-sicilia.example/book/okanagan-icewine-and-dessert-pairing"
     },
     "saveCount": 138,
+    "visibility": "private",
     "subject": {
       "kind": "region",
       "regionId": "region_ribera-del-duero"
@@ -3304,8 +3304,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
     "host": {
       "name": "Kobus Steyn",
-      "tier": "professional",
-      "role": "sommelier"
+      "status": "enthusiast"
     },
     "panel": [
       {
@@ -3347,6 +3346,7 @@
       "url": "https://domaine-leflaive.example/book/les-vins-de-loire-au-naturel"
     },
     "saveCount": 148,
+    "visibility": "private",
     "subject": {
       "kind": "region",
       "regionId": "region_bourgogne"

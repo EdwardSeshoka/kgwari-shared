@@ -77,6 +77,7 @@ export function buildMasthead({ wines, notes, editorial, events, users, collecti
       editorial: card
     })),
     ...events
+      .filter((event) => event.visibility !== "private")
       .filter((event) => event.lifecycle === "past")
       .slice(0, 2)
       .map((event, i) => ({
@@ -156,7 +157,10 @@ export function buildMasthead({ wines, notes, editorial, events, users, collecti
         type: "events",
         title: "Pouring near you",
         link: { push: "calendar" },
-        items: events.filter((event) => event.lifecycle === "open").slice(0, 4)
+        items: events
+          .filter((event) => event.visibility !== "private")
+          .filter((event) => event.lifecycle === "open")
+          .slice(0, 4)
       },
       {
         id: "shelves_worth_following",

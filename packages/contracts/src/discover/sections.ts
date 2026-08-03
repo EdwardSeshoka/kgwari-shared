@@ -2,7 +2,7 @@ import type { WineContract } from "../catalog/index.js";
 import type { PublishedCollectionContract } from "../collections/index.js";
 import type { ContributionContract } from "../contributions/index.js";
 import type { EditorialContract } from "../editorial/index.js";
-import type { EventContract } from "../events/index.js";
+import type { PublishedEventContract } from "../events/index.js";
 import type { ActivityContract } from "../social/index.js";
 import type { DiscoverChapterLinkContract } from "./chapterLink.js";
 import type { DiscoverDoorwayContract } from "./doorway.js";
@@ -96,7 +96,7 @@ export type DiscoverSection =
       eyebrow?: string;
       /** Pushes CALENDAR. */
       link?: DiscoverChapterLinkContract;
-      items: EventContract[];
+      items: PublishedEventContract[];
     }
   | {
       id: string;

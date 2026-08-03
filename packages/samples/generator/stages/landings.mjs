@@ -25,7 +25,11 @@ export function buildLandings({ events, editorial }) {
   // which reads back from now. A cancelled evening still appears: somebody may
   // have been planning around it, and dropping it silently is how a member turns
   // up to a locked door.
+  // Published only. The calendar faces strangers by definition, and a private
+  // evening reaching it would put a member's address in front of people they
+  // never invited.
   const diary = [...events]
+    .filter((event) => event.visibility !== "private")
     .filter((event) => event.startDateTime !== undefined)
     .sort((a, b) => a.startDateTime.localeCompare(b.startDateTime));
 
