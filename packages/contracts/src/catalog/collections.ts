@@ -2,7 +2,7 @@ import { Composition, type CompositionInterface } from "@edwardseshoka/foundatio
 
 import type { VerdictWord } from "../trust/index.js";
 import { VERDICTS } from "../trust/index.js";
-import type { CollectionBadgeKey } from "./vocabulary/index.js";
+import type { CollectionBadgeKey } from "../vocabulary/index.js";
 import type { WineContract } from "./wine.js";
 
 /**

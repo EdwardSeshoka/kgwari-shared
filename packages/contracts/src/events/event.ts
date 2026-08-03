@@ -1,23 +1,34 @@
-import type { TrustBylineContract } from "../trust/index.js";
-
-export type WineEventType =
-  | "sommelier_led"
-  | "winemaker_dinner"
-  | "tasting"
-  | "pairing"
-  | "launch";
-
 /**
- * What an event is *about* — events are not wines, but they link to one when
- * relevant (a producer tasting → their label; a masterclass → a grape/style).
+ * An event — one entity, two surfaces.
+ *
+ * The list row in Discover ("Pouring near you") and the editorial event piece
+ * ("What estates publish") are the SAME event, and this contract is the one
+ * place its clock, its venue and its capacity live. The alternative was an
+ * editorial piece carrying its own `starts_at`, its own room and its own seat
+ * count, which is two records of one dinner that disagree the first time
+ * somebody moves it an hour later.
+ *
+ * ## Times
+ *
+ * Instants are UTC ISO-8601 and NEVER formatted. "24 July, 6pm" is a sentence in
+ * one language, and a wire that carries it has already chosen the reader's.
+ *
+ * {@link EventContract.timezone} is the VENUE'S zone, and it is not the same
+ * information as the instant. A member in Lisbon reading about a Stellenbosch
+ * dinner needs to know it starts at seven in Stellenbosch; their own zone is
+ * resolved at render and never stored, because storing it would date the record
+ * to whoever loaded it first.
  */
-export type EventSubjectContract =
-  | { kind: "wine"; wineVintageId: string }
-  | { kind: "wine_label"; wineLabelId: string }
-  | { kind: "producer"; producerId: string }
-  | { kind: "region"; regionId: string }
-  | { kind: "grape"; grapeVarietyId: string }
-  | { kind: "style"; styleName: string };
+
+import type { TrustBylineContract } from "../trust/index.js";
+import type { EventAdmissionContract } from "./admission.js";
+import type { EventBookingContract } from "./booking.js";
+import type { EventLifecycleContract } from "./lifecycle.js";
+import type { EventPanellistContract } from "./panellist.js";
+import type { EventRecapContract } from "./recap.js";
+import type { EventSubjectContract } from "./subject.js";
+import type { EventVenueContract } from "./venue.js";
+import type { WineEventType } from "./eventType.js";
 
 /**
  * A wine event. `startDateTime` is ISO-8601 data; display labels (relative time,
@@ -38,8 +49,49 @@ export type EventContract = {
   titleLanguage?: string;
   eventType?: WineEventType;
   startDateTime?: string;
+  /**
+   * When it ends. A dinner and a two-day symposium are both events, and only one
+   * of them can be described by a start time.
+   */
+  endDateTime?: string;
+  /**
+   * IANA zone of the VENUE, e.g. "Africa/Johannesburg".
+   *
+   * Not the reader's, which is resolved at render and never stored. The instants
+   * above are absolute; this is what lets a client say "18:00 in Stellenbosch"
+   * to somebody in Lisbon instead of silently converting and being wrong about
+   * which evening it is.
+   */
+  timezone?: string;
+  /** Structured location. Prefer this over the two flat fields below. */
+  venue?: EventVenueContract;
+  /** @deprecated Compatibility alias for `venue.name.text` (equals it). Prefer `venue`. */
   venueName?: string;
+  /** @deprecated Compatibility alias for `venue.city.text` (equals it). Prefer `venue`. */
   location?: string;
+  /**
+   * What it will be conducted in, BCP 47, in order of prominence.
+   *
+   * A fact a member needs before booking rather than after: a masterclass run in
+   * Afrikaans is a different evening for somebody who does not speak it, and no
+   * amount of interface translation changes that.
+   */
+  languages?: string[];
+  admission?: EventAdmissionContract;
+  /**
+   * Total seats. ABSENT MEANS UNCAPPED, not unknown — a walk-in tasting has no
+   * number and rendering "0 seats" for it excludes nobody from anything.
+   */
+  capacity?: number;
+  /** Seats taken. An integer, never a percentage — "82 % full" is a formatted lie. */
+  taken?: number;
+  /**
+   * Seats left. Equals `capacity - taken` when both are known.
+   *
+   * Kept as its own field because it is what a list row renders and because a
+   * host may know they have four left without publishing how many they started
+   * with. Zero is a STATEMENT (sold out); absent is uncapped.
+   */
   seatsAvailable?: number;
   imageUrl?: string;
   /**
@@ -48,6 +100,22 @@ export type EventContract = {
    * tasting row can render the mark. Optional until the events api supplies it.
    */
   host?: TrustBylineContract;
+  /** Who is speaking or pouring, in running order. */
+  panel?: EventPanellistContract[];
+  lifecycle?: EventLifecycleContract;
+  booking?: EventBookingContract;
+  recap?: EventRecapContract;
+  /**
+   * How many notes members filed against wines poured here.
+   *
+   * READ AT RENDER from the register, never cached onto the event. It moves
+   * every time somebody writes about the evening, and a stored copy is a number
+   * that was true once — which is the failure mode the record model exists to
+   * avoid.
+   */
+  notesFiled?: number;
+  /** How many members have saved this event. A count, not a score. */
+  saveCount?: number;
   /** What the event is about, when it links to a wine / producer / region. */
   subject?: EventSubjectContract;
 };

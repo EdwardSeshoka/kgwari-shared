@@ -1,5 +1,6 @@
 import type { TastingNoteContract as TastingNoteContractShape } from "../tastingNote.js";
 import { defineStub, type Overrides } from "../../test-doubles/index.js";
+import { NoteReadingsContract } from "./NoteReadingsContractStub.js";
 
 /**
  * What a member wrote about a wine they drank.
@@ -36,6 +37,50 @@ export const TastingNoteContract = {
       overrides: Overrides<TastingNoteContractShape> = {}
     ): TastingNoteContractShape {
       return TastingNoteContract.StubFactory.make({ verdict: undefined, ...overrides });
+    },
+
+    /**
+     * A note that answered the structured questions too — and the default does
+     * NOT, deliberately.
+     *
+     * Prose plus a verdict is a complete note; the readings are offered and most
+     * members skip most of them. A base stub carrying a full readings block would
+     * teach consumers that `readings` is always there, which is the assumption
+     * that breaks on the majority of real rows.
+     *
+     * Composed from the published readings double rather than a literal, so a
+     * field that moves in one breaks both.
+     */
+    makeWithReadings(
+      overrides: Overrides<TastingNoteContractShape> = {}
+    ): TastingNoteContractShape {
+      return TastingNoteContract.StubFactory.make({
+        readings: NoteReadingsContract.StubFactory.make(),
+        photo: {
+          url: "https://images.kgwari.test/notes/tasting-note_1.jpg",
+          width: 1600,
+          height: 1200
+        },
+        ...overrides
+      });
+    },
+
+    /**
+     * A note kept out of the room.
+     *
+     * The observation still counts — a private note is a genuine reading and the
+     * register aggregates it. What visibility governs is whose name and words
+     * appear. A consumer that filters private notes out of an aggregate has
+     * read this field as though it meant "not real".
+     */
+    makePrivate(
+      overrides: Overrides<TastingNoteContractShape> = {}
+    ): TastingNoteContractShape {
+      return TastingNoteContract.StubFactory.make({
+        visibility: "private",
+        saveCount: undefined,
+        ...overrides
+      });
     }
   }
 };

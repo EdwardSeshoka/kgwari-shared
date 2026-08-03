@@ -17,16 +17,30 @@ import type { MemberContract } from "./profile.js";
  *  · `userId` comes from the authenticated JWT — a body that could name a
  *    different member is a body that can edit one.
  *  · `createdAt` is server-assigned on first write.
- *  · `noteCount` is a denormalised counter maintained by the social feature.
+ *  · `noteCount`, `storyCount` and `tastingsAttendedCount` are denormalised
+ *    counters maintained by the features that own what they count. A member who
+ *    could patch their own note count could patch their own standing.
  *  · `profileType` is earned or chosen at onboarding ("collector" is assigned by
  *    the system for activity), so it is not a profile field a member edits.
+ *
+ * `avatar` IS patchable and is one of the few fields where `null` is the point:
+ * removing a picture is an edit a member makes, and a shape that could only set
+ * one would leave them stuck with it.
  *
  * A `null` is meaningful here and is NOT the same as omitting the key: `null`
  * clears the value, omission leaves it alone. That is what a nullable optional
  * buys, and it is why the server distinguishes "absent" from "present and null".
  */
 export type PatchMemberProfileRequest = Partial<
-  Omit<MemberContract, "userId" | "createdAt" | "noteCount" | "profileType">
+  Omit<
+    MemberContract,
+    | "userId"
+    | "createdAt"
+    | "noteCount"
+    | "storyCount"
+    | "tastingsAttendedCount"
+    | "profileType"
+  >
 >;
 
 /**

@@ -24,6 +24,18 @@
       "types": "./dist/cellar/index.d.ts",
       "default": "./dist/cellar/index.js"
     },
+    "./contributions": {
+      "types": "./dist/contributions/index.d.ts",
+      "default": "./dist/contributions/index.js"
+    },
+    "./media": {
+      "types": "./dist/media/index.d.ts",
+      "default": "./dist/media/index.js"
+    },
+    "./vocabulary": {
+      "types": "./dist/vocabulary/index.d.ts",
+      "default": "./dist/vocabulary/index.js"
+    },
     "./provenance": {
       "types": "./dist/provenance/index.d.ts",
       "default": "./dist/provenance/index.js"
@@ -111,6 +123,14 @@
     "./text/test-doubles": {
       "types": "./dist/text/test-doubles/index.d.ts",
       "default": "./dist/text/test-doubles/index.js"
+    },
+    "./media/test-doubles": {
+      "types": "./dist/media/test-doubles/index.d.ts",
+      "default": "./dist/media/test-doubles/index.js"
+    },
+    "./contributions/test-doubles": {
+      "types": "./dist/contributions/test-doubles/index.d.ts",
+      "default": "./dist/contributions/test-doubles/index.js"
     }
   },
   "files": [

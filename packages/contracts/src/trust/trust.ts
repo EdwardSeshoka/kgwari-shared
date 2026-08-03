@@ -140,18 +140,30 @@ export type TrustBylineContract = {
 
 /**
  * The verdict — a worded judgement on a wine, never a numeric score. One
- * 5-level ordinal scale, shared by the member review picker ("How did it land?")
+ * 4-level ordinal scale, shared by the member review picker ("How did it land?")
  * and the house / aggregate verdict shown in Discover, kept identical so a chip
  * scans the same wherever it appears. Ordered best → worst; "Unforgettable" is
  * the top rung and rarely awarded. Extend only with deliberate editorial intent
  * (do not switch to a free string).
+ *
+ * CHANGED in 7.0: the fifth rung, "Not One I'd Revisit", is gone.
+ *
+ * It was retired in the register design, and the reason is editorial rather than
+ * technical. Every other rung says what a wine IS worth — revisiting, knowing,
+ * a discovery. The fifth said only what a member would not do again, which is a
+ * fact about an evening rather than about a bottle, and it invited the one thing
+ * a worded scale exists to avoid: a bottom to sort toward. A wine somebody did
+ * not care for is a wine with a note and no verdict, and
+ * {@link ../social!TastingNoteContract.verdict} has always allowed exactly that.
+ *
+ * Consumers that stored the retired word must map it — to no verdict, not to
+ * the new bottom rung. "An Interesting Discovery" is a compliment.
  */
 export type VerdictWord =
   | "Unforgettable"
   | "Essential"
   | "Worth Revisiting"
-  | "An Interesting Discovery"
-  | "Not One I'd Revisit";
+  | "An Interesting Discovery";
 
 /** The verdict type used across contracts — the fixed {@link VerdictWord} set. */
 export type Verdict = VerdictWord;
@@ -174,6 +186,5 @@ export const VERDICTS = [
   "Unforgettable",
   "Essential",
   "Worth Revisiting",
-  "An Interesting Discovery",
-  "Not One I'd Revisit"
+  "An Interesting Discovery"
 ] as const satisfies readonly VerdictWord[];

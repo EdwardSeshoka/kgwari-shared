@@ -1,3 +1,4 @@
+import type { MediaRefContract } from "../media/index.js";
 import type { BusinessPersona, MemberStatus, TrustTier } from "../trust/index.js";
 import { personaTier } from "../trust/index.js";
 
@@ -68,4 +69,42 @@ export type MemberContract = {
    * records written before this field existed need no migration.
    */
   noteCount: number;
+  /**
+   * The member's own picture.
+   *
+   * The profile renders one and nothing carried it — `ActivityUser` had
+   * `initials` and the member contract had nothing at all, so every surface that
+   * wanted a face either derived initials again or invented a field.
+   *
+   * `null` rather than absent when there is no avatar, matching every other
+   * nullable on this contract: absent means the server did not send the key,
+   * null means the member has no picture, and initials are the fallback in
+   * exactly that case.
+   */
+  avatar?: MediaRefContract | null;
+  /**
+   * How many editorial STORIES this member has published.
+   *
+   * Beside `noteCount` and for the identical reason, stated on the contract
+   * rather than left to be rediscovered: a profile heading reads "Writing (1,412)"
+   * and a filter chip reads "Stories (21)", and neither surface can run an
+   * aggregate over the editorial table while projecting a member row.
+   *
+   * The ratio is why the counts are per kind at all — notes outnumber stories by
+   * roughly seventy to one, so one total would be a number about notes wearing a
+   * label about writing.
+   *
+   * OPTIONAL, unlike `noteCount`, and only because it is newer: a member record
+   * written before this field existed genuinely does not know, and 0 would state
+   * something it has not checked. Treat absent as unknown, not as none.
+   */
+  storyCount?: number;
+  /**
+   * Tastings this member has ATTENDED — not hosted.
+   *
+   * The attendance relation has no other wire shape, which is why the count
+   * arrives before the list does. See
+   * {@link ../contributions!MemberContributionsResponse} for the list.
+   */
+  tastingsAttendedCount?: number;
 };

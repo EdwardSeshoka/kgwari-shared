@@ -17,7 +17,18 @@ export const MEASUREMENT_UNITS = [
   "unit.millilitre",
   "unit.bottles",
   "unit.vintageYear",
-  "unit.months"
+  "unit.months",
+  /**
+   * Serving temperature, in the scale it was actually recorded in.
+   *
+   * BOTH scales, rather than one canonical unit the client converts from,
+   * because 18 °C and 64 °F are the same temperature but not the same fact: one
+   * of them is what the member typed, and the other is a rounding of it. A
+   * member who poured at 64 °F should see 64 °F back. Conversion for a reader in
+   * the other market is a presentation choice and stays at the edge.
+   */
+  "unit.celsius",
+  "unit.fahrenheit"
 ] as const;
 
 export type MeasurementUnitKey = (typeof MEASUREMENT_UNITS)[number];

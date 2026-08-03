@@ -31,7 +31,7 @@ import type {
   ColourReadingKey,
   TastingMetricKey,
   TastingWordKey
-} from "./vocabulary/index.js";
+} from "../vocabulary/index.js";
 
 /** The four movements of a structured tasting, in tasting order. */
 export type RegisterGroupKey = "appearance" | "nose" | "palate" | "conclusion";

@@ -1,5 +1,8 @@
+import type { MediaRefContract } from "../media/index.js";
 import type { TrustBylineContract, VerdictWord } from "../trust/index.js";
 import type { ActivityUser, ActivityWineRef } from "./activity.js";
+import type { NoteReadingsContract } from "./readings.js";
+import type { NoteVisibility } from "./visibility.js";
 
 /**
  * A durable tasting note — the record behind a review, distinct from a feed
@@ -39,4 +42,19 @@ export type TastingNoteContract = {
    * one the reader's locale was served.
    */
   languageTag?: string;
+  /**
+   * What the member observed, as answers rather than prose.
+   *
+   * The input side of the register, and the reason the register can be a sum of
+   * notes instead of a seeded aggregate. Absent on a note that answered nothing,
+   * which is a complete note — see {@link NoteReadingsContract}.
+   */
+  readings?: NoteReadingsContract;
+  /** The member's photo of the bottle or the glass. Theirs, so it carries alt text. */
+  photo?: MediaRefContract;
+  /**
+   * Who this note is for. Absent reads as `"room"` — the norm, and the default a
+   * note written before this field existed was posted under.
+   */
+  visibility?: NoteVisibility;
 };

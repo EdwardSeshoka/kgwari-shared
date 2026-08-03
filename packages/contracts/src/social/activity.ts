@@ -44,4 +44,14 @@ export type ActivityContract = {
   verdict?: VerdictWord;
   note?: string;
   createdAt: string;
+  /**
+   * How many members have saved this.
+   *
+   * A count, not a score, and the same field {@link TastingNoteContract},
+   * {@link WineContract} and the record already carry. Save is offered on every
+   * unit the ledger renders, so every unit has to be able to report it — a card
+   * that shows the affordance and cannot show the count is a card that has to
+   * fetch one per row.
+   */
+  saveCount?: number;
 };

@@ -5,15 +5,43 @@ import {
   AROMAS,
   AROMAS_RED,
   AROMAS_WHITE,
-  CATALOG_CHROME_KEYS,
+  BOTTLE_CONDITIONS,
   CLOSURES,
+  COLOUR_READINGS,
+  DECANT_STEPS,
+  FAULT_CONDITIONS,
   FERMENTS,
+  GLASS_SHAPES,
   GRAPES,
+  RIM_READINGS,
+  RIM_READINGS_RED,
+  RIM_READINGS_WHITE,
   SOILS,
-  TASTING_SCALES
-} from "../../dist/catalog/index.js";
+  TASTED_MODES,
+  TASTING_SCALES,
+  VOCABULARY_CHROME_KEYS
+} from "../../dist/vocabulary/index.js";
 
-const VOCABULARIES = { CLOSURES, SOILS, FERMENTS, AROMAS, GRAPES };
+/**
+ * Read from `dist/vocabulary` rather than `dist/catalog` since 7.0, when the
+ * vocabularies moved out of the feature that happened to need them first. The
+ * catalog barrel still re-exports every one of them, so a consumer importing
+ * from there is unaffected — this test reads the new entrance because that is
+ * the one it is asserting the shape of.
+ */
+const VOCABULARIES = {
+  CLOSURES,
+  SOILS,
+  FERMENTS,
+  AROMAS,
+  GRAPES,
+  COLOUR_READINGS,
+  RIM_READINGS,
+  BOTTLE_CONDITIONS,
+  TASTED_MODES,
+  DECANT_STEPS,
+  GLASS_SHAPES
+};
 
 describe("the closed vocabularies", () => {
   it(
@@ -54,6 +82,36 @@ describe("the closed vocabularies", () => {
       assert.equal(AROMAS.length, AROMAS_RED.length + AROMAS_WHITE.length);
     }
   );
+
+  it(
+    "keeps red and white rims disjoint, and RIM_READINGS the union of both",
+    function givenTheRimSplit_whenCombined_thenNothingIsLostOrDoubled() {
+      // Given: the same property the aromas have, and for the same reason — a
+      // picker offering `rim.greenGlints` on a Cabernet offers a reading nobody
+      // can take.
+      const overlap = RIM_READINGS_RED.filter((rim) => RIM_READINGS_WHITE.includes(rim));
+
+      assert.deepEqual(overlap, []);
+      assert.equal(
+        RIM_READINGS.length,
+        RIM_READINGS_RED.length + RIM_READINGS_WHITE.length
+      );
+    }
+  );
+
+  it(
+    "treats every condition except a clean bottle as a fault",
+    function givenTheConditions_whenSplit_thenOnlyNoFaultsCounts() {
+      // Given: the invariant is that a fault never counts against the wine's
+      // record, so the DEFAULT for a condition added later must be
+      // disqualifying. Deriving the fault list by exclusion is what makes that
+      // default automatic; this asserts the derivation, because getting it
+      // backwards would silently punish estates for corked bottles.
+      assert.ok(BOTTLE_CONDITIONS.includes("condition.noFaults"));
+      assert.ok(!FAULT_CONDITIONS.includes("condition.noFaults"));
+      assert.equal(FAULT_CONDITIONS.length, BOTTLE_CONDITIONS.length - 1);
+    }
+  );
 });
 
 describe("the tasting scales", () => {
@@ -91,7 +149,7 @@ describe("the enumerable key list", () => {
       // came to carry 238 keys to `en`'s 416 with nothing reporting the gap.
       for (const vocabulary of Object.values(VOCABULARIES)) {
         for (const key of vocabulary) {
-          assert.ok(CATALOG_CHROME_KEYS.includes(key), `${key} is not enumerated`);
+          assert.ok(VOCABULARY_CHROME_KEYS.includes(key), `${key} is not enumerated`);
         }
       }
     }
@@ -100,15 +158,15 @@ describe("the enumerable key list", () => {
   it(
     "lists the labelled scale rungs but not the blank padding",
     function givenTheKeyList_whenRead_thenNoEmptyStringIsOfferedForTranslation() {
-      assert.ok(!CATALOG_CHROME_KEYS.includes(""));
-      assert.ok(CATALOG_CHROME_KEYS.includes("tasting.low"));
+      assert.ok(!VOCABULARY_CHROME_KEYS.includes(""));
+      assert.ok(VOCABULARY_CHROME_KEYS.includes("tasting.low"));
     }
   );
 
   it(
     "has no duplicates across vocabularies either",
     function givenTheWholeList_whenRead_thenEveryKeyIsUnique() {
-      assert.equal(new Set(CATALOG_CHROME_KEYS).size, CATALOG_CHROME_KEYS.length);
+      assert.equal(new Set(VOCABULARY_CHROME_KEYS).size, VOCABULARY_CHROME_KEYS.length);
     }
   );
 });
