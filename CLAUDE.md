@@ -6,8 +6,8 @@ release.
 
 ## Read these before writing code
 
-- [Unit testing standards](../kwari-docs/architecture/unit-testing-standards.md)
-- [Naming conventions](../kwari-docs/architecture/naming-conventions.md)
+- [Unit testing standards](../kgwari-docs/architecture/unit-testing-standards.md)
+- [Naming conventions](../kgwari-docs/architecture/naming-conventions.md)
 
 ## The rules that get broken most
 
