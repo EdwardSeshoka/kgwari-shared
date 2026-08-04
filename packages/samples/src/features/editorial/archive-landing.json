@@ -13,6 +13,7 @@
         "tier": "professional",
         "role": "sommelier"
       },
+      "publishedAt": "2026-07-18T16:00:00.000Z",
       "saveCount": 70
     },
     {
@@ -25,6 +26,7 @@
         "tier": "professional",
         "role": "sommelier"
       },
+      "publishedAt": "2026-07-30T05:00:00.000Z",
       "saveCount": 74
     },
     {
@@ -41,6 +43,7 @@
         "kind": "wine_label",
         "wineLabelId": "rubicon"
       },
+      "publishedAt": "2026-07-28T07:00:00.000Z",
       "saveCount": 331
     },
     {
@@ -60,6 +63,7 @@
         "kind": "region",
         "regionId": "region_swartland"
       },
+      "publishedAt": "2026-07-22T06:00:00.000Z",
       "saveCount": 86
     },
     {
@@ -77,6 +81,7 @@
         "wineVintageId": "rubicon-2018",
         "wineLabelId": "rubicon"
       },
+      "publishedAt": "2026-07-01T09:00:00.000Z",
       "saveCount": 96
     },
     {
@@ -89,6 +94,7 @@
         "tier": "professional",
         "role": "sommelier"
       },
+      "publishedAt": "2026-07-14T06:30:00.000Z",
       "saveCount": 208
     },
     {
@@ -110,6 +116,7 @@
         "countryCode": "ZA",
         "vintage": 2018
       },
+      "publishedAt": "2026-06-20T08:00:00.000Z",
       "saveCount": 412
     },
     {
@@ -125,6 +132,7 @@
         "tier": "professional",
         "role": "sommelier"
       },
+      "publishedAt": "2026-07-09T07:30:00.000Z",
       "saveCount": 128
     },
     {
@@ -140,6 +148,7 @@
         "tier": "professional",
         "role": "sommelier"
       },
+      "publishedAt": "2026-06-27T08:00:00.000Z",
       "saveCount": 82
     }
   ],
