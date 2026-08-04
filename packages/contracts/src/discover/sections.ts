@@ -3,7 +3,7 @@ import type { PublishedCollectionContract } from "../collections/index.js";
 import type { ContributionContract } from "../contributions/index.js";
 import type { EditorialContract } from "../editorial/index.js";
 import type { PublishedEventContract } from "../events/index.js";
-import type { ActivityContract } from "../social/index.js";
+import type { ActivityContract, ActivityWineRef, TastingNoteContract } from "../social/index.js";
 import type { DiscoverChapterLinkContract } from "./chapterLink.js";
 import type { DiscoverDoorwayContract } from "./doorway.js";
 import type { CellarTonightRowContract } from "./cellarTonightRow.js";
@@ -137,6 +137,43 @@ export type DiscoverSection =
       title: string;
       eyebrow?: string;
       items: CellarTonightRowContract[];
+    }
+  /**
+   * Two ways of seeing — readings of ONE bottle that do not agree.
+   *
+   * ## Why this is a section and not something a client assembles
+   *
+   * It looks derivable: take the room feed, group by wine, find a bottle with
+   * two different verdicts. It is not. WHICH bottle is worth showing a
+   * disagreement about, and WHICH two of its readings to set against each
+   * other, is an editorial judgement made over the whole corpus — and a client
+   * holds one page of it. A client that tried would surface whichever pair its
+   * page happened to contain and call that the room disagreeing.
+   *
+   * ## The wine is named ONCE, over both
+   *
+   * `wine` sits on the section rather than on each item because the entries are
+   * readings of the same thing, and repeating the bottle above each quote is
+   * the layout saying twice what the section already said. An item's own
+   * `wine` is therefore redundant here and may be omitted.
+   *
+   * ## The disagreement is in the TIER and the PROSE
+   *
+   * Never in a negative verdict: the vocabulary has none, deliberately. "An
+   * Interesting Discovery" set against "Essential" is the shape a real
+   * disagreement takes in this room, and a producer that reaches for a
+   * damning word will not find one.
+   *
+   * At least two items, or the section is not sent.
+   */
+  | {
+      id: string;
+      type: "contrast";
+      title: string;
+      eyebrow?: string;
+      /** The bottle every reading here is of. */
+      wine: ActivityWineRef;
+      items: TastingNoteContract[];
     }
   /**
    * The standing record for the evening. ONE payload, not a list — which is why

@@ -27,6 +27,21 @@ export type EditorialContract = {
   /** What the piece is about — powers "read more like this" and cross-linking. */
   subject?: EditorialSubjectContract;
   /**
+   * ISO-8601. When the piece was published — not when it was written, and not
+   * when it was last edited.
+   *
+   * REQUIRED, and on the card rather than only on the detail, because the card
+   * is what a list renders: an archive files by date, rules itself into months
+   * and shows the date on the row, and none of that is reachable from a
+   * response that only carries it one fetch deeper. It was optional-by-absence
+   * before, which is how a client ends up with an archive whose rows have no
+   * dates and no error to explain why.
+   *
+   * The same value as {@link EditorialDetailContract.publishedAt}, derived from
+   * it wherever a detail exists, so a card and its piece cannot disagree.
+   */
+  publishedAt: string;
+  /**
    * How many members have saved this piece.
    *
    * The same count every other saveable unit carries. A card that offers Save

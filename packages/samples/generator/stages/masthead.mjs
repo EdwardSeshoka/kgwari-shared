@@ -127,6 +127,37 @@ export function buildMasthead({ wines, notes, editorial, events, users, collecti
     bottlesHeld: 1 + spread(`${wine.id}bottles`, 0, 3)
   }));
 
+  /**
+   * Two ways of seeing — one bottle, two readings that do not agree.
+   *
+   * Picked here rather than left to a client for the reason the contract gives:
+   * WHICH bottle is worth showing a disagreement about is a judgement over the
+   * whole corpus, and a client holds one page of it. The rule is the widest
+   * verdict distance among bottles the room actually argued over, which is a
+   * defensible one a generator can state and a reader can check.
+   *
+   * The pair is set against each other by TIER and PROSE. There is no negative
+   * verdict in the vocabulary to reach for, deliberately.
+   */
+  const VERDICT_RANK = ["An Interesting Discovery", "Worth Revisiting", "Essential", "Unforgettable"];
+  const rank = (note) => VERDICT_RANK.indexOf(note.verdict ?? "");
+
+  const notesByWine = new Map();
+  for (const note of roomNotes) {
+    if (rank(note) < 0) continue;
+    const forWine = notesByWine.get(note.wineVintageId) ?? [];
+    forWine.push(note);
+    notesByWine.set(note.wineVintageId, forWine);
+  }
+
+  const contrast = [...notesByWine.values()]
+    .map((forWine) => {
+      const sorted = [...forWine].sort((a, b) => rank(a) - rank(b));
+      return { low: sorted[0], high: sorted[sorted.length - 1] };
+    })
+    .filter((pair) => rank(pair.high) > rank(pair.low))
+    .sort((a, b) => rank(b.high) - rank(b.low) - (rank(a.high) - rank(a.low)))[0];
+
   const window = { from: "2026-08-02T16:00:00.000Z", to: "2026-08-03T00:00:00.000Z" };
 
   /** A v1 section, carried through as authored. */
@@ -188,6 +219,23 @@ export function buildMasthead({ wines, notes, editorial, events, users, collecti
         items: collections.itineraries.items.slice(0, 2)
       },
       carried("doorways"),
+      // The section is only sent when the room genuinely disagreed. A "contrast"
+      // band over two people saying the same thing is the fixture teaching a
+      // consumer that the chapter means nothing.
+      ...(contrast
+        ? [
+            {
+              id: "two_ways_of_seeing",
+              type: "contrast",
+              title: "Two ways of seeing",
+              eyebrow: "ONE BOTTLE",
+              wine: contrast.high.wine,
+              // The dissent leads. The page is arguing with the consensus, not
+              // presenting the consensus and then qualifying it.
+              items: [contrast.low, contrast.high].map(({ wine, ...note }) => note)
+            }
+          ]
+        : []),
       carried("room"),
       {
         id: "from_your_cellar_tonight",

@@ -19,7 +19,8 @@ export const EditorialContract = {
         description:
           "Four Bordeaux varieties, pouring generously after three hours in the decanter.",
         author: { name: "Alexandra Meyer", tier: "professional", role: "Sommelier" },
-        subject: { kind: "wine", wineVintageId: "wine_rubicon-2018" }}),
+        subject: { kind: "wine", wineVintageId: "wine_rubicon-2018" },
+        publishedAt: "2026-06-20T08:00:00.000Z"}),
 
     /**
      * A vintage report — the one subject variant that is about a YEAR rather than

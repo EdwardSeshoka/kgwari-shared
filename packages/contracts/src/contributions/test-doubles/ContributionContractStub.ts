@@ -50,7 +50,8 @@ const editorialStub = defineStub<EditorialContribution>({
     id: "editorial_fourteen-clones",
     contentType: "story",
     title: "Fourteen clones, one rootstock",
-    description: "What a decade of replanting did to a hillside in Stellenbosch."
+    description: "What a decade of replanting did to a hillside in Stellenbosch.",
+    publishedAt: "2026-06-23T09:02:00.000Z"
   }
 });
 

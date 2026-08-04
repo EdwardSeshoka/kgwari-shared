@@ -65,6 +65,7 @@ export function buildEditorial({ events }) {
     ...(piece.imageUrl ? { imageUrl: piece.imageUrl } : {}),
     ...(piece.author ? { author: piece.author } : {}),
     ...(piece.subject ? { subject: piece.subject } : {}),
+    publishedAt: piece.publishedAt,
     ...(piece.saveCount !== undefined ? { saveCount: piece.saveCount } : {})
   });
 
@@ -81,6 +82,12 @@ export function buildEditorial({ events }) {
         // takes the piece's count; one without gets its own, from the
         // order-independent hash so it does not move when a piece is added.
         saveCount: detail?.saveCount ?? spread(`${card.id}save`, 0, 260),
+        // A card with a detail takes the piece's date; one without needs its
+        // own, because the archive files by it and cannot render a row that has
+        // none. Curated cards carry `publishedAt` in `editorial.json` for
+        // exactly that reason — a missing one is a build failure below rather
+        // than a silently dateless row.
+        publishedAt: detail?.publishedAt ?? card.publishedAt,
         // The curated cards carry copy the detail does not model — a category
         // eyebrow and a cta label are card chrome, not part of the piece.
         ...(card.categoryLabel ? { categoryLabel: card.categoryLabel } : {}),
@@ -93,6 +100,15 @@ export function buildEditorial({ events }) {
       .filter((piece) => !CURATED_CARDS.some((card) => card.id === piece.id))
       .map(cardFor)
   ];
+
+  for (const card of cards) {
+    if (card.publishedAt === undefined) {
+      throw new Error(
+        `editorial card "${card.id}" has no publishedAt — add one to editorial.json, ` +
+          "or give the piece a detail to derive it from"
+      );
+    }
+  }
 
   return { cards, details };
 }

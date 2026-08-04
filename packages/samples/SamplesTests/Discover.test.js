@@ -86,6 +86,7 @@ describe("createDiscover", () => {
           "editorial",
           "itineraries",
           "doorways",
+          "contrast",
           "room",
           "cellar_tonight",
           "tonight_stats",
@@ -108,6 +109,54 @@ describe("createDiscover", () => {
       const room = home.sections.find((section) => section.type === "room");
       assert.ok(room.items[0].user.displayName.length > 0);
       assert.equal(typeof room.items[0].verdict, "string");
+    },
+  );
+
+  it(
+    "sets two readings of one bottle against each other, and they disagree",
+    function givenTheContrastBand_whenComposed_thenTheReadingsActuallyDiffer() {
+      // Given: a "two ways of seeing" band over two people saying the same
+      // thing is the fixture teaching a consumer that the chapter means
+      // nothing. The disagreement is the only reason the section exists.
+      const home = createDiscover();
+      const contrast = home.sections.find((section) => section.type === "contrast");
+
+      // Then
+      assert.ok(contrast, "the band is composed");
+      assert.ok(contrast.items.length >= 2, "one reading is not two ways of seeing");
+
+      const verdicts = new Set(contrast.items.map((note) => note.verdict));
+      assert.equal(verdicts.size, contrast.items.length, "the readings must differ");
+
+      // The wine is named ONCE, over both — repeating it above each quote is
+      // the layout saying twice what the section already said.
+      assert.ok(contrast.wine.name.length > 0);
+      for (const note of contrast.items) {
+        assert.ok(!("wine" in note), "an entry restates neither the bottle nor its estate");
+        assert.equal(note.wineVintageId, contrast.wine.id, "every reading is of that bottle");
+        assert.ok(note.note.length > 0, "a reading is prose, not a rating");
+      }
+    },
+  );
+
+  it(
+    "dates every editorial card, so an archive can file it",
+    function givenTheEditorialCards_whenInspected_thenEachCarriesItsPublicationDate() {
+      // Given: the archive files by date, rules itself into months and shows the
+      // date on the row. A card that carries none reaches a client as a dateless
+      // row with no error to explain it — which is what happened before this
+      // field moved onto the card from the detail.
+      const home = createDiscover();
+      const editorial = home.sections.find((section) => section.type === "editorial");
+
+      // Then
+      for (const card of editorial.items) {
+        assert.equal(typeof card.publishedAt, "string", `${card.id} has no publishedAt`);
+        assert.ok(
+          !Number.isNaN(Date.parse(card.publishedAt)),
+          `${card.id} has an unparseable publishedAt`,
+        );
+      }
     },
   );
 

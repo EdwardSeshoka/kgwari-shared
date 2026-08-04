@@ -35,7 +35,8 @@
     "subject": {
       "kind": "region",
       "regionId": "region_swartland"
-    }
+    },
+    "publishedAt": "2026-07-22T06:00:00.000Z"
   },
   {
     "id": "article_decanting_how_long",
@@ -49,7 +50,8 @@
       "name": "Nomsa Dlamini",
       "tier": "professional",
       "role": "sommelier"
-    }
+    },
+    "publishedAt": "2026-07-09T07:30:00.000Z"
   },
   {
     "id": "story_six_cinsaults_poured_blind",
@@ -63,7 +65,8 @@
       "name": "Sipho Khumalo",
       "tier": "professional",
       "role": "sommelier"
-    }
+    },
+    "publishedAt": "2026-07-18T16:00:00.000Z"
   },
   {
     "id": "article_case_for_cellaring_chenin",
@@ -77,6 +80,7 @@
       "name": "Thandi Nkosi",
       "tier": "professional",
       "role": "sommelier"
-    }
+    },
+    "publishedAt": "2026-06-27T08:00:00.000Z"
   }
 ]
