@@ -1,5 +1,7 @@
 import type { DiscoverContract } from "@edwardseshoka/contracts/discover";
 
+import { offsetTo, shiftInstants, systemClock } from "../../freshness/Freshness.js";
+
 import rawResponse from "./discover-response.json" with { type: "json" };
 
 /**
@@ -22,7 +24,44 @@ import rawResponse from "./discover-response.json" with { type: "json" };
  *
  * Composition still lives in the backend, not here. The double replays this
  * verbatim so the same production mapper runs.
+ *
+ * ## Why it is dated on the way out
+ *
+ * A recorded response records its clock too. This one carries a `tonight_stats`
+ * window of 2 August, so a double replaying it showed a standing column the
+ * server could not reproduce on any other day — the double and the backend
+ * disagreeing not about shape but about WHEN, which is the hardest kind of
+ * disagreement to notice because both look right on their own.
+ *
+ * The whole response is therefore slid onto the current evening, anchored on its
+ * OWN window rather than on any single row. Anchoring there is what keeps it
+ * coherent: the window, the notes counted inside it, the ledger's timestamps and
+ * the hero's "9 days ago" all move together, so the page still adds up.
  */
+const TONIGHT_STATS = "tonight_stats";
+
+/** The recorded evening this fixture was composed for. */
+function recordedWindowStart(): string | undefined {
+  const sections = (rawResponse as { sections?: unknown }).sections;
+  if (!Array.isArray(sections)) return undefined;
+
+  for (const section of sections) {
+    const candidate = section as { type?: unknown; stats?: { window?: { from?: unknown } } };
+    if (candidate.type === TONIGHT_STATS && typeof candidate.stats?.window?.from === "string") {
+      return candidate.stats.window.from;
+    }
+  }
+  return undefined;
+}
+
+// Anchored on the window's OPENING (16:00), not on a row: the response is
+// offset by the difference between the evening it recorded and the one being
+// looked at, which leaves every instant in the same relative place.
+const dated = shiftInstants(
+  rawResponse,
+  offsetTo(recordedWindowStart(), { hour: 16, minute: 0 }, systemClock())
+);
+
 export function createDiscover(): DiscoverContract {
-  return rawResponse as unknown as DiscoverContract;
+  return dated as unknown as DiscoverContract;
 }
