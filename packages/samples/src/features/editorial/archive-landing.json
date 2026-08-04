@@ -1,22 +1,6 @@
 {
   "items": [
     {
-      "id": "story_six_cinsaults_poured_blind",
-      "contentType": "story",
-      "categoryLabel": "TASTING",
-      "title": "Six Cinsaults, poured blind.",
-      "description": "A grape the Cape once pulled out by the hectare, tasted without labels — and what the room reached for twice.",
-      "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&w=1200&q=80",
-      "ctaLabel": "Read tasting",
-      "author": {
-        "name": "Sipho Khumalo",
-        "tier": "professional",
-        "role": "sommelier"
-      },
-      "publishedAt": "2026-07-18T16:00:00.000Z",
-      "saveCount": 70
-    },
-    {
       "id": "season_what_to_open_in_august",
       "contentType": "season",
       "title": "What to open in August.",
@@ -67,6 +51,51 @@
       "saveCount": 86
     },
     {
+      "id": "story_six_cinsaults_poured_blind",
+      "contentType": "story",
+      "categoryLabel": "TASTING",
+      "title": "Six Cinsaults, poured blind.",
+      "description": "A grape the Cape once pulled out by the hectare, tasted without labels — and what the room reached for twice.",
+      "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&w=1200&q=80",
+      "ctaLabel": "Read tasting",
+      "author": {
+        "name": "Sipho Khumalo",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "publishedAt": "2026-07-18T16:00:00.000Z",
+      "saveCount": 70
+    },
+    {
+      "id": "cause_after_the_fire",
+      "contentType": "cause",
+      "title": "After the fire.",
+      "description": "Four estates lost vineyard to the January fires. What the relief fund is for, and who administers it.",
+      "author": {
+        "name": "Nomsa Dlamini",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "publishedAt": "2026-07-14T06:30:00.000Z",
+      "saveCount": 208
+    },
+    {
+      "id": "article_decanting_how_long",
+      "contentType": "article",
+      "categoryLabel": "EDITORIAL",
+      "title": "Decanting: how long is too long?",
+      "description": "Three hours, six, overnight — when air becomes a wine’s friend, and when it quietly undoes it.",
+      "imageUrl": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=1200&q=80",
+      "ctaLabel": "Read editorial",
+      "author": {
+        "name": "Nomsa Dlamini",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "publishedAt": "2026-07-09T07:30:00.000Z",
+      "saveCount": 128
+    },
+    {
       "id": "event_meerlust_cellar_tasting",
       "contentType": "event",
       "title": "Six vintages, one afternoon in the Meerlust cellar.",
@@ -85,17 +114,20 @@
       "saveCount": 96
     },
     {
-      "id": "cause_after_the_fire",
-      "contentType": "cause",
-      "title": "After the fire.",
-      "description": "Four estates lost vineyard to the January fires. What the relief fund is for, and who administers it.",
+      "id": "article_case_for_cellaring_chenin",
+      "contentType": "article",
+      "categoryLabel": "NOTE",
+      "title": "The case for cellaring Chenin.",
+      "description": "Drunk young almost everywhere, yet the Cape’s old-vine bottlings reward a decade of patience more reliably than most.",
+      "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1200&q=80",
+      "ctaLabel": "Read note",
       "author": {
-        "name": "Nomsa Dlamini",
+        "name": "Thandi Nkosi",
         "tier": "professional",
         "role": "sommelier"
       },
-      "publishedAt": "2026-07-14T06:30:00.000Z",
-      "saveCount": 208
+      "publishedAt": "2026-06-27T08:00:00.000Z",
+      "saveCount": 82
     },
     {
       "id": "article_why_2018_stellenbosch",
@@ -118,38 +150,6 @@
       },
       "publishedAt": "2026-06-20T08:00:00.000Z",
       "saveCount": 412
-    },
-    {
-      "id": "article_decanting_how_long",
-      "contentType": "article",
-      "categoryLabel": "EDITORIAL",
-      "title": "Decanting: how long is too long?",
-      "description": "Three hours, six, overnight — when air becomes a wine’s friend, and when it quietly undoes it.",
-      "imageUrl": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=1200&q=80",
-      "ctaLabel": "Read editorial",
-      "author": {
-        "name": "Nomsa Dlamini",
-        "tier": "professional",
-        "role": "sommelier"
-      },
-      "publishedAt": "2026-07-09T07:30:00.000Z",
-      "saveCount": 128
-    },
-    {
-      "id": "article_case_for_cellaring_chenin",
-      "contentType": "article",
-      "categoryLabel": "NOTE",
-      "title": "The case for cellaring Chenin.",
-      "description": "Drunk young almost everywhere, yet the Cape’s old-vine bottlings reward a decade of patience more reliably than most.",
-      "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1200&q=80",
-      "ctaLabel": "Read note",
-      "author": {
-        "name": "Thandi Nkosi",
-        "tier": "professional",
-        "role": "sommelier"
-      },
-      "publishedAt": "2026-06-27T08:00:00.000Z",
-      "saveCount": 82
     }
   ],
   "lenses": {

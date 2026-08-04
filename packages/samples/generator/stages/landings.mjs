@@ -49,7 +49,12 @@ export function buildLandings({ events, editorial }) {
     calendar.lenses.push({ key: "lens.seatsLeft", count: withSeats });
   }
 
-  const archiveRows = [...editorial.cards].sort((a, b) => b.id.localeCompare(a.id));
+  // Newest first, which is what the heading promises. It sorted by ID until
+  // the card carried a date — a stand-in that looked stable and was arbitrary,
+  // and that nothing could catch while there was no date to disagree with.
+  const archiveRows = [...editorial.cards].sort((a, b) =>
+    b.publishedAt.localeCompare(a.publishedAt)
+  );
 
   return {
     calendar: { items: diary, lenses: calendar },

@@ -344,3 +344,20 @@ describe("the ledger's collection rows", () => {
     }
   );
 });
+
+describe("the archive landing's order", () => {
+  it(
+    "files newest first, which is what its heading promises",
+    function givenTheArchiveLanding_whenRead_thenItIsSortedByPublicationDate() {
+      // Given: it sorted by ID until the card carried a date — a stand-in that
+      // looked stable and was arbitrary, and that nothing could catch while
+      // there was no date to disagree with. A heading that says "newest first"
+      // over a list that is not is the kind of lie only a reader notices.
+      const { items } = editorialSamples.archiveLanding;
+
+      // Then
+      const dates = items.map((piece) => piece.publishedAt);
+      assert.deepEqual(dates, [...dates].sort().reverse());
+    },
+  );
+});
