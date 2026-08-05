@@ -45,32 +45,41 @@ export type Clock = () => Date;
 
 export const systemClock: Clock = () => new Date();
 
-/** Where a domain's newest row should sit, as a UTC time of day. */
-export type FreshnessTarget = Readonly<{ hour: number; minute: number }>;
+/**
+ * Where a domain's newest row should sit, as MINUTES BEFORE NOW.
+ *
+ * It used to be a UTC time of day — `{ hour: 18, minute: 30 }` — and that is the
+ * bug this type replaces. A time of day is a point the clock passes once, so a
+ * set slid onto 18:30 "today" is slid into the FUTURE for every hour of the day
+ * before 18:30. Seeded at 02:00, twenty-five of thirty-four rows carried
+ * timestamps that had not happened yet: notes written tomorrow, check-ins for
+ * bottles nobody had opened.
+ *
+ * Nothing caught it because the window it was built for was forward-looking too
+ * — 16:00 to midnight includes 18:30 even when asked at 02:00 — so two wrongs
+ * agreed. The moment the server counted a window ending NOW, every one of those
+ * rows fell outside it and the room's record went empty.
+ *
+ * Minutes-ago cannot do that. A row is always in the past, whatever the hour,
+ * and any window ending at the present moment can see it.
+ */
+export type FreshnessTarget = Readonly<{ minutesAgo: number }>;
 
 /**
- * Inside `tonightWindow` (16:00 → midnight), far enough in to read as evening.
+ * Recent enough to sit inside the room's rolling window, with room to spare.
  *
- * Notes and activities take DIFFERENT times on purpose. `bottlesOpened` counts
+ * Notes and activities take DIFFERENT offsets on purpose. `bottlesOpened` counts
  * both, so with only one kind in the window it equals `notesWritten` — the same
  * figure under two labels, one of which is then a lie.
  */
-export const TONIGHT_NOTES: FreshnessTarget = { hour: 18, minute: 30 };
-export const TONIGHT_ACTIVITY: FreshnessTarget = { hour: 19, minute: 15 };
+export const TONIGHT_NOTES: FreshnessTarget = { minutesAgo: 90 };
+export const TONIGHT_ACTIVITY: FreshnessTarget = { minutesAgo: 45 };
 
-/** Earlier today — for things that are published rather than poured. */
-export const EARLIER_TODAY: FreshnessTarget = { hour: 9, minute: 0 };
+/** Earlier on — for things that are published rather than poured. */
+export const EARLIER_TODAY: FreshnessTarget = { minutesAgo: 6 * 60 };
 
 const atUtc = (now: Date, target: FreshnessTarget): number =>
-  Date.UTC(
-    now.getUTCFullYear(),
-    now.getUTCMonth(),
-    now.getUTCDate(),
-    target.hour,
-    target.minute,
-    0,
-    0
-  );
+  now.getTime() - target.minutesAgo * 60_000;
 
 /**
  * How far to slide a set so its newest instant lands on `target` today.

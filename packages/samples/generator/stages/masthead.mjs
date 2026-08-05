@@ -158,7 +158,12 @@ export function buildMasthead({ wines, notes, editorial, events, users, collecti
     .filter((pair) => rank(pair.high) > rank(pair.low))
     .sort((a, b) => rank(b.high) - rank(b.low) - (rank(a.high) - rank(a.low)))[0];
 
-  const window = { from: "2026-08-02T16:00:00.000Z", to: "2026-08-03T00:00:00.000Z" };
+  // A ROLLING twenty-four hours, matching what the server counts. It was an
+  // evening — 16:00 to midnight — which made the recorded response describe a
+  // window the backend no longer produces, so the double and the server
+  // disagreed about WHEN rather than about shape. `discover.ts` slides this
+  // onto the present before anything reads it.
+  const window = { from: "2026-08-02T00:00:00.000Z", to: "2026-08-03T00:00:00.000Z" };
 
   /** A v1 section, carried through as authored. */
   const carried = (type) => CURATED.sections.find((section) => section.type === type);
