@@ -2,6 +2,13 @@
 
 ## 14.2.0
 
+> **This release does not contain the change described below.** The commit was
+> reverted in #80 before the release ran, but the changeset had already been
+> consumed by the version bump — so 14.2.0 shipped the entry without the code.
+> Published 14.2.0 is identical to 14.1.0 here: 127 note photos, every one on the
+> non-resolving `.test` host, none carrying `alt`. The change lands for real in
+> the release above.
+
 ### Minor Changes
 
 - 267cf17: Give tasting-note photos urls that resolve, alt text that exists, and both

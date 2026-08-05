@@ -18,6 +18,16 @@
     },
     "verdict": "Essential",
     "note": "Cassis and cedar, still tightly wound — gave it three hours and it opened into something generous.",
+    "photo": {
+      "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1600&auto=format&fit=crop&q=80",
+      "alt": {
+        "source": "negotiated",
+        "text": "A decanted red beside two filled glasses on a wooden table",
+        "languageTag": "en"
+      },
+      "width": 1600,
+      "height": 1200
+    },
     "tastedAt": "2026-07-15T20:00:00.000Z",
     "createdAt": "2026-07-16T18:30:00.000Z",
     "source": {
@@ -47,6 +57,11 @@
     },
     "verdict": "Essential",
     "note": "Fine-grained tannin over a long graphite finish. Another decade, easily.",
+    "photo": {
+      "url": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=1600&auto=format&fit=crop&q=80",
+      "width": 1600,
+      "height": 1200
+    },
     "tastedAt": "2026-07-13T19:00:00.000Z",
     "createdAt": "2026-07-14T15:30:00.000Z",
     "saveCount": 57,
