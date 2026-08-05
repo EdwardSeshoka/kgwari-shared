@@ -13,9 +13,27 @@ import { VERDICTS } from "@edwardseshoka/contracts/trust";
 
 import { curated } from "../curated.mjs";
 import { slug } from "../data.mjs";
+import { IMAGES } from "../images.mjs";
 import { spread } from "../random.mjs";
+import { negotiated } from "../text.mjs";
 
 const CURATED_NOTES = curated("notes");
+
+/**
+ * What a member's photograph shows, for a reader who cannot see it.
+ *
+ * Written as a member would write it — what is in the frame, not what the wine
+ * tasted like. The note already carries the tasting; an alt that repeated it
+ * would describe the wrong thing and read as duplicated prose to a screen
+ * reader that has just been given both.
+ */
+const NOTE_ALT = [
+  "A decanted red beside two filled glasses on a wooden table",
+  "A single glass held against a window, late afternoon light through it",
+  "The bottle standing beside its cork and a half-poured glass",
+  "A poured glass on a marble counter, the label just out of focus behind it",
+  "Two glasses on a terrace table with the vineyard behind them"
+];
 
 /**
  * The durable tasting notes.
@@ -248,10 +266,32 @@ export function buildNotes({ wines, users }) {
         saveCount: spread(`${key}save`, 0, 120),
         languageTag: "en",
         readings,
-        ...(spread(`${key}photo`, 0, 3) === 0
+        // A member's photograph of the bottle or the glass.
+        //
+        // The url comes from the shared pool rather than a per-note path on
+        // `images.kgwari.test`. That host was a reserved, deliberately
+        // non-resolving TLD, so every one of these rows fell back to the
+        // placeholder mesh — the fixture said "this note has a photo" and no
+        // consumer could ever see one, which made the whole branch untestable
+        // by looking at it. Every other image in these seeds is a real url.
+        //
+        // ALT IS PRESENT ON MOST AND ABSENT ON SOME, deliberately. Described is
+        // what an image should be, so it is the common case here; but an upload
+        // without a description is what most real ones are, and it is the row
+        // that breaks a client reading `alt.text` without checking. A fixture
+        // where every photo is described ships that branch untested.
+        ...(spread(`${key}photo`, 0, 4) < 2
           ? {
               photo: {
-                url: `https://images.kgwari.test/notes/${id}.jpg`,
+                url: IMAGES[spread(`${key}img`, 0, IMAGES.length - 1)],
+                ...(spread(`${key}alt`, 0, 3) === 0
+                  ? {}
+                  : {
+                      alt: negotiated(
+                        NOTE_ALT[spread(`${key}altText`, 0, NOTE_ALT.length - 1)],
+                        "en"
+                      )
+                    }),
                 width: 1600,
                 height: 1200
               }
