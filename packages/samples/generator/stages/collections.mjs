@@ -40,9 +40,17 @@ const SHELF_TITLES = [
 ];
 
 /**
- * Route titles. The STOPS are drawn from the producer seed rather than written
- * here, because a stop is a navigable proper noun: a route naming an estate the
- * catalogue does not carry is a detail line whose every word leads nowhere.
+ * Route titles, and nothing else about a route.
+ *
+ * The stops, the mode, the places and the byline all live in `buildRoutes`, which
+ * runs first — so a card is not TOLD its stop count and its tally, it is handed the
+ * stops and counts them. That is the correction this stage most needed: the numbers
+ * used to be `spread` values above a detail page that did not exist, and a card
+ * claiming "9 wines" could not be contradicted by anything.
+ *
+ * Only the titles stay here, because a title is what the landing sorts and reads and
+ * the id is derived from it — and those ids are referenced from outside the
+ * generator.
  */
 const ITINERARY_TITLES = [
   "A morning in Franschhoek",
@@ -77,7 +85,7 @@ export function authorshipLens(author) {
   return "lens.kgwari";
 }
 
-export function buildCollections({ wines, producers }) {
+export function buildCollections({ wines, routes }) {
   const curatedIds = new Set(CURATED.map((c) => c.id));
 
   const shelves = SHELF_TITLES.map(([title, description], i) => {
@@ -104,32 +112,102 @@ export function buildCollections({ wines, producers }) {
     };
   }).filter((c) => !curatedIds.has(c.id));
 
+  /**
+   * The facts a route's card derives from its own stops.
+   *
+   * Nothing here is invented. `itemCount` is the number of stops, `contents` counts
+   * what is nested inside them, and the strip is the first few stops keyed on the
+   * STOP — so the card and the page it opens cannot disagree, because the card was
+   * never told the numbers.
+   */
+  const routeFacts = (id, route) => {
+    const { stops, mode } = route;
+    const wineCount = stops.reduce((total, stop) => total + (stop.wines?.length ?? 0), 0);
+    const noteCount = stops.reduce((total, stop) => total + (stop.notes?.length ?? 0), 0);
+    return {
+      subject: "stops",
+      mode,
+      author: route.author,
+      // A route has a direction, so the stops ARE the detail line in the author's
+      // order — re-sorting somebody's list deletes the part they made.
+      itemCount: stops.length,
+      // Only a route that happened has anything nested to tally. On a plan the field
+      // is ABSENT rather than zeroed: "0 wines · 0 notes" turns an itinerary somebody
+      // has not driven yet into an empty diary.
+      ...(mode === "documented" ? { contents: { wines: wineCount, notes: noteCount } } : {}),
+      // Keyed on the STOP and captioned with the place. A route that doubles back
+      // repeats an estate, so a strip keyed on the producer would silently draw one
+      // plate for two stops.
+      // Always strictly fewer entries than stops. A short route showing every one of
+      // them teaches a consumer that `preview.length` is the count, and it is not.
+      preview: stops.slice(0, Math.min(STOPS_SHOWN, stops.length - 1)).map((stop) => ({
+        contentId: stop.id,
+        title: stop.place.name
+      }))
+    };
+  };
+
   const itineraries = ITINERARY_TITLES.map((title, i) => {
-    const author = AUTHORS[(i + 1) % AUTHORS.length];
     const id = `collection_${slug(title)}`;
-    // Five real estates, three of them named on the row. The strip is a handful
-    // of the list and never a census of it — a fixture where the two match
-    // teaches a consumer that `preview.length` is the count, and it is not.
-    const stops = producers.slice(i * 5, i * 5 + 5);
+    const route = routes.byCollection.get(id);
+    if (route === undefined) {
+      throw new Error(
+        `collections: "${id}" has no stops — every route's detail is built in ` +
+          `buildRoutes, and a card without one would claim a page that does not exist`
+      );
+    }
+    const facts = routeFacts(id, route);
     return {
       id,
-      kind: author.name === "Kgwari" ? "selection" : "itinerary",
-      subject: "estates",
+      // Kgwari's own list is a Selection; everyone else's is a Shelf or an Itinerary.
+      // The kind is a function of the author, never a badge added on top.
+      kind: facts.author.name === "Kgwari" ? "selection" : "itinerary",
       title,
-      author,
-      // The stops ARE the detail line, in the author's order — a route has a
-      // direction, and re-sorting somebody's list deletes the part they made.
-      itemCount: stops.length,
+      ...facts,
       saveCount: spread(`${id}s`, 0, 120),
-      preview: stops.slice(0, STOPS_SHOWN).map((stop) => ({
-        contentId: stop.id,
-        title: stop.name
-      })),
       createdAt: `2026-0${6 + (i % 2)}-${String(2 + i * 5).padStart(2, "0")}T14:00:00.000Z`
     };
   }).filter((c) => !curatedIds.has(c.id));
 
-  const all = [...CURATED, ...shelves, ...itineraries];
+  /**
+   * The curated rows, with a route's counts REPLACED by what its stops actually hold.
+   *
+   * The curated pool stays the source of a row's identity — its id, title, blurb,
+   * cover and save count — because those ids are named from outside the generator.
+   * What it is no longer the source of is arithmetic: a hand-written `itemCount` of
+   * five above a page with four stops is exactly the drift the detail exists to
+   * settle, and the row that had it was the flagship.
+   *
+   * The byline is asserted rather than overwritten. If the pool and the route table
+   * ever disagree about who wrote a route, that is a fixture bug and the notes on
+   * that route would be attributed to the wrong person.
+   */
+  const curatedRows = CURATED.map((row) => {
+    const route = routes.byCollection.get(row.id);
+    if (route === undefined) return row;
+    if (row.author?.name !== route.author.name) {
+      throw new Error(
+        `collections: "${row.id}" is bylined "${row.author?.name}" in the curated pool ` +
+          `and "${route.author.name}" in the route table — the notes written on it ` +
+          `would carry the wrong author`
+      );
+    }
+    const { contents, ...facts } = routeFacts(row.id, route);
+    return {
+      ...row,
+      ...facts,
+      // Removed rather than left stale when a curated route turns out to be a plan.
+      ...(contents !== undefined ? { contents } : { contents: undefined })
+    };
+  }).map((row) => {
+    if (row.contents === undefined) {
+      const { contents, ...rest } = row;
+      return rest;
+    }
+    return row;
+  });
+
+  const all = [...curatedRows, ...shelves, ...itineraries];
 
   /**
    * A landing: the rows for one subject, newest first, with its chip row.
@@ -154,5 +232,61 @@ export function buildCollections({ wines, producers }) {
     };
   };
 
-  return { all, shelves: landing("wines"), itineraries: landing("estates") };
+  /**
+   * Opening a list — `GetCollectionResponse`, keyed by collection id.
+   *
+   * ## Why this fixture had to exist
+   *
+   * The card has always said the ordered list belongs to the collection's own
+   * endpoint, and that endpoint had no seed at all. So every surface could show a
+   * route and none could open one, and the three arms of
+   * `CollectionItemContract` shipped with nothing behind them.
+   *
+   * A map rather than an array because the response is per collection: a consumer
+   * asks for one id and gets one page, and a flat list would make every double
+   * search for its own row.
+   *
+   * ## Both arms, not just the one that prompted this
+   *
+   * Routes are what this was built for, and a fixture holding only routes would
+   * teach a consumer that `items` is always stops. So a shelf's detail is emitted
+   * too — the same endpoint, the wines arm — and the `estates` arm stays absent
+   * on purpose: it is reachable only from a Lens, which is nobody's to render and
+   * is deliberately not seeded anywhere.
+   */
+  const winesById = new Map(wines.map((wine) => [wine.id, wine]));
+
+  const details = Object.fromEntries(
+    all.map((collection) => {
+      const route = routes.byCollection.get(collection.id);
+      if (route !== undefined) {
+        return [
+          collection.id,
+          { item: collection, items: route.stops.map((stop) => ({ subject: "stops", stop })) }
+        ];
+      }
+      /**
+       * A shelf opens onto WINES, and the rows start with the ones its strip
+       * promised — a member who tapped a label has to find it on the page. The
+       * rest fill to `itemCount`, because a strip is a handful of a list and never
+       * a census of it.
+       */
+      const promised = (collection.preview ?? [])
+        .map((entry) => winesById.get(entry.contentId))
+        .filter((wine) => wine !== undefined);
+      const promisedIds = new Set(promised.map((wine) => wine.id));
+      const filler = wines
+        .filter((wine) => !promisedIds.has(wine.id))
+        .slice(0, Math.max(0, collection.itemCount - promised.length));
+      return [
+        collection.id,
+        {
+          item: collection,
+          items: [...promised, ...filler].map((wine) => ({ subject: "wines", wine }))
+        }
+      ];
+    })
+  );
+
+  return { all, details, shelves: landing("wines"), itineraries: landing("stops") };
 }

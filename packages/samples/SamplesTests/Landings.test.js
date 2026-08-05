@@ -116,15 +116,20 @@ describe("the collection landings", () => {
 
   it(
     "keeps each landing to one subject",
-    function givenBothLandings_whenRead_thenNeitherMixesBottlesWithEstates() {
+    function givenBothLandings_whenRead_thenNeitherMixesBottlesWithStops() {
       // Given: the treatment follows the subject — a cover of labels against
-      // monogram plates, a count of bottles against a count of places. One page
+      // monogram plates, a count of bottles against a count of stops. One page
       // holding both would need a legend to say which row was which.
+      //
+      // The itineraries landing is `stops`, not `estates`. A client still asking
+      // for `estates` gets an empty page rather than an error, because that value
+      // is still valid for a derived list of producers — which is the one silent
+      // failure in the change and the reason it shipped as a major.
       for (const collection of LANDINGS.shelves.landing.items) {
         assert.equal(collection.subject, "wines", collection.id);
       }
       for (const collection of LANDINGS.itineraries.landing.items) {
-        assert.equal(collection.subject, "estates", collection.id);
+        assert.equal(collection.subject, "stops", collection.id);
       }
     }
   );

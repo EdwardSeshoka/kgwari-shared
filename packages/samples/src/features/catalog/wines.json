@@ -217,7 +217,7 @@
       "tier": "producer",
       "role": "verified producer"
     },
-    "noteCount": 3,
+    "noteCount": 4,
     "cellarCount": 1490,
     "saveCount": 3430
   },
@@ -662,7 +662,7 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
-    "verdict": "Unforgettable",
+    "verdict": "Essential",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "producer",
@@ -673,7 +673,7 @@
       "producerId": "estate_meerlust-estate",
       "claimedAt": "2025-06-12T00:00:00.000Z"
     },
-    "noteCount": 2,
+    "noteCount": 3,
     "cellarCount": 613,
     "saveCount": 1277
   },
@@ -871,7 +871,7 @@
       "producerId": "estate_tokara",
       "claimedAt": "2025-04-14T00:00:00.000Z"
     },
-    "noteCount": 1,
+    "noteCount": 2,
     "cellarCount": 332,
     "saveCount": 683
   },
@@ -1325,6 +1325,7 @@
       "currency": "ZAR"
     },
     "isFeatured": false,
+    "verdict": "Worth Revisiting",
     "provenance": "claimed",
     "claimedBy": {
       "kind": "distributor",
@@ -1334,7 +1335,7 @@
       },
       "claimedAt": "2026-03-03T00:00:00.000Z"
     },
-    "noteCount": 0,
+    "noteCount": 1,
     "cellarCount": 1175,
     "saveCount": 2754
   },

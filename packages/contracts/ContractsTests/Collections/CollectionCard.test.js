@@ -55,11 +55,15 @@ describe("collection card", () => {
   it(
     "cannot say what kind a preview entry is, so a collection cannot mix",
     function givenEveryPreviewEntry_whenInspected_thenNoneStatesAKind() {
-      // Given: the collection's `subject` says whether these are wines or
-      // estates, and an entry states no kind of its own — which makes a mixed
+      // Given: the collection's `subject` says whether these are wines, estates
+      // or stops, and an entry states no kind of its own — which makes a mixed
       // collection inexpressible rather than merely discouraged. Wines and
       // stories together is the Save mechanism: different verb, different
       // object, and letting a shelf hold a story collapses the two one-way.
+      //
+      // A stops strip does not weaken that. It draws one entry per stop — never a
+      // wine from inside a stop beside a place from another — so the mixture on a
+      // route stays nested and stays on the detail page.
       for (const make of factories()) {
         for (const item of make().preview ?? []) {
           assert.deepEqual(
@@ -75,15 +79,15 @@ describe("collection card", () => {
   it(
     "counts one subject, because a collection has exactly one",
     function givenAShelfAndAnItinerary_whenCompared_thenNeitherCountsTheOthersSubject() {
-      // Given: a shelf counts bottles and an itinerary counts estates, and
-      // nothing is part one and part the other. A separate wine count would be a
-      // field that only makes sense if a collection could be mixed.
+      // Given: a shelf counts bottles and an itinerary counts STOPS, and nothing
+      // is part one and part the other. A `wineCount` beside `itemCount` would be
+      // a field that only makes sense if a collection could be mixed.
       const shelf = CollectionContract.StubFactory.make();
       const itinerary = CollectionContract.StubFactory.makeItinerary();
 
       // Then
       assert.equal(shelf.subject, "wines");
-      assert.equal(itinerary.subject, "estates");
+      assert.equal(itinerary.subject, "stops");
       for (const collection of [shelf, itinerary]) {
         assert.ok(!("wineCount" in collection), "`subject` already says what `itemCount` counts");
       }
@@ -91,18 +95,91 @@ describe("collection card", () => {
   );
 
   it(
-    "gives an estate no artwork to render, on purpose",
-    function givenAnItinerary_whenInspected_thenNothingCarriesAnImage() {
-      // Given: an estate has no label to show, and drawing a building or a vine
+    "counts stops rather than places, so a route that doubles back adds up",
+    function givenADocumentedRoute_whenItsStripIsCompared_thenTheKeysAreStopsNotEstates() {
+      // Given: this is the whole reason the subject changed. A route that has
+      // lunch where it started called at four places and made five stops, and the
+      // old estates-subject shape could report that only by listing an estate
+      // twice or losing the evening. Keying the strip on the stop is the same
+      // rule one level down — two entries sharing a producer id is a strip that
+      // silently draws one plate.
+      const itinerary = CollectionContract.StubFactory.makeItinerary();
+      const keys = itinerary.preview.map((entry) => entry.contentId);
+
+      // Then
+      assert.equal(new Set(keys).size, keys.length, "a stop is unique; the place it calls at is not");
+      for (const key of keys) {
+        assert.ok(!key.startsWith("estate_"), "the strip keys on the stop, and captions with the place");
+      }
+    }
+  );
+
+  it(
+    "tallies what is nested in the stops, and only for a route",
+    function givenAShelfAndARoute_whenComparedForContents_thenOnlyTheRouteHasOne() {
+      // Given: `itemCount` says there is no second count, because a collection
+      // has one subject. `contents` is not a second subject — the subject is
+      // stops, `itemCount` counts them, and these count things nested INSIDE
+      // them. A shelf has nothing under its rows to tally, which is why it must
+      // not carry this at all. Nesting is not mixing.
+      const shelf = CollectionContract.StubFactory.make();
+      const documented = CollectionContract.StubFactory.makeItinerary();
+
+      // Then
+      assert.ok(!("contents" in shelf), "a bottle has nothing nested under it");
+      assert.equal(typeof documented.contents.wines, "number");
+      assert.equal(typeof documented.contents.notes, "number");
+      assert.ok(!("notes" in documented), "the notes themselves live on the detail page, never on the card");
+    }
+  );
+
+  it(
+    "distinguishes a plan from a record, and never by emptiness",
+    function givenBothItineraryModes_whenCompared_thenTenseIsStatedAndContentsIsAbsentOnThePlan() {
+      // Given: a plan and a write-up are the same record pointed in opposite
+      // directions — opposite tense, opposite calls to action. A planned stop
+      // with an event offers a way to book it and a documented one must not,
+      // because the evening is over.
+      //
+      // `mode` is SENT rather than inferred from whether anything has been
+      // written yet: a member writing up her day would watch the card flip
+      // halfway through the first note, taking the booking buttons on the
+      // remaining stops with it.
+      const planned = CollectionContract.StubFactory.makePlannedItinerary();
+      const documented = CollectionContract.StubFactory.makeItinerary();
+
+      // Then
+      assert.equal(planned.mode, "planned");
+      assert.equal(documented.mode, "documented");
+      assert.equal(
+        planned.contents,
+        undefined,
+        "nothing has been poured yet, so there is nothing to tally — `0 wines` is an empty diary, not a plan"
+      );
+    }
+  );
+
+  it(
+    "gives a place no artwork to render, on purpose",
+    function givenBothItineraries_whenInspected_thenNothingCarriesAnImage() {
+      // Given: a place has no label to show, and drawing a building or a vine
       // would be inventing imagery the product does not have. The cover is a
       // monogram plate built from the title — honest, cheap, and unmistakably
       // not a bottle.
-      const itinerary = CollectionContract.StubFactory.makeItinerary();
-
-      // Then
-      assert.equal(itinerary.cover, undefined);
-      for (const stop of itinerary.preview) {
-        assert.equal(stop.image, undefined);
+      //
+      // A documented route is not an exception because wines were poured on it.
+      // Borrowing a label from inside a stop would make one arbitrary bottle stand
+      // for the morning, and the stops that poured nothing would be the only
+      // plates on the strip.
+      for (const make of [
+        CollectionContract.StubFactory.makeItinerary,
+        CollectionContract.StubFactory.makePlannedItinerary
+      ]) {
+        const itinerary = make();
+        assert.equal(itinerary.cover, undefined);
+        for (const stop of itinerary.preview) {
+          assert.equal(stop.image, undefined);
+        }
       }
     }
   );

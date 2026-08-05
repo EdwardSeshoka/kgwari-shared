@@ -3,60 +3,63 @@
     {
       "id": "collection_elgin-slowly",
       "kind": "itinerary",
-      "subject": "estates",
       "title": "Elgin, slowly",
+      "subject": "stops",
+      "mode": "documented",
       "author": {
         "name": "Sipho Ndlovu",
         "status": "enthusiast"
       },
-      "itemCount": 5,
-      "saveCount": 64,
+      "itemCount": 3,
+      "contents": {
+        "wines": 2,
+        "notes": 1
+      },
       "preview": [
         {
-          "contentId": "estate_paul-cluver",
+          "contentId": "collection_elgin-slowly__stop-1",
           "title": "Paul Cluver"
         },
         {
-          "contentId": "estate_springfield-estate",
-          "title": "Springfield Estate"
-        },
-        {
-          "contentId": "estate_cederberg-private-cellar",
-          "title": "Cederberg Private Cellar"
+          "contentId": "collection_elgin-slowly__stop-2",
+          "title": "Paul Cluver"
         }
       ],
+      "saveCount": 64,
       "createdAt": "2026-07-17T14:00:00.000Z"
     },
     {
       "id": "collection_the-hemel-en-aarde-run",
       "kind": "selection",
-      "subject": "estates",
       "title": "The Hemel-en-Aarde run",
+      "subject": "stops",
+      "mode": "planned",
       "author": {
         "name": "Kgwari"
       },
-      "itemCount": 5,
-      "saveCount": 37,
+      "itemCount": 4,
       "preview": [
         {
-          "contentId": "estate_de-toren",
-          "title": "De Toren"
+          "contentId": "collection_the-hemel-en-aarde-run__stop-1",
+          "title": "Hamilton Russell Vineyards"
         },
         {
-          "contentId": "estate_sadie-family-wines",
-          "title": "Sadie Family Wines"
+          "contentId": "collection_the-hemel-en-aarde-run__stop-2",
+          "title": "Bouchard Finlayson"
         },
         {
-          "contentId": "estate_mullineux",
-          "title": "Mullineux"
+          "contentId": "collection_the-hemel-en-aarde-run__stop-3",
+          "title": "Hamilton Russell Vineyards"
         }
       ],
+      "saveCount": 37,
       "createdAt": "2026-07-07T14:00:00.000Z"
     },
     {
       "id": "collection_a_weekend_in_the_swartland",
       "kind": "itinerary",
-      "subject": "estates",
+      "subject": "stops",
+      "mode": "planned",
       "title": "A weekend in the Swartland",
       "description": "Granite, old bush vines, and the people who stopped irrigating them.",
       "author": {
@@ -68,15 +71,15 @@
       "saveCount": 356,
       "preview": [
         {
-          "contentId": "estate_sadie-family-wines",
+          "contentId": "collection_a_weekend_in_the_swartland__stop-1",
           "title": "Sadie Family Wines"
         },
         {
-          "contentId": "estate_a-a-badenhorst",
+          "contentId": "collection_a_weekend_in_the_swartland__stop-2",
           "title": "A.A. Badenhorst"
         },
         {
-          "contentId": "estate_mullineux",
+          "contentId": "collection_a_weekend_in_the_swartland__stop-3",
           "title": "Mullineux"
         }
       ],
@@ -85,35 +88,37 @@
     {
       "id": "collection_constantia-end-to-end",
       "kind": "itinerary",
-      "subject": "estates",
       "title": "Constantia, end to end",
+      "subject": "stops",
+      "mode": "planned",
       "author": {
         "name": "Marius Louw",
         "tier": "professional",
         "role": "sommelier"
       },
-      "itemCount": 5,
-      "saveCount": 46,
+      "itemCount": 4,
       "preview": [
         {
-          "contentId": "estate_la-motte",
-          "title": "La Motte"
+          "contentId": "collection_constantia-end-to-end__stop-1",
+          "title": "Klein Constantia"
         },
         {
-          "contentId": "estate_hamilton-russell-vineyards",
-          "title": "Hamilton Russell Vineyards"
+          "contentId": "collection_constantia-end-to-end__stop-2",
+          "title": "Groot Constantia"
         },
         {
-          "contentId": "estate_bouchard-finlayson",
-          "title": "Bouchard Finlayson"
+          "contentId": "collection_constantia-end-to-end__stop-3",
+          "title": "Klein Constantia"
         }
       ],
+      "saveCount": 46,
       "createdAt": "2026-06-12T14:00:00.000Z"
     },
     {
       "id": "collection_two_days_in_stellenbosch",
       "kind": "itinerary",
-      "subject": "estates",
+      "subject": "stops",
+      "mode": "documented",
       "title": "Two days in Stellenbosch",
       "description": "Three cellar doors, one long lunch, and one designated driver.",
       "author": {
@@ -122,18 +127,22 @@
         "role": "sommelier"
       },
       "itemCount": 5,
+      "contents": {
+        "wines": 3,
+        "notes": 2
+      },
       "saveCount": 87,
       "preview": [
         {
-          "contentId": "estate_meerlust-estate",
+          "contentId": "collection_two_days_in_stellenbosch__stop-1",
           "title": "Meerlust Estate"
         },
         {
-          "contentId": "estate_kanonkop-estate",
+          "contentId": "collection_two_days_in_stellenbosch__stop-2",
           "title": "Kanonkop Estate"
         },
         {
-          "contentId": "estate_rust-en-vrede",
+          "contentId": "collection_two_days_in_stellenbosch__stop-3",
           "title": "Rust en Vrede"
         }
       ],
@@ -142,28 +151,29 @@
     {
       "id": "collection_a-morning-in-franschhoek",
       "kind": "itinerary",
-      "subject": "estates",
       "title": "A morning in Franschhoek",
+      "subject": "stops",
+      "mode": "documented",
       "author": {
         "name": "Lerato Mabaso",
         "status": "collector"
       },
-      "itemCount": 5,
-      "saveCount": 102,
+      "itemCount": 3,
+      "contents": {
+        "wines": 2,
+        "notes": 1
+      },
       "preview": [
         {
-          "contentId": "estate_meerlust-estate",
-          "title": "Meerlust Estate"
+          "contentId": "collection_a-morning-in-franschhoek__stop-1",
+          "title": "Boekenhoutskloof"
         },
         {
-          "contentId": "estate_kanonkop-estate",
-          "title": "Kanonkop Estate"
-        },
-        {
-          "contentId": "estate_rust-en-vrede",
-          "title": "Rust en Vrede"
+          "contentId": "collection_a-morning-in-franschhoek__stop-2",
+          "title": "La Motte"
         }
       ],
+      "saveCount": 102,
       "createdAt": "2026-06-02T14:00:00.000Z"
     }
   ],

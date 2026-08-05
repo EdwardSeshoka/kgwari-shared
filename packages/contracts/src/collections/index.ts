@@ -3,4 +3,7 @@ export * from "./collectionItem.js";
 export * from "./collectionKind.js";
 export * from "./collectionPreviewItem.js";
 export * from "./getCollection.js";
+export * from "./itinerary.js";
+export * from "./itineraryStop.js";
+export * from "./placeProgramme.js";
 export * from "./requests.js";

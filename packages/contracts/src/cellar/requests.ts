@@ -1,9 +1,34 @@
 import type { MoneyContract } from "../money/index.js";
 import type { CellarEntryContract, CellarHoldingContract } from "./cellar.js";
+import type { CellarRouteProjectionContract } from "./routeProjection.js";
 
-/** `GET /cellar` — every holding, each resolved against the catalogue. */
+/**
+ * `GET /cellar` — every holding, each resolved against the catalogue, and what
+ * the member has met without holding.
+ *
+ * ## Two lists, and they must never be added together
+ *
+ * `items` is possession: bottles, with a count. `metOnRoutes` is a projection over
+ * the member's own routes: wines, without one. The screen shows both — "34
+ * bottles" above, "7 wines" below — and the numbers count different things.
+ *
+ * They are siblings rather than one merged list precisely so that a client cannot
+ * accidentally total them. A single array with an optional `bottles` would make
+ * phantom possession one `.length` away; two fields make the reader name which
+ * question they are answering. See {@link CellarRouteProjectionContract}, which
+ * carries the rest of the argument and the absences that enforce it.
+ */
 export type ListCellarResponse = {
   items: CellarHoldingContract[];
+  /**
+   * Wines met on routes and not held — the "From your itineraries" group.
+   *
+   * Absent for a member who has never been on a route, and absent is not an empty
+   * group: with nothing met there is no section to head, and a heading reading
+   * "0 wines" invites a member to wonder what they have lost. A client renders the
+   * group only when this is present.
+   */
+  metOnRoutes?: CellarRouteProjectionContract;
 };
 
 /** `GET /cellar/{wineId}` — one holding. */

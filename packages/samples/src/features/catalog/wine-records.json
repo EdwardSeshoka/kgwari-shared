@@ -607,8 +607,8 @@
       {
         "wineVintageId": "rubicon-2010-meerlust-est",
         "vintage": 2010,
-        "verdict": "Unforgettable",
-        "noteCount": 2
+        "verdict": "Essential",
+        "noteCount": 3
       }
     ],
     "cellarCount": 2664
@@ -1325,7 +1325,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 3,
+              "confirmations": 4,
               "disputed": false
             }
           },
@@ -1338,7 +1338,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 3,
+              "confirmations": 4,
               "disputed": false
             }
           },
@@ -1352,7 +1352,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 3,
+              "confirmations": 4,
               "disputed": false
             }
           },
@@ -1365,7 +1365,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 3,
+              "confirmations": 4,
               "disputed": false
             }
           },
@@ -1393,7 +1393,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 3,
+              "confirmations": 4,
               "disputed": false
             }
           },
@@ -1407,7 +1407,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 3,
+              "confirmations": 4,
               "disputed": false
             }
           }
@@ -1490,7 +1490,7 @@
     ],
     "locked": [],
     "register": {
-      "noteCount": 3,
+      "noteCount": 4,
       "verdict": "Worth Revisiting",
       "groups": [
         {
@@ -5026,7 +5026,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 2,
+              "confirmations": 3,
               "disputed": false
             }
           },
@@ -5039,7 +5039,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 2,
+              "confirmations": 3,
               "disputed": false
             }
           },
@@ -5052,7 +5052,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 2,
+              "confirmations": 3,
               "disputed": false
             }
           },
@@ -5066,7 +5066,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 2,
+              "confirmations": 3,
               "disputed": false
             }
           },
@@ -5079,7 +5079,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 2,
+              "confirmations": 3,
               "disputed": false
             }
           },
@@ -5092,7 +5092,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 2,
+              "confirmations": 3,
               "disputed": false
             }
           },
@@ -5107,7 +5107,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 2,
+              "confirmations": 3,
               "disputed": false
             }
           },
@@ -5120,7 +5120,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 2,
+              "confirmations": 3,
               "disputed": true
             }
           },
@@ -5134,7 +5134,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 2,
+              "confirmations": 3,
               "disputed": false
             }
           },
@@ -5147,7 +5147,7 @@
             "source": "sawis",
             "kind": "reference",
             "verification": {
-              "confirmations": 2,
+              "confirmations": 3,
               "disputed": false
             }
           }
@@ -5230,8 +5230,8 @@
     ],
     "locked": [],
     "register": {
-      "noteCount": 2,
-      "verdict": "Unforgettable",
+      "noteCount": 3,
+      "verdict": "Essential",
       "groups": [
         {
           "key": "appearance",
@@ -5422,8 +5422,8 @@
       {
         "wineVintageId": "rubicon-2010-meerlust-est",
         "vintage": 2010,
-        "verdict": "Unforgettable",
-        "noteCount": 2,
+        "verdict": "Essential",
+        "noteCount": 3,
         "isCurrent": true
       }
     ],
@@ -6838,7 +6838,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 1,
+              "confirmations": 2,
               "disputed": false
             }
           },
@@ -6851,7 +6851,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 1,
+              "confirmations": 2,
               "disputed": false
             }
           },
@@ -6864,7 +6864,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 1,
+              "confirmations": 2,
               "disputed": true
             }
           },
@@ -6878,7 +6878,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 1,
+              "confirmations": 2,
               "disputed": false
             }
           },
@@ -6891,7 +6891,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 1,
+              "confirmations": 2,
               "disputed": false
             }
           },
@@ -6904,7 +6904,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 1,
+              "confirmations": 2,
               "disputed": false
             }
           },
@@ -6919,7 +6919,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 1,
+              "confirmations": 2,
               "disputed": false
             }
           },
@@ -6932,7 +6932,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 1,
+              "confirmations": 2,
               "disputed": false
             }
           },
@@ -6946,7 +6946,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 1,
+              "confirmations": 2,
               "disputed": false
             }
           },
@@ -6959,7 +6959,7 @@
             "source": "sawis",
             "kind": "reference",
             "verification": {
-              "confirmations": 1,
+              "confirmations": 2,
               "disputed": false
             }
           }
@@ -7042,7 +7042,7 @@
     ],
     "locked": [],
     "register": {
-      "noteCount": 1,
+      "noteCount": 2,
       "verdict": "Essential",
       "groups": [
         {
@@ -10328,7 +10328,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 0,
+              "confirmations": 1,
               "disputed": false
             }
           },
@@ -10341,7 +10341,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 0,
+              "confirmations": 1,
               "disputed": false
             }
           },
@@ -10354,7 +10354,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 0,
+              "confirmations": 1,
               "disputed": false
             }
           },
@@ -10368,7 +10368,7 @@
             "source": "wo",
             "kind": "reference",
             "verification": {
-              "confirmations": 0,
+              "confirmations": 1,
               "disputed": false
             }
           },
@@ -10381,7 +10381,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 0,
+              "confirmations": 1,
               "disputed": false
             }
           },
@@ -10394,7 +10394,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 0,
+              "confirmations": 1,
               "disputed": false
             }
           },
@@ -10409,7 +10409,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 0,
+              "confirmations": 1,
               "disputed": false
             }
           },
@@ -10422,7 +10422,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 0,
+              "confirmations": 1,
               "disputed": false
             }
           },
@@ -10436,7 +10436,7 @@
             "source": "label",
             "kind": "reference",
             "verification": {
-              "confirmations": 0,
+              "confirmations": 1,
               "disputed": false
             }
           },
@@ -10449,7 +10449,7 @@
             "source": "sawis",
             "kind": "reference",
             "verification": {
-              "confirmations": 0,
+              "confirmations": 1,
               "disputed": false
             }
           }
@@ -10541,7 +10541,8 @@
       }
     ],
     "register": {
-      "noteCount": 0,
+      "noteCount": 1,
+      "verdict": "Worth Revisiting",
       "groups": [],
       "aromas": []
     },
@@ -11617,8 +11618,8 @@
       {
         "wineVintageId": "rubicon-2010-meerlust-est",
         "vintage": 2010,
-        "verdict": "Unforgettable",
-        "noteCount": 2
+        "verdict": "Essential",
+        "noteCount": 3
       }
     ],
     "cellarCount": 1406

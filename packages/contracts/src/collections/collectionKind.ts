@@ -48,6 +48,18 @@ export type CollectionMembership = "enumerated" | "derived";
  * genuinely enumerable objects, so a member-made set of them is real — it just
  * cannot be called a shelf, so the same type takes a place-shaped noun.
  *
+ * ## `estates` is now the derived side only
+ *
+ * It was what an itinerary held: one producer per row. An itinerary holds `stops`
+ * instead, because a route is made of occasions rather than places and the same
+ * estate can be two of them — see {@link ItineraryStopContract}.
+ *
+ * `estates` stays, and is not dead. "Estates you follow" is a rule over the
+ * producer records {@link SavableKind} makes savable, which is a Lens with this
+ * subject and the most obvious one a member has. What it no longer describes is
+ * anything enumerated: freezing that lens does not produce a list of estates, it
+ * produces a route whose stops each carry one.
+ *
  * Regions and vintages are absent on purpose. Neither is a thing you collect: a
  * region is a facet, so "Swartland + Piekenierskloof" is a RULE over wines and
  * lands in `lens`, correctly losing ordering and publishing on the way.
@@ -60,9 +72,16 @@ export type CollectionMembership = "enumerated" | "derived";
  * one-way: once mixed containers exist, nothing tells a member why the thing
  * they saved is not on a shelf.
  *
+ * `stops` is not the exception it looks like, and reading it as one is how this
+ * rule gets repealed by accident. A stop CONTAINS unlike things — a place, the
+ * wines poured there, the notes written about them — but an itinerary's rows are
+ * all stops, so the list has exactly one subject like every other. Nesting is not
+ * mixing: the question a member asks is "what did we do at Kanonkop", never "is
+ * this row a wine or a place". See {@link ItineraryStopContract}.
+ *
  * The subject also does display work. It decides what a cover is made of —
- * overlapping wine labels, or monogram plates for estates — and what the
- * sub-line counts, which is how one index holds every type without labelling a
- * single row.
+ * overlapping wine labels, or monogram plates for estates and for the places
+ * stops call at — and what the sub-line counts, which is how one index holds
+ * every type without labelling a single row.
  */
-export type CollectionSubject = "wines" | "estates";
+export type CollectionSubject = "wines" | "estates" | "stops";

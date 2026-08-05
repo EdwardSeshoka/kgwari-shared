@@ -2,6 +2,7 @@ import type {
   CollectionContract as CollectionContractShape,
   PublishedCollectionContract as PublishedCollectionContractShape
 } from "../collection.js";
+import type { ItineraryCollectionContract as ItineraryCollectionContractShape } from "../itinerary.js";
 import { defineStub, type Overrides } from "../../test-doubles/index.js";
 
 /**
@@ -17,6 +18,13 @@ import { defineStub, type Overrides } from "../../test-doubles/index.js";
  * an oversight — it is the invariant in the signatures. A lens cannot be handed
  * to anything that renders published collections, and the type says so at the
  * only place it can: where the double is used.
+ *
+ * The itinerary factories go the other way, returning the NARROWER
+ * {@link ItineraryCollectionContractShape} — and there are two of them, because a
+ * route is the one kind whose card has a tense. A plan and a write-up are the same
+ * record pointed in opposite directions, and the calls to action on them are
+ * opposites too; a suite that only ever built one of the two has never rendered the
+ * other. See {@link ItineraryMode}.
  */
 
 const shelfStub = defineStub<PublishedCollectionContractShape>({
@@ -36,19 +44,39 @@ const shelfStub = defineStub<PublishedCollectionContractShape>({
   createdAt: "2026-05-04T08:00:00.000Z"
 });
 
-const itineraryStub = defineStub<PublishedCollectionContractShape>({
+const documentedItineraryStub = defineStub<ItineraryCollectionContractShape>({
+  id: "collection_the-franschhoek-tram-in-one-day",
+  kind: "itinerary",
+  subject: "stops",
+  mode: "documented",
+  title: "The Franschhoek tram, in one day",
+  description: "Five stops, one of them twice, and the tram in between.",
+  author: { name: "Thandi Nkosi", tier: "professional", role: "sommelier" },
+  itemCount: 5,
+  contents: { wines: 9, notes: 4 },
+  saveCount: 87,
+  preview: [
+    { contentId: "stop_1", title: "Grande Provence" },
+    { contentId: "stop_2", title: "Rickety Bridge" },
+    { contentId: "stop_3", title: "Le Lude" }
+  ],
+  createdAt: "2026-07-18T21:30:00.000Z"
+});
+
+const plannedItineraryStub = defineStub<ItineraryCollectionContractShape>({
   id: "collection_two-days-in-stellenbosch",
   kind: "itinerary",
-  subject: "estates",
+  subject: "stops",
+  mode: "planned",
   title: "Two days in Stellenbosch",
   description: "Three cellar doors, one long lunch, and one designated driver.",
   author: { name: "Thandi Nkosi", tier: "professional", role: "sommelier" },
   itemCount: 5,
-  saveCount: 87,
+  saveCount: 12,
   preview: [
-    { contentId: "estate_meerlust-estate", title: "Meerlust Estate" },
-    { contentId: "estate_kanonkop-estate", title: "Kanonkop Estate" },
-    { contentId: "estate_rust-en-vrede", title: "Rust en Vrede" }
+    { contentId: "stop_planned-1", title: "Meerlust Estate" },
+    { contentId: "stop_planned-2", title: "Kanonkop Estate" },
+    { contentId: "stop_planned-3", title: "Rust en Vrede" }
   ],
   createdAt: "2026-06-11T12:00:00.000Z"
 });
@@ -88,15 +116,43 @@ export const CollectionContract = {
     ...shelfStub,
 
     /**
-     * An itinerary — estates, in the order she means to drive them.
+     * An itinerary — a day that HAPPENED, written up afterwards.
      *
-     * No `cover`, and none of its preview entries carries an `image`. An estate
-     * has no label to show, so the card draws monogram plates from the titles;
-     * a fixture that handed it artwork would let a consumer that only renders
-     * images pass.
+     * The default itinerary double, because documented is the mode the shape was
+     * redesigned for and the only one that exercises `contents`. Five stops calling
+     * at four places: `itemCount` is 5, the strip names three of them, and a
+     * consumer that assumes the stop count equals the number of distinct estates
+     * gets it wrong here — which is the whole reason a route counts stops.
+     *
+     * The sub-line has a tally and the card has NO notes on it. Nine notes were
+     * written on this day; embedding them would give back everything
+     * {@link CollectionPreviewItemContract} bought, so the card says "5 stops · 9
+     * wines · 4 notes" and the notes live on the detail page.
+     *
+     * No `cover`, and none of its preview entries carries an `image`. A place has no
+     * label to show, so the card draws monogram plates from the titles; a fixture
+     * that handed it artwork would let a consumer that only renders images pass.
      */
-    makeItinerary(overrides: Overrides<PublishedCollectionContractShape> = {}): PublishedCollectionContractShape {
-      return itineraryStub.make(overrides);
+    makeItinerary(overrides: Overrides<ItineraryCollectionContractShape> = {}): ItineraryCollectionContractShape {
+      return documentedItineraryStub.make(overrides);
+    },
+
+    /**
+     * An itinerary that has not happened yet — stops in the order she means to
+     * drive them.
+     *
+     * No `contents`, and its absence is CORRECT rather than missing: nothing has
+     * been poured and nothing written, so there is nothing to tally and the sub-line
+     * reads stops only. A consumer that renders "0 wines · 0 notes" here has turned
+     * a plan into an empty diary.
+     *
+     * The tense difference is the reason this double exists separately. Any call to
+     * action a stop offers — booking the evening it names — is live on this card and
+     * must be absent from {@link makeItinerary}, and the only field that says which
+     * is `mode`.
+     */
+    makePlannedItinerary(overrides: Overrides<ItineraryCollectionContractShape> = {}): ItineraryCollectionContractShape {
+      return plannedItineraryStub.make(overrides);
     },
 
     /**

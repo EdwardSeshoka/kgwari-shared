@@ -1,5 +1,6 @@
 import type { TransactedMoneyContract } from "../money/index.js";
 import type { WineContract } from "../catalog/index.js";
+import type { CellarFirstMetContract } from "./routeProjection.js";
 
 /**
  * What a member holds, and what they know about it that the catalogue does not.
@@ -98,4 +99,17 @@ export type CellarEntryContract = {
 export type CellarHoldingContract = {
   entry: CellarEntryContract;
   wine: WineContract | null;
+  /**
+   * Where the member first met this bottle, when a route knows.
+   *
+   * DERIVED, which is why it sits on the holding and not on
+   * {@link CellarEntryContract}. The entry is what the member typed — what they
+   * paid, when it arrived, what they think of it. This is computed from their own
+   * routes at read time, so it corrects itself when a stop is fixed and vanishes
+   * when the stop is deleted. Storing it on the entry would make the cellar hold a
+   * copy of an afternoon and then disagree with it.
+   *
+   * Absent for most of a cellar — see {@link CellarFirstMetContract}.
+   */
+  firstMet?: CellarFirstMetContract;
 };
