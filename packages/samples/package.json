@@ -1,6 +1,6 @@
 {
   "name": "@edwardseshoka/samples",
-  "version": "14.3.0",
+  "version": "14.4.0",
   "description": "Morara sample data and contract factories.",
   "license": "UNLICENSED",
   "repository": {
@@ -57,7 +57,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@edwardseshoka/contracts": "^10.0.0"
+    "@edwardseshoka/contracts": "^10.0.1"
   },
   "scripts": {
     "prebuild": "npm run build --workspace @edwardseshoka/contracts",
