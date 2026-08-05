@@ -40,26 +40,34 @@ import rawResponse from "./discover-response.json" with { type: "json" };
  */
 const TONIGHT_STATS = "tonight_stats";
 
-/** The recorded evening this fixture was composed for. */
-function recordedWindowStart(): string | undefined {
+/** The moment the recorded window closed. */
+function recordedWindowEnd(): string | undefined {
   const sections = (rawResponse as { sections?: unknown }).sections;
   if (!Array.isArray(sections)) return undefined;
 
   for (const section of sections) {
-    const candidate = section as { type?: unknown; stats?: { window?: { from?: unknown } } };
-    if (candidate.type === TONIGHT_STATS && typeof candidate.stats?.window?.from === "string") {
-      return candidate.stats.window.from;
+    const candidate = section as { type?: unknown; stats?: { window?: { to?: unknown } } };
+    if (candidate.type === TONIGHT_STATS && typeof candidate.stats?.window?.to === "string") {
+      return candidate.stats.window.to;
     }
   }
   return undefined;
 }
 
-// Anchored on the window's OPENING (16:00), not on a row: the response is
-// offset by the difference between the evening it recorded and the one being
-// looked at, which leaves every instant in the same relative place.
+// Anchored on the window's CLOSE — not its opening, and not a row.
+//
+// The server's window rolls and ends at the present moment, so the recorded one
+// has to end there too. A few minutes back rather than exactly on `now`, because
+// a fixture whose newest instant is the current millisecond is data from the
+// future by the time anything renders it.
+//
+// It used to anchor the OPENING onto 16:00 today, which was right while the
+// server counted an evening and wrong the moment it counted a rolling window:
+// before 16:00 that put the whole response — window, notes, ledger — into the
+// future, where a window ending now can see none of it.
 const dated = shiftInstants(
   rawResponse,
-  offsetTo(recordedWindowStart(), { hour: 16, minute: 0 }, systemClock())
+  offsetTo(recordedWindowEnd(), { minutesAgo: 5 }, systemClock())
 );
 
 export function createDiscover(): DiscoverContract {
