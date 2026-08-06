@@ -3,6 +3,7 @@ import { describe, it } from "node:test";
 
 import {
   collectionsSamples,
+  createCollectionDetail,
   createWines,
   discoverSamples,
   provenanceSamples,
@@ -33,8 +34,16 @@ describe("collection samples", () => {
       // are — so the only way to check a fixture is honest is to resolve each id
       // against the pool its subject names. A wine id in an estates collection
       // resolves nowhere, which is exactly the miscast this catches.
+      //
+      // A `stops` strip resolves against the route's own detail rather than a domain
+      // seed, because a stop id belongs to the itinerary that made it. That pool used
+      // not to exist — see `RouteDetails.test.js`, which now checks every strip entry
+      // against the stops the page actually has.
       for (const collection of collectionsSamples.collections) {
-        const ids = SEEDS[collection.subject]();
+        const ids =
+          collection.subject === "stops"
+            ? createCollectionDetail(collection.id).items.map((item) => item.stop.id)
+            : SEEDS[collection.subject]();
         for (const item of collection.preview ?? []) {
           assert.ok(
             ids.includes(item.contentId),
@@ -46,16 +55,76 @@ describe("collection samples", () => {
   );
 
   it(
-    "gives an estates collection nothing to draw, so the card must build a cover",
+    "keys a route's strip on the stop, so a route that doubles back draws both",
+    function givenEveryItinerary_whenItsStripIsRead_thenEachEntryIsAUniqueStopAndNotAnEstate() {
+      // Given: a route can call at one estate twice — a morning tasting and
+      // dinner — so the producer id is not unique within an itinerary and a strip
+      // keyed on it silently draws one plate for two stops. The caption is still
+      // the place's name; only the key is the stop's.
+      const estateIds = SEEDS.estates();
+      const routes = collectionsSamples.collections.filter((item) => item.subject === "stops");
+
+      assert.ok(routes.length > 0, "the fixture has to carry routes for this to mean anything");
+      for (const route of routes) {
+        const keys = (route.preview ?? []).map((entry) => entry.contentId);
+        assert.equal(new Set(keys).size, keys.length, `${route.id}: two strip entries share a key`);
+        for (const key of keys) {
+          assert.ok(
+            !estateIds.includes(key),
+            `${route.id}: strip keys on "${key}", which is a place — a route keys on the stop`
+          );
+        }
+      }
+    }
+  );
+
+  it(
+    "carries both tenses, because a plan and a write-up are opposite cards",
+    function givenTheRoutes_whenTheirModesAreRead_thenBothArePresentAndOnlyRecordsTally() {
+      // Given: a plan and a record are the same shape pointed in opposite
+      // directions, and only one of them may offer a way to book the evenings it
+      // names. A fixture generated entirely from one mode cannot tell a working
+      // card from one that renders every route as a diary.
+      //
+      // `contents` must be ABSENT on a plan rather than zeroed: "0 wines · 0
+      // notes" turns an itinerary somebody has not driven yet into an empty diary.
+      const routes = collectionsSamples.collections.filter((item) => item.subject === "stops");
+      const modes = new Set(routes.map((route) => route.mode));
+
+      assert.deepEqual([...modes].sort(), ["documented", "planned"]);
+      for (const route of routes) {
+        if (route.mode === "planned") {
+          assert.equal(route.contents, undefined, `${route.id} is a plan and has nothing to tally`);
+        } else {
+          assert.ok(route.contents, `${route.id} happened, so its sub-line needs a tally`);
+          // NOT `wines >= stops`. A route with a lunch and a tram pours nothing at two
+          // of its five stops, so fewer wines than stops is the normal shape of a real
+          // day — the assertion that said otherwise was written against invented
+          // numbers and failed the moment the tally was derived from actual pours.
+          assert.equal(typeof route.contents.wines, "number");
+          assert.equal(typeof route.contents.notes, "number");
+          assert.ok(route.contents.notes <= route.contents.wines, `${route.id}: more notes than wines poured`);
+        }
+      }
+    }
+  );
+
+  it(
+    "gives a place nothing to draw, so the card must build a cover",
     function givenEveryItinerary_whenInspected_thenNoImagesArePresent() {
-      // Given: an estate has no label, and inventing a building or a vine would
+      // Given: a place has no label, and inventing a building or a vine would
       // be inventing imagery the product does not have. A fixture that supplied
       // artwork would let a consumer that only renders images pass, and the
       // monogram path would ship untested.
-      const estates = collectionsSamples.collections.filter((item) => item.subject === "estates");
+      //
+      // A documented route is no exception because wines were poured on it:
+      // borrowing a label from inside a stop would make one arbitrary bottle stand
+      // for the morning, and the stops that poured nothing would be the only
+      // plates on the strip.
+      const places = collectionsSamples.collections.filter((item) => item.subject === "stops");
 
-      assert.ok(estates.length > 0);
-      for (const collection of estates) {
+      assert.ok(places.length > 0);
+      for (const collection of places) {
         assert.equal(collection.cover, undefined, `${collection.id} should have no cover artwork`);
         for (const stop of collection.preview ?? []) {
           assert.equal(stop.image, undefined);
@@ -140,7 +209,7 @@ describe("collection samples", () => {
       // wines collection in the itineraries band would be drawn with a cover it
       // cannot fill.
       const byId = new Map(collectionsSamples.collections.map((item) => [item.id, item]));
-      const expected = { collection_shelves: "wines", collection_itineraries: "estates" };
+      const expected = { collection_shelves: "wines", collection_itineraries: "stops" };
 
       for (const section of discoverSamples.curation.sections.filter((item) => BANDS.includes(item.type))) {
         assert.ok(section.itemRefs.length > 0, `${section.id} merchandises nothing`);
@@ -150,6 +219,29 @@ describe("collection samples", () => {
           assert.equal(collection.subject, expected[section.type], `${collection.id} is in the wrong band`);
         }
       }
+    }
+  );
+
+  it(
+    "merchandises a route in both tenses, so neither treatment ships untested",
+    function givenTheItinerariesBand_whenItsRowsAreRead_thenBothModesAreDrawn() {
+      // Given: a plan and a record are opposite cards in the same band — opposite
+      // tense, and only one of them may offer a way to book the evenings it names.
+      // A band drawn entirely out of plans cannot tell a working section from one
+      // that renders every route as a diary, and this is the fixture that decides
+      // it.
+      //
+      // Both bands that draw routes are seeded for this deliberately rather than
+      // by luck: the curation's two ids are fixed in `orig-collections.json`, and
+      // Discover's "where to go next" pair is why `ITINERARY_TITLES` assigns modes
+      // by position instead of alternating.
+      const byId = new Map(collectionsSamples.collections.map((item) => [item.id, item]));
+      const drawn = discoverSamples.curation.sections
+        .filter((section) => section.type === "collection_itineraries")
+        .flatMap((section) => section.itemRefs.map((ref) => byId.get(ref.contentId)?.mode));
+
+      assert.ok(drawn.length > 1, "one row cannot carry two tenses");
+      assert.deepEqual([...new Set(drawn)].sort(), ["documented", "planned"]);
     }
   );
 

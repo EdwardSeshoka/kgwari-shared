@@ -44065,5 +44065,91 @@
         "atPeak": false
       }
     }
+  },
+  {
+    "id": "tasting-note_collection_two_days_in_stellenbosch__stop-1",
+    "wineVintageId": "rubicon-2010-meerlust-est",
+    "user": {
+      "id": "user_thandi_nkosi",
+      "displayName": "Thandi Nkosi",
+      "initials": "TN",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "verdict": "Essential",
+    "note": "The one everybody went quiet for.",
+    "tastedAt": "2026-06-10T09:40:00.000Z",
+    "createdAt": "2026-06-10T21:05:00.000Z",
+    "saveCount": 37,
+    "languageTag": "en",
+    "origin": {
+      "itineraryId": "collection_two_days_in_stellenbosch",
+      "itineraryTitle": "Two days in Stellenbosch",
+      "stopId": "collection_two_days_in_stellenbosch__stop-1"
+    }
+  },
+  {
+    "id": "tasting-note_collection_two_days_in_stellenbosch__stop-4",
+    "wineVintageId": "directors-reserve-2021-tokara",
+    "user": {
+      "id": "user_thandi_nkosi",
+      "displayName": "Thandi Nkosi",
+      "initials": "TN",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "verdict": "Essential",
+    "note": "Sharper than I remember it — the drive up may have helped.",
+    "tastedAt": "2026-06-11T09:40:00.000Z",
+    "createdAt": "2026-06-11T21:05:00.000Z",
+    "saveCount": 7,
+    "languageTag": "en",
+    "origin": {
+      "itineraryId": "collection_two_days_in_stellenbosch",
+      "itineraryTitle": "Two days in Stellenbosch",
+      "stopId": "collection_two_days_in_stellenbosch__stop-4"
+    }
+  },
+  {
+    "id": "tasting-note_collection_a-morning-in-franschhoek__stop-3",
+    "wineVintageId": "boekenhoutskloof-syrah-2020",
+    "user": {
+      "id": "user_lerato_mabaso",
+      "displayName": "Lerato Mabaso",
+      "initials": "LM",
+      "status": "collector"
+    },
+    "verdict": "Essential",
+    "note": "The one everybody went quiet for.",
+    "tastedAt": "2026-05-04T09:40:00.000Z",
+    "createdAt": "2026-05-04T21:05:00.000Z",
+    "saveCount": 0,
+    "languageTag": "en",
+    "origin": {
+      "itineraryId": "collection_a-morning-in-franschhoek",
+      "itineraryTitle": "A morning in Franschhoek",
+      "stopId": "collection_a-morning-in-franschhoek__stop-3"
+    }
+  },
+  {
+    "id": "tasting-note_collection_elgin-slowly__stop-1",
+    "wineVintageId": "cabernet-sauvignon-2020-paul-cluver",
+    "user": {
+      "id": "user_sipho_ndlovu",
+      "displayName": "Sipho Ndlovu",
+      "initials": "SN",
+      "status": "enthusiast"
+    },
+    "verdict": "Worth Revisiting",
+    "note": "Poured before ten in the morning and still the best thing all day.",
+    "tastedAt": "2026-06-02T09:40:00.000Z",
+    "createdAt": "2026-06-02T21:05:00.000Z",
+    "saveCount": 13,
+    "languageTag": "en",
+    "origin": {
+      "itineraryId": "collection_elgin-slowly",
+      "itineraryTitle": "Elgin, slowly",
+      "stopId": "collection_elgin-slowly__stop-1"
+    }
   }
 ]

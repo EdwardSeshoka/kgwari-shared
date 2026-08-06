@@ -57,4 +57,74 @@ export type TastingNoteContract = {
    * note written before this field existed was posted under.
    */
   visibility?: NoteVisibility;
+  /**
+   * Where this note was written, when it was not written on its own.
+   *
+   * Absent is the norm and means standalone: a member opened a wine's page and
+   * wrote about it. Present means the note was written into a stop on an
+   * itinerary, and it changes exactly one thing — see below.
+   *
+   * ## One act, one row
+   *
+   * Somebody documenting a day on the Franschhoek tram writes nine notes in an
+   * afternoon and performs ONE act: publishing the route. Nine rows in Latest
+   * would bury the room under one person's Saturday, and the ledger has already
+   * made this call once — `tasting` is a row for the ATTENDANCE, not for each
+   * thing poured at it. So a note carrying an origin gets no
+   * {@link ContributionContract} row of its own; the itinerary's row stands for
+   * the day, and it counts 1 in {@link ContributionCountContract}, not 9.
+   *
+   * ## Suppressing the ROW is not suppressing the NOTE
+   *
+   * This is the sentence to read twice. The ledger is a record of ACTS; a wine's
+   * page is a record of OPINIONS. One act produced nine opinions, and every one of
+   * them is fully real: it attaches to its vintage, it counts toward that wine's
+   * note count, it feeds the register through `readings`, it is savable, and it can
+   * be promoted as the most-saved note on an unclaimed record. Nothing about this
+   * field makes a note quieter on the wine it is about.
+   *
+   * ## Why the note declares it rather than the server joining it
+   *
+   * Because {@link PublishedCollectionContract} settled the same question: a shape
+   * a producer cannot construct beats a filter a server remembers. If the ledger
+   * had to join notes against itinerary stops to know what to drop, every producer
+   * of every stream would have to remember the join, and the first one that forgot
+   * would spam Latest. Declared on the payload, the rule is local and readable.
+   *
+   * ## Denormalized, and a plain ref
+   *
+   * `itineraryTitle` travels with it so a note's own page can say "from *Two days
+   * in Stellenbosch*" without a second request — the same trade the card's preview
+   * strip makes, and like the strip it may lag the title behind it. Ids and a
+   * string rather than the collection's contract, so `social` does not start
+   * depending on `collections` to describe where a note came from.
+   */
+  origin?: NoteOriginContract;
+};
+
+/**
+ * The itinerary stop a note was written into.
+ *
+ * A note has AT MOST ONE origin, and that is the invariant worth stating: it was
+ * either written standalone or written into one stop. There is no second parent
+ * and no list here, because two origins would mean two ledger rows to suppress
+ * and no answer to which route the breadcrumb names.
+ */
+export type NoteOriginContract = {
+  itineraryId: string;
+  /**
+   * Denormalized for the breadcrumb. A display fact — it can lag the route's title.
+   *
+   * Bare, matching {@link CollectionContract.title} it was copied from rather than
+   * re-declaring it as negotiated text: the server did not translate this, it
+   * duplicated it.
+   */
+  itineraryTitle: string;
+  /**
+   * Which stop, not which place.
+   *
+   * A route can call at one estate twice, so the producer id would not say which
+   * afternoon this note belongs to. See {@link ItineraryStopContract.id}.
+   */
+  stopId: string;
 };

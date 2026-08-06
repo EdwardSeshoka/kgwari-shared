@@ -27,6 +27,7 @@ import { buildPeople } from "./stages/people.mjs";
 import { buildProducers } from "./stages/producers.mjs";
 import { buildRecords } from "./stages/records.mjs";
 import { buildRegions } from "./stages/regions.mjs";
+import { buildRoutes, nameRouteOrigins } from "./stages/routes.mjs";
 import { buildTastings } from "./stages/tastings.mjs";
 import { buildWines } from "./stages/wines.mjs";
 import { emitter } from "./emit.mjs";
@@ -45,6 +46,19 @@ const activities = buildActivities({ users, wines });
  */
 const notes = buildNotes({ wines, users });
 /**
+ * The routes' stops, and the notes written on them.
+ *
+ * Runs BEFORE `applyNoteCounts` on purpose: a note written on the tram is a real
+ * opinion about a vintage, so it must count toward that wine's `noteCount` and feed
+ * its register exactly as a standalone note does. Suppressing the LEDGER row is not
+ * suppressing the note — see `TastingNoteContract.origin`.
+ *
+ * Like `buildNotes`, it draws only from `spread`, so inserting it here re-rolls
+ * nothing downstream.
+ */
+const routes = buildRoutes({ producers, wines, events });
+const allNotes = [...notes, ...routes.notes];
+/**
  * The corpus is written BACK onto the catalogue before anything reads it again.
  *
  * `wine.noteCount` is now a count of the note file and `wine.verdict` is the one
@@ -52,23 +66,29 @@ const notes = buildNotes({ wines, users });
  * records all see the same numbers a reader would arrive at by counting. It
  * mutates in place because those three stages already hold this array.
  */
-applyNoteCounts({ wines, notes });
+applyNoteCounts({ wines, notes: allNotes });
 /**
  * The published lists, and the two landings they feed.
  *
  * Reads `wines` and `producers` so a preview strip points at seeds that exist —
  * a cover of labels for a shelf, the stops in order for a route.
  */
-const collections = buildCollections({ wines, producers });
+const collections = buildCollections({ wines, routes });
+/**
+ * The route titles live on the cards, which are built after the notes — so each
+ * note's `origin.itineraryTitle` is written with the id and corrected here, in one
+ * place, rather than duplicating the title table into the routes stage.
+ */
+nameRouteOrigins({ notes: routes.notes, collections: collections.all });
 /** Reads `events` so an event piece can embed the one event, rather than restate it. */
 const editorial = buildEditorial({ events });
 /** The two landings that need no corpus of their own. */
 const landings = buildLandings({ events, editorial });
 /** The settled Masthead v2 page — resolved against everything above it. */
-const masthead = buildMasthead({ wines, notes, editorial, events, users, collections });
+const masthead = buildMasthead({ wines, notes: allNotes, editorial, events, users, collections });
 const corpus = buildCorpus({ wines, producers, regions, events, users });
 const browse = buildBrowse({ regions, wines, corpus });
-const records = buildRecords({ wines, regions, producers, notes });
+const records = buildRecords({ wines, regions, producers, notes: allNotes });
 
 const { write, report } = emitter({ check: process.argv.includes("--check") });
 
@@ -78,12 +98,13 @@ write("catalog/wines.json", wines);
 write("catalog/wine-records.json", records);
 write("events/events.json", events);
 write("social/activities.json", activities);
-write("social/tasting-notes.json", notes);
+write("social/tasting-notes.json", allNotes);
 write("editorial/editorial.json", editorial.cards);
 write("editorial/editorial-details.json", editorial.details);
 write("collections/collections.json", collections.all);
 write("collections/shelves-landing.json", collections.shelves);
 write("collections/itineraries-landing.json", collections.itineraries);
+write("collections/collection-details.json", collections.details);
 write("events/calendar-landing.json", landings.calendar);
 write("editorial/archive-landing.json", landings.archive);
 write("discover/discover-response.json", masthead);
@@ -97,6 +118,7 @@ console.log("wines     ", wines.length);
 console.log("records   ", records.length);
 console.log("tastings  ", events.length);
 console.log("people    ", users.length);
+console.log("routes    ", routes.byCollection.size, "with", routes.notes.length, "notes on them");
 console.log("---");
 console.log("corpus", corpus.length, "=", ["WINE", "ESTATE", "REGION", "TASTING", "PERSON"].map((k) => `${k}:${byKind(k)}`).join(" "));
 console.log("currencies", [...new Set(wines.map((w) => w.price.currency))].sort().join(", "));

@@ -81,6 +81,44 @@ export const TastingNoteContract = {
         saveCount: undefined,
         ...overrides
       });
+    },
+
+    /**
+     * A note written on a route, not on its own.
+     *
+     * The double for the ledger's one suppression rule: this note gets NO
+     * contribution row, because the act was publishing the itinerary and the day
+     * counts once. A stream fixture built only from origin-less notes has never
+     * exercised the filter, and the day it breaks, nine notes from one afternoon
+     * land in Latest.
+     *
+     * Note everything it keeps. The verdict, the vintage, the readings and the save
+     * count are all untouched, because suppressing the ROW is not suppressing the
+     * NOTE — this is still a full opinion on that Chardonnay and still counts on the
+     * wine's own page. A consumer that hides an origin-bearing note from the wine it
+     * is about has inverted the rule.
+     *
+     * `tastedAt` is the morning and `createdAt` is that evening, which is the shape
+     * of a write-up: the tasting and the writing are hours apart, and a consumer
+     * that dates the note by when it was tasted files the whole day wrong.
+     */
+    makeFromItinerary(
+      overrides: Overrides<TastingNoteContractShape> = {}
+    ): TastingNoteContractShape {
+      return TastingNoteContract.StubFactory.make({
+        id: "tasting-note_stop-1-chardonnay",
+        wineVintageId: "grande-provence-chardonnay-2022",
+        verdict: "Worth Revisiting",
+        note: "Poured before ten in the morning and still the best thing all day.",
+        tastedAt: "2026-07-18T09:40:00.000Z",
+        createdAt: "2026-07-18T21:05:00.000Z",
+        origin: {
+          itineraryId: "collection_the-franschhoek-tram-in-one-day",
+          itineraryTitle: "The Franschhoek tram, in one day",
+          stopId: "stop_1"
+        },
+        ...overrides
+      });
     }
   }
 };

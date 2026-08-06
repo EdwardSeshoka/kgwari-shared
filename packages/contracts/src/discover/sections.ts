@@ -60,13 +60,20 @@ export type DiscoverSection =
       items: PublishedCollectionContract[];
     }
   /**
-   * Itineraries — the same record, subject `estates`, drawn as a route.
+   * Itineraries — the same record, subject `stops`, drawn as a route.
    *
    * A separate `type` for the same payload because a section type on this screen
-   * selects a TREATMENT, and the treatment follows the SUBJECT: estates have no
-   * label to show, so the cover is monogram plates and the sub-line counts
-   * places. A route also reads in order, because a route has a direction. One
-   * card style for bottles and estates would be wrong for one of them.
+   * selects a TREATMENT, and the treatment follows the SUBJECT: the places a
+   * route calls at have no label to show, so the cover is monogram plates and the
+   * sub-line counts stops and what is nested under them. A route also reads in
+   * order, because a route has a direction. One card style for bottles and routes
+   * would be wrong for one of them.
+   *
+   * The treatment now has a second axis the shelves band does not: a route is a
+   * plan or a record, and {@link ItineraryMode} decides its tense and whether the
+   * evenings it names can still be booked. A band that renders every row as a
+   * diary is the failure this section type has to survive, which is why the
+   * fixtures behind it carry both.
    *
    * A doorway cannot carry this at all — `target` would have to name a wine
    * query, and a weekend in Stellenbosch is not one.

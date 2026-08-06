@@ -57,6 +57,18 @@ type ContributionBase = {
  * endpoint serves.
  */
 export type ContributionContract =
+  /**
+   * A note somebody wrote on its own.
+   *
+   * A note carrying {@link TastingNoteContract.origin} does not appear here. It was
+   * written into an itinerary stop, so the act was publishing the route and the
+   * `collection` row below stands for the whole day — nine notes from one afternoon
+   * on the tram are one contribution, not nine.
+   *
+   * The note itself loses nothing by it: the ledger records ACTS, and a wine's page
+   * records OPINIONS. Those nine still attach to their vintages and still count
+   * there.
+   */
   | (ContributionBase & { kind: "note"; note: TastingNoteContract })
   /**
    * A story, an article, a guide — the `contentType` on the payload discriminates

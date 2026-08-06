@@ -36,7 +36,22 @@ export function buildMasthead({ wines, notes, editorial, events, users, collecti
   // The room chooses the lede: the most-saved note leads the page, which is the
   // mechanism the note hero exists for rather than an editor's pick.
   const roomNotes = notes.filter((note) => note.visibility !== "private");
-  const lede = [...roomNotes].sort((a, b) => (b.saveCount ?? 0) - (a.saveCount ?? 0))[0];
+  /**
+   * The notes that get a row of their OWN.
+   *
+   * A note written into an itinerary stop carries `origin`, and publishing that route
+   * was one act — so the route's row stands for the day and the notes under it get no
+   * rows. Nine notes from one afternoon in Latest would bury the room under one
+   * person's Saturday.
+   *
+   * This is the only filter that rule needs, and it is here rather than remembered at
+   * each call site below. What it does NOT do is make those notes quieter anywhere
+   * else: they still count on their wines (`applyNoteCounts` sees every one), still
+   * feed the register, and still qualify for the contrast band, which groups by wine
+   * and therefore reads `roomNotes` rather than this.
+   */
+  const ledgerNotes = roomNotes.filter((note) => note.origin === undefined);
+  const lede = [...ledgerNotes].sort((a, b) => (b.saveCount ?? 0) - (a.saveCount ?? 0))[0];
 
   /**
    * The Latest ledger — one chronological run, kinds interleaved.
@@ -53,7 +68,7 @@ export function buildMasthead({ wines, notes, editorial, events, users, collecti
    * the one a fixture grouped by kind would quietly fail to exercise.
    */
   const contributions = [
-    ...roomNotes.slice(0, 6).map((note) => ({
+    ...ledgerNotes.slice(0, 6).map((note) => ({
       id: `contribution_${note.id}`,
       kind: "note",
       createdAt: note.createdAt,

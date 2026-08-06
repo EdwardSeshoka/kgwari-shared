@@ -1,0 +1,5744 @@
+{
+  "collection_cape_bordeaux": {
+    "item": {
+      "id": "collection_cape_bordeaux",
+      "kind": "shelf",
+      "subject": "wines",
+      "title": "Cape Bordeaux",
+      "description": "Cabernet-led blends built to reward a decade in the cellar.",
+      "cover": {
+        "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop&q=80",
+        "alt": {
+          "source": "negotiated",
+          "text": "A decanter and two Bordeaux-shaped bottles on a dark table.",
+          "languageTag": "en"
+        }
+      },
+      "author": {
+        "name": "Pieter van Wyk",
+        "status": "collector"
+      },
+      "itemCount": 9,
+      "saveCount": 214,
+      "preview": [
+        {
+          "contentId": "rubicon-2018",
+          "title": "Rubicon 2018"
+        },
+        {
+          "contentId": "de-toren-book-xvii-2016",
+          "title": "Book 17 XVII 2016"
+        },
+        {
+          "contentId": "paul-sauer-2011-kanonkop-est",
+          "title": "Paul Sauer 2011"
+        }
+      ],
+      "createdAt": "2026-04-18T09:30:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2018",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 63
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 23
+            },
+            {
+              "grapeVarietyId": "grape.cabernetFranc",
+              "grapeName": "Cabernet Franc",
+              "percentage": 10
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+          "price": {
+            "amountMinorUnits": 89500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "This Week’s Pick"
+          },
+          "isFeatured": true,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust",
+            "claimedAt": "2025-01-05T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 121,
+          "cellarCount": 2664,
+          "saveCount": 4943
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "de-toren-book-xvii-2016",
+          "wineLabelId": "de-toren-book-xvii",
+          "name": "Book 17 XVII",
+          "estate": "De Toren",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/43se9NpdSPKkbPdGMbRV6Q_pb_x300.png",
+          "description": "Powerful Bordeaux-style blend from Stellenbosch with cassis, cedar, and polished tannins.",
+          "price": {
+            "amountMinorUnits": 71000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-01-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 1,
+          "cellarCount": 63,
+          "saveCount": 163
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "paul-sauer-2011-kanonkop-est",
+          "wineLabelId": "paul-sauer",
+          "name": "Paul Sauer",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop-estate",
+          "vintage": 2011,
+          "year": 2011,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Barbera",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.barbera",
+              "grapeName": "Barbera",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Paul Sauer from Kanonkop Estate, Stellenbosch.",
+          "price": {
+            "amountMinorUnits": 189600,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop-estate",
+            "claimedAt": "2025-02-04T00:00:00.000Z"
+          },
+          "noteCount": 7,
+          "cellarCount": 1482,
+          "saveCount": 2947
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "kanonkop-pinotage-2019",
+          "wineLabelId": "kanonkop-pinotage",
+          "name": "Kanonkop Pinotage",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinotage",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotage",
+              "grapeName": "Pinotage",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+          "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+          "price": {
+            "amountMinorUnits": 84500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "Editor’s Pick"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop",
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Kanonkop Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1,
+          "cellarCount": 2074,
+          "saveCount": 4851
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "palladius-2010",
+          "wineLabelId": "palladius",
+          "name": "Palladius",
+          "estate": "Sadie Family Wines",
+          "producerId": "estate_sadie_family",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_wo_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "White Blend",
+          "color": "white",
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png",
+          "description": "Iconic Swartland white blend delivering depth, salinity, and layered stone-fruit complexity.",
+          "price": {
+            "amountMinorUnits": 68000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Sadie Family Wines"
+            },
+            "producerId": "estate_sadie_family",
+            "claimedAt": "2025-06-28T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Sadie Family Wines",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 6,
+          "cellarCount": 280,
+          "saveCount": 671
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "boekenhoutskloof-syrah-2020",
+          "wineLabelId": "boekenhoutskloof-syrah",
+          "name": "Syrah",
+          "estate": "Boekenhoutskloof",
+          "producerId": "estate_boekenhoutskloof",
+          "vintage": 2020,
+          "year": 2020,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "regionId": "region_franschhoek",
+          "styleName": "Syrah",
+          "color": "red",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+          "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+          "price": {
+            "amountMinorUnits": 69500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Boekenhoutskloof"
+            },
+            "producerId": "estate_boekenhoutskloof",
+            "claimedAt": "2025-02-20T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Boekenhoutskloof",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 4,
+          "cellarCount": 1490,
+          "saveCount": 3430
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "tokara-sauvignon-blanc-2022",
+          "wineLabelId": "tokara-sauvignon-blanc",
+          "name": "Sauvignon Blanc Reserve",
+          "estate": "Tokara",
+          "vintage": 2022,
+          "year": 2022,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Sauvignon Blanc",
+          "color": "white",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+          "description": "Bright and mineral, with citrus and fresh-cut herbs. Clean finish, great with seafood.",
+          "price": {
+            "amountMinorUnits": 19500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "640 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 1120,
+          "saveCount": 2451
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "lamotte-chardonnay-2021",
+          "wineLabelId": "lamotte-chardonnay",
+          "name": "Chardonnay",
+          "estate": "La Motte",
+          "vintage": 2021,
+          "year": 2021,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&auto=format&fit=crop&q=80",
+          "description": "Creamy texture with citrus lift. Subtle oak, balanced and modern in style.",
+          "price": {
+            "amountMinorUnits": 32000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "520 member notes"
+          },
+          "noteCount": 1,
+          "cellarCount": 806,
+          "saveCount": 1960
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "mullineux-elandskloof-chardonnay-2016",
+          "wineLabelId": "mullineux-elandskloof-chardonnay",
+          "name": "Elandskloof Chardonnay",
+          "estate": "Mullineux",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Overberg",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Overberg"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/Cj9S8xx7SAuLtiCznUN3yg_pb_x300.png",
+          "description": "Cool-climate Overberg Chardonnay with citrus precision, flinty reduction, and elegant structure.",
+          "price": {
+            "amountMinorUnits": 70000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "120 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 170,
+          "saveCount": 450
+        }
+      }
+    ]
+  },
+  "collection_cape_whites_worth_keeping": {
+    "item": {
+      "id": "collection_cape_whites_worth_keeping",
+      "kind": "shelf",
+      "subject": "wines",
+      "title": "Cape whites worth keeping",
+      "description": "The bottles that get better while everyone drinks them young.",
+      "author": {
+        "name": "Nomsa Dlamini",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "itemCount": 7,
+      "saveCount": 468,
+      "preview": [
+        {
+          "contentId": "palladius-2010",
+          "title": "Palladius 2010"
+        },
+        {
+          "contentId": "mullineux-elandskloof-chardonnay-2016",
+          "title": "Elandskloof Chardonnay 2016"
+        },
+        {
+          "contentId": "lamotte-chardonnay-2021",
+          "title": "Chardonnay 2021"
+        }
+      ],
+      "createdAt": "2026-05-21T11:15:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "palladius-2010",
+          "wineLabelId": "palladius",
+          "name": "Palladius",
+          "estate": "Sadie Family Wines",
+          "producerId": "estate_sadie_family",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_wo_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "White Blend",
+          "color": "white",
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png",
+          "description": "Iconic Swartland white blend delivering depth, salinity, and layered stone-fruit complexity.",
+          "price": {
+            "amountMinorUnits": 68000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Sadie Family Wines"
+            },
+            "producerId": "estate_sadie_family",
+            "claimedAt": "2025-06-28T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Sadie Family Wines",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 6,
+          "cellarCount": 280,
+          "saveCount": 671
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "mullineux-elandskloof-chardonnay-2016",
+          "wineLabelId": "mullineux-elandskloof-chardonnay",
+          "name": "Elandskloof Chardonnay",
+          "estate": "Mullineux",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Overberg",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Overberg"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/Cj9S8xx7SAuLtiCznUN3yg_pb_x300.png",
+          "description": "Cool-climate Overberg Chardonnay with citrus precision, flinty reduction, and elegant structure.",
+          "price": {
+            "amountMinorUnits": 70000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "120 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 170,
+          "saveCount": 450
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "lamotte-chardonnay-2021",
+          "wineLabelId": "lamotte-chardonnay",
+          "name": "Chardonnay",
+          "estate": "La Motte",
+          "vintage": 2021,
+          "year": 2021,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&auto=format&fit=crop&q=80",
+          "description": "Creamy texture with citrus lift. Subtle oak, balanced and modern in style.",
+          "price": {
+            "amountMinorUnits": 32000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "520 member notes"
+          },
+          "noteCount": 1,
+          "cellarCount": 806,
+          "saveCount": 1960
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2018",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 63
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 23
+            },
+            {
+              "grapeVarietyId": "grape.cabernetFranc",
+              "grapeName": "Cabernet Franc",
+              "percentage": 10
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+          "price": {
+            "amountMinorUnits": 89500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "This Week’s Pick"
+          },
+          "isFeatured": true,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust",
+            "claimedAt": "2025-01-05T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 121,
+          "cellarCount": 2664,
+          "saveCount": 4943
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "kanonkop-pinotage-2019",
+          "wineLabelId": "kanonkop-pinotage",
+          "name": "Kanonkop Pinotage",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinotage",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotage",
+              "grapeName": "Pinotage",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+          "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+          "price": {
+            "amountMinorUnits": 84500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "Editor’s Pick"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop",
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Kanonkop Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1,
+          "cellarCount": 2074,
+          "saveCount": 4851
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "boekenhoutskloof-syrah-2020",
+          "wineLabelId": "boekenhoutskloof-syrah",
+          "name": "Syrah",
+          "estate": "Boekenhoutskloof",
+          "producerId": "estate_boekenhoutskloof",
+          "vintage": 2020,
+          "year": 2020,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "regionId": "region_franschhoek",
+          "styleName": "Syrah",
+          "color": "red",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+          "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+          "price": {
+            "amountMinorUnits": 69500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Boekenhoutskloof"
+            },
+            "producerId": "estate_boekenhoutskloof",
+            "claimedAt": "2025-02-20T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Boekenhoutskloof",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 4,
+          "cellarCount": 1490,
+          "saveCount": 3430
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "tokara-sauvignon-blanc-2022",
+          "wineLabelId": "tokara-sauvignon-blanc",
+          "name": "Sauvignon Blanc Reserve",
+          "estate": "Tokara",
+          "vintage": 2022,
+          "year": 2022,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Sauvignon Blanc",
+          "color": "white",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+          "description": "Bright and mineral, with citrus and fresh-cut herbs. Clean finish, great with seafood.",
+          "price": {
+            "amountMinorUnits": 19500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "640 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 1120,
+          "saveCount": 2451
+        }
+      }
+    ]
+  },
+  "collection_six_bottles_cape_winter": {
+    "item": {
+      "id": "collection_six_bottles_cape_winter",
+      "kind": "selection",
+      "subject": "wines",
+      "title": "Six bottles for a Cape winter",
+      "description": "What the office is opening between June and August.",
+      "cover": {
+        "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&auto=format&fit=crop&q=80",
+        "alt": {
+          "source": "negotiated",
+          "text": "A glass of red wine beside a fire.",
+          "languageTag": "en"
+        }
+      },
+      "author": {
+        "name": "Kgwari"
+      },
+      "itemCount": 6,
+      "saveCount": 1402,
+      "preview": [
+        {
+          "contentId": "kanonkop-pinotage-2019",
+          "title": "Kanonkop Pinotage 2019"
+        },
+        {
+          "contentId": "boekenhoutskloof-syrah-2020",
+          "title": "Syrah 2020"
+        },
+        {
+          "contentId": "estate-reserve-2017-rust-en-vred",
+          "title": "Estate Reserve 2017"
+        }
+      ],
+      "createdAt": "2026-05-02T07:00:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "kanonkop-pinotage-2019",
+          "wineLabelId": "kanonkop-pinotage",
+          "name": "Kanonkop Pinotage",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinotage",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotage",
+              "grapeName": "Pinotage",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+          "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+          "price": {
+            "amountMinorUnits": 84500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "Editor’s Pick"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop",
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Kanonkop Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1,
+          "cellarCount": 2074,
+          "saveCount": 4851
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "boekenhoutskloof-syrah-2020",
+          "wineLabelId": "boekenhoutskloof-syrah",
+          "name": "Syrah",
+          "estate": "Boekenhoutskloof",
+          "producerId": "estate_boekenhoutskloof",
+          "vintage": 2020,
+          "year": 2020,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "regionId": "region_franschhoek",
+          "styleName": "Syrah",
+          "color": "red",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+          "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+          "price": {
+            "amountMinorUnits": 69500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Boekenhoutskloof"
+            },
+            "producerId": "estate_boekenhoutskloof",
+            "claimedAt": "2025-02-20T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Boekenhoutskloof",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 4,
+          "cellarCount": 1490,
+          "saveCount": 3430
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "estate-reserve-2017-rust-en-vred",
+          "wineLabelId": "estate-reserve",
+          "name": "Estate Reserve",
+          "estate": "Rust en Vrede",
+          "producerId": "estate_rust-en-vrede",
+          "vintage": 2017,
+          "year": 2017,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinot Noir",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotNoir",
+              "grapeName": "Pinot Noir",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+          "description": "Estate Reserve from Rust en Vrede, Stellenbosch.",
+          "price": {
+            "amountMinorUnits": 150400,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-11-23T00:00:00.000Z"
+          },
+          "noteCount": 49,
+          "cellarCount": 165,
+          "saveCount": 388
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2018",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 63
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 23
+            },
+            {
+              "grapeVarietyId": "grape.cabernetFranc",
+              "grapeName": "Cabernet Franc",
+              "percentage": 10
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+          "price": {
+            "amountMinorUnits": 89500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "This Week’s Pick"
+          },
+          "isFeatured": true,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust",
+            "claimedAt": "2025-01-05T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 121,
+          "cellarCount": 2664,
+          "saveCount": 4943
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "palladius-2010",
+          "wineLabelId": "palladius",
+          "name": "Palladius",
+          "estate": "Sadie Family Wines",
+          "producerId": "estate_sadie_family",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_wo_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "White Blend",
+          "color": "white",
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png",
+          "description": "Iconic Swartland white blend delivering depth, salinity, and layered stone-fruit complexity.",
+          "price": {
+            "amountMinorUnits": 68000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Sadie Family Wines"
+            },
+            "producerId": "estate_sadie_family",
+            "claimedAt": "2025-06-28T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Sadie Family Wines",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 6,
+          "cellarCount": 280,
+          "saveCount": 671
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "tokara-sauvignon-blanc-2022",
+          "wineLabelId": "tokara-sauvignon-blanc",
+          "name": "Sauvignon Blanc Reserve",
+          "estate": "Tokara",
+          "vintage": 2022,
+          "year": 2022,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Sauvignon Blanc",
+          "color": "white",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+          "description": "Bright and mineral, with citrus and fresh-cut herbs. Clean finish, great with seafood.",
+          "price": {
+            "amountMinorUnits": 19500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "640 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 1120,
+          "saveCount": 2451
+        }
+      }
+    ]
+  },
+  "collection_two_days_in_stellenbosch": {
+    "item": {
+      "id": "collection_two_days_in_stellenbosch",
+      "kind": "itinerary",
+      "subject": "stops",
+      "mode": "documented",
+      "title": "Two days in Stellenbosch",
+      "description": "Three cellar doors, one long lunch, and one designated driver.",
+      "author": {
+        "name": "Thandi Nkosi",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "itemCount": 5,
+      "contents": {
+        "wines": 3,
+        "notes": 2
+      },
+      "saveCount": 87,
+      "preview": [
+        {
+          "contentId": "collection_two_days_in_stellenbosch__stop-1",
+          "title": "Meerlust Estate"
+        },
+        {
+          "contentId": "collection_two_days_in_stellenbosch__stop-2",
+          "title": "Kanonkop Estate"
+        },
+        {
+          "contentId": "collection_two_days_in_stellenbosch__stop-3",
+          "title": "Rust en Vrede"
+        }
+      ],
+      "createdAt": "2026-06-11T12:00:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_two_days_in_stellenbosch__stop-1",
+          "date": "2026-06-10",
+          "place": {
+            "id": "estate_meerlust-estate",
+            "name": "Meerlust Estate",
+            "countryCode": "ZA",
+            "regionId": "region_stellenbosch",
+            "regionName": "Stellenbosch",
+            "foundedYear": 1693,
+            "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+            "description": "Meerlust Estate, Stellenbosch.",
+            "wineCount": 18
+          },
+          "wines": [
+            {
+              "id": "rubicon-2010-meerlust-est",
+              "wineLabelId": "rubicon",
+              "name": "Rubicon",
+              "estate": "Meerlust Estate",
+              "producerId": "estate_meerlust-estate",
+              "vintage": 2010,
+              "year": 2010,
+              "countryCode": "ZA",
+              "region": "Stellenbosch",
+              "regionId": "region_stellenbosch",
+              "appellation": {
+                "id": "app_stellenbosch",
+                "name": "Stellenbosch",
+                "system": "WO"
+              },
+              "styleName": "Merlot",
+              "color": "red",
+              "grapeBlend": [
+                {
+                  "grapeVarietyId": "grape.merlot",
+                  "grapeName": "Merlot",
+                  "percentage": 100
+                }
+              ],
+              "location": {
+                "area": "Stellenbosch"
+              },
+              "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+              "description": "Rubicon from Meerlust Estate, Stellenbosch.",
+              "price": {
+                "amountMinorUnits": 128000,
+                "currency": "ZAR"
+              },
+              "isFeatured": false,
+              "verdict": "Essential",
+              "provenance": "claimed",
+              "claimedBy": {
+                "kind": "producer",
+                "name": {
+                  "source": "canonical",
+                  "text": "Meerlust Estate"
+                },
+                "producerId": "estate_meerlust-estate",
+                "claimedAt": "2025-06-12T00:00:00.000Z"
+              },
+              "noteCount": 3,
+              "cellarCount": 613,
+              "saveCount": 1277
+            }
+          ],
+          "notes": [
+            {
+              "id": "tasting-note_collection_two_days_in_stellenbosch__stop-1",
+              "wineVintageId": "rubicon-2010-meerlust-est",
+              "user": {
+                "id": "user_thandi_nkosi",
+                "displayName": "Thandi Nkosi",
+                "initials": "TN",
+                "tier": "professional",
+                "role": "sommelier"
+              },
+              "verdict": "Essential",
+              "note": "The one everybody went quiet for.",
+              "tastedAt": "2026-06-10T09:40:00.000Z",
+              "createdAt": "2026-06-10T21:05:00.000Z",
+              "saveCount": 37,
+              "languageTag": "en",
+              "origin": {
+                "itineraryId": "collection_two_days_in_stellenbosch",
+                "itineraryTitle": "Two days in Stellenbosch",
+                "stopId": "collection_two_days_in_stellenbosch__stop-1"
+              }
+            }
+          ],
+          "event": {
+            "eventId": "event_meerlust_cellar_tasting",
+            "title": {
+              "source": "negotiated",
+              "text": "Meerlust cellar tasting",
+              "languageTag": "en"
+            },
+            "startDateTime": "2026-07-24T16:00:00.000Z"
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_two_days_in_stellenbosch__stop-2",
+          "date": "2026-06-10",
+          "place": {
+            "id": "estate_kanonkop-estate",
+            "name": "Kanonkop Estate",
+            "countryCode": "ZA",
+            "regionId": "region_stellenbosch",
+            "regionName": "Stellenbosch",
+            "foundedYear": 1910,
+            "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+            "description": "Kanonkop Estate, Stellenbosch.",
+            "wineCount": 11
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_two_days_in_stellenbosch__stop-3",
+          "date": "2026-06-10",
+          "place": {
+            "id": "estate_rust-en-vrede",
+            "name": "Rust en Vrede",
+            "countryCode": "ZA",
+            "regionId": "region_stellenbosch",
+            "regionName": "Stellenbosch",
+            "foundedYear": 1694,
+            "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+            "description": "Rust en Vrede, Stellenbosch.",
+            "wineCount": 9
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_two_days_in_stellenbosch__stop-4",
+          "date": "2026-06-11",
+          "place": {
+            "id": "estate_tokara",
+            "name": "Tokara",
+            "countryCode": "ZA",
+            "regionId": "region_stellenbosch",
+            "regionName": "Stellenbosch",
+            "foundedYear": 1994,
+            "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+            "description": "Tokara, Stellenbosch.",
+            "wineCount": 16
+          },
+          "wines": [
+            {
+              "id": "directors-reserve-2021-tokara",
+              "wineLabelId": "directors-reserve",
+              "name": "Directors Reserve",
+              "estate": "Tokara",
+              "producerId": "estate_tokara",
+              "vintage": 2021,
+              "year": 2021,
+              "countryCode": "ZA",
+              "region": "Stellenbosch",
+              "regionId": "region_stellenbosch",
+              "appellation": {
+                "id": "app_stellenbosch",
+                "name": "Stellenbosch",
+                "system": "WO"
+              },
+              "styleName": "Pinot Gris",
+              "color": "white",
+              "grapeBlend": [
+                {
+                  "grapeVarietyId": "grape.pinotGris",
+                  "grapeName": "Pinot Gris",
+                  "percentage": 100
+                }
+              ],
+              "location": {
+                "area": "Stellenbosch"
+              },
+              "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+              "description": "Directors Reserve from Tokara, Stellenbosch.",
+              "price": {
+                "amountMinorUnits": 16800,
+                "currency": "ZAR"
+              },
+              "isFeatured": false,
+              "verdict": "Essential",
+              "provenance": "claimed",
+              "claimedBy": {
+                "kind": "producer",
+                "name": {
+                  "source": "canonical",
+                  "text": "Tokara"
+                },
+                "producerId": "estate_tokara",
+                "claimedAt": "2025-04-14T00:00:00.000Z"
+              },
+              "noteCount": 2,
+              "cellarCount": 332,
+              "saveCount": 683
+            }
+          ],
+          "notes": [
+            {
+              "id": "tasting-note_collection_two_days_in_stellenbosch__stop-4",
+              "wineVintageId": "directors-reserve-2021-tokara",
+              "user": {
+                "id": "user_thandi_nkosi",
+                "displayName": "Thandi Nkosi",
+                "initials": "TN",
+                "tier": "professional",
+                "role": "sommelier"
+              },
+              "verdict": "Essential",
+              "note": "Sharper than I remember it — the drive up may have helped.",
+              "tastedAt": "2026-06-11T09:40:00.000Z",
+              "createdAt": "2026-06-11T21:05:00.000Z",
+              "saveCount": 7,
+              "languageTag": "en",
+              "origin": {
+                "itineraryId": "collection_two_days_in_stellenbosch",
+                "itineraryTitle": "Two days in Stellenbosch",
+                "stopId": "collection_two_days_in_stellenbosch__stop-4"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_two_days_in_stellenbosch__stop-5",
+          "date": "2026-06-11",
+          "place": {
+            "id": "estate_meerlust-estate",
+            "name": "Meerlust Estate",
+            "countryCode": "ZA",
+            "regionId": "region_stellenbosch",
+            "regionName": "Stellenbosch",
+            "foundedYear": 1693,
+            "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+            "description": "Meerlust Estate, Stellenbosch.",
+            "wineCount": 18
+          },
+          "wines": [
+            {
+              "id": "rubicon-2010-meerlust-est",
+              "wineLabelId": "rubicon",
+              "name": "Rubicon",
+              "estate": "Meerlust Estate",
+              "producerId": "estate_meerlust-estate",
+              "vintage": 2010,
+              "year": 2010,
+              "countryCode": "ZA",
+              "region": "Stellenbosch",
+              "regionId": "region_stellenbosch",
+              "appellation": {
+                "id": "app_stellenbosch",
+                "name": "Stellenbosch",
+                "system": "WO"
+              },
+              "styleName": "Merlot",
+              "color": "red",
+              "grapeBlend": [
+                {
+                  "grapeVarietyId": "grape.merlot",
+                  "grapeName": "Merlot",
+                  "percentage": 100
+                }
+              ],
+              "location": {
+                "area": "Stellenbosch"
+              },
+              "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+              "description": "Rubicon from Meerlust Estate, Stellenbosch.",
+              "price": {
+                "amountMinorUnits": 128000,
+                "currency": "ZAR"
+              },
+              "isFeatured": false,
+              "verdict": "Essential",
+              "provenance": "claimed",
+              "claimedBy": {
+                "kind": "producer",
+                "name": {
+                  "source": "canonical",
+                  "text": "Meerlust Estate"
+                },
+                "producerId": "estate_meerlust-estate",
+                "claimedAt": "2025-06-12T00:00:00.000Z"
+              },
+              "noteCount": 3,
+              "cellarCount": 613,
+              "saveCount": 1277
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "collection_a_weekend_in_the_swartland": {
+    "item": {
+      "id": "collection_a_weekend_in_the_swartland",
+      "kind": "itinerary",
+      "subject": "stops",
+      "mode": "planned",
+      "title": "A weekend in the Swartland",
+      "description": "Granite, old bush vines, and the people who stopped irrigating them.",
+      "author": {
+        "name": "Marius Louw",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "itemCount": 4,
+      "saveCount": 356,
+      "preview": [
+        {
+          "contentId": "collection_a_weekend_in_the_swartland__stop-1",
+          "title": "Sadie Family Wines"
+        },
+        {
+          "contentId": "collection_a_weekend_in_the_swartland__stop-2",
+          "title": "A.A. Badenhorst"
+        },
+        {
+          "contentId": "collection_a_weekend_in_the_swartland__stop-3",
+          "title": "Mullineux"
+        }
+      ],
+      "createdAt": "2026-06-27T16:45:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_a_weekend_in_the_swartland__stop-1",
+          "date": "2026-09-05",
+          "place": {
+            "id": "estate_sadie-family-wines",
+            "name": "Sadie Family Wines",
+            "countryCode": "ZA",
+            "regionId": "region_swartland",
+            "regionName": "Swartland",
+            "foundedYear": 1999,
+            "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+            "description": "Sadie Family Wines, Swartland.",
+            "wineCount": 9
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_a_weekend_in_the_swartland__stop-2",
+          "date": "2026-09-05",
+          "place": {
+            "id": "estate_a-a-badenhorst",
+            "name": "A.A. Badenhorst",
+            "countryCode": "ZA",
+            "regionId": "region_swartland",
+            "regionName": "Swartland",
+            "foundedYear": 2008,
+            "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+            "description": "A.A. Badenhorst, Swartland.",
+            "wineCount": 10
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_a_weekend_in_the_swartland__stop-3",
+          "date": "2026-09-06",
+          "place": {
+            "id": "estate_mullineux",
+            "name": "Mullineux",
+            "countryCode": "ZA",
+            "regionId": "region_swartland",
+            "regionName": "Swartland",
+            "foundedYear": 2007,
+            "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+            "description": "Mullineux, Swartland.",
+            "wineCount": 12
+          },
+          "event": {
+            "eventId": "event_swartland-six-ways",
+            "title": {
+              "source": "negotiated",
+              "text": "Swartland, Six Ways",
+              "languageTag": "en"
+            },
+            "startDateTime": "2026-08-22T16:00:00.000Z"
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_a_weekend_in_the_swartland__stop-4",
+          "date": "2026-09-06",
+          "place": {
+            "id": "estate_sadie-family-wines",
+            "name": "Sadie Family Wines",
+            "countryCode": "ZA",
+            "regionId": "region_swartland",
+            "regionName": "Swartland",
+            "foundedYear": 1999,
+            "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+            "description": "Sadie Family Wines, Swartland.",
+            "wineCount": 9
+          }
+        }
+      }
+    ]
+  },
+  "collection_bottles-for-a-long-lunch": {
+    "item": {
+      "id": "collection_bottles-for-a-long-lunch",
+      "kind": "shelf",
+      "subject": "wines",
+      "title": "Bottles for a long lunch",
+      "description": "Nothing that needs thinking about.",
+      "author": {
+        "name": "Nomsa Dlamini",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "itemCount": 10,
+      "saveCount": 232,
+      "preview": [
+        {
+          "contentId": "rubicon-2018",
+          "title": "Rubicon 2018"
+        },
+        {
+          "contentId": "kanonkop-pinotage-2019",
+          "title": "Kanonkop Pinotage 2019"
+        },
+        {
+          "contentId": "palladius-2010",
+          "title": "Palladius 2010"
+        }
+      ],
+      "createdAt": "2026-05-04T09:30:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2018",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 63
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 23
+            },
+            {
+              "grapeVarietyId": "grape.cabernetFranc",
+              "grapeName": "Cabernet Franc",
+              "percentage": 10
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+          "price": {
+            "amountMinorUnits": 89500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "This Week’s Pick"
+          },
+          "isFeatured": true,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust",
+            "claimedAt": "2025-01-05T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 121,
+          "cellarCount": 2664,
+          "saveCount": 4943
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "kanonkop-pinotage-2019",
+          "wineLabelId": "kanonkop-pinotage",
+          "name": "Kanonkop Pinotage",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinotage",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotage",
+              "grapeName": "Pinotage",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+          "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+          "price": {
+            "amountMinorUnits": 84500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "Editor’s Pick"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop",
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Kanonkop Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1,
+          "cellarCount": 2074,
+          "saveCount": 4851
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "palladius-2010",
+          "wineLabelId": "palladius",
+          "name": "Palladius",
+          "estate": "Sadie Family Wines",
+          "producerId": "estate_sadie_family",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_wo_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "White Blend",
+          "color": "white",
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png",
+          "description": "Iconic Swartland white blend delivering depth, salinity, and layered stone-fruit complexity.",
+          "price": {
+            "amountMinorUnits": 68000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Sadie Family Wines"
+            },
+            "producerId": "estate_sadie_family",
+            "claimedAt": "2025-06-28T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Sadie Family Wines",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 6,
+          "cellarCount": 280,
+          "saveCount": 671
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "boekenhoutskloof-syrah-2020",
+          "wineLabelId": "boekenhoutskloof-syrah",
+          "name": "Syrah",
+          "estate": "Boekenhoutskloof",
+          "producerId": "estate_boekenhoutskloof",
+          "vintage": 2020,
+          "year": 2020,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "regionId": "region_franschhoek",
+          "styleName": "Syrah",
+          "color": "red",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+          "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+          "price": {
+            "amountMinorUnits": 69500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Boekenhoutskloof"
+            },
+            "producerId": "estate_boekenhoutskloof",
+            "claimedAt": "2025-02-20T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Boekenhoutskloof",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 4,
+          "cellarCount": 1490,
+          "saveCount": 3430
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "tokara-sauvignon-blanc-2022",
+          "wineLabelId": "tokara-sauvignon-blanc",
+          "name": "Sauvignon Blanc Reserve",
+          "estate": "Tokara",
+          "vintage": 2022,
+          "year": 2022,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Sauvignon Blanc",
+          "color": "white",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+          "description": "Bright and mineral, with citrus and fresh-cut herbs. Clean finish, great with seafood.",
+          "price": {
+            "amountMinorUnits": 19500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "640 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 1120,
+          "saveCount": 2451
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "lamotte-chardonnay-2021",
+          "wineLabelId": "lamotte-chardonnay",
+          "name": "Chardonnay",
+          "estate": "La Motte",
+          "vintage": 2021,
+          "year": 2021,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&auto=format&fit=crop&q=80",
+          "description": "Creamy texture with citrus lift. Subtle oak, balanced and modern in style.",
+          "price": {
+            "amountMinorUnits": 32000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "520 member notes"
+          },
+          "noteCount": 1,
+          "cellarCount": 806,
+          "saveCount": 1960
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "de-toren-book-xvii-2016",
+          "wineLabelId": "de-toren-book-xvii",
+          "name": "Book 17 XVII",
+          "estate": "De Toren",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/43se9NpdSPKkbPdGMbRV6Q_pb_x300.png",
+          "description": "Powerful Bordeaux-style blend from Stellenbosch with cassis, cedar, and polished tannins.",
+          "price": {
+            "amountMinorUnits": 71000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-01-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 1,
+          "cellarCount": 63,
+          "saveCount": 163
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "mullineux-elandskloof-chardonnay-2016",
+          "wineLabelId": "mullineux-elandskloof-chardonnay",
+          "name": "Elandskloof Chardonnay",
+          "estate": "Mullineux",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Overberg",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Overberg"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/Cj9S8xx7SAuLtiCznUN3yg_pb_x300.png",
+          "description": "Cool-climate Overberg Chardonnay with citrus precision, flinty reduction, and elegant structure.",
+          "price": {
+            "amountMinorUnits": 70000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "120 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 170,
+          "saveCount": 450
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "groot-constantia-grand-constance-2014",
+          "wineLabelId": "groot-constantia-grand-constance",
+          "name": "Grand Constance",
+          "estate": "Groot Constantia",
+          "vintage": 2014,
+          "year": 2014,
+          "countryCode": "ZA",
+          "region": "Constantia",
+          "styleName": "Dessert",
+          "color": "fortified",
+          "location": {
+            "area": "Constantia"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/DODNA6a0RB6zZjm_6lAL6Q_pb_x300.png",
+          "description": "Classic Constantia dessert wine with apricot, honeyed citrus, and vibrant balancing acidity.",
+          "price": {
+            "amountMinorUnits": 72000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Groot Constantia"
+            },
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Groot Constantia",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 5,
+          "cellarCount": 337,
+          "saveCount": 701
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "steenberg-lady-r-mcc-2011",
+          "wineLabelId": "steenberg-lady-r-mcc",
+          "name": "Lady R MCC",
+          "estate": "Steenberg",
+          "vintage": 2011,
+          "year": 2011,
+          "countryCode": "ZA",
+          "region": "Constantia",
+          "styleName": "Cap Classique",
+          "color": "sparkling",
+          "location": {
+            "area": "Constantia"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/cctpKJLORTmTgAtSCY8ycQ_pb_x300.png",
+          "description": "Method cap classique sparkling with brioche, lemon zest, and persistent fine bubbles.",
+          "price": {
+            "amountMinorUnits": 65000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "38 member notes"
+          },
+          "noteCount": 3,
+          "cellarCount": 56,
+          "saveCount": 138
+        }
+      }
+    ]
+  },
+  "collection_the-cellar-s-quiet-corner": {
+    "item": {
+      "id": "collection_the-cellar-s-quiet-corner",
+      "kind": "shelf",
+      "subject": "wines",
+      "title": "The cellar's quiet corner",
+      "description": "Wines I keep forgetting I have, and shouldn't.",
+      "author": {
+        "name": "Lerato Mabaso",
+        "status": "collector"
+      },
+      "itemCount": 15,
+      "saveCount": 176,
+      "preview": [
+        {
+          "contentId": "tokara-sauvignon-blanc-2022",
+          "title": "Sauvignon Blanc Reserve 2022"
+        },
+        {
+          "contentId": "lamotte-chardonnay-2021",
+          "title": "Chardonnay 2021"
+        },
+        {
+          "contentId": "de-toren-book-xvii-2016",
+          "title": "Book 17 XVII 2016"
+        }
+      ],
+      "createdAt": "2026-06-07T09:30:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "tokara-sauvignon-blanc-2022",
+          "wineLabelId": "tokara-sauvignon-blanc",
+          "name": "Sauvignon Blanc Reserve",
+          "estate": "Tokara",
+          "vintage": 2022,
+          "year": 2022,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Sauvignon Blanc",
+          "color": "white",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+          "description": "Bright and mineral, with citrus and fresh-cut herbs. Clean finish, great with seafood.",
+          "price": {
+            "amountMinorUnits": 19500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "640 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 1120,
+          "saveCount": 2451
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "lamotte-chardonnay-2021",
+          "wineLabelId": "lamotte-chardonnay",
+          "name": "Chardonnay",
+          "estate": "La Motte",
+          "vintage": 2021,
+          "year": 2021,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&auto=format&fit=crop&q=80",
+          "description": "Creamy texture with citrus lift. Subtle oak, balanced and modern in style.",
+          "price": {
+            "amountMinorUnits": 32000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "520 member notes"
+          },
+          "noteCount": 1,
+          "cellarCount": 806,
+          "saveCount": 1960
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "de-toren-book-xvii-2016",
+          "wineLabelId": "de-toren-book-xvii",
+          "name": "Book 17 XVII",
+          "estate": "De Toren",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/43se9NpdSPKkbPdGMbRV6Q_pb_x300.png",
+          "description": "Powerful Bordeaux-style blend from Stellenbosch with cassis, cedar, and polished tannins.",
+          "price": {
+            "amountMinorUnits": 71000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-01-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 1,
+          "cellarCount": 63,
+          "saveCount": 163
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2018",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 63
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 23
+            },
+            {
+              "grapeVarietyId": "grape.cabernetFranc",
+              "grapeName": "Cabernet Franc",
+              "percentage": 10
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+          "price": {
+            "amountMinorUnits": 89500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "This Week’s Pick"
+          },
+          "isFeatured": true,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust",
+            "claimedAt": "2025-01-05T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 121,
+          "cellarCount": 2664,
+          "saveCount": 4943
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "kanonkop-pinotage-2019",
+          "wineLabelId": "kanonkop-pinotage",
+          "name": "Kanonkop Pinotage",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinotage",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotage",
+              "grapeName": "Pinotage",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+          "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+          "price": {
+            "amountMinorUnits": 84500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "Editor’s Pick"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop",
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Kanonkop Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1,
+          "cellarCount": 2074,
+          "saveCount": 4851
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "palladius-2010",
+          "wineLabelId": "palladius",
+          "name": "Palladius",
+          "estate": "Sadie Family Wines",
+          "producerId": "estate_sadie_family",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_wo_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "White Blend",
+          "color": "white",
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png",
+          "description": "Iconic Swartland white blend delivering depth, salinity, and layered stone-fruit complexity.",
+          "price": {
+            "amountMinorUnits": 68000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Sadie Family Wines"
+            },
+            "producerId": "estate_sadie_family",
+            "claimedAt": "2025-06-28T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Sadie Family Wines",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 6,
+          "cellarCount": 280,
+          "saveCount": 671
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "boekenhoutskloof-syrah-2020",
+          "wineLabelId": "boekenhoutskloof-syrah",
+          "name": "Syrah",
+          "estate": "Boekenhoutskloof",
+          "producerId": "estate_boekenhoutskloof",
+          "vintage": 2020,
+          "year": 2020,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "regionId": "region_franschhoek",
+          "styleName": "Syrah",
+          "color": "red",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+          "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+          "price": {
+            "amountMinorUnits": 69500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Boekenhoutskloof"
+            },
+            "producerId": "estate_boekenhoutskloof",
+            "claimedAt": "2025-02-20T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Boekenhoutskloof",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 4,
+          "cellarCount": 1490,
+          "saveCount": 3430
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "mullineux-elandskloof-chardonnay-2016",
+          "wineLabelId": "mullineux-elandskloof-chardonnay",
+          "name": "Elandskloof Chardonnay",
+          "estate": "Mullineux",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Overberg",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Overberg"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/Cj9S8xx7SAuLtiCznUN3yg_pb_x300.png",
+          "description": "Cool-climate Overberg Chardonnay with citrus precision, flinty reduction, and elegant structure.",
+          "price": {
+            "amountMinorUnits": 70000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "120 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 170,
+          "saveCount": 450
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "groot-constantia-grand-constance-2014",
+          "wineLabelId": "groot-constantia-grand-constance",
+          "name": "Grand Constance",
+          "estate": "Groot Constantia",
+          "vintage": 2014,
+          "year": 2014,
+          "countryCode": "ZA",
+          "region": "Constantia",
+          "styleName": "Dessert",
+          "color": "fortified",
+          "location": {
+            "area": "Constantia"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/DODNA6a0RB6zZjm_6lAL6Q_pb_x300.png",
+          "description": "Classic Constantia dessert wine with apricot, honeyed citrus, and vibrant balancing acidity.",
+          "price": {
+            "amountMinorUnits": 72000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Groot Constantia"
+            },
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Groot Constantia",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 5,
+          "cellarCount": 337,
+          "saveCount": 701
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "steenberg-lady-r-mcc-2011",
+          "wineLabelId": "steenberg-lady-r-mcc",
+          "name": "Lady R MCC",
+          "estate": "Steenberg",
+          "vintage": 2011,
+          "year": 2011,
+          "countryCode": "ZA",
+          "region": "Constantia",
+          "styleName": "Cap Classique",
+          "color": "sparkling",
+          "location": {
+            "area": "Constantia"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/cctpKJLORTmTgAtSCY8ycQ_pb_x300.png",
+          "description": "Method cap classique sparkling with brioche, lemon zest, and persistent fine bubbles.",
+          "price": {
+            "amountMinorUnits": 65000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "38 member notes"
+          },
+          "noteCount": 3,
+          "cellarCount": 56,
+          "saveCount": 138
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "pichon-baron-2016",
+          "wineLabelId": "pichon-baron",
+          "name": "Château Pichon Baron",
+          "estate": "Château Pichon Baron",
+          "producerId": "producer_pichon_baron",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "FR",
+          "region": "Pauillac",
+          "regionId": "region_pauillac",
+          "appellation": {
+            "id": "app_pauillac",
+            "name": "Pauillac",
+            "system": "AOC"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 78
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 22
+            }
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+          "description": "A Pauillac second-growth: cassis, graphite and cedar over a long, structured spine.",
+          "price": {
+            "amountMinorUnits": 245000,
+            "currency": "EUR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-06-12T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 9,
+          "cellarCount": 96,
+          "saveCount": 206
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "vietti-castiglione-barolo-2018",
+          "wineLabelId": "vietti-castiglione-barolo",
+          "name": "Castiglione Barolo",
+          "estate": "Vietti",
+          "producerId": "producer_vietti",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "IT",
+          "region": "Barolo",
+          "regionId": "region_barolo",
+          "appellation": {
+            "id": "app_barolo",
+            "name": "Barolo",
+            "system": "DOCG"
+          },
+          "styleName": "Nebbiolo",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.nebbiolo",
+              "grapeName": "Nebbiolo",
+              "percentage": 100
+            }
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+          "description": "Rose petal, tar and red cherry over Nebbiolo’s fine, insistent tannin. Built for the long haul.",
+          "price": {
+            "amountMinorUnits": 129000,
+            "currency": "EUR"
+          },
+          "isFeatured": false,
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-12-10T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 0,
+          "cellarCount": 83,
+          "saveCount": 159
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "ridge-monte-bello-2019",
+          "wineLabelId": "ridge-monte-bello",
+          "name": "Monte Bello",
+          "estate": "Ridge Vineyards",
+          "producerId": "producer_ridge",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "US",
+          "region": "Napa Valley",
+          "regionId": "region_napa_valley",
+          "appellation": {
+            "id": "app_napa_valley",
+            "name": "Napa Valley",
+            "system": "AVA"
+          },
+          "styleName": "Cabernet Sauvignon",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 96
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+          "description": "A California benchmark: blackcurrant, bay leaf and a savoury, age-worthy frame.",
+          "price": {
+            "amountMinorUnits": 420000,
+            "currency": "USD"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "88 member notes"
+          },
+          "noteCount": 1,
+          "cellarCount": 154,
+          "saveCount": 341
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "larmandier-bernier-latitude-nv",
+          "wineLabelId": "larmandier-bernier-latitude",
+          "name": "Latitude Extra Brut",
+          "estate": "Larmandier-Bernier",
+          "producerId": "producer_larmandier_bernier",
+          "vintageDisplay": "NV",
+          "countryCode": "FR",
+          "region": "Champagne",
+          "regionId": "region_champagne",
+          "appellation": {
+            "id": "app_champagne",
+            "name": "Champagne",
+            "system": "AOC"
+          },
+          "styleName": "Champagne",
+          "color": "sparkling",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.chardonnay",
+              "grapeName": "Chardonnay",
+              "percentage": 100
+            }
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+          "description": "Grower Champagne from Vertus — chalky, precise Blanc de Blancs with a fine, saline finish.",
+          "price": {
+            "amountMinorUnits": 98000,
+            "currency": "EUR"
+          },
+          "isFeatured": false,
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-07-19T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 0,
+          "cellarCount": 53,
+          "saveCount": 136
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2010-meerlust-est",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust-estate",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Merlot",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+          "description": "Rubicon from Meerlust Estate, Stellenbosch.",
+          "price": {
+            "amountMinorUnits": 128000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust-estate",
+            "claimedAt": "2025-06-12T00:00:00.000Z"
+          },
+          "noteCount": 3,
+          "cellarCount": 613,
+          "saveCount": 1277
+        }
+      }
+    ]
+  },
+  "collection_chenin-the-long-way-round": {
+    "item": {
+      "id": "collection_chenin-the-long-way-round",
+      "kind": "selection",
+      "subject": "wines",
+      "title": "Chenin, the long way round",
+      "description": "Ten years of one grape, in the order I met it.",
+      "author": {
+        "name": "Kgwari"
+      },
+      "itemCount": 11,
+      "saveCount": 93,
+      "preview": [
+        {
+          "contentId": "groot-constantia-grand-constance-2014",
+          "title": "Grand Constance 2014"
+        },
+        {
+          "contentId": "steenberg-lady-r-mcc-2011",
+          "title": "Lady R MCC 2011"
+        },
+        {
+          "contentId": "pichon-baron-2016",
+          "title": "Château Pichon Baron 2016"
+        }
+      ],
+      "createdAt": "2026-07-10T09:30:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "groot-constantia-grand-constance-2014",
+          "wineLabelId": "groot-constantia-grand-constance",
+          "name": "Grand Constance",
+          "estate": "Groot Constantia",
+          "vintage": 2014,
+          "year": 2014,
+          "countryCode": "ZA",
+          "region": "Constantia",
+          "styleName": "Dessert",
+          "color": "fortified",
+          "location": {
+            "area": "Constantia"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/DODNA6a0RB6zZjm_6lAL6Q_pb_x300.png",
+          "description": "Classic Constantia dessert wine with apricot, honeyed citrus, and vibrant balancing acidity.",
+          "price": {
+            "amountMinorUnits": 72000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Groot Constantia"
+            },
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Groot Constantia",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 5,
+          "cellarCount": 337,
+          "saveCount": 701
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "steenberg-lady-r-mcc-2011",
+          "wineLabelId": "steenberg-lady-r-mcc",
+          "name": "Lady R MCC",
+          "estate": "Steenberg",
+          "vintage": 2011,
+          "year": 2011,
+          "countryCode": "ZA",
+          "region": "Constantia",
+          "styleName": "Cap Classique",
+          "color": "sparkling",
+          "location": {
+            "area": "Constantia"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/cctpKJLORTmTgAtSCY8ycQ_pb_x300.png",
+          "description": "Method cap classique sparkling with brioche, lemon zest, and persistent fine bubbles.",
+          "price": {
+            "amountMinorUnits": 65000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "38 member notes"
+          },
+          "noteCount": 3,
+          "cellarCount": 56,
+          "saveCount": 138
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "pichon-baron-2016",
+          "wineLabelId": "pichon-baron",
+          "name": "Château Pichon Baron",
+          "estate": "Château Pichon Baron",
+          "producerId": "producer_pichon_baron",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "FR",
+          "region": "Pauillac",
+          "regionId": "region_pauillac",
+          "appellation": {
+            "id": "app_pauillac",
+            "name": "Pauillac",
+            "system": "AOC"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 78
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 22
+            }
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+          "description": "A Pauillac second-growth: cassis, graphite and cedar over a long, structured spine.",
+          "price": {
+            "amountMinorUnits": 245000,
+            "currency": "EUR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-06-12T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 9,
+          "cellarCount": 96,
+          "saveCount": 206
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2018",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 63
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 23
+            },
+            {
+              "grapeVarietyId": "grape.cabernetFranc",
+              "grapeName": "Cabernet Franc",
+              "percentage": 10
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+          "price": {
+            "amountMinorUnits": 89500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "This Week’s Pick"
+          },
+          "isFeatured": true,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust",
+            "claimedAt": "2025-01-05T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 121,
+          "cellarCount": 2664,
+          "saveCount": 4943
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "kanonkop-pinotage-2019",
+          "wineLabelId": "kanonkop-pinotage",
+          "name": "Kanonkop Pinotage",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinotage",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotage",
+              "grapeName": "Pinotage",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+          "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+          "price": {
+            "amountMinorUnits": 84500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "Editor’s Pick"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop",
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Kanonkop Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1,
+          "cellarCount": 2074,
+          "saveCount": 4851
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "palladius-2010",
+          "wineLabelId": "palladius",
+          "name": "Palladius",
+          "estate": "Sadie Family Wines",
+          "producerId": "estate_sadie_family",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_wo_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "White Blend",
+          "color": "white",
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png",
+          "description": "Iconic Swartland white blend delivering depth, salinity, and layered stone-fruit complexity.",
+          "price": {
+            "amountMinorUnits": 68000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Sadie Family Wines"
+            },
+            "producerId": "estate_sadie_family",
+            "claimedAt": "2025-06-28T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Sadie Family Wines",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 6,
+          "cellarCount": 280,
+          "saveCount": 671
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "boekenhoutskloof-syrah-2020",
+          "wineLabelId": "boekenhoutskloof-syrah",
+          "name": "Syrah",
+          "estate": "Boekenhoutskloof",
+          "producerId": "estate_boekenhoutskloof",
+          "vintage": 2020,
+          "year": 2020,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "regionId": "region_franschhoek",
+          "styleName": "Syrah",
+          "color": "red",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+          "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+          "price": {
+            "amountMinorUnits": 69500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Boekenhoutskloof"
+            },
+            "producerId": "estate_boekenhoutskloof",
+            "claimedAt": "2025-02-20T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Boekenhoutskloof",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 4,
+          "cellarCount": 1490,
+          "saveCount": 3430
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "tokara-sauvignon-blanc-2022",
+          "wineLabelId": "tokara-sauvignon-blanc",
+          "name": "Sauvignon Blanc Reserve",
+          "estate": "Tokara",
+          "vintage": 2022,
+          "year": 2022,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Sauvignon Blanc",
+          "color": "white",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+          "description": "Bright and mineral, with citrus and fresh-cut herbs. Clean finish, great with seafood.",
+          "price": {
+            "amountMinorUnits": 19500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "640 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 1120,
+          "saveCount": 2451
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "lamotte-chardonnay-2021",
+          "wineLabelId": "lamotte-chardonnay",
+          "name": "Chardonnay",
+          "estate": "La Motte",
+          "vintage": 2021,
+          "year": 2021,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&auto=format&fit=crop&q=80",
+          "description": "Creamy texture with citrus lift. Subtle oak, balanced and modern in style.",
+          "price": {
+            "amountMinorUnits": 32000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "520 member notes"
+          },
+          "noteCount": 1,
+          "cellarCount": 806,
+          "saveCount": 1960
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "de-toren-book-xvii-2016",
+          "wineLabelId": "de-toren-book-xvii",
+          "name": "Book 17 XVII",
+          "estate": "De Toren",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/43se9NpdSPKkbPdGMbRV6Q_pb_x300.png",
+          "description": "Powerful Bordeaux-style blend from Stellenbosch with cassis, cedar, and polished tannins.",
+          "price": {
+            "amountMinorUnits": 71000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-01-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 1,
+          "cellarCount": 63,
+          "saveCount": 163
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "mullineux-elandskloof-chardonnay-2016",
+          "wineLabelId": "mullineux-elandskloof-chardonnay",
+          "name": "Elandskloof Chardonnay",
+          "estate": "Mullineux",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Overberg",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Overberg"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/Cj9S8xx7SAuLtiCznUN3yg_pb_x300.png",
+          "description": "Cool-climate Overberg Chardonnay with citrus precision, flinty reduction, and elegant structure.",
+          "price": {
+            "amountMinorUnits": 70000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "120 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 170,
+          "saveCount": 450
+        }
+      }
+    ]
+  },
+  "collection_under-two-hundred": {
+    "item": {
+      "id": "collection_under-two-hundred",
+      "kind": "shelf",
+      "subject": "wines",
+      "title": "Under two hundred",
+      "description": "Proof that the good stuff is not always dear.",
+      "author": {
+        "name": "Marius Louw",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "itemCount": 16,
+      "saveCount": 172,
+      "preview": [
+        {
+          "contentId": "ridge-monte-bello-2019",
+          "title": "Monte Bello 2019"
+        },
+        {
+          "contentId": "larmandier-bernier-latitude-nv",
+          "title": "Latitude Extra Brut"
+        },
+        {
+          "contentId": "rubicon-2010-meerlust-est",
+          "title": "Rubicon 2010"
+        }
+      ],
+      "createdAt": "2026-05-13T09:30:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "ridge-monte-bello-2019",
+          "wineLabelId": "ridge-monte-bello",
+          "name": "Monte Bello",
+          "estate": "Ridge Vineyards",
+          "producerId": "producer_ridge",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "US",
+          "region": "Napa Valley",
+          "regionId": "region_napa_valley",
+          "appellation": {
+            "id": "app_napa_valley",
+            "name": "Napa Valley",
+            "system": "AVA"
+          },
+          "styleName": "Cabernet Sauvignon",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 96
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+          "description": "A California benchmark: blackcurrant, bay leaf and a savoury, age-worthy frame.",
+          "price": {
+            "amountMinorUnits": 420000,
+            "currency": "USD"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "88 member notes"
+          },
+          "noteCount": 1,
+          "cellarCount": 154,
+          "saveCount": 341
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "larmandier-bernier-latitude-nv",
+          "wineLabelId": "larmandier-bernier-latitude",
+          "name": "Latitude Extra Brut",
+          "estate": "Larmandier-Bernier",
+          "producerId": "producer_larmandier_bernier",
+          "vintageDisplay": "NV",
+          "countryCode": "FR",
+          "region": "Champagne",
+          "regionId": "region_champagne",
+          "appellation": {
+            "id": "app_champagne",
+            "name": "Champagne",
+            "system": "AOC"
+          },
+          "styleName": "Champagne",
+          "color": "sparkling",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.chardonnay",
+              "grapeName": "Chardonnay",
+              "percentage": 100
+            }
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+          "description": "Grower Champagne from Vertus — chalky, precise Blanc de Blancs with a fine, saline finish.",
+          "price": {
+            "amountMinorUnits": 98000,
+            "currency": "EUR"
+          },
+          "isFeatured": false,
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-07-19T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 0,
+          "cellarCount": 53,
+          "saveCount": 136
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2010-meerlust-est",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust-estate",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Merlot",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+          "description": "Rubicon from Meerlust Estate, Stellenbosch.",
+          "price": {
+            "amountMinorUnits": 128000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust-estate",
+            "claimedAt": "2025-06-12T00:00:00.000Z"
+          },
+          "noteCount": 3,
+          "cellarCount": 613,
+          "saveCount": 1277
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2018",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 63
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 23
+            },
+            {
+              "grapeVarietyId": "grape.cabernetFranc",
+              "grapeName": "Cabernet Franc",
+              "percentage": 10
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+          "price": {
+            "amountMinorUnits": 89500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "This Week’s Pick"
+          },
+          "isFeatured": true,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust",
+            "claimedAt": "2025-01-05T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 121,
+          "cellarCount": 2664,
+          "saveCount": 4943
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "kanonkop-pinotage-2019",
+          "wineLabelId": "kanonkop-pinotage",
+          "name": "Kanonkop Pinotage",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinotage",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotage",
+              "grapeName": "Pinotage",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+          "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+          "price": {
+            "amountMinorUnits": 84500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "Editor’s Pick"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop",
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Kanonkop Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1,
+          "cellarCount": 2074,
+          "saveCount": 4851
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "palladius-2010",
+          "wineLabelId": "palladius",
+          "name": "Palladius",
+          "estate": "Sadie Family Wines",
+          "producerId": "estate_sadie_family",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_wo_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "White Blend",
+          "color": "white",
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png",
+          "description": "Iconic Swartland white blend delivering depth, salinity, and layered stone-fruit complexity.",
+          "price": {
+            "amountMinorUnits": 68000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Sadie Family Wines"
+            },
+            "producerId": "estate_sadie_family",
+            "claimedAt": "2025-06-28T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Sadie Family Wines",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 6,
+          "cellarCount": 280,
+          "saveCount": 671
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "boekenhoutskloof-syrah-2020",
+          "wineLabelId": "boekenhoutskloof-syrah",
+          "name": "Syrah",
+          "estate": "Boekenhoutskloof",
+          "producerId": "estate_boekenhoutskloof",
+          "vintage": 2020,
+          "year": 2020,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "regionId": "region_franschhoek",
+          "styleName": "Syrah",
+          "color": "red",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+          "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+          "price": {
+            "amountMinorUnits": 69500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Boekenhoutskloof"
+            },
+            "producerId": "estate_boekenhoutskloof",
+            "claimedAt": "2025-02-20T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Boekenhoutskloof",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 4,
+          "cellarCount": 1490,
+          "saveCount": 3430
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "tokara-sauvignon-blanc-2022",
+          "wineLabelId": "tokara-sauvignon-blanc",
+          "name": "Sauvignon Blanc Reserve",
+          "estate": "Tokara",
+          "vintage": 2022,
+          "year": 2022,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Sauvignon Blanc",
+          "color": "white",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+          "description": "Bright and mineral, with citrus and fresh-cut herbs. Clean finish, great with seafood.",
+          "price": {
+            "amountMinorUnits": 19500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "640 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 1120,
+          "saveCount": 2451
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "lamotte-chardonnay-2021",
+          "wineLabelId": "lamotte-chardonnay",
+          "name": "Chardonnay",
+          "estate": "La Motte",
+          "vintage": 2021,
+          "year": 2021,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&auto=format&fit=crop&q=80",
+          "description": "Creamy texture with citrus lift. Subtle oak, balanced and modern in style.",
+          "price": {
+            "amountMinorUnits": 32000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "520 member notes"
+          },
+          "noteCount": 1,
+          "cellarCount": 806,
+          "saveCount": 1960
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "de-toren-book-xvii-2016",
+          "wineLabelId": "de-toren-book-xvii",
+          "name": "Book 17 XVII",
+          "estate": "De Toren",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/43se9NpdSPKkbPdGMbRV6Q_pb_x300.png",
+          "description": "Powerful Bordeaux-style blend from Stellenbosch with cassis, cedar, and polished tannins.",
+          "price": {
+            "amountMinorUnits": 71000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-01-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 1,
+          "cellarCount": 63,
+          "saveCount": 163
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "mullineux-elandskloof-chardonnay-2016",
+          "wineLabelId": "mullineux-elandskloof-chardonnay",
+          "name": "Elandskloof Chardonnay",
+          "estate": "Mullineux",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Overberg",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Overberg"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/Cj9S8xx7SAuLtiCznUN3yg_pb_x300.png",
+          "description": "Cool-climate Overberg Chardonnay with citrus precision, flinty reduction, and elegant structure.",
+          "price": {
+            "amountMinorUnits": 70000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "120 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 170,
+          "saveCount": 450
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "groot-constantia-grand-constance-2014",
+          "wineLabelId": "groot-constantia-grand-constance",
+          "name": "Grand Constance",
+          "estate": "Groot Constantia",
+          "vintage": 2014,
+          "year": 2014,
+          "countryCode": "ZA",
+          "region": "Constantia",
+          "styleName": "Dessert",
+          "color": "fortified",
+          "location": {
+            "area": "Constantia"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/DODNA6a0RB6zZjm_6lAL6Q_pb_x300.png",
+          "description": "Classic Constantia dessert wine with apricot, honeyed citrus, and vibrant balancing acidity.",
+          "price": {
+            "amountMinorUnits": 72000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Groot Constantia"
+            },
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Groot Constantia",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 5,
+          "cellarCount": 337,
+          "saveCount": 701
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "steenberg-lady-r-mcc-2011",
+          "wineLabelId": "steenberg-lady-r-mcc",
+          "name": "Lady R MCC",
+          "estate": "Steenberg",
+          "vintage": 2011,
+          "year": 2011,
+          "countryCode": "ZA",
+          "region": "Constantia",
+          "styleName": "Cap Classique",
+          "color": "sparkling",
+          "location": {
+            "area": "Constantia"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/cctpKJLORTmTgAtSCY8ycQ_pb_x300.png",
+          "description": "Method cap classique sparkling with brioche, lemon zest, and persistent fine bubbles.",
+          "price": {
+            "amountMinorUnits": 65000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "38 member notes"
+          },
+          "noteCount": 3,
+          "cellarCount": 56,
+          "saveCount": 138
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "pichon-baron-2016",
+          "wineLabelId": "pichon-baron",
+          "name": "Château Pichon Baron",
+          "estate": "Château Pichon Baron",
+          "producerId": "producer_pichon_baron",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "FR",
+          "region": "Pauillac",
+          "regionId": "region_pauillac",
+          "appellation": {
+            "id": "app_pauillac",
+            "name": "Pauillac",
+            "system": "AOC"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 78
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 22
+            }
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+          "description": "A Pauillac second-growth: cassis, graphite and cedar over a long, structured spine.",
+          "price": {
+            "amountMinorUnits": 245000,
+            "currency": "EUR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-06-12T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 9,
+          "cellarCount": 96,
+          "saveCount": 206
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "vietti-castiglione-barolo-2018",
+          "wineLabelId": "vietti-castiglione-barolo",
+          "name": "Castiglione Barolo",
+          "estate": "Vietti",
+          "producerId": "producer_vietti",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "IT",
+          "region": "Barolo",
+          "regionId": "region_barolo",
+          "appellation": {
+            "id": "app_barolo",
+            "name": "Barolo",
+            "system": "DOCG"
+          },
+          "styleName": "Nebbiolo",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.nebbiolo",
+              "grapeName": "Nebbiolo",
+              "percentage": 100
+            }
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+          "description": "Rose petal, tar and red cherry over Nebbiolo’s fine, insistent tannin. Built for the long haul.",
+          "price": {
+            "amountMinorUnits": 129000,
+            "currency": "EUR"
+          },
+          "isFeatured": false,
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-12-10T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 0,
+          "cellarCount": 83,
+          "saveCount": 159
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "paul-sauer-2011-kanonkop-est",
+          "wineLabelId": "paul-sauer",
+          "name": "Paul Sauer",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop-estate",
+          "vintage": 2011,
+          "year": 2011,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Barbera",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.barbera",
+              "grapeName": "Barbera",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Paul Sauer from Kanonkop Estate, Stellenbosch.",
+          "price": {
+            "amountMinorUnits": 189600,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop-estate",
+            "claimedAt": "2025-02-04T00:00:00.000Z"
+          },
+          "noteCount": 7,
+          "cellarCount": 1482,
+          "saveCount": 2947
+        }
+      }
+    ]
+  },
+  "collection_bought-on-the-farm": {
+    "item": {
+      "id": "collection_bought-on-the-farm",
+      "kind": "shelf",
+      "subject": "wines",
+      "title": "Bought on the farm",
+      "description": "Every one of these came home in the boot.",
+      "author": {
+        "name": "Sipho Ndlovu",
+        "status": "enthusiast"
+      },
+      "itemCount": 9,
+      "saveCount": 140,
+      "preview": [
+        {
+          "contentId": "estate-reserve-2017-rust-en-vred",
+          "title": "Estate Reserve 2017"
+        },
+        {
+          "contentId": "the-mint-2010-thelema-moun",
+          "title": "The Mint 2010"
+        },
+        {
+          "contentId": "directors-reserve-2021-tokara",
+          "title": "Directors Reserve 2021"
+        }
+      ],
+      "createdAt": "2026-06-16T09:30:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "estate-reserve-2017-rust-en-vred",
+          "wineLabelId": "estate-reserve",
+          "name": "Estate Reserve",
+          "estate": "Rust en Vrede",
+          "producerId": "estate_rust-en-vrede",
+          "vintage": 2017,
+          "year": 2017,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinot Noir",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotNoir",
+              "grapeName": "Pinot Noir",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+          "description": "Estate Reserve from Rust en Vrede, Stellenbosch.",
+          "price": {
+            "amountMinorUnits": 150400,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-11-23T00:00:00.000Z"
+          },
+          "noteCount": 49,
+          "cellarCount": 165,
+          "saveCount": 388
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "the-mint-2010-thelema-moun",
+          "wineLabelId": "the-mint",
+          "name": "The Mint",
+          "estate": "Thelema Mountain Vineyards",
+          "producerId": "estate_thelema-mountain-vineyards",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Nerello Mascalese",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.nerelloMascalese",
+              "grapeName": "Nerello Mascalese",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+          "description": "The Mint from Thelema Mountain Vineyards, Stellenbosch.",
+          "price": {
+            "amountMinorUnits": 95600,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-09-09T00:00:00.000Z"
+          },
+          "noteCount": 6,
+          "cellarCount": 1215,
+          "saveCount": 3310
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "directors-reserve-2021-tokara",
+          "wineLabelId": "directors-reserve",
+          "name": "Directors Reserve",
+          "estate": "Tokara",
+          "producerId": "estate_tokara",
+          "vintage": 2021,
+          "year": 2021,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinot Gris",
+          "color": "white",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotGris",
+              "grapeName": "Pinot Gris",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+          "description": "Directors Reserve from Tokara, Stellenbosch.",
+          "price": {
+            "amountMinorUnits": 16800,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Tokara"
+            },
+            "producerId": "estate_tokara",
+            "claimedAt": "2025-04-14T00:00:00.000Z"
+          },
+          "noteCount": 2,
+          "cellarCount": 332,
+          "saveCount": 683
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2018",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 63
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 23
+            },
+            {
+              "grapeVarietyId": "grape.cabernetFranc",
+              "grapeName": "Cabernet Franc",
+              "percentage": 10
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+          "price": {
+            "amountMinorUnits": 89500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "This Week’s Pick"
+          },
+          "isFeatured": true,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust",
+            "claimedAt": "2025-01-05T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 121,
+          "cellarCount": 2664,
+          "saveCount": 4943
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "kanonkop-pinotage-2019",
+          "wineLabelId": "kanonkop-pinotage",
+          "name": "Kanonkop Pinotage",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinotage",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotage",
+              "grapeName": "Pinotage",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+          "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+          "price": {
+            "amountMinorUnits": 84500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "Editor’s Pick"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop",
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Kanonkop Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1,
+          "cellarCount": 2074,
+          "saveCount": 4851
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "palladius-2010",
+          "wineLabelId": "palladius",
+          "name": "Palladius",
+          "estate": "Sadie Family Wines",
+          "producerId": "estate_sadie_family",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_wo_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "White Blend",
+          "color": "white",
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png",
+          "description": "Iconic Swartland white blend delivering depth, salinity, and layered stone-fruit complexity.",
+          "price": {
+            "amountMinorUnits": 68000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Sadie Family Wines"
+            },
+            "producerId": "estate_sadie_family",
+            "claimedAt": "2025-06-28T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Sadie Family Wines",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 6,
+          "cellarCount": 280,
+          "saveCount": 671
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "boekenhoutskloof-syrah-2020",
+          "wineLabelId": "boekenhoutskloof-syrah",
+          "name": "Syrah",
+          "estate": "Boekenhoutskloof",
+          "producerId": "estate_boekenhoutskloof",
+          "vintage": 2020,
+          "year": 2020,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "regionId": "region_franschhoek",
+          "styleName": "Syrah",
+          "color": "red",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+          "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+          "price": {
+            "amountMinorUnits": 69500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Boekenhoutskloof"
+            },
+            "producerId": "estate_boekenhoutskloof",
+            "claimedAt": "2025-02-20T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Boekenhoutskloof",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 4,
+          "cellarCount": 1490,
+          "saveCount": 3430
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "tokara-sauvignon-blanc-2022",
+          "wineLabelId": "tokara-sauvignon-blanc",
+          "name": "Sauvignon Blanc Reserve",
+          "estate": "Tokara",
+          "vintage": 2022,
+          "year": 2022,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Sauvignon Blanc",
+          "color": "white",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+          "description": "Bright and mineral, with citrus and fresh-cut herbs. Clean finish, great with seafood.",
+          "price": {
+            "amountMinorUnits": 19500,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "640 member notes"
+          },
+          "noteCount": 2,
+          "cellarCount": 1120,
+          "saveCount": 2451
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "lamotte-chardonnay-2021",
+          "wineLabelId": "lamotte-chardonnay",
+          "name": "Chardonnay",
+          "estate": "La Motte",
+          "vintage": 2021,
+          "year": 2021,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "styleName": "Chardonnay",
+          "color": "white",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&auto=format&fit=crop&q=80",
+          "description": "Creamy texture with citrus lift. Subtle oak, balanced and modern in style.",
+          "price": {
+            "amountMinorUnits": 32000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "520 member notes"
+          },
+          "noteCount": 1,
+          "cellarCount": 806,
+          "saveCount": 1960
+        }
+      }
+    ]
+  },
+  "collection_for-the-sceptics": {
+    "item": {
+      "id": "collection_for-the-sceptics",
+      "kind": "shelf",
+      "subject": "wines",
+      "title": "For the sceptics",
+      "description": "Pour these blind to anyone who says the Cape can't age.",
+      "author": {
+        "name": "Nomsa Dlamini",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "itemCount": 6,
+      "saveCount": 72,
+      "preview": [
+        {
+          "contentId": "palladius-2011-sadie-family",
+          "title": "Palladius 2011"
+        },
+        {
+          "contentId": "columella-2017-mullineux",
+          "title": "Columella 2017"
+        },
+        {
+          "contentId": "old-vine-chenin-2014-a-a-badenhor",
+          "title": "Old Vine Chenin 2014"
+        }
+      ],
+      "createdAt": "2026-07-19T09:30:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "palladius-2011-sadie-family",
+          "wineLabelId": "palladius",
+          "name": "Palladius",
+          "estate": "Sadie Family Wines",
+          "producerId": "estate_sadie-family-wines",
+          "vintage": 2011,
+          "year": 2011,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "Chardonnay",
+          "color": "white",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.chardonnay",
+              "grapeName": "Chardonnay",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Palladius from Sadie Family Wines, Swartland.",
+          "price": {
+            "amountMinorUnits": 186800,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Sadie Family Wines"
+            },
+            "producerId": "estate_sadie-family-wines",
+            "claimedAt": "2025-07-23T00:00:00.000Z"
+          },
+          "noteCount": 0,
+          "cellarCount": 470,
+          "saveCount": 1048
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "columella-2017-mullineux",
+          "wineLabelId": "columella",
+          "name": "Columella",
+          "estate": "Mullineux",
+          "producerId": "estate_mullineux",
+          "vintage": 2017,
+          "year": 2017,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "Palomino",
+          "color": "white",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.palomino",
+              "grapeName": "Palomino",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+          "description": "Columella from Mullineux, Swartland.",
+          "price": {
+            "amountMinorUnits": 12800,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "An Interesting Discovery",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "distributor",
+            "name": {
+              "source": "canonical",
+              "text": "Great Domaines"
+            },
+            "claimedAt": "2026-05-01T00:00:00.000Z"
+          },
+          "noteCount": 2,
+          "cellarCount": 888,
+          "saveCount": 2052
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "old-vine-chenin-2014-a-a-badenhor",
+          "wineLabelId": "old-vine-chenin",
+          "name": "Old Vine Chenin",
+          "estate": "A.A. Badenhorst",
+          "producerId": "estate_a-a-badenhorst",
+          "vintage": 2014,
+          "year": 2014,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "Gewürztraminer",
+          "color": "white",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.gewurztraminer",
+              "grapeName": "Gewürztraminer",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+          "description": "Old Vine Chenin from A.A. Badenhorst, Swartland.",
+          "price": {
+            "amountMinorUnits": 41200,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "community",
+          "noteCount": 2,
+          "cellarCount": 476,
+          "saveCount": 1125
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "rubicon-2018",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.cabernetSauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 63
+            },
+            {
+              "grapeVarietyId": "grape.merlot",
+              "grapeName": "Merlot",
+              "percentage": 23
+            },
+            {
+              "grapeVarietyId": "grape.cabernetFranc",
+              "grapeName": "Cabernet Franc",
+              "percentage": 10
+            },
+            {
+              "grapeVarietyId": "grape.petitVerdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+          "price": {
+            "amountMinorUnits": 89500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "This Week’s Pick"
+          },
+          "isFeatured": true,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Meerlust Estate"
+            },
+            "producerId": "estate_meerlust",
+            "claimedAt": "2025-01-05T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 121,
+          "cellarCount": 2664,
+          "saveCount": 4943
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "kanonkop-pinotage-2019",
+          "wineLabelId": "kanonkop-pinotage",
+          "name": "Kanonkop Pinotage",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "regionId": "region_stellenbosch",
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinotage",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape.pinotage",
+              "grapeName": "Pinotage",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+          "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+          "price": {
+            "amountMinorUnits": 84500,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "Editor’s Pick"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Kanonkop Estate"
+            },
+            "producerId": "estate_kanonkop",
+            "claimedAt": "2025-09-01T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Kanonkop Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1,
+          "cellarCount": 2074,
+          "saveCount": 4851
+        }
+      },
+      {
+        "subject": "wines",
+        "wine": {
+          "id": "palladius-2010",
+          "wineLabelId": "palladius",
+          "name": "Palladius",
+          "estate": "Sadie Family Wines",
+          "producerId": "estate_sadie_family",
+          "vintage": 2010,
+          "year": 2010,
+          "countryCode": "ZA",
+          "region": "Swartland",
+          "regionId": "region_swartland",
+          "appellation": {
+            "id": "app_wo_swartland",
+            "name": "Swartland",
+            "system": "WO"
+          },
+          "styleName": "White Blend",
+          "color": "white",
+          "location": {
+            "area": "Swartland"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/d4sKYj3CTA68vBBdabj-Ng_pb_x300.png",
+          "description": "Iconic Swartland white blend delivering depth, salinity, and layered stone-fruit complexity.",
+          "price": {
+            "amountMinorUnits": 68000,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Unforgettable",
+          "provenance": "claimed",
+          "claimedBy": {
+            "kind": "producer",
+            "name": {
+              "source": "canonical",
+              "text": "Sadie Family Wines"
+            },
+            "producerId": "estate_sadie_family",
+            "claimedAt": "2025-06-28T00:00:00.000Z"
+          },
+          "source": {
+            "name": "Sadie Family Wines",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 6,
+          "cellarCount": 280,
+          "saveCount": 671
+        }
+      }
+    ]
+  },
+  "collection_a-morning-in-franschhoek": {
+    "item": {
+      "id": "collection_a-morning-in-franschhoek",
+      "kind": "itinerary",
+      "title": "A morning in Franschhoek",
+      "subject": "stops",
+      "mode": "documented",
+      "author": {
+        "name": "Lerato Mabaso",
+        "status": "collector"
+      },
+      "itemCount": 3,
+      "contents": {
+        "wines": 2,
+        "notes": 1
+      },
+      "preview": [
+        {
+          "contentId": "collection_a-morning-in-franschhoek__stop-1",
+          "title": "Boekenhoutskloof"
+        },
+        {
+          "contentId": "collection_a-morning-in-franschhoek__stop-2",
+          "title": "La Motte"
+        }
+      ],
+      "saveCount": 102,
+      "createdAt": "2026-06-02T14:00:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_a-morning-in-franschhoek__stop-1",
+          "date": "2026-05-04",
+          "place": {
+            "id": "estate_boekenhoutskloof",
+            "name": "Boekenhoutskloof",
+            "countryCode": "ZA",
+            "regionId": "region_franschhoek",
+            "regionName": "Franschhoek",
+            "foundedYear": 1776,
+            "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+            "description": "Boekenhoutskloof, Franschhoek.",
+            "wineCount": 14
+          },
+          "wines": [
+            {
+              "id": "boekenhoutskloof-syrah-2020",
+              "wineLabelId": "boekenhoutskloof-syrah",
+              "name": "Syrah",
+              "estate": "Boekenhoutskloof",
+              "producerId": "estate_boekenhoutskloof",
+              "vintage": 2020,
+              "year": 2020,
+              "countryCode": "ZA",
+              "region": "Franschhoek",
+              "regionId": "region_franschhoek",
+              "styleName": "Syrah",
+              "color": "red",
+              "location": {
+                "area": "Franschhoek"
+              },
+              "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+              "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+              "price": {
+                "amountMinorUnits": 69500,
+                "currency": "ZAR"
+              },
+              "isFeatured": false,
+              "verdict": "Worth Revisiting",
+              "provenance": "claimed",
+              "claimedBy": {
+                "kind": "producer",
+                "name": {
+                  "source": "canonical",
+                  "text": "Boekenhoutskloof"
+                },
+                "producerId": "estate_boekenhoutskloof",
+                "claimedAt": "2025-02-20T00:00:00.000Z"
+              },
+              "source": {
+                "name": "Boekenhoutskloof",
+                "tier": "producer",
+                "role": "verified producer"
+              },
+              "noteCount": 4,
+              "cellarCount": 1490,
+              "saveCount": 3430
+            }
+          ]
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_a-morning-in-franschhoek__stop-2",
+          "date": "2026-05-04",
+          "place": {
+            "id": "estate_la-motte",
+            "name": "La Motte",
+            "countryCode": "ZA",
+            "regionId": "region_franschhoek",
+            "regionName": "Franschhoek",
+            "foundedYear": 1695,
+            "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+            "description": "La Motte, Franschhoek.",
+            "wineCount": 13
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_a-morning-in-franschhoek__stop-3",
+          "date": "2026-05-04",
+          "place": {
+            "id": "estate_boekenhoutskloof",
+            "name": "Boekenhoutskloof",
+            "countryCode": "ZA",
+            "regionId": "region_franschhoek",
+            "regionName": "Franschhoek",
+            "foundedYear": 1776,
+            "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+            "description": "Boekenhoutskloof, Franschhoek.",
+            "wineCount": 14
+          },
+          "wines": [
+            {
+              "id": "boekenhoutskloof-syrah-2020",
+              "wineLabelId": "boekenhoutskloof-syrah",
+              "name": "Syrah",
+              "estate": "Boekenhoutskloof",
+              "producerId": "estate_boekenhoutskloof",
+              "vintage": 2020,
+              "year": 2020,
+              "countryCode": "ZA",
+              "region": "Franschhoek",
+              "regionId": "region_franschhoek",
+              "styleName": "Syrah",
+              "color": "red",
+              "location": {
+                "area": "Franschhoek"
+              },
+              "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+              "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+              "price": {
+                "amountMinorUnits": 69500,
+                "currency": "ZAR"
+              },
+              "isFeatured": false,
+              "verdict": "Worth Revisiting",
+              "provenance": "claimed",
+              "claimedBy": {
+                "kind": "producer",
+                "name": {
+                  "source": "canonical",
+                  "text": "Boekenhoutskloof"
+                },
+                "producerId": "estate_boekenhoutskloof",
+                "claimedAt": "2025-02-20T00:00:00.000Z"
+              },
+              "source": {
+                "name": "Boekenhoutskloof",
+                "tier": "producer",
+                "role": "verified producer"
+              },
+              "noteCount": 4,
+              "cellarCount": 1490,
+              "saveCount": 3430
+            }
+          ],
+          "notes": [
+            {
+              "id": "tasting-note_collection_a-morning-in-franschhoek__stop-3",
+              "wineVintageId": "boekenhoutskloof-syrah-2020",
+              "user": {
+                "id": "user_lerato_mabaso",
+                "displayName": "Lerato Mabaso",
+                "initials": "LM",
+                "status": "collector"
+              },
+              "verdict": "Essential",
+              "note": "The one everybody went quiet for.",
+              "tastedAt": "2026-05-04T09:40:00.000Z",
+              "createdAt": "2026-05-04T21:05:00.000Z",
+              "saveCount": 0,
+              "languageTag": "en",
+              "origin": {
+                "itineraryId": "collection_a-morning-in-franschhoek",
+                "itineraryTitle": "A morning in Franschhoek",
+                "stopId": "collection_a-morning-in-franschhoek__stop-3"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "collection_the-hemel-en-aarde-run": {
+    "item": {
+      "id": "collection_the-hemel-en-aarde-run",
+      "kind": "selection",
+      "title": "The Hemel-en-Aarde run",
+      "subject": "stops",
+      "mode": "planned",
+      "author": {
+        "name": "Kgwari"
+      },
+      "itemCount": 4,
+      "preview": [
+        {
+          "contentId": "collection_the-hemel-en-aarde-run__stop-1",
+          "title": "Hamilton Russell Vineyards"
+        },
+        {
+          "contentId": "collection_the-hemel-en-aarde-run__stop-2",
+          "title": "Bouchard Finlayson"
+        },
+        {
+          "contentId": "collection_the-hemel-en-aarde-run__stop-3",
+          "title": "Hamilton Russell Vineyards"
+        }
+      ],
+      "saveCount": 37,
+      "createdAt": "2026-07-07T14:00:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_the-hemel-en-aarde-run__stop-1",
+          "date": "2026-09-19",
+          "place": {
+            "id": "estate_hamilton-russell-vineyards",
+            "name": "Hamilton Russell Vineyards",
+            "countryCode": "ZA",
+            "regionId": "region_hemel-en-aarde",
+            "regionName": "Hemel-en-Aarde",
+            "foundedYear": 1975,
+            "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+            "description": "Hamilton Russell Vineyards, Hemel-en-Aarde.",
+            "wineCount": 6
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_the-hemel-en-aarde-run__stop-2",
+          "date": "2026-09-19",
+          "place": {
+            "id": "estate_bouchard-finlayson",
+            "name": "Bouchard Finlayson",
+            "countryCode": "ZA",
+            "regionId": "region_hemel-en-aarde",
+            "regionName": "Hemel-en-Aarde",
+            "foundedYear": 1989,
+            "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+            "description": "Bouchard Finlayson, Hemel-en-Aarde.",
+            "wineCount": 8
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_the-hemel-en-aarde-run__stop-3",
+          "date": "2026-09-20",
+          "place": {
+            "id": "estate_hamilton-russell-vineyards",
+            "name": "Hamilton Russell Vineyards",
+            "countryCode": "ZA",
+            "regionId": "region_hemel-en-aarde",
+            "regionName": "Hemel-en-Aarde",
+            "foundedYear": 1975,
+            "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&auto=format&fit=crop&q=80",
+            "description": "Hamilton Russell Vineyards, Hemel-en-Aarde.",
+            "wineCount": 6
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_the-hemel-en-aarde-run__stop-4",
+          "date": "2026-09-20",
+          "place": {
+            "id": "estate_bouchard-finlayson",
+            "name": "Bouchard Finlayson",
+            "countryCode": "ZA",
+            "regionId": "region_hemel-en-aarde",
+            "regionName": "Hemel-en-Aarde",
+            "foundedYear": 1989,
+            "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=600&auto=format&fit=crop&q=80",
+            "description": "Bouchard Finlayson, Hemel-en-Aarde.",
+            "wineCount": 8
+          }
+        }
+      }
+    ]
+  },
+  "collection_constantia-end-to-end": {
+    "item": {
+      "id": "collection_constantia-end-to-end",
+      "kind": "itinerary",
+      "title": "Constantia, end to end",
+      "subject": "stops",
+      "mode": "planned",
+      "author": {
+        "name": "Marius Louw",
+        "tier": "professional",
+        "role": "sommelier"
+      },
+      "itemCount": 4,
+      "preview": [
+        {
+          "contentId": "collection_constantia-end-to-end__stop-1",
+          "title": "Klein Constantia"
+        },
+        {
+          "contentId": "collection_constantia-end-to-end__stop-2",
+          "title": "Groot Constantia"
+        },
+        {
+          "contentId": "collection_constantia-end-to-end__stop-3",
+          "title": "Klein Constantia"
+        }
+      ],
+      "saveCount": 46,
+      "createdAt": "2026-06-12T14:00:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_constantia-end-to-end__stop-1",
+          "date": "2026-10-03",
+          "place": {
+            "id": "estate_klein-constantia",
+            "name": "Klein Constantia",
+            "countryCode": "ZA",
+            "regionId": "region_constantia",
+            "regionName": "Constantia",
+            "foundedYear": 1685,
+            "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+            "description": "Klein Constantia, Constantia.",
+            "wineCount": 12
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_constantia-end-to-end__stop-2",
+          "date": "2026-10-03",
+          "place": {
+            "id": "estate_groot-constantia",
+            "name": "Groot Constantia",
+            "countryCode": "ZA",
+            "regionId": "region_constantia",
+            "regionName": "Constantia",
+            "foundedYear": 1685,
+            "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+            "description": "Groot Constantia, Constantia.",
+            "wineCount": 15
+          },
+          "event": {
+            "eventId": "event_les-grands-crus-de-bourgogne",
+            "title": {
+              "source": "negotiated",
+              "text": "Les grands crus de Bourgogne",
+              "languageTag": "fr"
+            },
+            "startDateTime": "2026-08-23T18:00:00.000Z"
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_constantia-end-to-end__stop-3",
+          "date": "2026-10-04",
+          "place": {
+            "id": "estate_klein-constantia",
+            "name": "Klein Constantia",
+            "countryCode": "ZA",
+            "regionId": "region_constantia",
+            "regionName": "Constantia",
+            "foundedYear": 1685,
+            "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+            "description": "Klein Constantia, Constantia.",
+            "wineCount": 12
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_constantia-end-to-end__stop-4",
+          "date": "2026-10-04",
+          "place": {
+            "id": "estate_groot-constantia",
+            "name": "Groot Constantia",
+            "countryCode": "ZA",
+            "regionId": "region_constantia",
+            "regionName": "Constantia",
+            "foundedYear": 1685,
+            "imageUrl": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=600&auto=format&fit=crop&q=80",
+            "description": "Groot Constantia, Constantia.",
+            "wineCount": 15
+          }
+        }
+      }
+    ]
+  },
+  "collection_elgin-slowly": {
+    "item": {
+      "id": "collection_elgin-slowly",
+      "kind": "itinerary",
+      "title": "Elgin, slowly",
+      "subject": "stops",
+      "mode": "documented",
+      "author": {
+        "name": "Sipho Ndlovu",
+        "status": "enthusiast"
+      },
+      "itemCount": 3,
+      "contents": {
+        "wines": 2,
+        "notes": 1
+      },
+      "preview": [
+        {
+          "contentId": "collection_elgin-slowly__stop-1",
+          "title": "Paul Cluver"
+        },
+        {
+          "contentId": "collection_elgin-slowly__stop-2",
+          "title": "Paul Cluver"
+        }
+      ],
+      "saveCount": 64,
+      "createdAt": "2026-07-17T14:00:00.000Z"
+    },
+    "items": [
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_elgin-slowly__stop-1",
+          "date": "2026-06-02",
+          "place": {
+            "id": "estate_paul-cluver",
+            "name": "Paul Cluver",
+            "countryCode": "ZA",
+            "regionId": "region_elgin",
+            "regionName": "Elgin",
+            "foundedYear": 1896,
+            "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+            "description": "Paul Cluver, Elgin.",
+            "wineCount": 11
+          },
+          "wines": [
+            {
+              "id": "cabernet-sauvignon-2020-paul-cluver",
+              "wineLabelId": "cabernet-sauvignon",
+              "name": "Cabernet Sauvignon",
+              "estate": "Paul Cluver",
+              "producerId": "estate_paul-cluver",
+              "vintage": 2020,
+              "year": 2020,
+              "countryCode": "ZA",
+              "region": "Elgin",
+              "regionId": "region_elgin",
+              "appellation": {
+                "id": "app_elgin",
+                "name": "Elgin",
+                "system": "WO"
+              },
+              "styleName": "Pinotage",
+              "color": "red",
+              "grapeBlend": [
+                {
+                  "grapeVarietyId": "grape.pinotage",
+                  "grapeName": "Pinotage",
+                  "percentage": 100
+                }
+              ],
+              "location": {
+                "area": "Elgin"
+              },
+              "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+              "description": "Cabernet Sauvignon from Paul Cluver, Elgin.",
+              "price": {
+                "amountMinorUnits": 114400,
+                "currency": "ZAR"
+              },
+              "isFeatured": false,
+              "verdict": "Worth Revisiting",
+              "provenance": "claimed",
+              "claimedBy": {
+                "kind": "distributor",
+                "name": {
+                  "source": "canonical",
+                  "text": "Great Domaines"
+                },
+                "claimedAt": "2026-03-03T00:00:00.000Z"
+              },
+              "noteCount": 1,
+              "cellarCount": 1175,
+              "saveCount": 2754
+            }
+          ],
+          "notes": [
+            {
+              "id": "tasting-note_collection_elgin-slowly__stop-1",
+              "wineVintageId": "cabernet-sauvignon-2020-paul-cluver",
+              "user": {
+                "id": "user_sipho_ndlovu",
+                "displayName": "Sipho Ndlovu",
+                "initials": "SN",
+                "status": "enthusiast"
+              },
+              "verdict": "Worth Revisiting",
+              "note": "Poured before ten in the morning and still the best thing all day.",
+              "tastedAt": "2026-06-02T09:40:00.000Z",
+              "createdAt": "2026-06-02T21:05:00.000Z",
+              "saveCount": 13,
+              "languageTag": "en",
+              "origin": {
+                "itineraryId": "collection_elgin-slowly",
+                "itineraryTitle": "Elgin, slowly",
+                "stopId": "collection_elgin-slowly__stop-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_elgin-slowly__stop-2",
+          "date": "2026-06-02",
+          "place": {
+            "id": "estate_paul-cluver",
+            "name": "Paul Cluver",
+            "countryCode": "ZA",
+            "regionId": "region_elgin",
+            "regionName": "Elgin",
+            "foundedYear": 1896,
+            "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+            "description": "Paul Cluver, Elgin.",
+            "wineCount": 11
+          }
+        }
+      },
+      {
+        "subject": "stops",
+        "stop": {
+          "id": "collection_elgin-slowly__stop-3",
+          "date": "2026-06-02",
+          "place": {
+            "id": "estate_paul-cluver",
+            "name": "Paul Cluver",
+            "countryCode": "ZA",
+            "regionId": "region_elgin",
+            "regionName": "Elgin",
+            "foundedYear": 1896,
+            "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+            "description": "Paul Cluver, Elgin.",
+            "wineCount": 11
+          },
+          "wines": [
+            {
+              "id": "cabernet-sauvignon-2020-paul-cluver",
+              "wineLabelId": "cabernet-sauvignon",
+              "name": "Cabernet Sauvignon",
+              "estate": "Paul Cluver",
+              "producerId": "estate_paul-cluver",
+              "vintage": 2020,
+              "year": 2020,
+              "countryCode": "ZA",
+              "region": "Elgin",
+              "regionId": "region_elgin",
+              "appellation": {
+                "id": "app_elgin",
+                "name": "Elgin",
+                "system": "WO"
+              },
+              "styleName": "Pinotage",
+              "color": "red",
+              "grapeBlend": [
+                {
+                  "grapeVarietyId": "grape.pinotage",
+                  "grapeName": "Pinotage",
+                  "percentage": 100
+                }
+              ],
+              "location": {
+                "area": "Elgin"
+              },
+              "imageUrl": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=600&auto=format&fit=crop&q=80",
+              "description": "Cabernet Sauvignon from Paul Cluver, Elgin.",
+              "price": {
+                "amountMinorUnits": 114400,
+                "currency": "ZAR"
+              },
+              "isFeatured": false,
+              "verdict": "Worth Revisiting",
+              "provenance": "claimed",
+              "claimedBy": {
+                "kind": "distributor",
+                "name": {
+                  "source": "canonical",
+                  "text": "Great Domaines"
+                },
+                "claimedAt": "2026-03-03T00:00:00.000Z"
+              },
+              "noteCount": 1,
+              "cellarCount": 1175,
+              "saveCount": 2754
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

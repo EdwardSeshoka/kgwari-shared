@@ -1043,7 +1043,7 @@
             "tier": "producer",
             "role": "verified producer"
           },
-          "noteCount": 3,
+          "noteCount": 4,
           "cellarCount": 1490,
           "saveCount": 3430
         },
@@ -1538,54 +1538,56 @@
         {
           "id": "collection_elgin-slowly",
           "kind": "itinerary",
-          "subject": "estates",
           "title": "Elgin, slowly",
+          "subject": "stops",
+          "mode": "documented",
           "author": {
             "name": "Sipho Ndlovu",
             "status": "enthusiast"
           },
-          "itemCount": 5,
-          "saveCount": 64,
+          "itemCount": 3,
+          "contents": {
+            "wines": 2,
+            "notes": 1
+          },
           "preview": [
             {
-              "contentId": "estate_paul-cluver",
+              "contentId": "collection_elgin-slowly__stop-1",
               "title": "Paul Cluver"
             },
             {
-              "contentId": "estate_springfield-estate",
-              "title": "Springfield Estate"
-            },
-            {
-              "contentId": "estate_cederberg-private-cellar",
-              "title": "Cederberg Private Cellar"
+              "contentId": "collection_elgin-slowly__stop-2",
+              "title": "Paul Cluver"
             }
           ],
+          "saveCount": 64,
           "createdAt": "2026-07-17T14:00:00.000Z"
         },
         {
           "id": "collection_the-hemel-en-aarde-run",
           "kind": "selection",
-          "subject": "estates",
           "title": "The Hemel-en-Aarde run",
+          "subject": "stops",
+          "mode": "planned",
           "author": {
             "name": "Kgwari"
           },
-          "itemCount": 5,
-          "saveCount": 37,
+          "itemCount": 4,
           "preview": [
             {
-              "contentId": "estate_de-toren",
-              "title": "De Toren"
+              "contentId": "collection_the-hemel-en-aarde-run__stop-1",
+              "title": "Hamilton Russell Vineyards"
             },
             {
-              "contentId": "estate_sadie-family-wines",
-              "title": "Sadie Family Wines"
+              "contentId": "collection_the-hemel-en-aarde-run__stop-2",
+              "title": "Bouchard Finlayson"
             },
             {
-              "contentId": "estate_mullineux",
-              "title": "Mullineux"
+              "contentId": "collection_the-hemel-en-aarde-run__stop-3",
+              "title": "Hamilton Russell Vineyards"
             }
           ],
+          "saveCount": 37,
           "createdAt": "2026-07-07T14:00:00.000Z"
         }
       ]

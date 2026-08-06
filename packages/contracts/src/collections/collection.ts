@@ -93,9 +93,16 @@ export type CollectionContract = {
    *
    * Denormalized for the card, and a display fact rather than truth — see
    * {@link CollectionPreviewItemContract}. What it counts is decided by
-   * `subject`: bottles on a shelf, estates on an itinerary. There is no separate
+   * `subject`: bottles on a shelf, STOPS on an itinerary. There is no separate
    * wine count, because a collection has exactly one subject and cannot be part
    * one thing and part another.
+   *
+   * Counting stops rather than estates is what made the number honest. A route
+   * that has lunch where it started called at four places and made five stops, and
+   * the old shape could report that only by listing an estate twice. The wines and
+   * notes nested under those stops are tallied separately and are not a second
+   * subject — see {@link ItineraryContentsContract}, which is the one place a
+   * collection carries a count beyond this one and says why it may.
    */
   itemCount: number;
   /** A few of the items, in the author's order, for the cover strip. */

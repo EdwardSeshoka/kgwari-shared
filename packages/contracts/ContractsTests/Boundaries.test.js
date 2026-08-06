@@ -70,8 +70,15 @@ const SRC = new URL("../src/", import.meta.url).pathname;
  *            than restating its clock and its capacity. One dinner, two surfaces.
  *        4 · contributions — the corpus union: notes, writing and attendance in
  *            one chronological stream, so it reads all three.
- *        5 · discover — the broadest, and now the highest: it assembles the
- *            others and the ledger they compose.
+ *        5 · discover — the broadest of the composers: it assembles the others
+ *            and the ledger they compose.
+ *        6 · spec — the published rules two composers are both held to. Highest
+ *            because it reads whatever it asserts about — today collections,
+ *            cellar, contributions and social — and because nothing may read it
+ *            back: a contract that imported an assertion about itself would let
+ *            a rule change the shape it was written to check. It sits above
+ *            `discover` rather than beside it so a rule about the ledger has
+ *            somewhere to go without inverting an arrow.
  */
 const LAYERS = {
   "test-doubles": -1,
@@ -91,7 +98,8 @@ const LAYERS = {
   collections: 3,
   editorial: 3,
   contributions: 4,
-  discover: 5
+  discover: 5,
+  spec: 6
 };
 
 function sourceFiles(dir) {

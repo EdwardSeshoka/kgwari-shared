@@ -7,4 +7,8 @@
  * fixtures in behind it, and nothing stopped a catalog module quietly depending
  * on a social one.
  */
-export { collectionsSamples } from "./collectionsSamples.js";
+export {
+  collectionsSamples,
+  createCollectionDetail,
+  createRouteDetails
+} from "./collectionsSamples.js";
