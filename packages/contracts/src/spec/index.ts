@@ -6,4 +6,5 @@
  * rules, and an app that only renders contracts should not pull assertion code into
  * its bundle by importing the root.
  */
+export * from "./cellarIndexAgreement.js";
 export * from "./routeAgreement.js";

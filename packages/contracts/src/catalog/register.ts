@@ -62,8 +62,70 @@ export type RegisterScaleMetricContract = {
    * distribution behind it would claim agreement that does not exist.
    */
   distribution?: [number, number, number, number, number];
+  /**
+   * The middle half of the answers, and the mark that belongs over it.
+   *
+   * Absent for the same reason {@link distribution} is: too few readings for a
+   * spread to be a claim about anything. A metric may legitimately carry a
+   * distribution and no spread — five bars is a shape, whereas quartiles off five
+   * readings are arithmetic pretending to be a statistic.
+   */
+  spread?: RegisterSpreadContract;
   /** Set when there is exactly one reading: whose it is. A proper noun. */
   singleReadingBy?: string;
+};
+
+/**
+ * Where the middle half of the register fell, and the median inside it.
+ *
+ * ## One object, because the two must never arrive apart
+ *
+ * The band is the 25th to 75th percentile and the mark is the 50th. Send the band
+ * alone and a render edge has to mark it with something — and the only number to
+ * hand would be {@link RegisterScaleMetricContract.value}, which is the MEAN. A
+ * quartile band under a mean mark is two different statistics drawn on one rail:
+ * they disagree on any skewed register, and the page then shows a mark sitting
+ * outside its own middle half with no way for a reader to know why.
+ *
+ * So they travel together or not at all. Two optional fields that must agree are
+ * two fields that eventually will not — the same argument that keeps this package
+ * off the legacy `title` + `titleLanguage` pair.
+ *
+ * ## The mean does not go away, and is not this
+ *
+ * `value` stays, because `wordKey` is derived from it: the register reports in
+ * words, and the word is how the AVERAGED reading reads. What changes when this is
+ * present is only what the scale draws — band from `middleHalf`, mark at
+ * `median` — and a client must label that mark for what it is. Labelling a median
+ * "average" is the same misreport in the other direction.
+ *
+ * ## Never synthesised
+ *
+ * A median cannot be derived from a mean and a count, and anything that tries is
+ * inventing a number with no reading behind it. A composer that has not got the
+ * readings to compute both omits this object; it does not estimate one of them.
+ */
+export type RegisterSpreadContract = {
+  /**
+   * The 25th and 75th percentiles, low then high, on the same 1–5 scale as
+   * {@link RegisterScaleMetricContract.value}.
+   *
+   * Percentiles and never the minimum and maximum. The extremes of a tasting
+   * register are one member each — the person who found no tannin at all and the
+   * person who found nothing but — and a band drawn to them describes those two
+   * people rather than the room. The same choice
+   * {@link ../catalog!PaidPriceBandContract} makes about price, for the same
+   * reason.
+   */
+  middleHalf: [number, number];
+  /**
+   * The 50th percentile — the mark.
+   *
+   * Inside `middleHalf` by construction. A consumer need not check that and must
+   * not correct it: a median outside its own quartiles is a composer bug, and a
+   * client that silently clamps it hides the bug rather than the value.
+   */
+  median: number;
 };
 
 /**
@@ -190,6 +252,32 @@ export type RegisterDisagreementContract = {
  */
 export type WineRegisterContract = {
   noteCount: number;
+  /**
+   * ISO-8601. When the first note on this vintage was filed.
+   *
+   * ## What it is for
+   *
+   * A register of 1,284 notes has plainly been open longer than one of ten, and
+   * "reading since 2021" is the fact that says so. `noteCount` alone cannot: a
+   * thick register and a viral week look identical through it, and they are not
+   * the same claim about a wine.
+   *
+   * ## A DATE, and the duration is the render edge's
+   *
+   * "Five years" is composed from this and the clock, in the reader's locale, with
+   * the reader's plural rules — exactly as {@link CellarSummaryContract.keepingSince}
+   * is and for the same reason. A server that sends "5 years" has hardcoded English
+   * and pinned a number that goes stale on its own anniversary.
+   *
+   * ## Absent means no notes, never "unknown"
+   *
+   * A register with `noteCount: 0` has no first note to date, and that is the only
+   * case this is absent in. It is not an optional the composer may skip when the
+   * timestamp is inconvenient to reach: a client cannot tell a missing date from a
+   * missing corpus, and the page then says nothing where it should say the
+   * register is empty.
+   */
+  firstFiledAt?: string;
   verdict?: VerdictWord;
   /** Absent until enough notes for the split to be worth stating. */
   verdictDistribution?: VerdictDistributionEntryContract[];
