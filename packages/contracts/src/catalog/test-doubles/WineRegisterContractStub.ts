@@ -30,6 +30,15 @@ export const WineRegisterContract = {
   StubFactory: {
     ...defineStub<WineRegisterContractShape>({
       noteCount: 1480,
+      /**
+       * Reading since early 2019 — close to seven years, which is what 1,480 notes
+       * looks like and what the count alone cannot say.
+       *
+       * A DATE, so the duration is composed at the render edge against the clock. A
+       * fixture that carried "seven years" would be asserting on a number that goes
+       * wrong on its own anniversary.
+       */
+      firstFiledAt: "2019-02-11T00:00:00.000Z",
       verdict: "Essential",
       verdictDistribution: [
         { verdict: "Unforgettable", percentage: 18 },
@@ -70,6 +79,14 @@ export const WineRegisterContract = {
     makeThin(overrides: Overrides<WineRegisterContractShape> = {}): WineRegisterContractShape {
       return WineRegisterContract.StubFactory.make({
         noteCount: 1,
+        /**
+         * Yesterday. The register is a day old and STILL DATED — one note is a first
+         * note, so this is present here exactly as it is on the dense fixture.
+         *
+         * It is what stops a client reading `firstFiledAt` as a thickness signal: the
+         * field says when the reading started, not that enough of it has happened.
+         */
+        firstFiledAt: "2026-08-07T00:00:00.000Z",
         verdict: "Worth Revisiting",
         verdictDistribution: undefined,
         verdictSummary: undefined,
@@ -92,10 +109,15 @@ export const WineRegisterContract = {
      * register exists, it simply has nothing in it, which is not the same as a
      * record without a register. And still no verdict: the verdict comes from
      * members, so a wine nobody has judged has none.
+     *
+     * `firstFiledAt` is absent, and this is the ONLY factory here where it is. A
+     * register with no notes has no first note to date — which is what the field's
+     * absence means, and the only thing it is allowed to mean.
      */
     makeEmpty(overrides: Overrides<WineRegisterContractShape> = {}): WineRegisterContractShape {
       return WineRegisterContract.StubFactory.make({
         noteCount: 0,
+        firstFiledAt: undefined,
         verdict: undefined,
         verdictDistribution: undefined,
         verdictSummary: undefined,

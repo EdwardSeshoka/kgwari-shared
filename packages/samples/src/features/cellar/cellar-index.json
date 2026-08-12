@@ -1,0 +1,275 @@
+{
+  "summary": {
+    "bottles": 54,
+    "wines": 28,
+    "estates": 22,
+    "readyThisYear": 17,
+    "keepingSince": "2021-03-12T00:00:00.000Z",
+    "priceBand": {
+      "low": {
+        "amountMinorUnits": 29184,
+        "currency": "ZAR"
+      },
+      "high": {
+        "amountMinorUnits": 92544,
+        "currency": "ZAR"
+      }
+    },
+    "figuresAvailable": true
+  },
+  "sections": [
+    {
+      "kind": "shelves",
+      "items": [
+        {
+          "id": "collection_hers-drinking-now",
+          "kind": "shelf",
+          "subject": "wines",
+          "title": "Drinking now",
+          "description": "What is open, or about to be.",
+          "author": {
+            "name": "Thandi Nkosi",
+            "tier": "professional",
+            "role": "sommelier"
+          },
+          "itemCount": 17,
+          "preview": [
+            {
+              "contentId": "palladius-2010",
+              "title": "Palladius 2010"
+            },
+            {
+              "contentId": "de-toren-book-xvii-2016",
+              "title": "Book 17 XVII 2016"
+            },
+            {
+              "contentId": "mullineux-elandskloof-chardonnay-2016",
+              "title": "Elandskloof Chardonnay 2016"
+            }
+          ],
+          "createdAt": "2026-04-18T09:00:00.000Z"
+        },
+        {
+          "id": "collection_hers-the-long-game",
+          "kind": "shelf",
+          "subject": "wines",
+          "title": "The long game",
+          "description": "Bought young and left alone.",
+          "author": {
+            "name": "Thandi Nkosi",
+            "tier": "professional",
+            "role": "sommelier"
+          },
+          "itemCount": 9,
+          "preview": [
+            {
+              "contentId": "steenberg-lady-r-mcc-2011",
+              "title": "Lady R MCC 2011"
+            },
+            {
+              "contentId": "paul-sauer-2011-kanonkop-est",
+              "title": "Paul Sauer 2011"
+            },
+            {
+              "contentId": "estate-reserve-2017-rust-en-vred",
+              "title": "Estate Reserve 2017"
+            }
+          ],
+          "createdAt": "2026-04-18T09:00:00.000Z"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "kind": "lenses",
+      "items": [
+        {
+          "id": "collection_hers-ready-this-year",
+          "kind": "lens",
+          "subject": "wines",
+          "title": "Ready this year",
+          "rule": {
+            "key": "lensRule.drinkingWindowIncludes",
+            "operands": [
+              {
+                "source": "measurement",
+                "value": 2026,
+                "unitKey": "unit.vintageYear"
+              }
+            ]
+          },
+          "author": {
+            "name": "Thandi Nkosi",
+            "tier": "professional",
+            "role": "sommelier"
+          },
+          "itemCount": 17,
+          "createdAt": "2026-05-02T19:40:00.000Z"
+        },
+        {
+          "id": "collection_hers-everything-from-stellenbosch",
+          "kind": "lens",
+          "subject": "wines",
+          "title": "Everything from Stellenbosch",
+          "rule": {
+            "key": "lensRule.regionIs",
+            "operands": [
+              {
+                "source": "canonical",
+                "text": "Stellenbosch"
+              }
+            ]
+          },
+          "author": {
+            "name": "Thandi Nkosi",
+            "tier": "professional",
+            "role": "sommelier"
+          },
+          "itemCount": 9,
+          "createdAt": "2026-05-19T08:15:00.000Z"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "kind": "following",
+      "items": [
+        {
+          "id": "collection_six_bottles_cape_winter",
+          "kind": "selection",
+          "subject": "wines",
+          "title": "Six bottles for a Cape winter",
+          "description": "What the office is opening between June and August.",
+          "cover": {
+            "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&auto=format&fit=crop&q=80",
+            "alt": {
+              "source": "negotiated",
+              "text": "A glass of red wine beside a fire.",
+              "languageTag": "en"
+            }
+          },
+          "author": {
+            "name": "Kgwari"
+          },
+          "itemCount": 6,
+          "saveCount": 1402,
+          "preview": [
+            {
+              "contentId": "kanonkop-pinotage-2019",
+              "title": "Kanonkop Pinotage 2019"
+            },
+            {
+              "contentId": "boekenhoutskloof-syrah-2020",
+              "title": "Syrah 2020"
+            },
+            {
+              "contentId": "estate-reserve-2017-rust-en-vred",
+              "title": "Estate Reserve 2017"
+            }
+          ],
+          "createdAt": "2026-05-02T07:00:00.000Z"
+        },
+        {
+          "id": "collection_chenin-the-long-way-round",
+          "kind": "selection",
+          "subject": "wines",
+          "title": "Chenin, the long way round",
+          "description": "Ten years of one grape, in the order I met it.",
+          "author": {
+            "name": "Kgwari"
+          },
+          "itemCount": 11,
+          "saveCount": 93,
+          "preview": [
+            {
+              "contentId": "groot-constantia-grand-constance-2014",
+              "title": "Grand Constance 2014"
+            },
+            {
+              "contentId": "steenberg-lady-r-mcc-2011",
+              "title": "Lady R MCC 2011"
+            },
+            {
+              "contentId": "pichon-baron-2016",
+              "title": "Château Pichon Baron 2016"
+            }
+          ],
+          "createdAt": "2026-07-10T09:30:00.000Z"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "kind": "routes",
+      "items": [
+        {
+          "id": "collection_two_days_in_stellenbosch",
+          "kind": "itinerary",
+          "subject": "stops",
+          "mode": "documented",
+          "title": "Two days in Stellenbosch",
+          "description": "Three cellar doors, one long lunch, and one designated driver.",
+          "author": {
+            "name": "Thandi Nkosi",
+            "tier": "professional",
+            "role": "sommelier"
+          },
+          "itemCount": 5,
+          "contents": {
+            "wines": 3,
+            "notes": 2
+          },
+          "saveCount": 87,
+          "preview": [
+            {
+              "contentId": "collection_two_days_in_stellenbosch__stop-1",
+              "title": "Meerlust Estate"
+            },
+            {
+              "contentId": "collection_two_days_in_stellenbosch__stop-2",
+              "title": "Kanonkop Estate"
+            },
+            {
+              "contentId": "collection_two_days_in_stellenbosch__stop-3",
+              "title": "Rust en Vrede"
+            }
+          ],
+          "createdAt": "2026-06-11T12:00:00.000Z"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "doors": [
+    {
+      "target": {
+        "kind": "collection",
+        "collectionId": "collection_hers-ready-this-year"
+      },
+      "title": "Ready this year",
+      "rule": {
+        "key": "lensRule.drinkingWindowIncludes",
+        "operands": [
+          {
+            "source": "measurement",
+            "value": 2026,
+            "unitKey": "unit.vintageYear"
+          }
+        ]
+      },
+      "count": 17
+    },
+    {
+      "target": {
+        "kind": "metOnRoutes"
+      },
+      "count": 1
+    },
+    {
+      "target": {
+        "kind": "requests"
+      },
+      "count": 2
+    }
+  ]
+}

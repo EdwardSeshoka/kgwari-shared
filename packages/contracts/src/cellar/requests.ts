@@ -17,6 +17,18 @@ import type { CellarRouteProjectionContract } from "./routeProjection.js";
  * phantom possession one `.length` away; two fields make the reader name which
  * question they are answering. See {@link CellarRouteProjectionContract}, which
  * carries the rest of the argument and the absences that enforce it.
+ *
+ * ## Not the cellar HOME
+ *
+ * This is the holdings themselves. The home — masthead, shelves, lenses, doors —
+ * is {@link GetCellarIndexResponse}, which carries collections and never holdings.
+ * The two meet at exactly one point: the index's `metOnRoutes` door states the
+ * count, and this response carries the projection behind it. The door is a figure;
+ * the page it opens is the list.
+ *
+ * {@link CellarHoldingContract.firstMet} is likewise read HERE and not on the
+ * index, and for the same reason — it is a fact about one bottle, and the index
+ * holds no bottles.
  */
 export type ListCellarResponse = {
   items: CellarHoldingContract[];

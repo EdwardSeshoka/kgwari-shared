@@ -2,6 +2,7 @@ import type { MediaRefContract } from "../media/index.js";
 import type { TrustBylineContract } from "../trust/index.js";
 import type { CollectionKind, CollectionSubject } from "./collectionKind.js";
 import type { CollectionPreviewItemContract } from "./collectionPreviewItem.js";
+import type { CollectionRuleContract } from "./collectionRule.js";
 
 /**
  * A collection — a shelf, an itinerary, a lens or a selection — as a surface
@@ -39,6 +40,13 @@ import type { CollectionPreviewItemContract } from "./collectionPreviewItem.js";
  * reads it, and inventing its shape from the card's side would repeat the
  * mistake this taxonomy just corrected.
  *
+ * {@link rule} below is NOT that field and must not be pressed into service as
+ * it. A live Lens's rule is executed on every read; a frozen Shelf's is a dead
+ * record of how the list came to exist. One optional carrying both would make
+ * "present" mean either "this is running" or "this once ran", which is the whole
+ * distinction freezing exists to draw — and a client offering "refresh from rule"
+ * on the second is the cycle {@link PublishedCollectionContract} forbids.
+ *
  * **A house variant.** `author` is a byline, so Kgwari's Selection is
  * `{ name: "Kgwari" }` with no tier, exactly as an in-house
  * {@link ../editorial!EditorialContract} is attributed.
@@ -73,6 +81,23 @@ export type CollectionContract = {
    */
   title: string;
   description?: string;
+  /**
+   * What a Lens selects.
+   *
+   * **Present if and only if `kind === "lens"`** — always on one, never on any
+   * other. That biconditional is the field's whole contract and it cannot be
+   * stated in the type without splitting `CollectionContract` into four, which
+   * would cost every consumer a union to render one sub-line. It is asserted
+   * instead, in `CELLAR_INDEX_RULES.lensStatesItsRule` and its negative twin, so a
+   * composer that omits one or attaches one to a shelf fails a build rather than
+   * shipping a row that cannot explain itself.
+   *
+   * A lens is the one kind a reader cannot see the contents of from the card, so
+   * this is what its row shows where a shelf shows its holdings split. See
+   * {@link CollectionRuleContract} for why it is a key and operands rather than a
+   * sentence, and for the frozen-Shelf case this is not.
+   */
+  rule?: CollectionRuleContract;
   /**
    * The card's image, where one exists.
    *

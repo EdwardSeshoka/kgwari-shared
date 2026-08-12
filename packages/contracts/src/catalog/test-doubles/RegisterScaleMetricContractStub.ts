@@ -29,7 +29,17 @@ export const RegisterScaleMetricContract = {
       value: 4.2,
       noteCount: 1180,
       scaleWordKeys: ["tasting.low", "", "tasting.medium", "", "tasting.high"],
-      distribution: [2, 6, 18, 41, 33]
+      distribution: [2, 6, 18, 41, 33],
+      /**
+       * The band and its mark, together — they are one object precisely so a
+       * fixture cannot hand a consumer quartiles with nothing to mark them with.
+       *
+       * `median` is 4.1 and `value` is 4.2, and the small gap is the point: this
+       * register leans high, so its mean sits above its median. A consumer that
+       * marks the band with `value` is drawing a mean over quartiles, and on a
+       * skewier metric than this one that mark lands outside its own middle half.
+       */
+      spread: { middleHalf: [3.7, 4.8], median: 4.1 }
     }),
 
     /**
@@ -48,6 +58,8 @@ export const RegisterScaleMetricContract = {
         noteCount: 1,
         scaleWordKeys: ["tasting.short", "", "tasting.medium", "", "tasting.long"],
         distribution: undefined,
+        /* One reading has neither a spread nor quartiles to take one from. */
+        spread: undefined,
         singleReadingBy: "Alexandra Meyer",
         ...overrides
       });
@@ -70,6 +82,33 @@ export const RegisterScaleMetricContract = {
         noteCount: 11,
         scaleWordKeys: ["tasting.low", "", "tasting.medium", "", "tasting.high"],
         distribution: undefined,
+        spread: undefined,
+        ...overrides
+      });
+    },
+
+    /**
+     * Plenty of readings, a distribution, and still NO spread.
+     *
+     * The combination that proves the two are independent judgements rather than one
+     * switch. Five bars is a shape and can be drawn from a few hundred answers;
+     * quartiles are a statistic, and whether there are enough readings to state one
+     * is the server's call — made per metric, not per register.
+     *
+     * A consumer that reaches for `spread.median` whenever `distribution` is present
+     * throws here. That is the whole reason this double exists.
+     */
+    makeUnspread(
+      overrides: Overrides<RegisterScaleMetricContractShape> = {}
+    ): RegisterScaleMetricContractShape {
+      return RegisterScaleMetricContract.StubFactory.make({
+        key: "body",
+        wordKey: "tasting.medium",
+        value: 3.4,
+        noteCount: 96,
+        scaleWordKeys: ["tasting.light", "", "tasting.medium", "", "tasting.full"],
+        distribution: [4, 12, 39, 33, 12],
+        spread: undefined,
         ...overrides
       });
     },
@@ -91,6 +130,13 @@ export const RegisterScaleMetricContract = {
         noteCount: 640,
         scaleWordKeys: ["tasting.boneDry", "", "tasting.offDry", "", "tasting.luscious"],
         distribution: [71, 19, 6, 3, 1],
+        /**
+         * Hard against the floor, and the mark sits BELOW the mean — 1.2 against
+         * 1.4. Seven in ten answered the bottom rung, which is what a skewed
+         * register does to the two statistics, and it is why the mark travels
+         * rather than being inferred from `value`.
+         */
+        spread: { middleHalf: [1, 1.8], median: 1.2 },
         ...overrides
       });
     }

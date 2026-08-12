@@ -59,15 +59,24 @@ const SRC = new URL("../src/", import.meta.url).pathname;
  *  3+ — the composers. A folder whose own contracts are assembled OUT OF another
  *      feature's, rather than out of a vocabulary alone. They stack, so each one
  *      sits above everything it reads:
- *        3 · cellar — a holding is the member's own facts joined onto one
- *            catalogue wine, so it reads `catalog` and nothing reads it.
  *        3 · collections — the CARD points at wines and estates by id and embeds
  *            neither, which is why it sat at 2. The DETAIL cannot: opening a
  *            shelf shows the bottles, and a page of ids is a page of second
- *            fetches. So it reads `catalog` and `provenance` and moved up beside
- *            cellar, which makes the same join for the same reason.
+ *            fetches. So it reads `catalog` and `provenance`.
  *        3 · editorial — an event piece EMBEDS the events-domain event rather
  *            than restating its clock and its capacity. One dinner, two surfaces.
+ *        4 · cellar — a holding is the member's own facts joined onto one
+ *            catalogue wine, which is all it was when it sat at 3 beside
+ *            collections. The INDEX is not: a cellar home is a member's shelves,
+ *            her own lenses, what she follows and the routes she has been on, and
+ *            every one of those rows IS a collection. So the arrow that used to be
+ *            absent now points at a peer, and a peer import is the signal that a
+ *            layer is wrong rather than that a rule is inconvenient — cellar
+ *            composes collections, so it sits above them.
+ *
+ *            Nothing reads cellar below `spec`, so moving it costs no other arrow.
+ *            It is a peer of `contributions` at 4 and neither imports the other:
+ *            one is what a member owns, the other what they have written.
  *        4 · contributions — the corpus union: notes, writing and attendance in
  *            one chronological stream, so it reads all three.
  *        5 · discover — the broadest of the composers: it assembles the others
@@ -94,9 +103,9 @@ const LAYERS = {
   events: 2,
   member: 2,
   social: 2,
-  cellar: 3,
   collections: 3,
   editorial: 3,
+  cellar: 4,
   contributions: 4,
   discover: 5,
   spec: 6

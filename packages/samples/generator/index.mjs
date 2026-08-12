@@ -16,6 +16,7 @@
  */
 import { buildActivities } from "./stages/activities.mjs";
 import { buildBrowse } from "./stages/browse.mjs";
+import { buildCellar } from "./stages/cellar.mjs";
 import { buildCollections } from "./stages/collections.mjs";
 import { buildCorpus } from "./stages/corpus.mjs";
 import { applyNoteCounts } from "./register.mjs";
@@ -86,6 +87,17 @@ const editorial = buildEditorial({ events });
 const landings = buildLandings({ events, editorial });
 /** The settled Masthead v2 page — resolved against everything above it. */
 const masthead = buildMasthead({ wines, notes: allNotes, editorial, events, users, collections });
+/**
+ * One member's holdings and her cellar home.
+ *
+ * Runs AFTER `collections` because the index's Following and Routes runs are rows
+ * from that pool — a cellar that built its own would show a member routes nothing
+ * else in the seed knows about, and the projection over them could never be checked
+ * against the route detail it is derived from.
+ *
+ * Draws only from `spread`, so it re-rolls nothing downstream.
+ */
+const cellar = buildCellar({ wines, collections, routes });
 const corpus = buildCorpus({ wines, producers, regions, events, users });
 const browse = buildBrowse({ regions, wines, corpus });
 const records = buildRecords({ wines, regions, producers, notes: allNotes });
@@ -105,6 +117,8 @@ write("collections/collections.json", collections.all);
 write("collections/shelves-landing.json", collections.shelves);
 write("collections/itineraries-landing.json", collections.itineraries);
 write("collections/collection-details.json", collections.details);
+write("cellar/cellar.json", cellar.holdings);
+write("cellar/cellar-index.json", cellar.index);
 write("events/calendar-landing.json", landings.calendar);
 write("editorial/archive-landing.json", landings.archive);
 write("discover/discover-response.json", masthead);
@@ -119,6 +133,13 @@ console.log("records   ", records.length);
 console.log("tastings  ", events.length);
 console.log("people    ", users.length);
 console.log("routes    ", routes.byCollection.size, "with", routes.notes.length, "notes on them");
+console.log(
+  "cellar    ",
+  cellar.index.summary.bottles, "bottles /",
+  cellar.index.summary.wines, "wines /",
+  cellar.index.summary.estates, "estates,",
+  cellar.holdings.metOnRoutes?.wineCount ?? 0, "met on routes"
+);
 console.log("---");
 console.log("corpus", corpus.length, "=", ["WINE", "ESTATE", "REGION", "TASTING", "PERSON"].map((k) => `${k}:${byKind(k)}`).join(" "));
 console.log("currencies", [...new Set(wines.map((w) => w.price.currency))].sort().join(", "));

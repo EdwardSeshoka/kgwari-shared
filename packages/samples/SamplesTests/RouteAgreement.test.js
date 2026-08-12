@@ -19,6 +19,7 @@ import {
 
 import {
   collectionsSamples,
+  createCellar,
   createCollectionDetail,
   createDiscover,
   createWines,
@@ -46,10 +47,14 @@ import {
  *
  * ## Why some inputs are doubles
  *
- * Routes, notes and the ledger come from the seeds. The cellar projection and the
- * contribution chips have no fixture — nothing in this repo composes a cellar — so
- * they are assembled from the published `StubFactory` doubles, which the backend also
- * has. When a cellar fixture arrives, this wiring changes and the rules do not.
+ * Routes, notes, the ledger and now the cellar come from the seeds. The contribution
+ * chips still have no fixture, so they are assembled from the published `StubFactory`
+ * doubles, which the backend also has.
+ *
+ * The cellar used to be in that second group, and the note here said so — "when a
+ * cellar fixture arrives, this wiring changes and the rules do not". It has, and it
+ * did: `createCellar()` is now the first input below, with the doubles kept beside it
+ * for the states a real member's cellar should never be in.
  */
 describe("the published route rules, run over the seeds", () => {
   const routes = collectionsSamples.itinerariesLanding.items;
@@ -133,18 +138,35 @@ describe("the published route rules, run over the seeds", () => {
   );
 
   it(
-    "satisfies every cellar rule, driven from the published doubles",
+    "satisfies every cellar rule, over the seeded cellar and the published doubles",
     function givenACellarWithAProjection_whenEveryCellarRuleRuns_thenNoneFails() {
-      const cellar = {
-        items: [
-          CellarHoldingContract.StubFactory.make(),
-          CellarHoldingContract.StubFactory.makeFirstMetOnRoute()
-        ],
-        metOnRoutes: CellarRouteProjectionContract.StubFactory.make()
-      };
+      /**
+       * BOTH, and deliberately.
+       *
+       * The seed is one member's cellar, its projection derived from the same route
+       * stops the itinerary's detail page renders — which is what these rules are
+       * ultimately about. The doubles reach states the seed does not and should not: a
+       * delisted wine, a route whose stops carry no dates. Running only the seed would
+       * stop exercising those; running only the doubles is what this test did back when
+       * nothing in this repo composed a cellar.
+       */
+      const cellars = [
+        createCellar(),
+        {
+          items: [
+            CellarHoldingContract.StubFactory.make(),
+            CellarHoldingContract.StubFactory.makeFirstMetOnRoute()
+          ],
+          metOnRoutes: CellarRouteProjectionContract.StubFactory.make()
+        },
+        { items: [], metOnRoutes: CellarRouteProjectionContract.StubFactory.makeDelisted() },
+        { items: [], metOnRoutes: CellarRouteProjectionContract.StubFactory.makeUndatedRoute() }
+      ];
 
-      for (const [name, rule] of Object.entries(CELLAR_RULES)) {
-        assert.doesNotThrow(() => rule({ cellar }), `${name} failed`);
+      for (const cellar of cellars) {
+        for (const [name, rule] of Object.entries(CELLAR_RULES)) {
+          assert.doesNotThrow(() => rule({ cellar }), `${name} failed`);
+        }
       }
     }
   );

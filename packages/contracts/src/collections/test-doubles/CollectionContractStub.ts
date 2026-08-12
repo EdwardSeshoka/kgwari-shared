@@ -106,6 +106,16 @@ const lensStub = defineStub<CollectionContractShape>({
   kind: "lens",
   subject: "wines",
   title: "Ready this year",
+  /**
+   * The year rides `unit.vintageYear`, not a one-wide {@link YearRange} and not a
+   * digit in the key. A consumer that reads this operand with a grouping formatter
+   * prints "2 026" for a French member — which is why the carrier is the one a
+   * vintage already uses and why the render edge already special-cases it.
+   */
+  rule: {
+    key: "lensRule.drinkingWindowIncludes",
+    operands: [{ source: "measurement", value: 2026, unitKey: "unit.vintageYear" }]
+  },
   author: { name: "Alexandra Meyer", status: "enthusiast" },
   itemCount: 12,
   createdAt: "2026-07-02T19:40:00.000Z"
@@ -171,10 +181,38 @@ export const CollectionContract = {
      * Deliberately typed as the wider contract, so passing it where a published
      * collection is expected does not compile. Note what is absent as well as
      * the kind: no `saveCount`, because nothing derived is followable, and no
-     * `description`, because a rule explains itself.
+     * `description` — because a rule explains itself, and {@link rule} is where it
+     * does the explaining. This is the ONLY factory here that carries one; the
+     * three enumerated kinds must not, and `CELLAR_INDEX_RULES.lensStatesItsRule` asserts both halves.
      */
     makeLens(overrides: Overrides<CollectionContractShape> = {}): CollectionContractShape {
       return lensStub.make(overrides);
+    },
+
+    /**
+     * A lens whose rule names a place rather than a year.
+     *
+     * The second operand carrier, and the reason the union is not just numbers: a
+     * region is a PROPER NOUN, so it travels as {@link CanonicalText} and is printed
+     * as-is in every locale rather than looked up or formatted. A consumer that
+     * handles only the measurement arm renders this row blank — which is precisely
+     * what a second double is for.
+     *
+     * It also carries no `operands` order ambiguity by accident: one operand, one
+     * slot, so a catalogue entry that puts the place before the predicate in its own
+     * language still interpolates correctly.
+     */
+    makeLensOverPlace(overrides: Overrides<CollectionContractShape> = {}): CollectionContractShape {
+      return lensStub.make({
+        id: "collection_everything-from-swartland",
+        title: "Everything from the Swartland",
+        rule: {
+          key: "lensRule.regionIs",
+          operands: [{ source: "canonical", text: "Swartland" }]
+        },
+        itemCount: 6,
+        ...overrides
+      });
     },
 
     /**

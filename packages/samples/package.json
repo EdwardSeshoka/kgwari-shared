@@ -20,6 +20,10 @@
       "types": "./dist/features/catalog/index.d.ts",
       "default": "./dist/features/catalog/index.js"
     },
+    "./cellar": {
+      "types": "./dist/features/cellar/index.d.ts",
+      "default": "./dist/features/cellar/index.js"
+    },
     "./collections": {
       "types": "./dist/features/collections/index.d.ts",
       "default": "./dist/features/collections/index.js"
