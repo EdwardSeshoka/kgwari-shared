@@ -6,8 +6,22 @@ release.
 
 ## Read these before writing code
 
-- [Unit testing standards](../kgwari-docs/architecture/unit-testing-standards.md)
-- [Naming conventions](../kgwari-docs/architecture/naming-conventions.md)
+Canonical standards live in **kgwari-docs**, checked out here as a **submodule**
+at `kgwari-docs/`, so these links resolve at the revision they were written
+against. Clone with `--recurse-submodules`; an existing checkout catches up with
+`git submodule update --init`. CI does not check it out: nothing a gate runs
+reads a document, and the repository is private.
+
+**It is read-only from here.** Edit docs in a clone of kgwari-docs itself; the
+pin moves deliberately, as its own commit:
+
+```bash
+git submodule update --remote kgwari-docs
+git add kgwari-docs && git commit -m "docs(all): Bump kgwari-docs"
+```
+
+- [Unit testing standards](kgwari-docs/architecture/unit-testing-standards.md)
+- [Naming conventions](kgwari-docs/architecture/naming-conventions.md)
 
 ## The rules that get broken most
 

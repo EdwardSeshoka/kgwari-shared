@@ -9,7 +9,7 @@
     "build": "npm run build --workspaces",
     "changeset": "changeset",
     "changeset:status": "changeset status",
-    "clean": "find . -name dist -type d -prune -exec rm -rf {} +",
+    "clean": "find . -path ./kgwari-docs -prune -o -name dist -type d -prune -exec rm -rf {} +",
     "lint": "npm run lint --workspaces --if-present",
     "release": "npm run build && node scripts/publish-workspaces.mjs",
     "test": "npm run test --workspaces --if-present",
