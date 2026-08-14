@@ -20,8 +20,8 @@ git submodule update --remote kgwari-docs
 git add kgwari-docs && git commit -m "docs(all): Bump kgwari-docs"
 ```
 
-- [Unit testing standards](kgwari-docs/architecture/unit-testing-standards.md)
-- [Naming conventions](kgwari-docs/architecture/naming-conventions.md)
+- [Unit testing standards](kgwari-docs/standards/unit-testing-standards.md)
+- [Naming conventions](kgwari-docs/standards/naming-conventions.md)
 
 ## The rules that get broken most
 
